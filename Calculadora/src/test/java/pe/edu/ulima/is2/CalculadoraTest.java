@@ -5,6 +5,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class CalculadoraTest {
     private Calculadora calculadora;
@@ -46,6 +47,20 @@ public class CalculadoraTest {
         int resultadoObtenido = calculadora.dividir(10,5);
 
         assertEquals(resultado,resultadoObtenido);
+    }
+
+    @Test
+    public void testDividirEntre0(){
+        int resultado = 2;
+        int resultadoObtenido = calculadora.dividir(10,5);
+
+
+        assertThrows(
+                IllegalArgumentException.class,
+                () -> {
+                    int resObtenido = calculadora.dividir(10,0);
+                }
+        );
     }
 
 
