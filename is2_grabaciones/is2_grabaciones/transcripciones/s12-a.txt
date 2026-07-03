@@ -1,0 +1,857 @@
+[00:01:38] ¿Cómo están? Buenas tardes, noches. Vamos a comenzar con nuestra
+[00:01:46] sesión de hoy día. Hoy día vamos a tener un laboratorio como les habría dicho.
+[00:01:49] Vamos a tener un laboratorio en la segunda parte. Ya, es, creo que acabamos esta
+[00:01:55] parte que nos falsa, una parte cita, pero lo que pruebas y ya procedemos con el laboratorio.
+[00:02:01] ya saben eso un punto igual no? ¿Por qué la he pasado? Por si acaso para recordar es que la
+[00:02:12] evaluación de la próxima semana también ya le van a hacer algo individual.
+[00:02:17] Bueno, a ver, ¿qué es lo que se ha pasado? En la que se ha pasado complementamos lo que
+[00:02:25] eran los pruebas, primero vimos lo que eran los mocs, no utilizando en este caso de
+[00:02:32] este herramienta que se ha mojito,
+[00:02:34] que nos permitía crear estos objetos huecos,
+[00:02:38] pero en las cuales nosotros configurábamos determinada
+[00:02:40] funcionalidad.
+[00:02:46] Luego vimos también lo que eran las pras de mutación,
+[00:02:49] mutation testing.
+[00:02:50] A ver, un punto importante y por el cual muchos equivocan como el
+[00:02:54] concepto de pras de mutación.
+[00:02:57] Las pras de mutación no es que hagan por eras.
+[00:03:02] las pras de mutación sirven para probar la calidad de tus pruebas que ya se que ya
+[00:03:10] se están tus pras unitarias siempre queremos poder validar si es que las
+[00:03:14] pruebas están bien hechas si tienen una cobertura correcta para eso sirven las
+[00:03:20] pras de mutación para mejorar las pruebas que ya tienen no es que es una
+[00:03:26] técnica para hacer pruebas no es una prueba para calificar vamos a
+[00:03:31] y armarlo así a las pruebas que nosotros y hemos hecho.
+[00:03:35] Entonces, así tal vez pues resumen así rápido,
+[00:03:38] recontar rápido, el único sitio de las pruebas de mutación
+[00:03:41] es en general programas mutantes.
+[00:03:44] Nosotros tenemos un programa que tiene ya sus tests,
+[00:03:49] tus pruebas desarrolladas, no, por los desarrolladores.
+[00:03:56] Entonces, las pruebas de mutación consiste en crear
+[00:03:59] programas mutantes, programas que son modificaciones totalmente aleatorias del programa original,
+[00:04:08] y como estas son mutaciones, son programas que no son el mismo programa original, entonces
+[00:04:16] estas pruebas que nosotros hemos hecho deberían encontrar estos errores, estos CAM, no deberían
+[00:04:23] que hay que marcar como que hay
+[00:04:28] error. Entonces, si es que
+[00:04:31] nuestras pruebas marcan que el
+[00:04:33] mutante eh hay un error,
+[00:04:35] encuentra que el error en el
+[00:04:37] mutante, entonces eh ese
+[00:04:39] mutante se mata, se le llama
+[00:04:41] así, se mata, ¿sí? Pero si el
+[00:04:44] caso, la suite de casos de
+[00:04:46] pruebas no encuentra ningún
+[00:04:48] error en el mutante, ese
+[00:04:50] mutante queda ahí, ¿no?
+[00:04:52] es que la mayor cantidad de mutantes
+[00:04:54] sean matados por los froncazos del prueba,
+[00:04:57] porque eso significa que los casos del prueba
+[00:04:58] han encontrado errores.
+[00:05:02] Entonces, esa es la métrica que se encuentra,
+[00:05:06] la adecuación de las pruebas, que es la cantidad de mutantes
+[00:05:11] matados entre el total de mutantes.
+[00:05:17] Eso es un porcentaje que nos dice que también están
+[00:05:20] nuestras pruebas.
+[00:05:21] entonces nosotros lo que se
+[00:05:26] pasan hicimos eh y vimos eh
+[00:05:29] como en un primer momento
+[00:05:31] nuestra suerte pruebas tenía
+[00:05:34] un eh porcentaje de mutas de
+[00:05:38] adecuación bajo y las
+[00:05:41] herramientas que nosotros vimos
+[00:05:43] no este que era la eh el
+[00:05:47] pino que es eh que se instala
+[00:05:49] y se configura también en el
+[00:05:53] que no se puede saber qué
+[00:05:58] mutaciones no las ha encontrado
+[00:06:02] nuestros casos de prueba. Entonces, por ejemplo, acá
+[00:06:07] y hubieron uno, dos, tres, cuatro
+[00:06:12] mutaciones. Sí, es bueno, de hecho más, no?
+[00:06:17] Uno, dos, tres, cuatro, cinco, seis, siete, perdón. Sí, tú puedes
+[00:06:21] matado seis y solamente sobre uno y esa que ha sobrevivido el interesante
+[00:06:27] herramienta este permite saber que de repente o falta
+[00:06:33] mejorar un caso de prueba, que es caso de prueba, contemple este rough y de esa
+[00:06:39] manera yo hago crecer mis fuertes casos de prueba para que contemple la mayor
+[00:06:45] cantidad de problemas. Esto es una herramienta muy interesante porque es una
+[00:06:50] de mejora, una herramienta de
+[00:06:55] mejora, además de de métrica
+[00:06:57] de que nos permiten medir la
+[00:06:59] calidad de nuestro caso de
+[00:07:00] prueba, también nos permiten
+[00:07:02] mejorarlos, ¿No? Me permiten
+[00:07:04] mejor y eso es lo que hicimos
+[00:07:06] en la clase pasada. Todes
+[00:07:13] eh las pras de mutación
+[00:07:18] nuevamente por tercera vez
+[00:07:21] las pruebas, las pruebas de
+[00:07:25] mutación, no son técnicas de
+[00:07:27] prueba. Ya es una técnica para
+[00:07:29] poder pedir la calidad de las
+[00:07:32] pruebas que ya tienen. Esas
+[00:07:34] son las pruebas de la, las
+[00:07:36] pruebas de mutación. Piden la
+[00:07:38] calidad de las pruebas que tú
+[00:07:40] ya tienes. Sí. Alguna duda ahí
+[00:07:51] que nos. Entonces eh bueno, ya
+[00:07:54] terminando lo que era mod, lo
+[00:07:56] que era la frase mutación,
+[00:07:58] eh también existe otros tipos de
+[00:08:00] que pregan un módulo, una
+[00:08:04] muy específica, ¿no? Cuando ya
+[00:08:06] sumimos un poco de nivel, ya
+[00:08:08] queremos probar la integración
+[00:08:10] de varios componentes, ¿no?
+[00:08:12] Por el día tenemos que llamar
+[00:08:14] otro tipo de pruebas, como las
+[00:08:16] pruebas de integración, ¿no?
+[00:08:18] En este caso, la idea pues
+[00:08:21] es probar componentes de un
+[00:08:23] mayor nivel, ya no funciones
+[00:08:25] como normalmente son las pruebas
+[00:08:27] unitarias que implementamos,
+[00:08:29] si no hay componentes un poco más grandes, podrían hacer módulos de un sistema.
+[00:08:35] Entonces este tipo de pruebas son las que se conocen como pras de integración.
+[00:08:42] Normalmente las pras de integración ya no las hacen los ingenieros de software o los desarrolladores
+[00:08:51] que están encarados de la construcción de las funcionalidades,
+[00:08:54] no la hacen las pras de integración, sino los que hacen las pras de integración
+[00:08:59] que se refiere a los usuarios
+[00:09:03] o de equipos especializados en
+[00:09:07] pruebas, ¿No? Porque se requieren
+[00:09:10] tener primero un conocimiento
+[00:09:12] un poco más amplio, ¿No?
+[00:09:15] del dominio de la arquitectura,
+[00:09:17] ¿Verdé? Muchas veces,
+[00:09:19] especialmente cuando uno traje
+[00:09:20] un sistema muy grande, es
+[00:09:22] tú como desarrollador solamente
+[00:09:24] conoces puntualmente lo que
+[00:09:26] te pide implementar, o la
+[00:09:27] Entonces, para la cual integración sí necesitas ver un mayor conocimiento de arquitectura,
+[00:09:32] el de la arquitectura, de el sistema.
+[00:09:36] Entonces, por eso que normalmente son pruebas que es más especializadas.
+[00:09:44] Entonces, se puede utilizar realmente distintas técnicas, no, el top-down,
+[00:09:51] que es uno comienza a bajar desde componentes más grandes hasta probando la integración
+[00:09:58] en componentes más pequeños, no, FotoMap que es lo contrario comienzas a probar componentes
+[00:10:03] más pequeños y luego va subiendo a la interacción de componentes más grandes, de Sandwich lo que
+[00:10:10] se llama, ¿no? que tratas de probar un componente bueno, un componente pero con interacción con
+[00:10:18] con más componentes ¿No? Pues,
+[00:10:21] también el Big Bang que es simplemente una estrategia totalmente aleatoria ¿No?
+[00:10:25] De comenzar a probar componentes entre sí sin ningún orden, simplemente por probar ¿No?
+[00:10:30] Cuando visitas estrategias realmente, sí, este, que se suele tener ¿No?
+[00:10:36] La lógica al final es bastante similar a cualquier prueba que uno pueda realizar ¿No?
+[00:10:43] Hay veces que va a haber necesidad, así como había MOCs, se acuerdan, cuando utilizamos
+[00:10:50] pras unitarias utilizamos MOCs para poder simular comportamientos de objetos para,
+[00:10:55] digamos, tener que sea mucho más fácil definir escenarios.
+[00:10:59] Lo mismo en las pruebas de integración, probablemente sea necesario poder simular algunos objetos.
+[00:11:06] si ahí tenemos pues lo que es el conductor o el driver que es el que normalmente se
+[00:11:14] encarga de la ejecución de la fregad y es el que se interga de poder ejecutar la
+[00:11:20] fregad mientras que los steps no son los módulos simulados no llamados por el
+[00:11:27] módulo que se está probando el modo que está probando llama hacer dos módulos
+[00:11:31] en el caso de que ese módulo todavía no esté implementado puede ser una simulación que te
+[00:11:38] devuelve datos que no necesariamente son los datos reales, pero de igual edad te permite probar el módulo.
+[00:11:53] Por ejemplo, no un caso muy común de una prueba de integración es cuando tú quieres probar
+[00:11:59] un backend. Es sencillo, usted se implementa un backend, implementa sus endpoints, si es res,
+[00:12:08] vas a tener recursos, operaciones, es un endpoint y tú deseas probar estos endpoints. De repente,
+[00:12:16] tú no tienes todavía no es, tú no tienes frogend implementado para probar realmente la
+[00:12:25] integración entre el fronete y vaquen, pero tú podrías simular, ¿no?
+[00:12:29] Podrías simular las llamadas, o en su efecto, si tú quieres probar un fronete,
+[00:12:38] tú podrías también simular un vaquen, tener un vaquen mock, ¿no?
+[00:12:42] Totalmente contata de prueba, ¿no? También podrías simularlo.
+[00:12:50] Entonces, pues eso normalmente ahí tú estás probando un componente de mucho más alto nivel
+[00:12:54] como una aplicación de válvula.
+[00:12:59] Bueno, la prueba de integración total es lo que les decía.
+[00:13:01] Comienzas probando los módulos de nivel superior,
+[00:13:05] y luego cómo se van integrando hacia abajo.
+[00:13:07] O sea, los módulos de nivel inferior
+[00:13:09] son como mayor funcionalidad.
+[00:13:11] Pues, por ejemplo, tú tienes el módulo A,
+[00:13:17] es el módulo superior.
+[00:13:19] Sí.
+[00:13:20] Entonces, tú necesitas probar.
+[00:13:22] Para probar el módulo A, tú necesitas probar los módulos
+[00:13:26] que componen el módulo a, esto es el módulo b, el módulo c y el módulo d.
+[00:13:31] Lo más probable, por eso acá dice, requieren muchos estados de prueba,
+[00:13:36] lo más probable es que el módulo c y el módulo d o alguno de los módulos
+[00:13:41] todavía no estén implementados, no porque su implementación es mucho más compleja,
+[00:13:45] estamos probando de arriba hacia abajo.
+[00:13:48] Se requiere generar muchos steps de prueba,
+[00:13:52] este primer sub simulado, eso de tener un simulado, y de repente este sí tener ese sí este completo.
+[00:13:59] Yo podría probar el módulo A probando pues los simulados del módulo B y el módulo C y el módulo
+[00:14:08] D, los steps. Entonces lo mismo, si tú ya quieres probar el módulo B, tienes que probar el
+[00:14:22] pero es mucho más difícil como le digo el este tema top down porque requiere muchos
+[00:14:28] status de prueba, no? Especialmente si tú te encuentras en una etapa todavía bastante
+[00:14:34] temprana de desarrollo, no? Bueno, si ya tienes implementado la mayor cantidad de
+[00:14:40] el enojo de requerimiento, bueno, entonces este tipo de pruebas ya tiene mucho más
+[00:14:44] el pide, no? Una prueba top down, pero si recién estás en etapas no iniciales digamos,
+[00:14:49] pero no tiene mucho sentido de ser una fraude y de ser una etapa inicial, pero si de repente estás en una etapa, no estás en estados finales, todavía hay 60 por 40 por ciento, 140 por ciento por implementar, entonces no sé si estás haciendo una buena estrategia.
+[00:15:08] quizás una mejor estrategia, sea el bottom up, si?
+[00:15:13] el bottom up, tú comienzas probando los componentes más básicos, no?
+[00:15:22] comienzas probando estos componentes más básicos, si?
+[00:15:25] y luego sucesivamente, puedes hacer el componente,
+[00:15:28] comienzas con el componente e, f, g, h, terminas,
+[00:15:32] entonces ya probates el componente b, puedes pasar a probar el b,
+[00:15:36] de la tierra, como en el seco,
+[00:15:40] el de, o sea, de abajo hacia
+[00:15:49] arriba, ¿sí?
+[00:15:52] En lo mismo, ¿no?
+[00:15:55] Me parece que en etapas tempranas
+[00:15:57] de desarrollo es mucho más
+[00:15:59] optimo, no, una integración
+[00:16:06] potomá, solamente hay un
+[00:16:08] conveniente que comienza ahí,
+[00:16:11] los errores pueden posponerse
+[00:16:13] hasta el final, no,
+[00:16:15] de los programadores que podían
+[00:16:20] proponerse. Pero tienes un punto a favor de que
+[00:16:25] favorece bastante la utilización del código, ¿no?
+[00:16:29] La componentización, ¿no? Porque tú si puedes hacer el
+[00:16:33] componente de, de repente, ese componente lo puede
+[00:16:36] utilizar otro modo. Sí, por ejemplo, y tú ya sabes que
+[00:16:40] está funcionando, ¿no? Si creo que es una, es un enfoque
+[00:16:44] que no se puede hacer,
+[00:16:46] especialmente porque considero yo que tú no puedes hacer o que se puede realizar en
+[00:16:50] cualquier momento, ¿no?
+[00:16:52] del ciclo de vida o del ciclo de desarrollo del sistema.
+[00:16:56] ¿no?
+[00:17:07] La otra es el sandwich.
+[00:17:09] ¿no?
+[00:17:12] Es una combinación de los dos.
+[00:17:14] ¿no?
+[00:17:18] Ya no se va probando de forma ordenada de
+[00:17:22] de la acción a un menor nivel
+[00:17:27] de atención o viceversa de un
+[00:17:28] menor nivel de acción a uno de
+[00:17:30] mayor nivel ya no ya no se
+[00:17:33] siguen ningún orden sino se
+[00:17:35] comienza a aprobar por los
+[00:17:43] dos lados. Sí. Proporcción así
+[00:17:46] una visión un poco más
+[00:17:48] equilibrada también de de
+[00:17:51] las pruebas, sino cuando
+[00:17:53] tienen los mismos problemas
+[00:17:55] que hemos visto al. Sí. Ah. Y bueno, y creo que la aumenta la complejidad, ¿No? Este,
+[00:18:03] porque se necesita mucha coordinación. Mucha coordinación en los equipos de freo. La verdad,
+[00:18:11] muy poco veo que han esto. No, en la propietad no le he visto mucho. Eh, pero. Yo creo que el
+[00:18:20] principal factor por lo cual es complicado es la coordinación.
+[00:18:26] Sí, el método de integración, la prueba, perdón,
+[00:18:41] integración Big Bang es lo que le decía,
+[00:18:43] es que no siguen ni un morde, simplemente se pueda todo
+[00:18:45] contra todo.
+[00:18:48] Esto tiene sentido cuando ya se ha terminado la implementación
+[00:18:54] del software y ya no hay componentes que falten aún
+[00:18:59] desarrollar, entonces es el probar todo, todo funcionando, todo funcionando.
+[00:19:09] El punto a favor de este esquema, esta preintegración total digamos, es que es bastante sencilla
+[00:19:18] de realizar, o sea no se tiene que preparar, muchos ambientes de prueba son customizados
+[00:19:24] escenarios muy específicos porque simplemente puedes hacer un,
+[00:19:28] bueno, dependiendo del caso, no tener data precargada y comenzar
+[00:19:33] a hacer pruebas, donde todo tipo, entre componentes,
+[00:19:37] todos los casos se usan, comenzar a probar,
+[00:19:39] o casos como usted va a usar y comenzar a probarlo y ver
+[00:19:42] cómo interactúan todos los que hicieron componentes.
+[00:19:47] El que es de sentido es bastante sencilla, ¿ya?
+[00:19:52] pero tiene un punto en con, aunque no te pides varios puntos en con.
+[00:19:56] Ah, verdad, creo que es una estrategia que de todas maneras se tiene que realizar
+[00:20:03] todas formas se tiene que realizar pruebas e integrales, integración
+[00:20:09] cuando el viaje tiene todo el software implementado.
+[00:20:12] Pero no es que solamente se tiene que realizar este tipo de pruebas,
+[00:20:16] porque si no pierdes la posibilidad, como dice ahí, de detectar errores
+[00:20:21] en etapas tempranas. O sea, es muy complejo. Hay una gráfica, habría que buscarla, pero el costo
+[00:20:35] de poder solucionar un error incrementa el porvez potencial con el tiempo. Pero más tiempo pase y
+[00:20:43] tú no resuelves ese error, el costo va a ser mayor. Entonces el poder solucionar errores en etapas
+[00:20:49] de la edad de etapas iniciales
+[00:20:54] en el tapas tempranas eh es muy
+[00:20:56] beneficioso para la economía del
+[00:20:59] proyecto ¿No? Sí. Y cuando
+[00:21:00] hablamos de economías no estamos
+[00:21:02] hablando solamente sí también
+[00:21:04] pero no solamente dinero sino
+[00:21:06] también de tiempo y recursos
+[00:21:08] ¿No? Entonces eh por eso es
+[00:21:11] muy muy muy útil eh hacer
+[00:21:14] pruebas desde etapas de francés
+[00:21:20] detectar errores desde etapas
+[00:21:22] ¿Qué le hemos hecho?
+[00:21:56] Tenemos una similidad.
+[00:22:12] Vamos a servir la prueba de mutación.
+[00:22:16] Ya el ejercicio 3.
+[00:22:28] A ver, nos pide implementar las pruebas de mutación en un sistema de cálculo de puentos.
+[00:22:32] En este ejercicio deberás implementar una clase que calcula descuentos y productos
+[00:22:37] y realizar plazas de mutación para evaluar la efectividad de tu plazas.
+[00:22:40] cuando te pierdas el plan de
+[00:22:43] mutación, tú antes de realizar
+[00:22:45] tu plan de mutación tienes que
+[00:22:47] realizar tus planos unitarios.
+[00:22:48] O sea, no es que la plan de
+[00:22:49] mutación es realizar la
+[00:22:51] voluntaria, no, tú antes tienes
+[00:22:53] que haber realizado tu plan de
+[00:22:55] mutación, ¿Sí? Entonces,
+[00:22:56] vamos a crear este proyecto
+[00:22:59] ya.
+[00:23:07] ¿Qué?
+[00:23:09] ¿Qué?
+[00:23:13] ¿Qué?
+[00:23:18] ¿Qué?
+[00:24:17] No sé, vamos a crear.
+[00:24:20] ¿Qué?
+[00:24:22] Exacto.
+[00:24:24] Bien.
+[00:24:28] El calculadora de escuentos, creo que eras.
+[00:24:32] Escuentos.
+[00:24:34] Me ven, que todo ya.
+[00:24:36] Escrié.
+[00:24:41] A mil millones.
+[00:25:22] Gracias.
+[00:25:24] primero que hay que configurar el post, el volume hay que tenerlo configurado para poder trabajar con
+[00:25:32] hota uni y con el kitop, que son los herramientas principales y la configuración es primero hay
+[00:26:00] que poner jota unic, dependencies, dependencies.
+[00:26:14] Ah, lo que les había comentado, se acordan,
+[00:26:17] si ustedes no quieren aprenders esto en el mdn
+[00:26:24] repository, donde acá podemos encontrar ya todas las
+[00:26:29] configuraciones.
+[00:26:31] Entonces, la primera es la jota unic.
+[00:26:35] Ya saben que lo que hay que utilizar es el jota unic,
+[00:26:39] esta que es uniter, porque es el jota unic 5.
+[00:26:42] esta es una versión antigua, si por favor las es uno cero, ya hay una versión, o sea,
+[00:26:51] con la última, si utilizamos una versión antigua de JUnit tenemos el riesgo, se acuerdan,
+[00:27:03] de que no funcione por la versión de Java, en estas máquinas tenemos Java 5, también
+[00:27:13] queremos además de JUnit, el moquito, el moquito core y el moquito con JUnit estos dos,
+[00:27:23] moquito core y el moquito JUnit,
+[00:27:28] y el moquito de JUnit,
+[00:27:44] y no se olviden de sincronizar,
+[00:27:56] aquí está el botoncito para sincronizar,
+[00:27:58] para que se descarguen las dependencias,
+[00:28:02] como esta máquina es nueva, no es la misma del laboratorio anterior, y una vez que termina la
+[00:28:09] descarga ya no tenemos ninguna escala. Entonces, pues ya tenemos esto, lo que tenemos que hacer es
+[00:29:33] tenemos la carpeta main y la carpeta test, y la carpeta test es donde va a tener nuestras
+[00:29:37] programas unidades, pero primero vamos a crear el código que es un código bien fácil,
+[00:29:42] nos pidimos crear una clase llamado diskonCanculator que contenga el siguiente método,
+[00:29:47] vamos a ver una clases
+[00:29:49] primero un paquete
+[00:29:51] de punto el punto Lima punto
+[00:29:55] software 2 y acá voy a
+[00:29:57] crear discon calculator
+[00:29:59] nos pide que tengamos el
+[00:30:06] método calculate discon
+[00:30:09] y esto aquí
+[00:30:19] public double
+[00:30:24] calculate discon
+[00:30:26] double final price
+[00:30:31] de la primera vez.
+[00:30:39] ¿No?
+[00:30:44] Nos dice este método debe recibir
+[00:30:47] el precio original y un
+[00:30:48] porcentaje de despuento y devolver
+[00:30:50] el precio después de aplicar el
+[00:30:53] despuento.
+[00:30:55] Debe lanzarlo y primero el
+[00:30:59] despuento ¿No? Entonces,
+[00:31:01] double el despuento primero va a
+[00:31:04] ser el despuento solamente ya
+[00:31:07] el porcentaje, si? Y esto vamos a retornar, nos pide retornar el precio después de aplicar el
+[00:31:18] despuesto, no? Entonces va a ser el precio original menos el despuesto. Si? Ah, no,
+[00:31:33] ni siquiera debe hacer una excepción ilegal al argumento excepción, si el precio original es
+[00:31:38] negativo, ya pues no se sabe ahora si el precio es negativo, entonces antes de hacer toda
+[00:31:44] esta cosa vamos a hacer un PIF original price es menor a cero entonces tenemos que lanzar
+[00:31:54] new illegal argument exception la puedo ponerle no original price debe ser mayor a cero mayor
+[00:32:12] el 100 por ciento de es
+[00:32:19] negativo o si el porcentaje de
+[00:32:22] descuento es mayor a cien.
+[00:32:25] Allá esto es no está entre cero y uno.
+[00:32:28] Esto no está entre cero y uno.
+[00:32:30] Entonces hay que multiplicarlo, ¿no?
+[00:32:33] Por cien.
+[00:32:35] ¿Por cien?
+[00:32:42] Entre cien por cien.
+[00:32:49] Porque este porcentaje está entre cero y cien.
+[00:32:53] es mayor a 100, a 100. Otra variación que me piden es si el
+[00:33:01] discount percentage es negativo también, y la otra es que si es mayor, mayor a 100.
+[00:33:30] Estas son las variaciones que me piden. Ponerte la fórmula, lo pido en la fórmula.
+[00:33:55] y ya tenemos ahí la clase
+[00:34:00] implementada, la clase que
+[00:34:02] nosotros tenemos que generar
+[00:34:16] los casos de prueba. Ahora
+[00:34:18] pruebas unitarias, ¿Verdad?
+[00:34:20] Implemente una clase de pruebas
+[00:34:22] unitarias llamadas discomplicando
+[00:34:24] este que contenga pruebas para
+[00:34:26] el método del que veis count
+[00:34:28] asegúrate de que impregue los
+[00:34:30] siguientes casos. Ya, a ver,
+[00:34:32] chicos, miren, acá ya nos dan
+[00:34:34] los casos. Si es que no nos
+[00:34:36] tienen que utilizar la técnica de caja blanca para encontrar los caminos independientes,
+[00:34:44] o sea, calcular la complejidad sincomáticas, este cobre. Acá en este ejemplo ya nos están
+[00:34:51] dando los casos que nos piden implementar para asunitar esto, ya no tenemos que hacer eso,
+[00:34:55] solamente tenemos que implementar pruebas para estos casos. Pero ojo, solamente lo ideal es que
+[00:35:03] que es el que no les dicen
+[00:35:07] esto, es que en la evaluación no se le dice eso, ustedes tienen que
+[00:35:11] calcular la cantidad de calvinos independientes utilizando el
+[00:35:15] comprensivo de máquina. Y tener como mínimo esa cantidad de pruebas.
+[00:35:21] Entonces, vamos a comenzar acá, vamos a hacer dentro de la
+[00:35:25] carpeta test, voy a crear el paquete de la misma forma como lo
+[00:35:29] vimos en el nuevo libro. 2, 3,
+[00:35:35] vamos a hacer un experimento
+[00:35:49] vamos a comenzar a implementar las pruebas
+[00:35:52] a ver como en este caso no estoy haciendo moj de nada
+[00:35:56] no vamos a utilizar mojito
+[00:36:00] que no estamos haciendo moj de nada
+[00:36:06] entonces siempre, a por uso de configurar mojito
+[00:36:09] vamos a hacer solamente pruebas con Jota Unit
+[00:36:14] vamos a tener una prea que
+[00:36:19] sería mi setup, una función que
+[00:36:23] va a ser la función que se va a ejecutar.
+[00:36:26] Puede ser al inicio de cada caso de
+[00:36:29] prueba o al inicio de todos los casos
+[00:36:31] de prueba y vamos a tener una función
+[00:36:33] que se va a ejecutar al final por eso
+[00:36:35] es static void tear down.
+[00:36:38] Tear down que se va a ejecutar.
+[00:36:40] Entonces, propuestas se van a ejecutar
+[00:36:43] de todos los casos de prueba entonces vamos a poner el la notación before each y esta como
+[00:36:54] se va a ejecutar al final de todos los casos de pruebas vamos a llamarla la notación before
+[00:38:09] entonces vamos a hacer todos los tres el primero es precio valido descuento mayo no los dos
+[00:38:21] es precio y descuento precio aquí, descuento válido
+[00:38:33] nos vemos en el otro test que es precio válido
+[00:38:43] es descuento cero, no provéves precio válido
+[00:38:59] porcentaje de 100, descuento 100,
+[00:39:08] la otra es precio negativo,
+[00:39:14] que debe lanzar una excepción,
+[00:39:16] test, precio negativo,
+[00:39:26] test, y porcentaje descuento negativo,
+[00:39:35] digo, y test, porcentaje descuento mayoras 100.
+[00:39:51] y entonces acá tenemos 1, 2, 3, 4, 5, 6, no dejamos 3, 6 casos de prueba.
+[00:39:57] También.
+[00:39:58] Poderle test.
+[00:40:00] ¿Qué está?
+[00:40:15] No es necesario poner nada porque no estamos inicializando nada distinto.
+[00:40:20] Entonces simplemente podemos poner un sal,
+[00:40:25] se inicia ejecución de prueba.
+[00:40:32] Y al final también, no es...
+[00:40:40] Al final también.
+[00:40:41] en este caso, en este caso,
+[00:41:03] entonces, cuando hagan otra prueba,
+[00:41:11] vamos a este monta con descuento,
+[00:41:19] va a ser igual, ah, tenemos, perdón,
+[00:41:21] tenemos que tener acá, no, este,
+[00:41:24] el método, el objeto que vamos a sobar,
+[00:41:27] todo, es un calculado,
+[00:41:30] y acá vamos a crear, ¿no?
+[00:41:41] Acá vamos a poner calculator, el punto calcular después.
+[00:41:46] Vamos a poner el precio original para hacer rápido, sea 100 y el porcentaje 40.
+[00:41:56] Si todo está correcto, que es el caso que todo esté correcto,
+[00:42:00] esto, eh, monstruo esperado,
+[00:42:04] monstruo que nosotros esperamos es
+[00:42:09] ¿Cuando? ¿Cuando debería hacer?
+[00:42:16] ¿Se sentan, no?
+[00:42:17] Ah, chicos, se sentan.
+[00:42:18] Flow, te estoy poniendo disculpe,
+[00:42:23] dije ser double.
+[00:42:24] Yo te consulgo a trabajar con
+[00:42:26] Flow, no con double, pero.
+[00:42:30] Se senta, entonces acá tenemos
+[00:42:32] que poder el hacer.
+[00:42:34] Eh, equals.
+[00:42:40] Eh.
+[00:42:44] no hace ser importante. Estática. Es decir, en el asesino, el primero es el monto, es el esperado,
+[00:43:11] no es el esperado, entonces el monto esperado y el monto obtenido, no es el monto, no es el monto
+[00:43:55] el 100% descuento, ¿no? En este caso el 100% si 100, el 100% descuento, ¿cuánto
+[00:44:08] quedaría? Cero, ¿no? Estarían nuestros tres casos de prueba, este, entonces, a ver,
+[00:46:07] el precio negativo en este caso, este, debería darnos una excepción, ¿no? Si ponemos
+[00:46:18] un precio negativo. Entonces, te voy a utilizar el hacer...
+[00:46:27] Trous, hacer Trous, ver? El hacer Trous, tenemos que pasarle acá una función y luego
+[00:46:52] quede por el excepción que debería salir, que es ilegal argumentación
+[00:46:57] de un otro flas y así y acá lo que tenemos que hacer es llamar.
+[00:47:04] ¿No te pasó? Vamos a arreglar, es que no, no, no, no.
+[00:47:20] Succión es primera.
+[00:47:22] Entonces, debería cumplirse esto, ¿no?
+[00:47:39] Debería cumplir una excepción ante esta edad.
+[00:47:41] Y en el despunto negativo lo mismo,
+[00:47:46] no es un despunto positivo, pero un despunto negativo,
+[00:47:54] y es así. Y en este caso también un despunto mayor así, ¿no? Entonces, bueno, vamos a probarlos,
+[00:48:46] podemos ejecutarlos directamente de acá, ¿no? Si ustedes ponen brazos, debería ejecutar el test,
+[00:48:57] si desean hacerlo de esta forma, o sea, este es una forma también de hacerlo, o la otra opción es
+[00:49:11] es utilizar maven para ejecutarlo.
+[00:49:14] Es la otra forma también.
+[00:49:17] Yo voy a poder enlizarlas la prueba.
+[00:49:21] Y con maven, la única diferencia con maven es que tienen que
+[00:49:29] tener maven configurados.
+[00:49:32] Y muy bien.
+[00:49:33] Y hay veces que la computadora no viene.
+[00:49:35] Bueno, en este caso ya está.
+[00:49:36] Porque ya lo configuramos la clase pasada.
+[00:49:39] Ya está configurando esta computadora,
+[00:49:40] pero de repente no necesariamente.
+[00:49:43] el clín para si quieren hacerlo
+[00:49:49] con Meyven, clín, pacash, test
+[00:49:53] para realizar este primero borre
+[00:50:02] todo, lo vola a combinar y ejecuten las pruebas
+[00:50:13] ¿Cómo?
+[00:50:17] Por Meyven
+[00:50:22] es solamente solamente que
+[00:50:24] estoy haciendo el clín y el pacash
+[00:50:27] y el test es para borrar todo lo que se había generado, el
+[00:50:31] tuvacación es para volver a generar lo compilado y el
+[00:50:35] test es para probarnos.
+[00:51:13] ¿Sí?
+[00:51:14] Ahora, para hacer lo que nos piden el ejercicio, es
+[00:51:18] realizar pruebas de mutación.
+[00:51:23] Entonces, vamos a utilizar el PITES, ¿se acuerdan?
+[00:51:28] Vamos a utilizar el PITES para analizar las pruebas de
+[00:51:32] ¿Qué es?
+[00:51:54] O sea, si le ponemos acá,
+[00:52:13] ajéste la dependencia, pero también tenemos un
+[00:52:21] fibrato, un clavín.
+[00:53:01] Vamos a ponerla en el pón, porque era así suficiente.
+[00:54:08] ¿Puedes decir? Acá sí poner esta
+[00:54:21] dependencia de acá. ¿Qué me parece
+[00:54:53] nada más? ¿O no?
+[00:54:59] No me pones eso.
+[00:55:04] No me pones eso.
+[00:55:25] No me pones eso.
+[00:57:09] vamos a ver, la respuesta es 2.1, es la última, 2.3 en la última versión,
+[00:57:47] es la siguiente, siempre que me dice, ya va, ahí está, ahora por la versión,
+[00:58:12] si dígense en la última versión, la 1.2.3 es la última versión, al parecer nos ha creado ya
+[00:58:18] donde crea en el target, acá tiene que haber un reporte de pitt reports,
+[00:58:22] acá hay index.html, esto lo voy a abrir
+[00:58:27] opening explorer para abrirlo desde acá, ¿no?
+[00:58:34] y ahí está. A ver, aquí está el listado calculator, ¿no?
+[00:58:42] y ha ido bastante bien, pero tenemos solamente un caso,
+[00:58:48] una mutación que no se ha podido matar, que ha sobrevivido,
+[00:58:52] es cuando cambia el conditional
+[00:58:56] boundary.
+[00:58:57] ¿Sí?
+[00:58:58] Esa es la mutación que ha sobrevivido.
+[00:59:01] Si la métrica es bastante buena,
+[00:59:05] no tenemos una métrica del 90%
+[00:59:08] de coverage,
+[00:59:10] ¿Sí?
+[00:59:11] Es bastante buena, yo creo que es superior al 60%,
+[00:59:14] 60, 70% es,
+[00:59:16] es una métrica bastante buena en nuestro caso.
+[00:59:20] esto es lo que ha sobrevividido el
+[00:59:31] operador de mutación ha sido que
+[00:59:33] cambiar el boundary, o sea el menor,
+[00:59:36] probablemente acá le puso menores
+[00:59:38] iguales y no ha salido error,
+[00:59:44] debió detectar ese menor igual,
+[00:59:47] debimos tener un caso,
+[00:59:49] cuando el orígeno al prez es cero,
+[00:59:51] tenemos un caso por ese caso,
+[00:59:56] no tenemos caso, no,
+[01:00:04] el precio es cero y ese es un este un valor límite entonces a ver vamos a ver si lo podemos solucionar
+[01:00:15] lo ideal es tener el 100% de cobertura, o sea que es difícil pero bueno vamos a ver si lo podemos
+[01:00:20] solucionar entonces a ver acá vamos a poner este public voice test precio válido mayor igual a cero
+[01:00:32] entonces esto lo vamos a poner igual, es original price cero, el 100% de cero es cero, vamos a poner acá
+[01:00:51] otros números, si quieres un 25, de cero es cero, entonces esto está bien, nos hemos hecho otro test
+[01:01:01] creo que con este test ya tendríamos una cobertura perfecta, ya tendremos una cobertura perfecta
+[01:01:09] entonces vamos a volver a hacer, primero vamos a volver a ejecutar todo el caso de prueba para ver si
+[01:01:18] está bien, se ejecutaron todos, vamos a poner el pitestos.mutation.coverash está, vamos a refrescar
+[01:01:39] esto, ahí tuvieron, con ese caso de prueba ya matamos a todos los mutantes, ya tenemos un
+[01:01:50] de un coberage del 100 por 100, 10 de 10. Entonces, este es un poco la dinámica de
+[01:02:03] los de remutación, ¿no? Que lo que hacen es que te ayudan a mejorar tus casos de prueba.
+[01:02:09] Yo no tenía ese caso de prueba, no tenía el caso de prueba de precio igual a cero,
+[01:02:18] pero es un valor límite, el precio igual a cero. Siempre es bueno probar los valores
+[01:02:22] porque los valores límites vieron cuando ya provee el valor límite
+[01:02:26] automáticamente ese mutante que se generó no es ya lo mató es matado por el por el por
+[01:02:34] este caso y a pochitos alguna pregunta dudas
+[01:02:46] y
+[01:02:47] Pero a mí me gusta.
+[01:02:53] Esta es un poquito lo necesario.
+[01:04:39] Igual os voy a subir este pequeño.
+[01:04:41] Hay más ejercicios acá que pueden hacerlo,
+[01:04:43] que haces de paso que practican.
+[01:04:47] Estinucran lo que habíamos hecho en este caso
+[01:04:52] de ejercicios de mobs.
+[01:04:58] y eso es lo que va a entrar en la parte práctica, ¿no?
+[01:05:01] de la próxima semana.
+[01:05:04] Entonces, vamos a hacer un break.
+[01:05:06] Ya, este, para luego del break,
+[01:05:11] comenzar con el laboratorio.
+[01:05:12] Así, vos haces un break de 15 minutos,
+[01:05:15] ya 15 minutos, solo hace 20, 30 y 35.
+[01:05:20] Ya hace 5, comenzamos el laboratorio.
+[01:05:22] ¿Ya chicos?
+[01:05:23] Gracias.
+[01:05:34] ¡Qué bien!
+[01:11:30] ¿Qué es tu segundo color?
+[01:11:32] ¿Qué?
+[01:11:34] Pero lo dije en tu...
+[01:11:36] ¿Qué es?
+[01:11:38] ¿Qué es?
+[01:11:40] Mi ilusión.
+[01:11:42] Gracias.
+[01:11:44] ¿Qué?
+[01:11:46] No, no, no.
+[01:11:48] ¿Qué es?
+[01:11:50] ¿Qué?
+[01:11:52] ¿Qué?
+[01:11:54] ¿Cómo te respondes?
+[01:11:56] ¿Qué?
+[01:17:55] ¿Los chicos no? ¿Laboratorio?
+[01:17:58] Un breve anuncio antes de comenzar el laboratorio, chicos.
+[01:18:07] Por si acaso, para los líderes de proyecto o el proyecto manager,
+[01:18:10] se nos olviden de estar acolizando el proyecto de aquí.
+[01:18:13] Porque cada semana estoy chargando un snapshot de cómo está el estado
+[01:18:19] y no he visto que hayan estado acolizando la gran mayoría de los grupos.
+[01:18:23] Por lo que por lo cierto que no está el día de hoy,
+[01:18:27] en la visa a subir el extra y
+[01:18:32] vuelvo a hacer un breve en un
+[01:18:33] siempre y para que también lo
+[01:18:34] recuerda.
+[01:18:35] Si
+[01:18:39] Si
+[01:18:40] Si
+[01:18:41] Si
+[01:18:42] Si
+[01:18:43] Si
+[01:18:44] Si
+[01:18:45] Si
+[01:18:46] Si
+[01:18:47] Si
+[01:18:48] Si
+[01:18:49] Si
+[01:18:50] Si
+[01:18:51] Si
+[01:18:52] Si
+[01:18:55] Si
+[01:18:56] Si
+[01:18:57] Si
+[01:18:58] Si
+[01:18:59] Si
+[01:19:00] Si
+[01:19:01] Si
+[01:19:02] Si
+[01:19:06] Si
+[01:19:07] y a como digo, de estar a decir, no encustan en la ruta, lo exportan y abren su intelíquete
+[01:19:16] para abrir el proyecto.
+[01:19:20] Sí, sí.
+[01:19:22] Y solo por cercasos para los que no recuerden, uno de los ejercicios va a ser que tutamos
+[01:19:36] las clases unitarias y no necesariamente está configurado la herramienta en la terminal.
+[01:19:45] Así que, vamos a hacer un pequeño referencia a cómo configurarlo.
+[01:19:49] Tienen que ubicar en archivo de Flora.
+[01:19:52] Bueno, la ruta donde se cuenta el binario de Maven.
+[01:19:54] En este caso, deberían encontrar una Jits.
+[01:19:57] Y es posee.
+[01:19:59] Archivo de programas.
+[01:20:01] Buscan el JetBrain.
+[01:20:04] Jet.
+[01:20:07] En la carpeta, no.
+[01:20:08] Dinarios, no.
+[01:20:10] Plaggings.
+[01:20:13] Buscan el Maven.
+[01:20:34] Van una meta en la carpeta de Lib.
+[01:20:37] Y van a Maven 3.
+[01:20:38] Ahí es donde van a encontrar la carpeta B y finalmente van a encontrar este binario.
+[01:20:42] Esa es la que ustedes deben deceptearlo en las variables en el campo de su computadora.
+[01:20:46] Acá, y editar las variables en torno de esta cuenta.
+[01:20:50] Con ese en facto voy a copiar la ruta en la Xtune para los...
+[01:20:59] Me voy a copiar.
+[01:21:04] Ya, ya se me voy a copiar.
+[01:21:09] Me voy a copiar.
+[01:21:12] Ya, ya se me voy a copiar.
+[01:21:14] Ya, ya se me voy a copiar.
+[01:21:16] Ya, ya se me voy a copiar.
+[01:21:18] Ya, acá es donde deben de confiarnos. En la parte variable pass, van a evitar y van a,
+[01:21:40] en este caso yo lo tengo configurado, ¿no? Pero ustedes si no lo encuentran deben de
+[01:21:44] agregar una nueva registro y copian justo la ruta donde se encuentra el binario. Les
+[01:21:49] le van a aceptar a AppStats y ya con eso deberían de poder ver el
+[01:21:52] logite que también ven en la terminal.
+[01:21:57] Por si acaso lo pueden validar, ¿no?
+[01:21:59] Abriendo un Semender y eso.
+[01:22:01] Si lo han hecho de manera correcta, debería de
+[01:22:07] aparecerles la opción, ¿no? El ejecutable.
+[01:22:19] De otra vez, se deberían de encontrarlo en esta ruta.
+[01:22:23] y la carpeta del binario.
+[01:23:21] o si no lo voy a subir a actualizar en el ritmo de ref, de quizá pero lo logran los
+[01:23:41] confiobráticos? una duda?
+[01:23:44] ahi ya, van a variar el entorno, este y le ve esta cuenta, no el de sistema, van a
+[01:23:55] van a editar y ingresan en un nuevo registro, no es la ruta,
+[01:23:59] no es el milagro.
+[01:24:00] Si no, van a tener inconvenientes al ser el laboratorio.
+[01:24:06] Sí.
+[01:24:11] Sí.
+[01:24:13] Esa es la ruta.
+[01:24:17] Sí.
+[01:24:18] No se va a terminar.
+[01:24:20] No.
+[01:24:21] No se va a salir.
+[01:24:22] Vamos a ver.
+[01:24:28] Entonces, vamos con laboratorio.
+[01:24:36] Un poco para explicarles la temática de este laboratorio.
+[01:24:39] Vamos a hacer pruebas en base a un caso de una empresa de streaming,
+[01:24:45] Sí, estilo next, donde vamos a tener que aplicarle una serie de pruebas
+[01:24:53] y en base a una lógica de negocio.
+[01:24:55] Ustedes se han dado cuenta que por ejemplo hay distintas variables,
+[01:25:01] que finalmente hacen que la resolución de la pantalla se va ahí,
+[01:25:05] por ejemplo el alcho de banda, por ejemplo a veces se limita
+[01:25:09] en base a la suscripción que se tiene.
+[01:25:11] Entonces el primer ejercicio se consta de eso.
+[01:25:15] O sea, tenemos una clase que lo va a encontrar de hecho en el repo,
+[01:25:21] que es el descargado, donde esa lógica ya está codificada.
+[01:25:26] Nosotros vamos a tener que hacer,
+[01:25:29] aplicar pruebas unitarias en base a la clase que les he pasado.
+[01:25:34] Por ejemplo, estamos en inicio, vamos a mostrar.
+[01:25:38] van a encontrar una clase, ofensador, buscadilla, video,
+[01:25:47] o un método donde te va a retornar un stream.
+[01:25:51] En base a la lógica de Pinias, que es justo ese diagrama de pasos,
+[01:25:58] un árbol de ediciones, les va a retornar la resolución que
+[01:26:02] va a correr el video, o que debería, simulando que
+[01:26:05] estamos en un servicio stream.
+[01:26:10] Van a tener que entrar la carpeta test, ejercicios uno,
+[01:26:14] y van a tener que codificar cada caso o cada lógica o combinación
+[01:26:19] porque se cuida en base al diagrama que les he enviado.
+[01:26:27] Como dice el ejercicio, se van a dirigirse a esa clase en
+[01:26:31] específica que puso ya el secuestro y van a tener que
+[01:26:35] definir todas las pruebas unitarias en base a la lógica y
+[01:26:40] negocio que le puso en ese diagrama.
+[01:26:43] Igual que les hice un ejemplo de cómo ser uno.
+[01:26:48] De hecho, solo lo tienen que descomentar y van a poder ejecutarlo.
+[01:26:52] La idea es que ustedes puedan, una vez visto estos dos ejemplos,
+[01:26:56] puedan hacer el resto de las pruebas unitarias.
+[01:27:01] Como parte del ejercicio 1, es, ¿ah, hasta ahora,
+[01:27:04] ¿tiene alguna consulta a UR?
+[01:27:10] Ya, no, genial.
+[01:27:12] El siguiente paso no es aplicar de hecho pruebas de mutación.
+[01:27:17] Ustedes hasta el paso 2 van a tener que adquirir ciertas,
+[01:27:21] ciertos pruebas.
+[01:27:23] Pero si queremos cubrir el resto de las distintas combinaciones
+[01:27:30] que pueda lanzar la herramienta, nosotros vamos a tener que
+[01:27:34] terminar de construir unas pruebas adicionales,
+[01:27:37] justo acá hay una especie de fiquiables.
+[01:27:40] Al abrirlo, van a poder ver qué es lo que se haría faltando
+[01:27:43] para lograr el 100% de las pruebas.
+[01:27:46] Bueno, en este caso el de las mutaciones.
+[01:27:49] Y finalmente, el ejercicio 2 consta de SuburbMox.
+[01:27:54] Como el propio me mencionó, son herramientas para poder
+[01:28:01] simular este clases.
+[01:28:03] Nosotros, por ejemplo, como estamos con un servicio streaming,
+[01:28:06] editamos a veces con sus servicios.
+[01:28:09] En este caso, es el gestor de reproducción del que vamos
+[01:28:11] a simular.
+[01:28:24] Tenemos que tener una clase llamada gestor de
+[01:28:26] reproducción donde ya internamente les paso bueno requiere dos clases, los servicios y este les va a
+[01:28:34] retomar cierta lógica. La idea es poder simular porque no realmente no tenemos un servicio en
+[01:28:41] Vineal para poder funcilar la información para poder simular esa clase de service que
+[01:28:50] tenemos acá. Para ello vamos a utilizar la clase los modes que vamos a aprender. Así es como
+[01:29:01] está actualmente y este es el diagrama de cómo vamos a generar las pruebas usando esto. Van a tener
+[01:29:09] una serie de instrucciones también y también por su caso también les he puesto una especie de pistas
+[01:29:15] para que puedan poder resolver también el segundo ejercicio. Y finalmente acá están los criterios
+[01:29:22] de cumplimiento para ver si han logrado oción, ¿no?
+[01:29:24] Estes laboratorias articulatoriamente.
+[01:29:28] Bueno, ya pueden ir avanzando y concierto su duda que tengo.
+[01:29:31] Ahí me pueden.
+[01:29:32] Sí.
+[01:29:32] ¿Como me gusta?
+[01:29:33] Me hace el rol de que un país no lo viveis.
+[01:29:39] ¿Tenés que escutarlos?
+[01:29:41] No.
+[01:29:42] ¿Qué?
+[01:29:43] En el de me.
+[01:29:46] Este.
+[01:29:47] En el proclamado.
+[01:29:50] ¿Pero por qué no?
+[01:29:52] No, esto es por... o sea, eso de hecho es un comentario.
+[01:29:55] Sí.
+[01:46:28] por el que no se les da tu ganad.
+[01:46:33] Solí al castillo...
+[01:46:37] El castillo...
+[01:46:40] Yo vi un castillo engraven,
+[01:46:41] pero no lo he hecho en el final.
+[01:46:46] Pero se vea que esta magia intenta
+[01:46:48] alorte el problems del castillo,
+[01:46:51] pero, por otro lado,
+[01:46:52] la tuya de agresión,
+[01:46:54] es absoluta.
+[01:46:55] Caballero.
+[01:46:56] Si, en esta magia,
+[01:46:58] pero, en la venida,
+[01:47:00] los pocos son muy buro y como por la puesta...
+[01:47:02] Con el plan de que la gente este.
+[01:47:03] ¡Nota este!
+[02:12:32] No, a mí me lo distinto, por si en ninguno de los países,
+[02:12:36] en si te lo hago, me sé lo que me da.
+[02:12:38] Eh, bueno, ya sé.
+[02:12:41] Es el parque de los países.
+[02:12:43] Es el que me distinto.
+[02:12:46] De seguir, no sé.
+[02:12:48] De que yo si está.
+[02:12:50] De que yo si está.
+[02:12:52] De que yo si está.
+[02:12:54] De que yo si está.
+[02:12:57] De que yo si está.
+[02:12:59] De que yo si está.
+[02:13:01] De que yo si está.
+[02:19:33] ¿Qué?
+[02:24:06] y
+[02:24:08] si te lo
+[02:24:10] me aportan a mi
+[02:24:12] ok
+[02:24:14] si
+[02:24:16] si
+[02:24:18] si
+[02:24:20] si
+[02:24:22] si
+[02:24:24] si
+[02:24:26] si
+[02:24:28] si
+[02:24:30] si
+[02:24:32] si
+[02:24:34] si
+[02:29:17] ¿Qué pasa?
+[02:29:21] Esta es una
+[02:29:22] una
+[02:29:24] una
+[02:29:26] una
+[02:29:28] una
+[02:29:31] una
+[02:29:33] una
+[02:29:35] una
+[02:29:38] una
+[02:29:41] una
+[02:29:47] una
+[02:32:33] ¿Qué?
+[02:32:35] ¿Qué?
+[02:32:37] ¿Qué?
+[02:32:39] ¿Qué?
+[02:32:41] ¿Qué?
+[02:32:43] ¿Qué?
+[02:32:45] Ah.
+[02:32:47] Comentame.
+[02:32:49] Sí.
+[02:32:55] Es como esto.
+[02:34:28] de la gente. Ya, ya chicos,
+[02:34:36] soy Marvista, sí. Añuelo
+[02:34:39] Balvin, Balvin. Eh, Bustíos,
+[02:34:44] eh, Alisson,
+[02:34:46] eh, Fabrizio Carreño.
+[02:34:49] Ya. Joaquín Castillo, Antonela,
+[02:36:02] de la gente.
+[02:36:07] Sí, sí.
+[02:36:12] Ya, chicos, ya gracias.
+[02:36:16] Ya nos vemos. Por saca la
+[02:36:19] evaluación va a ser el día
+[02:36:22] viernes.
+[02:36:25] Ya.
+[02:39:34] no quiero hacer el manchito
+[02:39:36] no quiero hacer el manchito
+[02:39:38] lo que tengo es
+[02:39:41] si te lo dices
+[02:39:43] yo me lo digo
+[02:39:45] soy sincero
+[02:39:47] te cae el barco
+[02:39:49] te cae el barco
+[02:39:51] si me dices
+[02:39:53] cuando tú te quieres
+[02:39:56] te lo pones
+[02:39:58] te lo pones
+[02:40:00] si
+[02:40:02] si te lo pones
+[02:40:04] ¿Pero qué?
+[02:40:07] No, no, no, no, no.
+[02:40:11] ¿Qué es eso?
+[02:40:14] ¿Qué es eso?
+[02:40:17] Me deseo un extra.
+[02:40:25] ¡Pero, por favor!
+[02:40:27] ¡Pero, por favor!
+[02:40:30] ¡Pero, por favor!
+[02:40:33] ¡Pero, por favor!

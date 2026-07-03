@@ -1,0 +1,1028 @@
+[00:02:43] y
+[00:02:46] y
+[00:02:50] y
+[00:02:55] y
+[00:02:58] y
+[00:03:01] y
+[00:03:04] y
+[00:03:07] y
+[00:03:10] y
+[00:03:14] y
+[00:06:35] es que ya está antes de ir a la
+[00:06:40] la
+[00:06:42] la
+[00:06:45] la
+[00:06:48] la
+[00:06:51] la
+[00:06:55] la
+[00:06:58] la
+[00:07:03] la
+[00:07:44] ¿Qué tal?
+[00:07:46] ¿Qué tal?
+[00:07:48] Vamos a comenzar con las clases por favor.
+[00:07:50] Ya.
+[00:07:52] Repetante como esta vez.
+[00:07:54] Papus ha iniciado
+[00:07:56] la última clase
+[00:07:59] antes de que lamenta
+[00:08:01] el ciclo
+[00:08:04] para que usted sea la mismas semana
+[00:08:06] para hacer las presentaciones
+[00:08:08] para el tubulismo
+[00:08:10] para que la gente
+[00:08:12] se pueda hacer las presentaciones
+[00:08:14] no, no, no, no, el el proyecto no es finto. A ver, chicos, hay algunas cosas para puntualizar,
+[00:08:27] si, de la entrega. Lo primero, bueno, me están comentando que podría haber reglas
+[00:08:34] virtuales por el paro, ¿no? Bueno, lo que hacía también no se pronuncia, si es que lo
+[00:08:41] si hay que hacerse pronuncias y
+[00:08:45] pasar a pues a que hace virtual
+[00:08:47] pero debido a que la
+[00:08:50] presentación no es una
+[00:08:53] evaluación individual eh no se
+[00:08:56] suspende la presentación. ¿Sí?
+[00:08:59] ¿Eh? ¿Vas a hacer a los que les
+[00:09:01] toca el mapa? Si es virtual,
+[00:09:03] ¿No? ¿No? ¿Sí? Si es ningún
+[00:09:06] problema. Ya. ¿Y si no fuera
+[00:09:08] ¿Qué? ¿Qué? ¿Qué?
+[00:09:15] Bueno, ya habíamos dicho no que en la fecha, ahí vamos a dejar eh para entregar no del
+[00:09:26] documento, habíamos que al domingo, ¿Sí? La fecha entregará documento, todo el domingo,
+[00:10:07] ¿Qué tiene?
+[00:10:16] O sea, lo que es el, es el
+[00:10:18] documento y el martes es el
+[00:10:21] código.
+[00:10:29] Ya chicos, a ver, a ver, a ver,
+[00:10:31] la cosa.
+[00:10:33] Les damos las dos las de los
+[00:10:35] últimos laboratorios, ya,
+[00:10:37] se las voy a enviar, ya las
+[00:10:39] tengo, se las voy a enviar
+[00:10:41] hoy día, si no se lo voy a enviar
+[00:10:45] y con la mayor atención, por
+[00:10:49] último laboratorio, bueno, ya
+[00:10:51] el saludo desea subir su costa,
+[00:10:54] ya o algún atlanto, alguna este
+[00:10:59] de las de las notas o o del
+[00:11:04] laboratorio, faltó este
+[00:11:05] laboratorio va a ser un bonus,
+[00:11:07] pero se va a entregar acá, o
+[00:11:08] sea, durante las clases, no no
+[00:11:09] se les va a permitir hacer los
+[00:11:10] pegas, si? Entonces, no se
+[00:11:12] preocupen eso laboratorio
+[00:11:14] que no se puede trabajar en los
+[00:11:19] grupos. Sí, este pero igual
+[00:11:21] tienen que presentar una
+[00:11:24] entrega este al acabar la
+[00:11:25] clase. Ah chicos, solamente
+[00:11:27] te me ajustó a Arón, me
+[00:11:29] comentaba que todos los grupos
+[00:11:31] presentaron, no, este, el
+[00:11:33] último, no, no, menos un
+[00:11:35] grupo, mío, que si no me
+[00:11:36] equivoco, se le pongo dos.
+[00:11:38] Se le pongo dos, se le
+[00:11:39] unico grupo, en ese, en ese
+[00:11:41] lado, a Arón.
+[00:11:43] que no lo que vio por algún
+[00:11:48] pero a no me comentó que no
+[00:11:53] ¿Viste?
+[00:11:56] ¿En qué?
+[00:12:03] Sí.
+[00:12:09] Ya.
+[00:12:14] Bueno, pues tenemos que avanzar.
+[00:12:16] Ahora vamos a avanzar.
+[00:12:18] No sé más qué me faltan.
+[00:12:20] Y aquí más que todo es la
+[00:12:22] para que se ponga una parte que
+[00:12:26] van a hacer ustedes en que se
+[00:12:28] entrega que es la pista
+[00:12:29] lógica, que puede lo más uno,
+[00:12:31] pero para la entidad final sí
+[00:12:33] vas a tener que hacer lo
+[00:12:35] completo, ¿Ya? a ver.
+[00:12:39] Hay ciertos casos en los
+[00:12:44] cuales se desea mejorar o
+[00:12:49] cambiar la arquitectura de una
+[00:12:51] aplicación de sol.
+[00:12:53] que se generan estas
+[00:12:58] arquitecturas de transición
+[00:13:01] que funciona de la misma forma
+[00:13:04] como los tipos de de actividades
+[00:13:07] que no otros ustedes quieren hacer
+[00:13:10] cambios, tú tienes un estado
+[00:13:13] actual que es el asís y quiere
+[00:13:16] tener estado duro que es el estado de
+[00:13:18] UD y entonces normalmente se
+[00:13:21] de transición que no necesariamente puede ser
+[00:13:25] para ese siguiente, ¿sí?
+[00:13:28] De hecho, que siempre la pintura de transición
+[00:13:31] puede ser detalle en todos los pasos y estrategias
+[00:13:33] necesarios para mover el sistema
+[00:13:37] y muestrado ahora.
+[00:13:40] Obviamente estos cambios pueden ser muy complejos,
+[00:13:47] pueden ser impacientes demasiado,
+[00:13:50] entonces hay que tener mucho cuidado, ¿sí?
+[00:13:54] Hacemos un puesto en una acrucación,
+[00:13:57] hicimos un pequeño cambio de arquitectura,
+[00:14:01] que no fue tan importante, pero aún así requiere una
+[00:14:06] documentación bastante detallada, ¿sí?
+[00:14:09] Una documentación bastante detallada,
+[00:14:12] porque con su impacto hay distintos lados.
+[00:14:15] ¿No?
+[00:14:17] Sí.
+[00:14:20] Entonces, normalmente, pues lo que
+[00:14:25] detallamos, son distintas
+[00:14:27] arquitecturas de tradición, son
+[00:14:29] los cambios que se hacen a nivel
+[00:14:31] de color o algo así de gobierno,
+[00:14:33] tiempos recursos,
+[00:14:35] ¿No?
+[00:14:37] Como por ejemplo, no,
+[00:14:39] con distintas agudas,
+[00:14:41] un nuevo componente,
+[00:14:43] sí,
+[00:14:45] o realizas cambios en un componente y actual, y no,
+[00:14:50] granas termas, y no es ni que son cambios en la plaza, ¿eh?
+[00:14:57] Entonces, es una gráfica de la tarquistora de transición.
+[00:15:01] A ver, chicos, atención, por favor, ya,
+[00:15:05] es de, ¿tiene juez actual, tiene juez de futuro?
+[00:15:12] y probablemente los ustedes que documentan ese cambio del estado actual, que estaba muy
+[00:15:18] muy bueno, veían el probablemente varios fases y cada una de las actividades que se hacen en
+[00:15:24] las determinadas fases deben estar documentadas para una trasabilidad de la arquitectura.
+[00:15:30] Eso es muy importante. Muy probablemente en la segunda parte del curso nosotros le
+[00:15:38] le pidamos un cambio de tu
+[00:15:43] arquitectura. O sea, le
+[00:15:46] pidamos un cambio. Entonces,
+[00:15:48] ustedes tienen que resumir de la
+[00:15:50] forma que corresponde al cambio
+[00:15:52] de la arquitectura, documental,
+[00:15:54] son obviamente excadidas en las
+[00:15:56] partes para poder realizar esta
+[00:16:02] migración. Sí. Ya, ya me
+[00:16:05] hablo. A ver, esta parte es la
+[00:16:08] parte más importante. Ya, ya,
+[00:16:11] ahora voy a documentar el arquitectura.
+[00:16:16] ¿Cómo puedo comenzar con la documentación del arquitectura?
+[00:16:19] Realmente no podemos nosotros definir lineamientos
+[00:16:29] que son los lineamientos base sobre lo cual es
+[00:16:35] todas las ediciones de arquitectura para tener que alinearse.
+[00:16:39] no. Por ejemplo, si ustedes utilizan
+[00:16:43] speckit, no sé si han utilizado una vez esta
+[00:16:47] es la lista, este skill de
+[00:16:50] GitHub para hacer spec,
+[00:16:53] lo primero que hace
+[00:16:57] es crear un segundo documento
+[00:17:00] arquitectura que le llamo la constitución
+[00:17:03] un documento de constitución donde están todas estas
+[00:17:07] metas de arquitectura, escenarios de calidad, restricciones,
+[00:17:11] estilos arquitecturales.
+[00:17:13] Sí, o silencio, silencio.
+[00:17:15] Si quieren hablar, por favor, tienen afuera toda la
+[00:17:18] universidad, pero la verdad que me rumbe.
+[00:17:21] La verdad que me rumbe.
+[00:17:25] Entonces, es imposible apretar ese documento,
+[00:17:27] porque luego, por ti, es el documento,
+[00:17:30] toda la arquitectura que ustedes van a comenzar a
+[00:17:33] desarrollar todas esas decisiones,
+[00:17:35] cualquier persona debería preguntarse,
+[00:17:37] que está alineado a estos, a estos
+[00:17:41] admitimientos iniciales, que
+[00:17:43] debería estar alineados.
+[00:17:44] Nos vamos a aplicar estos
+[00:17:45] admitimientos al inicio y luego
+[00:17:47] vamos a explicar cada una de
+[00:17:50] las vistas de arquitectura.
+[00:17:52] Sí.
+[00:17:53] Pues lo primero de las metas
+[00:17:55] de arquitectura es el local
+[00:17:57] invento.
+[00:17:58] Normalmente proporciona la
+[00:18:00] motivación y el fundamento
+[00:18:02] de las decisiones de
+[00:18:04] arquitectura.
+[00:18:05] Sí.
+[00:18:06] Sirven como los
+[00:18:08] con las nuevas funcionalidades del sistema. Entonces, por ejemplo, este es una meta. El
+[00:18:20] PNOVSEA es el sistema, debería permitir el desarrollo de servicios web interoperables
+[00:18:25] a través de cualquier tipo de ambientes. Entonces, este es un aspecto, o sea, la interoperabilidad.
+[00:18:34] la confiabilidad, no el sistema,
+[00:18:37] debe ser confiable y estable a través del tiempo.
+[00:18:40] El sistema debe estar, debe estar consistente,
+[00:18:44] tiene que abordar consistencia con el estado actual
+[00:18:47] y la evolución futura de la World War One.
+[00:18:51] Son como que...
+[00:18:55] lineamientos, metas de alto nivel,
+[00:18:58] estoy a decir que el sistema sigue
+[00:19:04] durante todo el proceso de
+[00:19:08] todos los que hubiera.
+[00:19:11] Son los lineamientos generales.
+[00:19:14] Metas generales.
+[00:19:17] Luego vienen los exenarios.
+[00:19:20] Los atributos de calidad, ¿sabes?
+[00:19:22] Los atributos de calidad es un concepto muy importante
+[00:19:25] en generar eso, Juan.
+[00:19:26] Porque esto es lo que marca la arquitectura.
+[00:19:28] Esto es lo que nosotros queremos cumplir mediante la arquitectura
+[00:19:31] de estos atributos de calidad.
+[00:19:33] normalmente en los escenarios no es un
+[00:19:41] un especial contexto no es de
+[00:19:47] situacional no que va a generar la
+[00:19:50] arquitectura que va a generar el
+[00:19:53] criterio en el tributo calidad si se
+[00:19:55] acaba por ejemplo nosotros vivimos en
+[00:19:58] la ría guaterión como nosotros
+[00:20:00] volvíamos de detallar escenarios de
+[00:20:02] de la respuesta. Y detallando por
+[00:20:06] el acuento del estímulo, cuál es
+[00:20:08] el estímulo, qué artefacto se
+[00:20:10] lo ve impactado, cuál es el
+[00:20:12] contexto del artefacto, cuál es
+[00:20:14] la respuesta de este estímulo
+[00:20:16] y cómo nosotros podemos ver la
+[00:20:18] respuesta.
+[00:20:20] Esa es una métrica en la
+[00:20:22] medición de la respuesta.
+[00:20:24] Entonces todo eso define el
+[00:20:26] escenario y es lo que se
+[00:20:28] suele poner también al inicio
+[00:20:30] de la arquitectura, estos escenarios de los atributos de calidad.
+[00:20:35] Y, ¡oh!
+[00:20:36] Finalmente, la ampliación ya la vimos, está en unas diapositivas al que nos va a decir
+[00:20:43] que nos iba a decir, entonces, este es un ejemplo, casi se explica ya lo sé,
+[00:20:53] y esto es un ejemplo de un buen escenario, en este caso en la que la calidad es el desempeñe
+[00:20:58] de la ampliación, entonces nosotros tenemos una fuente del estímulo,
+[00:21:02] de los mil profesores que
+[00:21:04] conectan el programa
+[00:21:05] concurrente tenemos el estímulo
+[00:21:07] suben un archivo de 15 megas
+[00:21:09] la fuente del estímulo es la
+[00:21:13] protección simultánea de profesores
+[00:21:15] el estímulo es que suben
+[00:21:19] 15 lejas de archivo
+[00:21:21] el entorno es
+[00:21:23] como este contexto o como el este
+[00:21:25] el entorno sentí una
+[00:21:27] velocidad de subida de internet entre
+[00:21:29] 1.5 mea bits por segundo
+[00:21:31] ¿Cuál es el artefajo que sería infantado?
+[00:21:35] La página web para subir archivos del sistema de laula virtual.
+[00:21:39] ¿Sí?
+[00:21:40] Ponen la respuesta, luego de subir el archivo de subido
+[00:21:44] y puestos de disposición de los estudiantes.
+[00:21:47] Ponen la métrica a medir, la medida de la respuesta.
+[00:21:51] Es el 95% de los archivos están disponibles en un método de 5 segundos.
+[00:21:55] ¿Sí?
+[00:21:57] entonces estamos tratando de
+[00:22:00] tener un escenario en el
+[00:22:03] desempeño en la en el
+[00:22:05] upload, no, este, de archivo,
+[00:22:09] de 15 megas, ¿sé?
+[00:22:12] como el sistema barracional.
+[00:22:22] Y como tercera parte inicial,
+[00:22:24] no éramos, pétas de la
+[00:22:26] arquitectura, escenarios,
+[00:22:28] de la februda de calidad,
+[00:22:30] miedan las restricciones.
+[00:22:33] Las restricciones son la
+[00:22:34] de la cultura que hayan sido más. Algunos ejemplos de restricciones. Acuerda que cuando
+[00:22:45] definíamos lo que eran las restricciones, que eran distintos a los que eran las restricciones,
+[00:22:54] como por ejemplo el desempeño. Una restricción es algo que normalmente son políticas,
+[00:23:00] son decisiones tecnológicas, técnicas que se han tomado y que su influencia no se permite realizar
+[00:23:09] una junta. Por ejemplo, pueden ser los repos, esa programación pueden ser pasatidatos,
+[00:23:20] con la cual te crees que la parte de la organización trabaja con determinada base, tienes que
+[00:23:26] de la gente. Si no, no, no,
+[00:23:29] como parte de los estandares
+[00:23:33] tecnológicos, bien de la
+[00:23:36] organización que trabajas,
+[00:23:39] te dice, oye, ¿acá solamente
+[00:23:41] podemos utilizar 3 de los
+[00:23:43] programas paseados? Nada más.
+[00:23:45] Entonces, caballero, tienes
+[00:23:47] que elegir un recopil. Si,
+[00:23:50] ehh, ehh, ehh, ehh, ehh,
+[00:23:53] infraestructura también, por
+[00:23:55] de tener, no sé, la disponibilidad de servicios, pero no, normalmente tenemos un transpuesto,
+[00:24:04] solo una cantidad determinada del servicio. Este horno de tonico, por ejemplo, no, también
+[00:24:10] es una restricción, no, que uno decía de repente tener los, tipo SOAD, no, al que
+[00:24:55] La aplicación de repente pues este,
+[00:24:59] hay que ser una aplicación multiplatafón,
+[00:25:01] si fuera una aplicación móvil no puede ser una aplicación activa.
+[00:25:04] ¿Pero si no tiene una restricción?
+[00:25:06] No, este...
+[00:25:08] Y así, bueno, pueden haber varias restricciones,
+[00:25:13] cuando te darás en cuenta,
+[00:25:15] porque digamos que no hay una toma de decisión
+[00:25:19] por parte del equipo de arquitectura,
+[00:25:22] que es la arquitectura ¿No?
+[00:25:26] Si realmente, bueno, quieres
+[00:25:28] por si es que hacer, no puedes
+[00:25:30] tomar la lección ese.
+[00:25:34] y los estilos
+[00:25:35] arquitectónicos o
+[00:25:36] arquitecturales ¿No?
+[00:25:38] también vale la pena un poco
+[00:25:40] detallar algunas este
+[00:25:42] algunos estilos
+[00:25:44] que se está haciendo o los estilos
+[00:25:46] arquitectónicos que se
+[00:25:48] principió el seguido ¿No?
+[00:25:50] que los servicios no soan,
+[00:25:54] que por el capas están tratando de
+[00:25:57] implementar mejor los servicios,
+[00:25:59] como algún otro estilo
+[00:26:01] arquitectural acá ustedes no
+[00:26:03] pueden sugerir los nuevos
+[00:26:05] típicos. Es parte obviamente
+[00:26:08] de la extrema de arquitecto,
+[00:26:10] la arquitecto dice que se va a
+[00:26:12] seguir determinado tipo de
+[00:26:14] arquitectura, para que sea el
+[00:26:16] lugar donde se funda.
+[00:26:19] de la primera parte, ¿no? La
+[00:26:23] primera parte del documento
+[00:26:25] arquitectura. Y a partir de eso
+[00:26:27] un vistazo general, eh, de la
+[00:26:29] decisión de la arquitectura,
+[00:26:31] pero luego ya es necesario pasar
+[00:26:36] a más de time. Y es ahí donde
+[00:26:38] se explica eh el poder de
+[00:26:41] vistas. Sí, el modelo de vistas
+[00:26:43] del documento de la
+[00:26:43] pintura. De acuerdo, vimos
+[00:26:45] la casa anterior que eh, una
+[00:26:48] forma de poder documentar la
+[00:26:50] la arquitectura de un software,
+[00:26:52] que se lo hizo bastante,
+[00:26:53] pero era para que ya te vistas,
+[00:26:55] para que te enfoques.
+[00:26:57] Y cada vista se orientaba a poder responder,
+[00:27:01] o ayudaba a responder,
+[00:27:03] o a describir alguna faceta y eso.
+[00:27:06] ¿No? Sí.
+[00:27:09] Entonces realmente son cuatro vistas,
+[00:27:12] dirías,
+[00:27:13] tenemos la vista funcional,
+[00:27:15] tengo la vista lógica,
+[00:27:17] tengo la vista de interpretación,
+[00:27:19] que tenemos la vista de este
+[00:27:25] Sí. Sí. Entonces, aportamos
+[00:27:27] Vista. Algunos incrementan una
+[00:27:29] quinta vista que es la la vista
+[00:27:32] de escenarios, sí, pero algunos
+[00:27:36] que es una forma de poder
+[00:27:40] escribir mejor los escenarios
+[00:27:42] de atributos de calidad. Sí,
+[00:27:44] alguna quinta vista. Es este
+[00:27:47] que tiene estas cuatro vistas que
+[00:27:52] son las básicas y tienes una
+[00:27:55] piscina media más.
+[00:28:02] Vamos a comenzar con la
+[00:28:05] piscina.
+[00:28:10] Si yo traté de de de de
+[00:28:14] de de de de de de de de de de de
+[00:28:17] de de de de de de de de de de de
+[00:28:21] bien su tiempo.
+[00:28:23] Lo bien levantado un poco para que ustedes puedan mirar
+[00:28:28] a San Dona o su documentación, su documentación del trabajo,
+[00:28:32] ¿no? Que ya saben que se tiene que entregar este domingo.
+[00:28:37] ¿Sí? Para que...
+[00:28:45] Eh...
+[00:28:47] ¿Es porque que se ha dado el otro mes, no?
+[00:28:51] ¿Es algo parecido al modelo seco?
+[00:28:55] son parecen, son formas de
+[00:28:59] son una forma de
+[00:29:06] el modelo cuatro más uno es una
+[00:29:09] forma que tiene muchos años.
+[00:29:13] Algunos no los gusta mucho
+[00:29:17] porque pareciera que no hay un
+[00:29:21] orden muy orgánico de las patas.
+[00:29:24] lo dividen vistas, si, lo dividen vistas, pero no hay un
+[00:29:34] ent, o da, no es cierto, es un poco complicado demostrar la
+[00:29:41] relación entre las pistas, ¿no? Y de hecho no hay relación,
+[00:29:45] ¿no? Si no cada pista detalla el enfoque o punto de vista
+[00:29:55] distintos, de, de software, entonces como que no hay mucha
+[00:29:59] relación entre las visitas, el cambio del otro modelo 4 y entre las partes si se marca una
+[00:30:05] relación de nivel de abstracción. Si podría, de cierta forma, tener un poco más de un
+[00:30:13] objeto al momento de creer, ser un poco más fácil de reestructurar ese funilismo.
+[00:30:17] Bien, vamos a ver cómo está.
+[00:30:25] ¿Qué significa lo que significa
+[00:31:04] un riquísimo?
+[00:31:13] ¿Qué significa lo que significa un riquísimo?
+[00:31:55] Porque nosotros somos un formato de un montón de
+[00:32:01] requisitos.
+[00:32:04] son más de un montón de requisitos, ya.
+[00:32:08] No haber un montón de requisitos en el software, ya.
+[00:32:14] Pero nosotros no vamos a tener que documentar todo los requisitos.
+[00:32:25] Pero hay algunos que son muy importantes,
+[00:32:27] que son requisitos que ustedes consideran clases en el territorio.
+[00:32:31] Recuerdan, había la mayor...
+[00:33:04] que se utiliza la historia del usuario en este caso, la historia del usuario que tiene que estar bien especificada,
+[00:33:12] es imposible acompañar a de mocaps o pantallas, si existen las pantallas de pantallas,
+[00:33:21] no, es, no, no solamente eso, sino también que algunos diagramas que podrían acompañarse,
+[00:33:31] Por ejemplo, este, el diarama de repente era de actividades, no quizás, pero nuevamente
+[00:33:50] son unos escenarios de los requisitos funcionales clave, que ustedes consideran que son lo
+[00:33:58] que va a generar lo que podría impactar en la arquitectura de su sopa.
+[00:34:03] por ejemplo, ¿No? Si yo estoy haciendo Marketplace, ¿No?
+[00:34:08] Entonces es muy probablemente mi escenario principal
+[00:34:13] y que pueda tener un impacto fuerte en la arquitectura,
+[00:34:15] es la compra, ¿No? La compra del bien, la compra de un servicio,
+[00:34:20] o inclusive el pago, ¿No?
+[00:34:22] Es muy importante, muy importante
+[00:34:27] y todas las funcionalidades que están relacionadas,
+[00:34:30] porque es un es un rato que siente un impacto decisivo de
+[00:34:35] la vida. No volviendo a la vista lógica, la vista lógica
+[00:34:46] nos ayuda a poder visualizar los distintos componentes
+[00:34:53] lógicos ya dentro de esta arquitectura. Normalmente se
+[00:34:59] utilizan para satisfactor la responsabilidad de los
+[00:35:01] requisitos funcionales y también los reproducidos de
+[00:35:04] la calidad, pero son los distintos componentes sin entrar en detalles técnicos, es una vista
+[00:35:11] de loco o también, pues hay un lugar a explicar el dominio sobre lo cual nosotros estamos
+[00:35:16] construyendo un herramienta. Entonces acá por ejemplo, vamos a describirlo, lo necesito
+[00:35:25] sus sistemas, los necesito sus sistemas por interfaces que pueden haber dentro de la
+[00:35:32] y la afinitación, ¿no?
+[00:35:36] Las clases, cómo se organizan los temas
+[00:35:40] hasta llegar a las clases, ¿no?
+[00:35:43] Y las clases también se…
+[00:35:47] En esta vista…
+[00:35:52] A ver, que te tenen en cuenta,
+[00:35:53] sobre lo uno realiza la documentación
+[00:35:56] de la arquitectura mediante la vista
+[00:35:58] enlófica, las metas de la arquitectura
+[00:36:01] esto que yo ya he dicho las mecánicas de la arquitectura es importante tener en cuenta los
+[00:36:11] escenarios de calidad, los requisitos funcionales y efectivos, las restricciones, algunos estilos
+[00:36:22] arquitectónicos seleccionados, hay que tenerlos en cuenta solamente. Lo que nosotros vamos a hacer
+[00:36:28] es comenzar a descomponer nuestro sistema en componentes, que hacen sus componentes,
+[00:36:33] sus sistemas en su el sistema en sus sistemas en el subsistema en distintos componentes hasta llegar
+[00:36:42] a las clases hasta llegar a la clase. Se acuerda que habíamos dicho que se ha que se ha se tiene
+[00:37:18] que tomar en cuenta los restriculosos arquitectónicos. Entonces por ejemplo, que hay un restriulo
+[00:37:22] de la vida, el estilo arquitectónico,
+[00:37:27] la arquitectura de capas, ¿Sí?
+[00:37:30] En el cual tenemos una capa de
+[00:37:32] presentación, una capa de
+[00:37:33] enozco y una capa de edad.
+[00:37:35] Tenemos tres capas, tres capitas, ¿Sí?
+[00:37:38] Es su vestido arquitectónico.
+[00:37:42] Es este estilo arquitectónico como
+[00:37:44] se viene que va a crear a la
+[00:37:46] vista lógica, ¿No?
+[00:37:48] A la vista lógica, con tu vista
+[00:37:50] lógica, en tus componentes,
+[00:37:52] que tienen que tener algunos
+[00:37:54] sistemas que pertenecen a la
+[00:37:57] capa de presentación, otros que
+[00:37:59] pertenecen a la capa de negocio,
+[00:38:01] otros que pertenecen a la capa
+[00:38:03] de adentro y poder mostrarlo,
+[00:38:04] no? Acá vemos, tenemos la capa
+[00:38:06] de presentación, sí, que tiene
+[00:38:08] dos componentes, los componentes
+[00:38:10] interfaz gráfica, los
+[00:38:11] componentes de procesos, no?
+[00:38:13] Tenemos la capa de negocio,
+[00:38:15] que tiene la fachada, no?
+[00:38:17] De aplicación, tiene lo que es
+[00:38:19] el vuelo del negocio, los
+[00:38:21] como está compuesto en este caso la capa de negocio.
+[00:38:25] Luego tenemos la capa de datos, tienen los componentes de acceso a datos,
+[00:38:29] tenemos las utilidades a los helpers y tenemos los agentes.
+[00:38:33] ¿No?
+[00:38:34] Entonces, que así dedica a las bases de datos o se comunican como otros servicios externos.
+[00:38:39] Si, ejercicio del usuario, del cliente, el cliente del browser.
+[00:38:45] Así que un componente de la actualización del browser, no, pero no hay que desentrarlo.
+[00:38:51] entonces nosotros hemos mapeado ¿no? Una arquitectura de de capas, una arquitectura de
+[00:38:57] citation, vista de estada, la hemos mapeado pues ya a cómo se está implementando la
+[00:39:05] realidad esa arquitectura con los distintos componentes que la componen.
+[00:39:10] A ver, cómo modelar, cómo modelar la, esta vista que le ha dicho se pasa en la vista que ustedes
+[00:39:30] que se presentaron. ¿No? Ya. Pueden utilizar estos tres diadrabes. Ya. Pueden utilizar un diadrabes
+[00:39:47] clases que obligatoriamente tienen que hacerlo, o sea, por suerte, me quita acá,
+[00:39:52] diadrabes clases. Si puedes utilizar un un capa de atracción mayor o un diadrabes bajetes,
+[00:40:01] ¿No? Si o pueden también utilizar un diagrave componente, ¿Sí?
+[00:40:09] Un diagrave componente, de esa forma ustedes van en modelado como es todo so, ¿Sí?
+[00:40:16] Como desde los componentes pascos, que son las clases, los componentes que normalmente
+[00:40:24] están compuestos en clases hasta los subsistemas, están compuestos normalmente de componentes.
+[00:40:30] entonces es una forma como ustedes este paro modelando
+[00:40:38] eso es lo que yo quiero ver
+[00:40:44] yo quiero ver en su documentación que van a presentar ahora
+[00:40:48] queremos ver todo a lo que es
+[00:40:51] queremos ver su diadrama y clases pero no solamente su diadrama y clases
+[00:40:56] sino queremos ver también su diadrama y componentes
+[00:41:00] y queremos ver también su diadrama de subsistemas o su diadrama de bajetes.
+[00:41:04] ¿Sí?
+[00:41:08] Solamente para hacer una creación.
+[00:41:11] Ya nos dejo su criterio, ya.
+[00:41:18] Ya nos dejo su criterio.
+[00:41:20] También depende bastante de qué tan complejo se le da,
+[00:41:23] porque siempre que un modelo, un diadrama,
+[00:41:25] así, un diadrama,
+[00:41:26] la idea es que el diadrama se entienda.
+[00:41:29] Hay así que el diadrama no lo entienda nadie.
+[00:41:31] Lo que se puede entender es la idea.
+[00:41:34] ¿Sí?
+[00:41:36] entonces ustedes pueden convidar algunos diagramas por ejemplo este diagrama de
+[00:41:43] sus sistemas o de paquetes a veces se combina con diagramas componentes por ejemplo
+[00:41:50] ustedes están modelando un WAPiRest en web
+[00:41:56] normalmente tienen una aplicación de paquetes
+[00:42:00] tiene una aplicación de paquete que es su subsistema o su paquete, ¿no?
+[00:42:06] tiene esa aplicación de paquete
+[00:42:10] de paquete, paquete, paquete
+[00:42:17] y dentro de este subsistema de esta aplicación de este módulo que también se le llama
+[00:42:22] ustedes tienen varios componentes
+[00:42:24] podrían tener un componente
+[00:42:30] que acá, bueno
+[00:42:36] ¿Pero escribes así? No, se cuida que nos le hace un buen VL, un componente que podría hacer el LAPI, ¿no?
+[00:42:48] LAPI, pero también podría tener un componente que sea base de datos, no sé, ¿no?
+[00:42:56] La base de datos es también un componente, ¿no? Ahora podría hacer con otros sistemas, ya depende de ustedes
+[00:43:05] como lo quieran, lo quieran más, lo hacedá. Normalmente tiene una relación, ¿no? Entre ellos.
+[00:43:15] Pero no lo sé, entre ellos. Y probablemente tiene que tener otro componente que sea
+[00:43:25] este... Complicación web, ¿no? Complicación web. Sí, y su aplicación web, o su
+[00:43:37] web from it, probablemente puede tener otros componentes, por ejemplo,
+[00:43:50] tendrán sus componentes, o sea, dependiendo, el piso de utiliza puede tener
+[00:43:59] hasta sus pages, puede tener sus componentes,
+[00:44:09] igual lo pueden tener más. Normalmente me encuentro en él. Usa, no, porque el backend
+[00:44:26] lo ofrece. Usa lo que el backend lo ofrece. A ver, podría haber ahí una pregunta,
+[00:44:36] podría haber ahí una pregunta, podría decir, este diagrama me indica que es un logo
+[00:44:43] no es un poco potacional, una computadora que está instalado el
+[00:44:47] backend y en vosotros está instalado el from-end. No, este es
+[00:44:51] una vista este lógica. Y nosotros no estamos entrando en
+[00:44:55] detalles de la tecnología, tampoco estamos entrando en detalles
+[00:44:59] que es una petición HTTP. No, o sea, no se entre en ese
+[00:45:03] detalle en el que tengo, por lo menos en la vista logica.
+[00:45:07] Simplemente tenemos un componente, un módulo que es el módulo
+[00:45:11] que se ha conformado con dos componentes, uno para las otras components, tenemos otro modelo,
+[00:45:18] otro sistema que es el bucket, que está conformado por un API, por una base A2, sí, por una base A2.
+[00:45:27] Como que?
+[00:45:45] Entre componentes, ya, ya, entre componentes existe algo.
+[00:45:54] O sea si usted me da esto, me dejan esto así.
+[00:45:57] Está bien este talle, que es tu componente pódulo de backend y es tu módulo de PondROM it
+[00:46:05] Pero que se comunitan chévere.
+[00:46:08] ¿No? Estás dando algo de detalle, pero hay algunos que quieren esto,
+[00:46:13] que entraron muchísimo más a detalle, pero ya entren las relaciones de los
+[00:46:17] componentes, porque los componentes también están relacionados, ¿No?
+[00:46:22] Como comprenderán, están relacionados.
+[00:46:26] Entonces, esta es una lectura del componente del diágrama de paquetes,
+[00:46:33] como el diágrama de componentes, de subunidades, pero hay veces que tú quieres tener mucho más
+[00:46:37] de las relaciones entre los componentes, no de los sistemas, sino de los componentes.
+[00:46:43] Entonces tú podrías ya hacer un diágrama de componentes solitos, ¿no? Si usted quiere tener más detalle.
+[00:46:50] ¿Cómo variaría el diágrama de componentes? Entonces yo diría que es un diágrama de componentes.
+[00:46:56] Diágrama de paquete. Pero detallado, ¿no? O sea, detalles que vean más o menos cada paquete.
+[00:47:05] de aquí es un diarama de
+[00:47:14] pacientes, ¿Verdad? Pero como
+[00:47:16] les digo, hay meses que tú
+[00:47:18] quieres saber más detalles,
+[00:47:20] pero de estos componentes,
+[00:47:22] porque acá el único que tú
+[00:47:24] marcas es la relación entre
+[00:47:26] los maquetes, entre los modos.
+[00:47:30] Entonces, ¿Eso va a cambiar?
+[00:47:32] No, es de un poco más.
+[00:47:35] Entonces, el diarama de
+[00:47:44] perdón el diálogo de componentes tienen como sería esto mismo como sería el diálogo de componentes
+[00:47:53] los que ya no me interesan los susficientes yo me voy a fijar solamente los componentes entonces
+[00:47:59] tenemos un componente aquí tenemos un componente aquí tenemos un componente baseados los mismos
+[00:48:08] componentes que teníamos, pasos de datos. Tenemos un componente Pages, hecho ViewModels,
+[00:48:22] para hacer ViewModels, ¿cuál es? ViewModels y acá Pages, por las páginas y acá es un componente que
+[00:48:42] sean los componentes. Entonces, como hizo el día de la mar, las relaciones entre los componentes.
+[00:48:50] por ejemplo el p-models, el p-models va a ser una petición htp, se da a comunicar con la que entonces el
+[00:48:58] lafe normalmente expone, esta es la forma como expone un interfaz, un interfaz en que el p-model la va a
+[00:49:05] consumir mediante una petición htp, esta es la nomenclatura, esa es la nomenclatura, los p-model en la
+[00:49:17] aplicación webfroging, mediante una petición HTTP, va a consumir la interfaz del
+[00:49:26] patroa que, y la base de datos también expone ciertas interfaces, la va a consumir
+[00:49:32] esta interfaz. Normalmente, los pages utilizan los mismos
+[00:49:45] de los model, ¿No? Se lo corresponde con el interfaz que la utilizan los pages, sí,
+[00:49:52] si, y realiza acá esta categoría en determinar relación de los componentes, no.
+[00:50:02] Como mismo, yo tuve un arama de componentes ya detallando específicamente las relaciones,
+[00:50:10] no entre cada uno de los componentes que conforma la condición, ¿Sí? Entonces,
+[00:50:19] es, esto es lo que ustedes deben
+[00:50:21] cancelar en el diarama,
+[00:50:23] perdón, en la vista lógica,
+[00:50:25] no estoy así en el diarama y clases
+[00:50:27] porque el diarama y clases,
+[00:50:29] ustedes ya lo conocen, pero también
+[00:50:31] se tiene que hacer el diarama y clases.
+[00:50:33] Lo que hemos visto, ¿no?
+[00:50:42] La vista general, pues el diarama y
+[00:50:44] paquetes, una vista mucho más
+[00:50:46] interna, nos da
+[00:50:48] los diaramas de componentes
+[00:50:50] y el diarama y clases
+[00:50:52] y abajo es directamente a
+[00:50:54] como se comportan los estilos diferentes,
+[00:50:59] y una gran modalidad mayor,
+[00:51:01] a una gran modalidad mayor.
+[00:51:05] Errol es común es no conocer los estilos arquitectónicos,
+[00:51:09] sí, los estilos arquitectónicos y agarrados trigemétricos,
+[00:51:13] confiar solo en los requisitos del negocio,
+[00:51:17] no saber la notación de MLA,
+[00:51:19] hasta aquí.
+[00:51:20] Y bueno, estos diagramas tienen que ir acompañando
+[00:51:23] el cierto texto que explica en cada uno de los componentes,
+[00:51:26] que nos explica.
+[00:51:28] de la visita de implementación o la vista de componentes.
+[00:51:38] Si acá entramos en un poco más de detalle,
+[00:51:42] que entramos en un poquito más de detalle,
+[00:51:44] porque ya queremos
+[00:51:46] nosotros detallar la organización real de los visitos pódulos
+[00:51:49] del SOFAR en un entorno a desarrollo.
+[00:51:52] Si, como se empaje del código,
+[00:51:55] qué oliverías utilizamos,
+[00:51:57] los ejecutales que se generan,
+[00:52:00] vamos a detectar la parte FIS,
+[00:52:03] mientras que muy lógica era no entrabamos en detalles técnicos acordados, no entrabamos en detalles técnicos, acá no te dice que tecnología utiliza para que estamos componentes, en la vista de implementación ya se entre en esos detalles.
+[00:52:17] entonces, por ejemplo, ¿no? En esta pista se utiliza mucho en los que son los diágramos
+[00:52:27] donde este diáramo de componentes lo pueden volver a utilizar, ¿sí? O para los aspectos
+[00:52:33] de diámenos del software, en los diáramos de Estados, por ejemplo, los diáramos de
+[00:52:38] de la energía, de las
+[00:52:41] energilidades, los diaramas
+[00:52:47] de interacción, antes.
+[00:52:53] ¿Qué?
+[00:52:55] Como netes, perdón.
+[00:52:57] Esa que se suele utilizar
+[00:53:00] para estar de acá, de esa vista.
+[00:53:04] Se puede adhesionar el diarama de
+[00:53:06] paquetes, ya, o sea, este diarama
+[00:53:08] de acá arriba se puede mencionar,
+[00:53:10] pero solamente
+[00:53:12] no es que oponen sus ojos, no en fin de encontrar los sistemas de software, por eso acá está
+[00:53:22] entre el paréntesis. Es usado para mostrar la jerarquía de sus directorios o sus sistemas
+[00:53:28] del código, acá tú ya estás detallando el código. Bueno, hay que tener en cuenta cuando
+[00:53:51] por ejemplo, uno avaliza esta vista por las reflexiones de los
+[00:53:55] atributos, las reflexiones de la actualidad, los
+[00:54:00] mercenarios de los atributos de calidad también, los
+[00:54:03] programíais, los relatos, y eso lo puedo ver como de
+[00:54:09] otra fiela, ¿no? que tiene esta vista que la vista
+[00:54:12] es fiel. La vista es fiel pues es la vista que te diga
+[00:54:16] cómo tú vas a instalar, de instalar los citas componentes,
+[00:54:20] de soporte, artefacto de soporte
+[00:54:25] ¿Cómo vas a distribuir?
+[00:54:30] Acá el básico, el diárama de
+[00:54:34] espliegue, principalmente.
+[00:54:38] Normalmente, normalmente, no
+[00:54:42] necesariamente, pero normalmente,
+[00:54:45] que el diárama de espliegue se
+[00:54:47] anila, se anilla, se enganla,
+[00:54:50] de la vida, cada capa debería
+[00:54:57] estar en su propio, su propia
+[00:55:00] vida popular. Eh, debería, si
+[00:55:04] queremos que cada capa tenga
+[00:55:07] bueno, suficiente de cómpluc,
+[00:55:09] pero eso no es el orden de
+[00:55:11] amor, no es eso, eso depende
+[00:55:13] pues, eh, el tipo de
+[00:55:18] explicación que está
+[00:55:19] normalmente con este diagrama, el diálogo de piel, estos cubitos de acá
+[00:55:25] muestran o detallan una unidad de cómputos, un nodo computacional
+[00:55:33] y dentro normalmente del nodo computacional, lo que ven acá como
+[00:55:38] componentes, son los artefactos de software que están instalados, que están
+[00:55:43] que se están ejecutándose y
+[00:55:48] no es el modo computacional.
+[00:55:51] Por ejemplo, acá el Timbox System
+[00:55:54] que se da cuenta que tiene
+[00:55:56] este componente de Playback
+[00:56:00] Metalization y Playback Sport
+[00:56:03] que está en el tiempo no
+[00:56:08] computacional que se llama el
+[00:56:10] Timbox System.
+[00:56:16] ya es de hacer algunas cosas
+[00:56:24] para hacer, la última es la
+[00:56:26] vista de procesor. La vista de
+[00:56:35] procesor es el
+[00:56:41] no sé, no es por detalle del
+[00:56:44] proceso. Ya pero hay un hay
+[00:56:49] un criterio acá muy importante
+[00:56:51] a la hora de de de ¿Qué es lo
+[00:56:54] que tú vas a describir? Es que
+[00:56:56] realmente, son realmente, son un
+[00:57:00] referimiento no funcional. O sea,
+[00:57:04] ser un proceso de la aflicación
+[00:57:07] que realmente necesita, necesites
+[00:57:10] tomar una decisión, ¿sí?
+[00:57:14] En temas de repartir de
+[00:57:16] confunencias, de tolerancia,
+[00:57:18] varias, etcétera. ¿Cómo vas a
+[00:57:21] pues, en esta amistad, modelar
+[00:57:24] pues un logo, por ejemplo?
+[00:57:27] no vas a modelar pues un proceso de filtrado de estudiar alumnos según su carrera. No.
+[00:57:39] O sea, tienes que enfocarte en las funciones de aquellas que realmente el poder de un
+[00:57:44] impacto y en algunos de los escenarios de la calidad de tu sopa.
+[00:57:48] que es muy importante.
+[00:57:57] Por ejemplo, si usted se encuentra como
+[00:57:59] escenario que podría generar,
+[00:58:02] porque si está usted es lo
+[00:58:03] enfrentado para que se pueda
+[00:58:06] estar de forma componente,
+[00:58:08] no, o sea, es mi país,
+[00:58:10] por varios siglos,
+[00:58:12] entonces, se suciente pues
+[00:58:15] y en general, en un proceso,
+[00:58:19] porque eso es un proceso complejo que lo que va a hacer es poder mejorar la
+[00:58:23] performance de su software. Es poderlo detallarlo. Los diagramas son los mismos,
+[00:58:34] aunque por ejemplo diagramas de secuencia, diagramas de actividades, diagramas de
+[00:58:39] estados, sensores de utilización para detallar estas decisiones, de
+[00:58:45] de la arquitectura y procesos
+[00:58:50] críticos clave.
+[00:58:53] Nuevamente no es necesario que
+[00:58:57] ustedes dañen procesos
+[00:59:01] críticos, no son procesos
+[00:59:05] de soporte, no es necesario
+[00:59:09] no se nos quiere. Bueno, este es el poderlo cuatro más unos chicos. Eh, tenemos la vista
+[00:59:19] funcional, tenemos la vista funcional, tenemos la vista lógica, tenemos la vista de lamentación,
+[00:59:31] lamentación, tenemos la vista de pie, eh, y tenemos la vista de proces. Cuatro más
+[01:00:20] de poder verlo de distintos
+[01:00:26] pero entre estos, entre estos
+[01:00:29] listas, entonces en focus pues
+[01:00:31] no hay mucha relación, el más
+[01:00:33] uno lo que trató un poco es de
+[01:00:35] alinear a los escenarios
+[01:00:38] críticos, pero
+[01:00:41] es muy descenitivo, no?
+[01:00:43] pero bastante
+[01:00:45] eso no es nada, entonces
+[01:00:47] en los últimos años
+[01:00:49] que en los últimos años se le dio otro modelo.
+[01:00:54] ¿Qué es el modelo C4?
+[01:00:56] ¿Qué es un modelo un poco más, digamos,
+[01:01:01] que ordenado de documentación a partir del nivel de abstracción?
+[01:01:07] O sea, tus ojos ya no lo ves desde distintos puntos de vista.
+[01:01:11] Tu software lo vas viendo desde arriba y luego vas bajando,
+[01:01:16] haciendo sumin sumin sumin sumin y conforme vas haciendo sum se te va mostrando nuevas cosas
+[01:01:22] si entonces digamos que en la acción mayor te da una imagen lo que lo brindó le llaman el
+[01:01:31] big turn no te da una imagen en general en todo tu software y conforme tú vas haciendo sum vas
+[01:01:39] contrando el detalle de puntos específicos de tu software y vas encontrando ahí documentación
+[01:01:44] mucho más detallada y así se decía, pues entrando en la extracción.
+[01:01:49] Similar a lo que uno hace como el Maps, cuando hace más, un bit sumin o sumados.
+[01:01:55] Entonces este modelo C4,
+[01:02:02] tiene estas cuatro capas, nuestra documentación,
+[01:02:06] dividir la mesa en cuatro capas.
+[01:02:07] En la capa de contexto, en la sobrecontenedor,
+[01:02:10] en la capa de componentes y en la capa de córner.
+[01:02:13] Por eso es C4, ¿no?
+[01:02:15] C4.
+[01:02:17] ¿Qué? Entonces, en teoría, con esto, nosotros podemos movernos fácilmente entre los distintos niveles de acción de nuestra arquitectura, ¿eh?
+[01:02:28] Y tener respuestas de la... de la que nosotros esperamos.
+[01:02:33] Entonces, bueno, que es un poco la guía, ¿no?
+[01:02:42] Este, que se puede seguir...
+[01:02:44] ¡Ah! Sí, acabe con los distintos niveles, lo que les decía, ¿no?
+[01:02:49] en el que se va a hacer todo.
+[01:02:53] En un nivel alto pues tienes el
+[01:02:55] picture. La capa de con
+[01:02:58] el de contexto, luego va haciendo
+[01:03:00] su, es la capa de contenedor, el
+[01:03:02] nivel de contenedores hace más
+[01:03:04] su, es cada uno de los componentes
+[01:03:06] se van explotando. No, es
+[01:03:08] más información que así va a
+[01:03:10] llevar el por.
+[01:03:14] De verdad por.
+[01:03:18] Por.
+[01:03:20] Por ejemplo, no, este es un
+[01:03:22] que tiene el sistema de
+[01:03:29] el bancario, tiene sacado los
+[01:03:32] componentes, el componente
+[01:03:34] principal, como que es el sistema
+[01:03:38] que usted está tratando de
+[01:03:40] documentar, tienes el actor
+[01:03:42] principal que va a interactuar
+[01:03:44] con el sistema que tú vas a
+[01:03:46] documentar y tienes los
+[01:03:48] sistemas externos que tú los
+[01:03:51] necesitas divisar para poder
+[01:03:53] por ejemplo el sistema de email y el sistema de mail, el sistema bancario.
+[01:03:59] Entonces, esa es la capa más alta del sistema. Te da información bastante
+[01:04:05] contextual, tengo mi sistema bancario que interactúa o sea que es utilizado por
+[01:04:12] clientes e interactúa con dos sistemas de email, el mailing y el mail
+[01:04:51] no tu sistema realmente está dividido en componentes.
+[01:04:57] Por todo esto era lo que era nuestro sistema.
+[01:05:00] Tenemos la aplicación web.
+[01:05:03] Tenemos la aplicación SBA, que es el program.
+[01:05:06] Tenemos la aplicación móvil.
+[01:05:10] Todas estas consumen el API.
+[01:05:14] Y el API es el que se conecta como el mainframe.
+[01:05:17] el app que se conecta con el sistema de mailing,
+[01:05:21] el app que se conecta con la base de apps.
+[01:05:24] Entonces acá yo ya comienzo a tener muchísimo más información
+[01:05:26] más detallada de las partes del sistema y cómo interactúan
+[01:05:31] las distintas partes del sistema.
+[01:05:40] ¿Llegos?
+[01:05:41] Entonces, el interviorama de contenedores, ¿no?
+[01:05:44] Pueden tener la forma de alto nivel de la arquitectura de
+[01:05:47] software que se va distribuendo las responsabilidades.
+[01:05:51] muestra cierve las opciones tecnológicas y como los contenedores se van comunicando entre sí.
+[01:05:58] Es un TierraPa bastante sencillo, bastante sencillo y resulta útil también para
+[01:06:05] ya usuarios un poco más técnicos. Por ejemplo, si tú quieres presentar la arquitectura de tu
+[01:06:12] software a una audiencia de repente de operación de una empresa, esto es lo primero que te
+[01:06:20] que te dan la prevención de
+[01:06:24] esto, ¿No? Es un detalle un poco
+[01:06:31] más técnico, pero más si no es
+[01:06:34] tan, ¿Verdad? Deímos surgiendo
+[01:06:38] nosotros, ¿No? Entonces,
+[01:06:42] entramos al diarabe de
+[01:06:45] componentes. Entonces, para la
+[01:06:49] aplicación SPA, ¿Cuáles son los
+[01:06:53] la aplicación móvil sino el API, se debe bien hablar, este es el API. El API está dividido en todos estos controladores o estos componentes conforman el API.
+[01:07:08] Se se vieron? Y están ahí. Muchos detalles, mucho mayor detalle pero solamente del componente API que el nivel anterior.
+[01:07:15] como estos componentes interactuales como los componentes externas.
+[01:07:20] Y la última parte del diáramas C4 es el código.
+[01:07:33] O sea, este es el control, este el component, está hecho en diáramas y clases.
+[01:07:42] Entonces son las clases y cómo se comunita las clases entre sí.
+[01:07:47] este nivel el nivel C4 según lo que plantea el modelo es opcional, es opcional, lo que
+[01:08:00] sugiere que si sea obligatorio es llegar hasta el nivel de componentes, lo que sugiere
+[01:08:10] del modelo que es el nivel de agrega valor, esto ya sería muy complicado detallar por
+[01:08:16] cada componente de software entrar, hacerle diagramas de clases, entonces podría ser un
+[01:08:21] poco complicado. Entonces solo se recomienda para componentes muy específicos, que requieren
+[01:08:32] una documentación mucho más precisa. Entonces este modelo es el 4. Es el modelo
+[01:08:42] que es un modelo es
+[01:08:47] relativamente sencillo, relativamente sencillo, no es muy complicado, pero que si uno se pone a hacer,
+[01:08:58] tener un espíritu crítico, no te da tampoco demasiada información como el modelo 4 más 1,
+[01:09:06] de la parte estápica del
+[01:09:10] sopo. Un poquito, un poquito te
+[01:09:13] das cierta idea, ¿no? Eh esta
+[01:09:16] comunicación, algo de
+[01:09:18] comunicación, pero no te da
+[01:09:20] mucho más detalle. En cambio,
+[01:09:23] por ejemplo, en el modelo 4
+[01:09:25] más uno, tú vas a encontrar
+[01:09:27] un modelo 4 más uno, por
+[01:09:28] ejemplo, te da información de
+[01:09:29] la dinámica del sopo. Este
+[01:09:31] modelo es 4 más 1, te da
+[01:09:33] información de la parte
+[01:09:35] estápica del sopo. Un poco
+[01:09:36] que vas a encontrar, por ejemplo,
+[01:09:40] diadrama de estados, para ver
+[01:09:43] cómo una entidad va cambiando de
+[01:09:46] estados, ¿No? Un diadrama de
+[01:09:48] actividades, un diadrama de
+[01:09:49] secuencias, de repente, es
+[01:09:51] cierto proceso que puede tener
+[01:09:54] mucho costo computacional,
+[01:09:56] entonces, es, puede no poder
+[01:09:59] describirlo, si, todo eso no
+[01:10:02] lo tiene, no lo sé cuál, son
+[01:10:08] y ahí lo vamos dejando vamos a hacer un break ya vamos a hacer un break
+[01:10:19] 15 minutos, chicos, finales, en 6 y media, comenzamos el último aglomatorio
+[01:10:29] ya saben que es por el por
+[01:17:16] ¿Qué es esto?
+[01:17:18] Sí, es que hay que ir ahí.
+[01:17:21] ¿Por qué no es una canción muy rápida?
+[01:17:26] Porque no tiene la suerte.
+[01:17:29] No, no, no, no.
+[01:17:32] No, no, no, no.
+[01:17:35] Está bien, está bien.
+[01:17:38] No, no, no, no.
+[01:17:41] Está bien.
+[01:28:00] ¿Qué es eso?
+[01:28:09] Ya chicos, ya les estoy viendo un tipo de oratorio, ya.
+[01:28:15] A ver, es opcional, ya.
+[01:28:18] Es opcional, es grúbal, pero opcional, ya.
+[01:28:24] Si algún miembro del equipo no está ahorita, no va a tener onda.
+[01:28:28] no solamente para los que están
+[01:28:30] pero gente de la y la hora que llegamos a ser
+[01:28:32] el final de esta generación.
+[01:28:34] Quieren que hacer este
+[01:28:36] y ganar más cuatro más uno
+[01:28:38] no de este
+[01:28:40] de esta aplicación de este caso.
+[01:28:42] Así que acá quieren los ejercicios, la vista lógica
+[01:28:44] entonces
+[01:28:46] quieren la vista de procesos
+[01:28:48] de la vista de desarrollo
+[01:28:50] implementación
+[01:28:52] la vista física o de
+[01:28:54] la vista funcional de Sinali
+[01:28:56] ¿No? Sí. Así desea. Ya no
+[01:29:04] desean pues si ya estás poniendo
+[01:29:06] con su nota. No es. Ya le
+[01:29:09] se impide. Ya le se impide el
+[01:29:13] laboratorio. Solo se puede
+[01:29:15] poner un laboratorio pero ya le
+[01:29:17] sé que todos los grupos tienen
+[01:29:19] un punto menos de grupos.
+[01:29:52] ¿Pero que es el punto de la
+[01:29:56] verdad?
+[01:29:57] Sí, es un punto, un más uno,
+[01:30:00] obviamente, solamente, más
+[01:30:02] y más cinco puntos, todo puede
+[01:30:05] hacer.
+[01:30:06] ¿Sólo es un punto?
+[01:30:09] ¿Sólo no se pudo usar?
+[01:30:12] ¿Qué pasa?
+[01:30:14] ¿Qué pasa?
+[01:30:16] ¿Qué pasa?
+[01:30:18] ¿Qué pasa?
+[01:50:28] ¿Qué?
+[01:50:46] Sonamente al otro privato que le voy a enviar ahorita un correo a los
+[01:50:51] FS grupo, ¿Ya?
+[01:50:57] Ya, el grupo uno es Melchiza, grupo dos, Diego García, ¿Eh?
+[02:19:28] Sí, sí, son muy diferentes.
+[02:19:30] Le vamos a dar un punto de tri.
+[02:19:32] Vale.
+[02:19:33] Por lo que estamos en el révelo.
+[02:19:35] Vale, por lo que os platico.
+[02:19:37] Por lo que os platico.
+[02:19:39] Porque la gente está crepiendo y es conciencia de que la paz como la ropa es.
+[02:19:41] Está bien.
+[02:19:43] Está bien.
+[02:19:45] Está bien.
+[02:19:47] Está bien.
+[02:19:49] Está bien.
+[02:19:51] Está bien.
+[02:19:53] Está bien.
+[02:19:55] Está bien.
+[02:23:41] El siguiente.
+[02:23:43] ¿Cómo creas la base de los otros?
+[02:23:45] No quiero decir que lo voy a dar a mí.
+[02:23:47] ¿Pero qué es esto?
+[02:23:49] ¿Pero qué es esto?
+[02:23:51] No sé.
+[02:23:56] ¿Qué es esto?
+[02:23:58] No sé por qué.
+[02:24:00] No sé.
+[02:24:02] ¿Por qué?
+[02:24:04] Porque ahí es mi base.
+[02:24:06] Por parte de los autos,
+[02:24:08] voy a...
+[02:24:10] ¿Por qué?
+[02:33:07] para no saber en marquín, porque no sabría cómo...
+[02:33:10] ¿Qué?
+[02:33:12] ¿Qué?
+[02:33:14] ¿Qué?
+[02:33:16] Ah, ok.
+[02:33:18] ¿Pero qué es lo que haces para inventar eso?
+[02:33:20] Es de...
+[02:33:22] Yo te lo digo.
+[02:33:24] ¿Qué?
+[02:33:26] ¿Qué?
+[02:33:28] ¿Qué?
+[02:33:31] Yo sé.
+[02:33:33] ¿Qué?
+[02:34:11] Vamos, vamos.
+[02:34:13] Gracias a una de las películas que hacía el servidor.
+[02:34:16] ¿Qué?
+[02:34:18] ¿Cómo?
+[02:34:20] ¿Cómo?
+[02:34:22] ¿Cómo se lo pasa?
+[02:34:24] ¿De res?
+[02:34:26] ¿De res?
+[02:34:28] ¿De res?
+[02:34:30] ¿De res?
+[02:34:32] ¿De res?
+[02:34:34] ¿De res?
+[02:34:36] ¿De res?
+[02:35:39] de lo que es que lo va a suficiar es
+[02:35:41] pero
+[02:35:43] no va a darlo a la gente
+[02:35:45] porque la soy igual no va a ser
+[02:35:48] el aim para que lo sujecite
+[02:35:50] enseguro
+[02:35:52] pero el aim va a
+[02:35:54] se va a transformar en eso
+[02:35:57] y el
+[02:35:59] y el aim va a que se leiga
+[02:36:01] y por eso va a
+[02:36:03] ponerse el pico
+[02:36:05] y por eso el pico
+[02:36:08] y por eso el pico
+[02:41:12] ¿Pero qué?
+[02:41:14] No, no.
+[02:41:16] No, no.
+[02:41:18] Ya, ya.
+[02:41:20] Ya.
+[02:41:22] Ya.
+[02:41:24] Ya.
+[02:41:26] Ya.
+[02:41:28] Ya.
+[02:41:30] Ya.
+[02:41:32] Ya.
+[02:41:34] Ya.
+[02:41:36] Ya.
+[02:41:38] Ya.
+[02:49:53] ¿Qué es la historia?
+[02:49:55] La historia es...
+[02:49:57] es una de 5 y una de 3
+[02:49:59] y la historia es...
+[02:50:01] una de 6 y una de 7
+[02:50:03] No, no, para el dame
+[02:50:05] tengo que decir que es un poco más
+[02:50:07] Sí, sí
+[02:50:09] No, no, no
+[02:50:11] No, no, no
+[02:50:13] Es una...
+[02:50:15] es una...
+[02:50:17] es una...
+[02:50:19] ¿Cómo?
+[02:50:21] ¿Cómo?
+[02:50:23] Estábamos a ver, así que nos perdimos.
+[02:50:26] Un lado, que es...
+[02:50:27] ¿Qué?
+[02:50:29] No, no, pero todo...
+[02:50:32] Sí, cuando se está con su año, ¿no?
+[02:50:35] Por favor.
+[02:50:39] La paliza para el asesino.
+[02:50:42] ¿Por qué no?
+[02:50:44] Es el con su...
+[02:50:46] Entonces, Julio, ya está ya.
+[02:50:48] ¡Ahh!
+[02:50:50] ¿Está bien?
+[02:50:52] Sí, bien, bien, bien.
+[02:50:54] Así es, así es, ya está.

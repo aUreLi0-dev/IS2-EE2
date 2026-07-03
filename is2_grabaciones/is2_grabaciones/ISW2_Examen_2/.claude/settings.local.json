@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pdftotext \"Semana 7 - ISW2 2026-1 Diseño de la arquitectura de Software.pdf\" -)",
+      "Bash(pdftotext \"Semana 8 - ISW2 2026-1 Documento de Arquitectura.pdf\" -)",
+      "Bash(pdftotext \"Semana 9 - ISW2 2026-1 Aseguramiento de la Calidad del Software.pdf\" -)",
+      "Bash(pdftotext \"Semana 10 - ISW2 2026-1 Pruebas Unitarias.ptx.pdf\" -)",
+      "Bash(pdftotext \"Semana 11- ISW2 2026-1 Pruebas Unitarias-MOCK.pdf\" -)",
+      "Bash(pdftotext \"Semana 12 - ISW2 2026-1 Pruebas de Rendimiento.pdf\" -)"
+    ]
+  }
+}

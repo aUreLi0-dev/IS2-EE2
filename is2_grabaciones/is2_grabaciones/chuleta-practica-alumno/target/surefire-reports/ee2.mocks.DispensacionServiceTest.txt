@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: ee2.mocks.DispensacionServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.008 s <<< FAILURE! -- in ee2.mocks.DispensacionServiceTest
+ee2.mocks.DispensacionServiceTest.todo_pendiente -- Time elapsed: 0.005 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Borra este test cuando hayas implementado (a)-(e): no encontrado, 1+ validación, camino feliz, y efectos colaterales con verify/never
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:142)
+	at ee2.mocks.DispensacionServiceTest.todo_pendiente(DispensacionServiceTest.java:83)
+

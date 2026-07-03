@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: ee2.cajablanca.GestorReservasSalasTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.116 s <<< FAILURE! -- in ee2.cajablanca.GestorReservasSalasTest
+ee2.cajablanca.GestorReservasSalasTest.todo_pendiente -- Time elapsed: 0.072 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Borra este test cuando tengas un @Test por cada camino independiente (mínimo V(G) tests)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:142)
+	at ee2.cajablanca.GestorReservasSalasTest.todo_pendiente(GestorReservasSalasTest.java:54)
+

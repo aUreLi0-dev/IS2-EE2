@@ -1,0 +1,767 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>CASO AMANECER</title><meta name="data-notion-page-icon" content="🎹"/><link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Ctext%20y%3D%22.9em%22%20font-size%3D%2290%22%3E%F0%9F%8E%B9%3C%2Ftext%3E%3C%2Fsvg%3E"/><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+/* Override strong tags inside headings to maintain consistent weight */
+h1 strong,
+h2 strong,
+h3 strong {
+	font-weight: 600;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 10px;
+	padding: 1rem;
+}
+
+/* For default-background callouts, render the border outline. */
+.callout.block-color-default_background {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+figure,
+aside,
+details {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+
+	table.collection-content {
+		width: 100%;
+		table-layout: fixed;
+	}
+
+	table.collection-content th,
+	table.collection-content td {
+		overflow-wrap: anywhere;
+	}
+
+	table.collection-content td > .user,
+	table.collection-content td > time {
+		white-space: pre-wrap;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content-wrapper {
+	overflow-x: auto;
+}
+
+@media only print {
+	.collection-content-wrapper {
+		overflow-x: visible;
+	}
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.collection-content td {
+	white-space: pre-wrap;
+	word-break: break-word;
+}
+
+.column-list {
+	display: flex;
+	gap: 46px;
+}
+
+.column {
+	min-width: 0;
+	overflow: hidden;
+}
+
+.column > *:first-child {
+	margin-top: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding-inline: 0.125rem;
+	padding-block: 0.375rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+table {
+	border-collapse: collapse;
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol.numbered-list.numbered-list-digits-2 {
+	padding-inline-start: 2em;
+}
+
+ol.numbered-list.numbered-list-digits-3plus {
+	padding-inline-start: 2.4em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+/*
+ * Render emoji icons using a ::before pseudo-element to keep the glyph
+ * out of the DOM textContent traversal. This avoids double-rendering icons
+ * in callouts and page titles.
+ * NOTE(slim/html-export-pseudo-icons): I can't tagref this because it will
+ * flag as a duplicate tag after codegen.
+ */
+.icon[data-emoji]::before {
+	content: attr(data-emoji);
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.callout img.notion-static-icon {
+	width: 1em;
+	height: 1em;
+}
+
+.callout p {
+	margin: 0;
+}
+
+.callout h1,
+.callout h2,
+.callout h3 {
+	margin: 0 0 0.6rem;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	margin-right: 0.4em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+blockquote.quote-large {
+	font-size: 1.25em;
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.tab {
+	margin: 1.25em 0;
+	padding-inline: 1rem;
+	border: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(44, 44, 43, 1);
+}
+.highlight-gray {
+	color: rgba(125, 122, 117, 1);
+	fill: rgba(125, 122, 117, 1);
+}
+.highlight-brown {
+	color: rgba(159, 118, 90, 1);
+	fill: rgba(159, 118, 90, 1);
+}
+.highlight-orange {
+	color: rgba(210, 123, 45, 1);
+	fill: rgba(210, 123, 45, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 148, 52, 1);
+	fill: rgba(203, 148, 52, 1);
+}
+.highlight-teal {
+	color: rgba(80, 148, 110, 1);
+	fill: rgba(80, 148, 110, 1);
+}
+.highlight-blue {
+	color: rgba(56, 125, 201, 1);
+	fill: rgba(56, 125, 201, 1);
+}
+.highlight-purple {
+	color: rgba(154, 107, 180, 1);
+	fill: rgba(154, 107, 180, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(207, 81, 72, 1);
+	fill: rgba(207, 81, 72, 1);
+}
+.highlight-default_background {
+	color: rgba(44, 44, 43, 1);
+}
+.highlight-gray_background {
+	background: rgba(42, 28, 0, 0.07);
+}
+.highlight-brown_background {
+	background: rgba(139, 46, 0, 0.086);
+}
+.highlight-orange_background {
+	background: rgba(224, 101, 1, 0.129);
+}
+.highlight-yellow_background {
+	background: rgba(211, 168, 0, 0.137);
+}
+.highlight-teal_background {
+	background: rgba(0, 100, 45, 0.09);
+}
+.highlight-blue_background {
+	background: rgba(0, 124, 215, 0.094);
+}
+.highlight-purple_background {
+	background: rgba(102, 0, 178, 0.078);
+}
+.highlight-pink_background {
+	background: rgba(197, 0, 93, 0.086);
+}
+.highlight-red_background {
+	background: rgba(223, 22, 0, 0.094);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(125, 122, 117, 1);
+	fill: rgba(125, 122, 117, 1);
+}
+.block-color-brown {
+	color: rgba(159, 118, 90, 1);
+	fill: rgba(159, 118, 90, 1);
+}
+.block-color-orange {
+	color: rgba(210, 123, 45, 1);
+	fill: rgba(210, 123, 45, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 148, 52, 1);
+	fill: rgba(203, 148, 52, 1);
+}
+.block-color-teal {
+	color: rgba(80, 148, 110, 1);
+	fill: rgba(80, 148, 110, 1);
+}
+.block-color-blue {
+	color: rgba(56, 125, 201, 1);
+	fill: rgba(56, 125, 201, 1);
+}
+.block-color-purple {
+	color: rgba(154, 107, 180, 1);
+	fill: rgba(154, 107, 180, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(207, 81, 72, 1);
+	fill: rgba(207, 81, 72, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(240, 239, 237, 1);
+}
+.block-color-brown_background {
+	background: rgba(245, 237, 233, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 235, 222, 1);
+}
+.block-color-yellow_background {
+	background: rgba(249, 243, 220, 1);
+}
+.block-color-teal_background {
+	background: rgba(232, 241, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(229, 242, 252, 1);
+}
+.block-color-purple_background {
+	background: rgba(243, 235, 249, 1);
+}
+.block-color-pink_background {
+	background: rgba(250, 233, 241, 1);
+}
+.block-color-red_background {
+	background: rgba(252, 233, 231, 1);
+}
+.select-value-color-default { background-color: rgba(42, 28, 0, 0.07); }
+.select-value-color-gray { background-color: rgba(28, 19, 1, 0.11); }
+.select-value-color-brown { background-color: rgba(127, 51, 0, 0.156); }
+.select-value-color-orange { background-color: rgba(196, 88, 0, 0.203); }
+.select-value-color-yellow { background-color: rgba(209, 156, 0, 0.282); }
+.select-value-color-green { background-color: rgba(0, 96, 38, 0.156); }
+.select-value-color-blue { background-color: rgba(0, 118, 217, 0.203); }
+.select-value-color-purple { background-color: rgba(92, 0, 163, 0.141); }
+.select-value-color-pink { background-color: rgba(183, 0, 78, 0.152); }
+.select-value-color-red { background-color: rgba(206, 24, 0, 0.164); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style><style>@import url('https://cdn.jsdelivr.net/npm/katex@0.16.25/dist/katex-swap.min.css')</style></head><body><article id="38d42e35-0a56-80d0-aa6b-fad70baecbd4" class="page sans" data-notion-page-icon="🎹"><header><img class="page-cover-image" src="https://app.notion.com/images/page-cover/webb2.jpg" style="object-position:center 70%"/><div class="page-header-icon page-header-icon-with-cover"><span class="icon" data-emoji="🎹"></span></div><h1 class="page-title" dir="auto">CASO AMANECER</h1><p class="page-description" dir="auto"></p></header><div class="page-body"><h1 id="38d42e35-0a56-804c-934b-fad9df2f0c65" style="display:inline-block" dir="auto">EE2 - TEÓRICO (2026-0)</h1><ol type="1" id="38d42e35-0a56-8018-aeb6-cf29c9ae7abc" class="numbered-list" start="1" dir="auto"><li>Un escenario de calidad se compone de seis partes. ¿Cuál es la lista correcta?<ol type="a" id="38d42e35-0a56-8077-b3d6-ec36d58332e1" class="numbered-list" start="1" dir="auto"><li>Requisito, Diseño, Implementación, Pruebas, Despliegue, Monitoreo</li></ol><ol type="a" id="38d42e35-0a56-8006-9825-cb0b23727cba" class="numbered-list" start="2" dir="auto"><li>Actor, Historia, Sprint, Backlog, Incremento, Retrospectiva</li></ol><ol type="a" id="38d42e35-0a56-80fc-8e20-e680a2cc9d15" class="numbered-list" start="3" dir="auto"><li>Entrada, Proceso, Salida, Validación, Seguridad, Rendimiento</li></ol><ol type="a" id="38d42e35-0a56-80e6-a766-ccf3d3a39fdc" class="numbered-list" start="4" dir="auto"><li>Fuente, Estimulo, Artefacto, Ambiente, Respuesta, Medida de respuesta</li></ol></li></ol><ol type="1" id="38d42e35-0a56-80d6-a814-fa06652629bc" class="numbered-list" start="2" dir="auto"><li>¿Cuál de las siguientes opciones describe mejor la arquitectura de software?<ol type="a" id="38d42e35-0a56-809e-93d5-e95a67b2b380" class="numbered-list" start="1" dir="auto"><li>Un listado de requisitos funcionales del sistema</li></ol><ol type="a" id="38d42e35-0a56-804a-8f37-e4569205112d" class="numbered-list" start="2" dir="auto"><li><mark class="highlight-yellow_background" data-notion-highlight="yellow_background">La estructura o estructuras del sistema que comprenden elementos, propiedades visibles externamente y relaciones</mark></li></ol><ol type="a" id="38d42e35-0a56-80d1-98db-ed114f4cbfdc" class="numbered-list" start="3" dir="auto"><li>El código fuente completo del sistema con comentarios</li></ol><ol type="a" id="38d42e35-0a56-80d0-81b2-d50f485ad108" class="numbered-list" start="4" dir="auto"><li>Un conjunto de diagramas UML para documentar el sistema</li></ol></li></ol><ol type="1" id="38d42e35-0a56-80ab-bee2-ee0996ddcc49" class="numbered-list" start="3" dir="auto"><li>La refactorización “Extract Method” se usa típicamente cuando:<ol type="a" id="38d42e35-0a56-80f8-b865-d7fe0d3cf1f2" class="numbered-list" start="1" dir="auto"><li>El cuerpo de un método es tan claro como su nombre y debe eliminarse</li></ol><ol type="a" id="38d42e35-0a56-80a4-9d5a-f64cce831e12" class="numbered-list" start="2" dir="auto"><li>Se requiere mover un método a otra clase porque usa más datos de esa otra clase</li></ol><ol type="a" id="38d42e35-0a56-80cd-a249-d3303145a5e3" class="numbered-list" start="3" dir="auto"><li><mark class="highlight-yellow_background" data-notion-highlight="yellow_background">Existe un fragmento de código que puede agruparse y extraerse a un nuevo método con nombre significativo</mark></li></ol><ol type="a" id="38d42e35-0a56-800c-9693-d3e19599688c" class="numbered-list" start="4" dir="auto"><li>Hay que reemplazar una variable temporal por una consulta a BD</li></ol></li></ol><ol type="1" id="38d42e35-0a56-8091-a08d-d6618365e168" class="numbered-list" start="4" dir="auto"><li>Según Martin Fowler, refactoring se refiere a:<ol type="a" id="38d42e35-0a56-800f-b5ae-faddaf7d0b7d" class="numbered-list" start="1" dir="auto"><li>Cambios grandes para agregar nuevas funcionalidades rápidamente</li></ol><ol type="a" id="38d42e35-0a56-8031-8d8d-f647f05e1b19" class="numbered-list" start="2" dir="auto"><li>Reescritura total del sistema desde cero</li></ol><ol type="a" id="38d42e35-0a56-8028-b2ff-c6f6b6816ca8" class="numbered-list" start="3" dir="auto"><li>Optimización exclusiva del rendimiento del sistema</li></ol><ol type="a" id="38d42e35-0a56-8020-9948-c73ad182b04e" class="numbered-list" start="4" dir="auto"><li><mark class="highlight-yellow_background" data-notion-highlight="yellow_background">Pequeños cambios que modifican la estructura interna sin cambiar el comportamiento externo</mark></li></ol></li></ol><ol type="1" id="38d42e35-0a56-80b7-ae51-f4cfb58b5dba" class="numbered-list" start="5" dir="auto"><li>Un error común en la vista lógica, según las diapositivas, es:<ol type="a" id="38d42e35-0a56-8002-940d-d7459cdfaf01" class="numbered-list" start="1" dir="auto"><li>Organizar el sistema en subsistemas e interfaces</li></ol><ol type="a" id="38d42e35-0a56-8062-b815-f880fa2e9ba7" class="numbered-list" start="2" dir="auto"><li>Incluir escenarios de atributos de calidad</li></ol><ol type="a" id="38d42e35-0a56-807a-ba69-e708015c7d32" class="numbered-list" start="3" dir="auto"><li><mark class="highlight-yellow_background" data-notion-highlight="yellow_background">No explicar los diagramas o usar diagramas genéricos sin conocer estilos</mark></li></ol><ol type="a" id="38d42e35-0a56-80cd-9943-ea75af1ed731" class="numbered-list" start="4" dir="auto"><li>Considerar restricciones de implementación</li></ol></li></ol><ol type="1" id="38d42e35-0a56-80ac-8aa6-feafdc2f6596" class="numbered-list" start="6" dir="auto"><li>Un requisito no funcional en arquitectura suele expresarse en términos de:<ol type="a" id="38d42e35-0a56-80bc-9ad2-f2f4a81a6c08" class="numbered-list" start="1" dir="auto"><li>Diagramas de clases</li></ol><ol type="a" id="38d42e35-0a56-80d6-9aa9-ddc53daf652d" class="numbered-list" start="2" dir="auto"><li>Casos de prueba unitarios</li></ol><ol type="a" id="38d42e35-0a56-8045-a619-c7aec5f28bce" class="numbered-list" start="3" dir="auto"><li><mark class="highlight-yellow_background" data-notion-highlight="yellow_background">Atributos de calidad (terminados en “-bility”)</mark></li></ol><ol type="a" id="38d42e35-0a56-80a4-a1f1-fe321514ad4e" class="numbered-list" start="4" dir="auto"><li>Historias de usuario</li></ol></li></ol><ol type="1" id="38d42e35-0a56-8068-a87c-eb57cba92df9" class="numbered-list" start="7" dir="auto"><li>Para romper un ciclo entre paquetes, una estrategia correcta es:<ol type="a" id="38d42e35-0a56-805d-8f5a-fb740d93fa6a" class="numbered-list" start="1" dir="auto"><li>Eliminar uno de los paquetes</li></ol><ol type="a" id="38d42e35-0a56-80a0-a1cf-fbd36b89cee0" class="numbered-list" start="2" dir="auto"><li><mark class="highlight-yellow_background" data-notion-highlight="yellow_background">Aplicar el principio de inversión de dependencias</mark></li></ol><ol type="a" id="38d42e35-0a56-803c-a7a1-e30e1e3c5964" class="numbered-list" start="3" dir="auto"><li>Fusionar todos los paquetes en uno solo</li></ol><ol type="a" id="38d42e35-0a56-80c3-baf2-f87c8ae4f0bf" class="numbered-list" start="4" dir="auto"><li>Aumentar el acoplamiento entre paquetes</li></ol></li></ol><ol type="1" id="38d42e35-0a56-8004-94e6-e815aa4a695f" class="numbered-list" start="8" dir="auto"><li>En una propuesta de documento de arquitectura, las “restricciones” se entienden como:<ol type="a" id="38d42e35-0a56-80d7-bdbe-cfef46601912" class="numbered-list" start="1" dir="auto"><li><mark class="highlight-yellow_background" data-notion-highlight="yellow_background">Desiciones de diseño ya tomadas que limitan opciones (p. ej., lenguaje, BD, infraestructura)</mark></li></ol><ol type="a" id="38d42e35-0a56-808b-a4a6-db0b756f14b5" class="numbered-list" start="2" dir="auto"><li>Métricas de complejidad ciclomática</li></ol><ol type="a" id="38d42e35-0a56-8049-968d-d20f34580e06" class="numbered-list" start="3" dir="auto"><li>Estimaciones de esfuerzo por sprint</li></ol><ol type="a" id="38d42e35-0a56-8097-97a9-cd42540fa6e1" class="numbered-list" start="4" dir="auto"><li>Casos de uso secundarios de baja prioridad</li></ol></li></ol><h1 id="38d42e35-0a56-8029-b5ae-f74867378a94" style="display:inline-block" dir="auto">EE2 - TEÓRICO (2025-2)</h1><ol type="1" id="38d42e35-0a56-8067-9780-ef50b3ec3826" class="numbered-list" start="1" dir="auto"><li>¿Cuál de las siguientes afirmaciones describe mejor las pruebas de integración?<ol type="a" id="38d42e35-0a56-80a2-bef4-f95a2da49667" class="numbered-list" start="1" dir="auto"><li>Evaluar la compatibilidad del software con diferentes sistemas operativos</li></ol><ol type="a" id="38d42e35-0a56-8068-8874-cc69a0adbee0" class="numbered-list" start="2" dir="auto"><li><mark class="highlight-yellow_background" data-notion-highlight="yellow_background">Evaluar la funcionalidad del software en su conjunto</mark></li></ol><ol type="a" id="38d42e35-0a56-806e-84c8-d4bf90bf5aaf" class="numbered-list" start="3" dir="auto"><li>Evaluar la calidad del código en un nivel de detalle más bajo</li></ol><ol type="a" id="38d42e35-0a56-80d3-b7cb-f5fd754f6f3d" class="numbered-list" start="4" dir="auto"><li>Evaluar la experiencia del usuario con el software</li></ol></li></ol><ol type="1" id="38d42e35-0a56-80d0-9d51-c78cc473722c" class="numbered-list" start="2" dir="auto"><li>¿Quienes suelen realizar las pruebas de caja blanca?<ol type="a" id="38d42e35-0a56-80e3-a748-dde373f32a6e" class="numbered-list" start="1" dir="auto"><li>Usuarios finales del software</li></ol><ol type="a" id="38d42e35-0a56-8047-a2de-d39a71cee3bd" class="numbered-list" start="2" dir="auto"><li><mark class="highlight-yellow_background" data-notion-highlight="yellow_background">Desarrolladores e ingenieros de software</mark></li></ol><ol type="a" id="38d42e35-0a56-80cb-9005-fafacaa170aa" class="numbered-list" start="3" dir="auto"><li>Analistas de negocio</li></ol><ol type="a" id="38d42e35-0a56-80d4-82e8-e7b7ec154588" class="numbered-list" start="4" dir="auto"><li>Personas sin conocimientos de programación</li></ol></li></ol><ol type="1" id="38d42e35-0a56-8068-9807-d53121e32702" class="numbered-list" start="3" dir="auto"><li>¿Cuál es la diferencia principal entre mocks y stubs en pruebas de software?<ol type="a" id="38d42e35-0a56-801e-a81d-fe748464d1c5" class="numbered-list" start="1" dir="auto"><li>Los mocks se utilizan para pruebas unitarias, mientras que los stubs se utilizan para pruebas de integración.</li></ol><ol type="a" id="38d42e35-0a56-802f-8696-d29f5195f557" class="numbered-list" start="2" dir="auto"><li><mark class="highlight-yellow_background" data-notion-highlight="yellow_background">Los mocks se utilizan para simular comportamientos, mientras que los stubs se utilizan para proporcionar respuestas predefinidas.</mark></li></ol><ol type="a" id="38d42e35-0a56-8091-bff8-c5bf70b234f4" class="numbered-list" start="3" dir="auto"><li>Los mocks son objetos reales, mientras que los stubs son objetos simulados.</li></ol><ol type="a" id="38d42e35-0a56-80f7-bc9f-f10f43c7dc2e" class="numbered-list" start="4" dir="auto"><li>No hay diferencia, los términos se utilizan indistintamente.</li></ol></li></ol><ol type="1" id="38d42e35-0a56-8087-8913-d4955238c178" class="numbered-list" start="4" dir="auto"><li>¿Cuál de las siguientes opciones describe mejor la refactorización del código?<ol type="a" id="38d42e35-0a56-80dd-bca2-eb7f7bc70f3f" class="numbered-list" start="1" dir="auto"><li>Agregar nuevas funcionalidades al código existente.</li></ol><ol type="a" id="38d42e35-0a56-805c-9830-eb8a8d32457c" class="numbered-list" start="2" dir="auto"><li><mark class="highlight-yellow_background" data-notion-highlight="yellow_background">Mejorar la estructura y el diseño del código sin cambiar su comportamiento externo.</mark></li></ol><ol type="a" id="38d42e35-0a56-8039-953c-f094f7887576" class="numbered-list" start="3" dir="auto"><li>Reescribir todo el código desde cero. ones confusos</li></ol><ol type="a" id="38d42e35-0a56-80be-b6a1-f9c2ef43d68d" class="numbered-list" start="4" dir="auto"><li>Eliminar completamente el código innecesario.</li></ol></li></ol><ol type="1" id="38d42e35-0a56-806e-907a-c5224f2fa2c7" class="numbered-list" start="5" dir="auto"><li>¿Qué es un bad smell en el código?<ol type="a" id="38d42e35-0a56-800b-80f4-cb18e8c1c4ce" class="numbered-list" start="1" dir="auto"><li>Un olor desagradable</li></ol><ol type="a" id="38d42e35-0a56-80ca-a9c2-e8d7d5b3e303" class="numbered-list" start="2" dir="auto"><li>Una técnica de refactorización</li></ol><ol type="a" id="38d42e35-0a56-8007-8f5b-eb1049525871" class="numbered-list" start="3" dir="auto"><li>Un cumplido para el programador</li></ol><ol type="a" id="38d42e35-0a56-805c-9788-eb127101d7ef" class="numbered-list" start="4" dir="auto"><li><mark class="highlight-yellow_background" data-notion-highlight="yellow_background">Una señal de un problema potencial</mark></li></ol></li></ol><ol type="1" id="38d42e35-0a56-80aa-ae64-dce7f053e8cb" class="numbered-list" start="6" dir="auto"><li>¿Cuál es el propósito de utilizar mutaciones en las pruebas de software?<ol type="a" id="38d42e35-0a56-80fa-aa0b-f914a982889a" class="numbered-list" start="1" dir="auto"><li>Evaluar la robustez del conjunto de pruebas.</li></ol><ol type="a" id="38d42e35-0a56-80bd-b57f-e5da16b0218d" class="numbered-list" start="2" dir="auto"><li><mark class="highlight-yellow_background" data-notion-highlight="yellow_background">Identificar y corregir errores en el código fuente.</mark></li></ol><ol type="a" id="38d42e35-0a56-800b-ba00-d48f8d0bdca6" class="numbered-list" start="3" dir="auto"><li>Aumentar la velocidad de ejecución de las pruebas</li></ol><ol type="a" id="38d42e35-0a56-8070-b618-d51be76c6f0f" class="numbered-list" start="4" dir="auto"><li>Mejorar la funcionalidad del software</li></ol></li></ol><ol type="1" id="38d42e35-0a56-80e4-b81c-f387b5c138ac" class="numbered-list" start="7" dir="auto"><li>¿Cuál de las siguientes técnicas se utiliza comúnmente en las pruebas de caja negra?<ol type="a" id="38d42e35-0a56-8032-96e8-f7b32b453f65" class="numbered-list" start="1" dir="auto"><li>Pruebas de regresión.</li></ol><ol type="a" id="38d42e35-0a56-8085-8448-f743c87fe83f" class="numbered-list" start="2" dir="auto"><li>Pruebas unitarias.</li></ol><ol type="a" id="38d42e35-0a56-8040-bd68-f7c88f92d503" class="numbered-list" start="3" dir="auto"><li><mark class="highlight-yellow_background" data-notion-highlight="yellow_background">Pruebas de partición de equivalencia.</mark></li></ol><ol type="a" id="38d42e35-0a56-808d-95de-cbc1eacce9cd" class="numbered-list" start="4" dir="auto"><li>Pruebas de integración.</li></ol></li></ol><ol type="1" id="38d42e35-0a56-80af-8d4f-fa1c55f28e55" class="numbered-list" start="8" dir="auto"><li>¿Qué es una prueba de mutación?<ol type="a" id="38d42e35-0a56-801f-aa2c-d3383640704d" class="numbered-list" start="1" dir="auto"><li>Una prueba que verifica la presencia de mutaciones genéticas.</li></ol><ol type="a" id="38d42e35-0a56-802d-8adf-f39f57183661" class="numbered-list" start="2" dir="auto"><li>Una prueba que verifica la propagación de mutaciones en un sistema.</li></ol><ol type="a" id="38d42e35-0a56-8096-942c-f82764eac02f" class="numbered-list" start="3" dir="auto"><li><mark class="highlight-yellow_background" data-notion-highlight="yellow_background">Una prueba que verifica la efectividad de las mutaciones en un sistema.</mark></li></ol><ol type="a" id="38d42e35-0a56-804a-a9af-d85f2f287517" class="numbered-list" start="4" dir="auto"><li>Una prueba que verifica la resistencia de un sistema a mutaciones.</li></ol></li></ol><ol type="1" id="38d42e35-0a56-8081-84bf-e3ae435e359e" class="numbered-list" start="9" dir="auto"><li>¿Cuál de las siguientes técnicas se utiliza para simular el comportamiento de componentes externos en las pruebas unitarias?<ol type="a" id="38d42e35-0a56-8062-83d4-f830833dfa37" class="numbered-list" start="1" dir="auto"><li>Pruebas de caja.</li></ol><ol type="a" id="38d42e35-0a56-80aa-88c9-d3b4c53e5219" class="numbered-list" start="2" dir="auto"><li>Rastreo de código.</li></ol><ol type="a" id="38d42e35-0a56-8086-a457-fbdc142b9adc" class="numbered-list" start="3" dir="auto"><li><mark class="highlight-yellow_background" data-notion-highlight="yellow_background">Mocking</mark></li></ol><ol type="a" id="38d42e35-0a56-8073-a804-c1faabd30114" class="numbered-list" start="4" dir="auto"><li>Inspección de código estático.</li></ol></li></ol><ol type="1" id="38d42e35-0a56-8059-9de8-ed1e085bc2d9" class="numbered-list numbered-list-digits-2" start="10" dir="auto"><li>¿Cuál de las siguientes afirmaciones es cierta sobre las pruebas de caja blanca?<ol type="a" id="38d42e35-0a56-8069-ab87-c1556d59d202" class="numbered-list" start="1" dir="auto"><li>Son realizadas principalmente por usuarios finales de software</li></ol><ol type="a" id="38d42e35-0a56-80f1-8111-d0e4a2fb6e5a" class="numbered-list" start="2" dir="auto"><li><mark class="highlight-yellow_background" data-notion-highlight="yellow_background">Se centran en el funcionamiento interno del código</mark></li></ol><ol type="a" id="38d42e35-0a56-80bd-abb8-ed7a43ad2437" class="numbered-list" start="3" dir="auto"><li>Son necesarias en todas las etapas de pruebas</li></ol><ol type="a" id="38d42e35-0a56-80dc-a0f5-e34acb28644d" class="numbered-list" start="4" dir="auto"><li>No son relevantes en el proceso de desarrollo de software</li></ol></li></ol><ol type="1" id="38d42e35-0a56-8093-9b62-ee779e1f8328" class="numbered-list numbered-list-digits-2" start="11" dir="auto"><li>¿Cuál es el uso principal de los mocks en pruebas de software?<ol type="a" id="38d42e35-0a56-80c7-a0bd-e0b398206ecf" class="numbered-list" start="1" dir="auto"><li>Mejorar el rendimiento de las pruebas</li></ol><ol type="a" id="38d42e35-0a56-80b6-b1a9-ff25d4f6b9f3" class="numbered-list" start="2" dir="auto"><li>Proporcionar respuestas predefinidas en pruebas de integración</li></ol><ol type="a" id="38d42e35-0a56-80e4-b889-d608ed47b866" class="numbered-list" start="3" dir="auto"><li>Reemplazar completamente objetos reales en pruebas unitarias.</li></ol><ol type="a" id="38d42e35-0a56-805d-be4e-e1f9ffbe882c" class="numbered-list" start="4" dir="auto"><li><mark class="highlight-yellow_background" data-notion-highlight="yellow_background">Simular comportamientos de objetos externos.</mark></li></ol></li></ol><ol type="1" id="38d42e35-0a56-8039-8a6e-dd9ce356e127" class="numbered-list numbered-list-digits-2" start="12" dir="auto"><li>¿Cuál de los siguientes principios de diseño de software está estrechamente relacionado con la refactorización?<ol type="a" id="38d42e35-0a56-804a-a276-ff288aa6c344" class="numbered-list" start="1" dir="auto"><li>Principio de acoplamiento débil.</li></ol><ol type="a" id="38d42e35-0a56-80a2-bc84-da1cb47ba157" class="numbered-list" start="2" dir="auto"><li><mark class="highlight-yellow_background" data-notion-highlight="yellow_background">Principio de responsabilidad única.</mark></li></ol><ol type="a" id="38d42e35-0a56-8073-851f-eb810922e493" class="numbered-list" start="3" dir="auto"><li>Principio de herencia.</li></ol><ol type="a" id="38d42e35-0a56-805d-b449-dfd7b2aaa146" class="numbered-list" start="4" dir="auto"><li>Principio de encapsulamiento.</li></ol></li></ol><figure id="39042e35-0a56-807f-8e86-f2c706b302b4" class="link-to-page"><a href="CASO%20AMANECER/EE2%20-%20PR%C3%81CTICA%2039042e350a56807f8e86f2c706b302b4.html" data-notion-page-id="39042e35-0a56-807f-8e86-f2c706b302b4" data-notion-space-id="42a91919-f95f-4375-b0e4-0dc891588a28">EE2 - PRÁCTICA</a></figure></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: ee2.cajanegra.ValidadorRegistroEmpleadoTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.013 s <<< FAILURE! -- in ee2.cajanegra.ValidadorRegistroEmpleadoTest
+ee2.cajanegra.ValidadorRegistroEmpleadoTest.todo_pendiente -- Time elapsed: 0.009 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Borra este test cuando tengas: 1 caso cubriendo las clases válidas + 1 caso por cada clase NO válida + los valores límite del rango
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:142)
+	at ee2.cajanegra.ValidadorRegistroEmpleadoTest.todo_pendiente(ValidadorRegistroEmpleadoTest.java:53)
+

@@ -1,0 +1,1445 @@
+[00:02:13] vamos a comenzar con nuestra segunda clase la semana ya acabando la semana ya la semana
+[00:02:25] cansada ya bueno ya es como ya no lo tengo entonces ya varios temas vamos a cerrar
+[00:02:36] ¿Qué tal? A ver, ya les entregué las notas, ¿no?
+[00:02:41] Es con el, con el Vlasoth, ¿no?
+[00:02:47] Es el que sirvió.
+[00:02:49] Así que por favor, saludo a tuya alguna observación
+[00:02:56] o reclamo o algo que le preferieron,
+[00:02:58] no sé, me voy a sumar, algo que fuese, ¿no?
+[00:03:01] Es, revícenlo por favor.
+[00:03:04] Ahí en el PDF que les he mandado que está actualizado,
+[00:03:07] con la pregunta que ustedes me enviaron y no me eliminaron. Y con el puntaje calculado
+[00:03:17] después de ese reemplazo. La verdad que las notas subieron bastante. De por sí, chicos,
+[00:03:27] las notas que me han dado este salón. Así es la pregunta de reemplazo.
+[00:03:36] recémoco. La verdad ese �
+[00:03:41] la verdad felicitó bastante,
+[00:03:43] no? Porque extre
+[00:03:45] no no no, no se tuvieron
+[00:03:48] Mario, les saben, Eh,
+[00:03:49] gotas, y no le recreation
+[00:03:51] en tiempo fue eso, el
+[00:03:52] principal, miejscado por tiempo.
+[00:03:54] No fue un poco delilados,
+[00:03:56] eh pero en así eh salieron
+[00:03:59] bastante bien, no, no
+[00:04:01] que es un punal que es
+[00:04:02] acordador. Bueno, había
+[00:04:05] a un le injuredgos que sí,
+[00:04:08] de la clase o poner más atención a la clase porque
+[00:04:12] disminuyeron la nota que el salio como bajaron el proteño del salón es
+[00:04:17] cuando realmente no debería haber tenido un problema con
+[00:04:23] no es en paz es
+[00:04:28] nada. Si vos entonces vamos a bueno ya ya es un poco mejor, un poco mejor un poquito, ¿no?
+[00:04:34] pero bueno tenemos ahora le entrega el proyecto y luego tenemos los tiendes de evaluación
+[00:04:41] individual que un poco más complementar.
+[00:04:45] La segunda parte en el caso de Panamá exactamente la segunda, la mitad que ya habíamos
+[00:04:58] poquito después, vamos a hacer ya un taller otro laboratorio con Aaron, pero este es
+[00:05:05] un autorador que es más orientado a poder gestionar correctamente su proyecto porque
+[00:05:11] ahora uno ha de ser orientado a que ve un poco de desorden,
+[00:05:15] entonces para poder ayudar a los efectos de proyectos.
+[00:05:20] Si me gusta, me gusta.
+[00:05:22] Si me gusta, me gusta.
+[00:05:24] Yo les voy a mandar un e-mail para un mensaje cursor,
+[00:05:28] es que con un formulario de ustedes que solamente ustedes van a tener que
+[00:05:34] presentar el día de la entrega pero no es que lo van a presentar como parte de la entrega sino
+[00:05:39] lo van a enviar directamente a mí que es un formato de evaluación de los integrantes,
+[00:05:45] si? Este del equipo. Nadie se ven de raro, nadie se ven de raro, solamente Aaron, bueno,
+[00:05:56] nos damos los únicos que nos vamos a querer. Así que por favor, hasta ahora no vemos,
+[00:06:05] cuando no está un poco más contagiado, no te tampoco veo algún problema, no,
+[00:06:11] es extraño. Así que en la que se mantenga así, pero aún si es que hay un grupo que tiene algún
+[00:06:21] un problema entre el unidad o entre algunos integrantes o ven que alguno de los hombres
+[00:06:26] se desaparece, no sé nada, mejora, avísenlos antes, para tratar de solucionar el problema
+[00:06:33] antes de la fecha de presentación.
+[00:06:35] Es lo mejor, porque hay veces que no hay moces diferentes, no hay muertos ni heridos,
+[00:06:50] que las cosas se comunican antes, también se comunican después.
+[00:06:57] Hay resentimientos.
+[00:07:00] No es la idea.
+[00:07:01] Estamos en pulsos como...
+[00:07:05] La vida la vida.
+[00:07:07] Bueno, esta es una parte de mi más gusto, la primera parte.
+[00:07:10] Esta parte un poquito de esa, ya, conceptualmente de lensa.
+[00:07:14] Pero ya vamos a ver que la siguiente sesión
+[00:07:18] de la que debería ser esta semana, pero como les digo, estamos un poquito atrasados.
+[00:07:22] En la siguiente sesión ya lo vamos a complementar con algo mucho más práctico.
+[00:07:26] Ya es que esto es lo que es el enseñaje de la arquitectura de software.
+[00:07:30] Es una parte muy importante.
+[00:07:34] Esa es una parte muy interesante.
+[00:07:38] Por ejemplo, de verdad que no se han preguntado,
+[00:07:43] pero por ejemplo, no se pueden preguntar, ¿no?
+[00:07:46] ¿Cómo se diseñan esas aplicaciones que uno las utiliza diariamente?
+[00:07:51] O sea, y no solamente una persona, sino que utilizan gran cantidad de personas,
+[00:07:54] gran base de personas y estas siempre responden de forma rápida y sin errores.
+[00:08:00] ¿No? ¿Cuánto mi aplicación de ingenieres o por dos la utiliza de cinco personas?
+[00:08:04] No más, boom, se la puso para... ¿No?
+[00:08:07] ¿Cómo pueden hacerlo? ¿No? ¿Puede hacer que esas aplicaciones
+[00:08:11] una buena performance, rendimiento, ¿no?
+[00:08:17] Entonces, ¿qué nos pregunta? ¿No?
+[00:08:19] Hay más, bueno, hay más que más.
+[00:08:21] Otra pregunta también interesante,
+[00:08:25] es ¿qué pasaría cuando uno comienza a construir un software de cero?
+[00:08:30] ¿Por qué?
+[00:08:32] Pocas veces se van a encontrar en esa situación fuera de la universidad
+[00:08:36] y que no sea un proyecto de ustedes,
+[00:08:39] obviamente si es un proyecto de
+[00:08:43] usted, es un frente, o no, o no
+[00:08:47] ser algo propio, pues si tú trabajas en una empresa,
+[00:08:51] está trabajando en una empresa grande y que están viendo temas de
+[00:08:55] suafar, pues es muy poco probable que ustedes estén desde
+[00:09:00] el inicio de ese proyecto, de la concepción de ese proyecto.
+[00:09:03] La podría saber, ¿no? Pero es poco probable.
+[00:09:06] ¿Qué es lo que tengo que hacer? ¿Cómo voy a organizarme? ¿El sofá es algo que
+[00:09:12] gastar? ¿Cómo puedo concretizarlo? ¿Lo voy a utilizar un poquito más?
+[00:09:18] Y bueno, y esta es una pregunta ya, la tercera es una pregunta, ¿Cómo más es
+[00:09:27] más fija, digamos, allá de ingenieros, ¿no? ¿Cómo la arquitectura de sofas realmente
+[00:09:35] de la que realmente permite a la
+[00:09:38] aplicación poder adaptarse ¿No?
+[00:09:40] Porque al final el cambio es lo
+[00:09:42] constante. No sé cómo esta
+[00:09:44] arquitectura puede adaptarse
+[00:09:46] mis cámaras. Entonces, en
+[00:09:48] medio de bienes pues lo que es
+[00:09:50] la arquitectura de software
+[00:09:52] especialmente el diseño de la
+[00:09:54] arquitectura de software.
+[00:10:01] Cuando no, habla de arquitectura
+[00:10:03] de software, bueno, un montón
+[00:10:05] de definiciones. ¿Sí?
+[00:10:07] Un montón de definiciones.
+[00:10:09] en el de el se y el se es un
+[00:10:15] instituto en la Universidad
+[00:10:17] Carmen y Melon, los Estados
+[00:10:19] Unidos, que es bastante famosa,
+[00:10:21] ¿No? Este porque por ejemplo,
+[00:10:23] ellos son los que planearon un
+[00:10:25] modelo de requerimiento, son
+[00:10:26] los que normalmente se utilizan,
+[00:10:28] ¿No? El sistema de E.P.
+[00:10:31] la, la, la, la, se plazió pues
+[00:10:34] este en una propuesta de
+[00:10:37] este instituto específicamente
+[00:10:41] a contribuir, ¿No? Por lo tanto, su
+[00:10:45] definición de ingeniería es
+[00:10:47] o por lo menos debería ser
+[00:10:49] interesante, ¿No?
+[00:10:51] ¿No?
+[00:10:53] Entonces, este es un artículo
+[00:10:58] un poquito, ¿No?
+[00:11:00] Entonces, se agrupa, ¿No?
+[00:11:02] distintas definiciones
+[00:11:04] y ingeniería es ojo, ¿No?
+[00:11:06] ¿No?
+[00:11:08] en los que se genería el
+[00:11:13] artículo, los libros, ¿No?
+[00:11:17] ¿Qué?
+[00:11:21] libros que han sido muy venidos,
+[00:11:23] muy utilizados en los que se
+[00:11:25] genería el software.
+[00:11:28] No, la que particularmente
+[00:11:30] te gusta más es
+[00:11:34] también, ¿No?
+[00:11:39] y se me da la pregunta más de
+[00:11:53] junto de estructuras que le dan un paso al sistema
+[00:11:59] que digamos al lupano que son los elementos sojuan, las relaciones entre los elementos del sojuan y las porpidades
+[00:12:07] cuando uno tiene la arquitectura
+[00:12:13] pues lo que nosotros, bueno, no sé si ustedes, pero creo que sí. Por lo menos los peruanos,
+[00:12:19] cuando escuchas la palabra arquitectura, lo llevas a el diseño arquitectónico de edificios,
+[00:12:28] no es la carrera arquitectura como acá, que es una carrera arquitectura, tú lo vapeas
+[00:12:34] directamente a eso, no? la arquitectura ni que ver, imagínense, no es una persona que
+[00:12:40] que ustedes que estén votados o
+[00:12:46] más. Sí, pero si no es un chico
+[00:12:47] que no siga estén y son de
+[00:12:48] la universidad o me repete es
+[00:12:49] un chico que ni siquiera está
+[00:12:50] en la universidad, no había.
+[00:12:52] Cuando hablo de escuche
+[00:12:53] arquitectura, el toque de una
+[00:12:54] fiesta y eso no es un
+[00:12:55] arquitecto, es una persona
+[00:12:57] que se encarga de diseñar o
+[00:12:59] de este crear planos, no
+[00:13:02] este. La verdad es que no
+[00:13:04] tanto, ¿No? Maquetas,
+[00:13:07] es el que podemos pensar la arquitectura, ¿no?
+[00:13:12] Y la definición es correcta, ¿no?
+[00:13:17] Pero la clave de arquitectura no solo
+[00:13:19] metes aplica el diseño de edificios,
+[00:13:21] se aplica al diseño de cualquier cosa,
+[00:13:24] de cualquier sistema complejo.
+[00:13:27] Entonces, lo primero que nosotros tenemos
+[00:13:31] que ver el clave de la arquitectura,
+[00:13:37] son componentes y las relaciones entre los componentes.
+[00:13:49] Por ejemplo, una casa está formada de columnas, no?
+[00:13:53] De columnas, aredes, el suelo, el techo, no?
+[00:13:59] Y esos distintos componentes se relacionan entre ellos,
+[00:14:02] no? Porque el techo, por ejemplo, está sobre columnas
+[00:14:07] y es y es tan teniendo interacción entre ellos para permitir
+[00:14:10] que hay un edificio, ¿no? Es la arquitectura. Entonces, en nuestro caso, aplica lo mismo,
+[00:14:18] aceptamente, el sopo. La única diferencia es que en el sopo, tú no puedes tocar la arquitectura
+[00:14:24] que tú defines. El componente que tú defines, tú no lo puedes tocar en sopo. Pero al final,
+[00:14:30] nosotros utilizamos componentes y también definimos relaciones entre esos componentes. Hay
+[00:14:36] las relaciones que sí se pueden dar, las relaciones que no se pueden dar, estos componentes normalmente
+[00:14:42] tienen propiedades, propiedades, no estado, así queremos ser más de juntos, de un estado.
+[00:14:53] Entonces al final es esa arquitectura, la definición de los componentes y las relaciones en los componentes.
+[00:14:59] También ustedes han llevado un curso a que arquitectura, ¿qué curso llevó de arquitectura?
+[00:15:04] de la memoria.
+[00:15:09] ¿No?
+[00:15:13] ¿No?
+[00:15:17] ¿No?
+[00:15:21] ¿No?
+[00:15:25] ¿No?
+[00:15:29] de tu cástico, del procesador,
+[00:15:31] pide información que se ofrece
+[00:15:33] en la memoria RAM, que viaja por el
+[00:15:35] bus de datos, sea más en el
+[00:15:37] registro primero del procesador,
+[00:15:39] luego el procesador lo obtiene,
+[00:15:41] la disoperación y etcétera.
+[00:15:43] O sea ves cómo se va relacionando,
+[00:15:45] cómo van conversando
+[00:15:47] entre ellos lo viviendo con poderes.
+[00:15:49] Al final es el arquitecturio.
+[00:15:55] Entonces pues estas son las distintas definiciones
+[00:15:57] que ya vas
+[00:16:01] pero como les digo, el resultado es eso, o sea, todo es lo más simple, posible, lo más plástico.
+[00:16:07] Los distintos componentes y la relación de su componente.
+[00:16:11] ¿Qué es uno de los beneficios de la arquitectura?
+[00:16:16] Es que la idea de que esa definición de componentes, definición de las relaciones en componentes,
+[00:16:23] satisfadan o cumplan ciertos atributos de calidad del sistema.
+[00:16:29] Entonces acá ya comenzamos a ver algo muy interesante porque la arquitectura que nosotros
+[00:16:36] planteemos tiene que tener un objetivo.
+[00:16:39] Nosotros vamos a plantear un conjunto de componentes, un conjunto de relaciones entre componentes,
+[00:16:46] pero como el objetivo de cumplir con ciertos atributos de calidad, que se los vieron.
+[00:16:52] Es por eso que la arquitectura normalmente quiere el proceso de incrementación.
+[00:16:56] no es que nosotros comenzamos a desarrollar software y luego planteamos la arquitectura,
+[00:17:02] no contiene mucho sentido porque vamos a construir cualquier cosa probablemente que no va a cumplir
+[00:17:09] con los datos de calidad. La idea siempre es construir algo de calidad. Ahora, las concepciones
+[00:17:18] se han de plantear una mala calidad, como alguna arquitectura deficiente en software pues es
+[00:17:24] de la gente que se distinda de
+[00:17:28] de plantear una arquitectura
+[00:17:31] de existente, por ejemplo, en un
+[00:17:34] edificio, ¿No? En un puente, ¿No?
+[00:17:37] Obviamente, las consecuencias son
+[00:17:39] distintas, ¿No? Imagínense, ¿No?
+[00:17:42] Plantear una muy mala
+[00:17:44] arquitectura en un puente como
+[00:17:46] ha sucedido, lamentablemente
+[00:17:48] en nuestro país, ¿No?
+[00:17:50] no se les va a caer. No se les va a caer.
+[00:17:55] Entonces caer a ser tu propósito. O sea, este son consecuencias, hasta hay consecuencias
+[00:18:02] humanes diseños de la arquitectura, porque impactan los apremutos de calidad. La buena
+[00:18:09] que se realizó fuera no tenemos esos esas consecuencias tan graves, aunque si dependiendo
+[00:18:16] el software todo, puede por tener consecuencias graves, imagínense al software de un avión,
+[00:18:24] o sea imagínense que la actitud es más planteada que hayan problemas en el avión y el avión
+[00:18:35] y ha sucedido totalmente, o por ejemplo en temas médicos, no son cuantos médicos imagínense,
+[00:18:43] son cual que mantiene capacidad vital de personas, ¿no?
+[00:18:49] ¿Qué se yo?
+[00:18:50] Igual que hay alfaías arquitectura también,
+[00:18:52] que es un impacto que puedes reconocer para la misma manera, ¿no?
+[00:18:56] ¿Tal vez hay algunos casos en los cuales la arquitectura
+[00:19:00] pues tiene consecuencia de las factas para arquitectura humana?
+[00:19:05] La mala arquitectura humana, diseño de la arquitectura,
+[00:19:07] pero normalmente en la mayor cantidad de situaciones
+[00:19:10] el impacto es de plata. Una mala arquitectura tiene un gran impacto en el negocio, por lo tanto
+[00:19:18] genera pérdidas. ¡Ay, chieres! ¡No se ve bien! Bueno, acá se ve mejor ahí a Muzelín.
+[00:19:29] Entonces, normalmente la arquitectura se trata pues de proponer desde el inicio de
+[00:19:39] el proceso de desarrollo de software, pero ese masifía que queda estática, si no fue de
+[00:19:43] quiero también evolucionando conforme se va planteando uno iniciando normalmente el proceso
+[00:19:50] de software lo inicia con requerimientos, eso es lo primero que normalmente uno hace, obtiene
+[00:19:56] requerimientos, pero dentro de esos requerimientos también hay requerimientos específicos de
+[00:20:04] arquitectura, vamos a ver un rectificador,
+[00:20:07] el requerimiento de la arquitectura.
+[00:20:09] Luego, a partir de esos requerimientos,
+[00:20:12] uno comienza a diseñar la arquitectura,
+[00:20:15] a documentar la arquitectura diseñada en la documentación.
+[00:20:19] Es muy importante, es tan importante la evaluación de la
+[00:20:24] arquitectura y recién la implementación de la
+[00:20:27] arquitectura.
+[00:20:28] Entonces, normalmente, todo este proceso se debería
+[00:20:35] de la gente que se puede analizar
+[00:20:40] antes del proceso de construcción.
+[00:20:42] Antes de todo el proceso de construcción.
+[00:20:47] Pero bueno, hay veces que como les decía
+[00:20:53] los sistemas son muy dinámicos,
+[00:20:56] no se puede tener una plaza de
+[00:20:58] plazas totalmente disminuición,
+[00:21:00] pero sí antes de la construcción
+[00:21:02] por lo menos de tener una guía
+[00:21:05] ciertas decisiones tomadas.
+[00:21:07] ¿Sí?
+[00:21:13] Bueno, ahí están dependiendo de la etapa del ciclo de vida de
+[00:21:20] software.
+[00:21:22] Existen distintos roles que se ven afectados por las decisiones
+[00:21:27] de la arquitectura, por ejemplo.
+[00:21:28] Y este impacto, por eso, por eso inició en las etapas
+[00:21:34] iniciales de la arquitectura.
+[00:21:38] es normalmente los personas que se encargan de poder definir estos requerimientos de arquitectura
+[00:21:45] son personas que no necesariamente tienen skills técnicos, no necesariamente, pero sí tienen
+[00:21:53] skills de negocio, no? ¿No se han ido dominios sobre cuál se va a construir la aplicación?
+[00:21:58] ¿No se van a hacer las distintas reglas de negocio? Entonces saben cuáles son las necesidades
+[00:22:03] que se deben cumplir del sistema.
+[00:22:05] Y no estamos sabiendo de si están funcionales necesariamente,
+[00:22:09] sino de requisitos de calidad.
+[00:22:12] Ahí vamos a ver los propios, ¿no?
+[00:22:14] Por eso acá nos enozan las listas funcionales.
+[00:22:17] Son las listas funcionables normalmente.
+[00:22:19] No tienen mucho conocimiento técnico,
+[00:22:22] pero sí conocen de negocio, ¿no?
+[00:22:25] ¿Cómo es negocio?
+[00:22:29] Entonces, normalmente participan en lo que es la definición
+[00:22:32] de un inicio de estas atributos de calidad.
+[00:22:37] Luego después ya comienza a trabajar los arquitectos.
+[00:22:42] Los arquitectos ya específicamente de SORWA son los que se encargan pues ya del diseño
+[00:22:49] o la documentación de la arquitectura.
+[00:22:52] En las organizaciones no suelen agarrar muchos arquitectos de SORWA porque es un rol bastante
+[00:23:02] complicado de poder llenar, cumplir.
+[00:23:08] Su átice que es software debe ser una persona que conoce mucho de tecnología.
+[00:23:16] ¿Y de cómo utilizar y aplicar la tecnología?
+[00:23:20] No estamos hablando solamente de un programador,
+[00:23:24] no estamos hablando solamente de un experto de repente en un tipo de tecnología.
+[00:23:33] no estamos hablando de la de NBA, no, o el instaurador de base a todos.
+[00:23:39] No, es una persona que conozca todo,
+[00:23:42] que conozca todo y que se va a tomar las mejores decisiones en base a ese
+[00:23:47] conocimiento. Por eso es muy difícil y bastante bien reemunerado de hecho,
+[00:23:50] es del pase. No, este, el cargo del arquitecto es obvio.
+[00:23:57] La es bien complicada, es un rol que necesita mucho conocimiento.
+[00:24:01] ¿No? Y bueno, y después ya dependiendo del evaluación de la arquitectura, algunas organizaciones no, no
+[00:24:11] solamente pues se creen lo que dice el arquitecto sino también hay el evaluaciones, ¿no?
+[00:24:17] de ciertos revisores ¿no? para que luego ya se lo conviene. Por eso el cargo de arquitecto es cargo
+[00:24:27] de todo. ¿No? Y acá viene un
+[00:24:36] poco pues este las
+[00:24:37] características ¿No? Le hubo
+[00:24:41] arquitecto de software.
+[00:24:43] Es tiempo cercado, por ejemplo,
+[00:24:45] lo que es sobre proyectos es un
+[00:24:47] lo que íbamos a requer
+[00:24:49] experiencia, sí, una
+[00:24:51] experiencia, además de un
+[00:24:53] trabajo, este, pero no requiere
+[00:24:55] mucho conocimiento técnico
+[00:24:57] específico, ¿No? Ni siquiera
+[00:24:59] no, no, no, si, mejor, pero ¿qué tal será que se llevan, si es, no?
+[00:25:04] No, al intento de eso, claro, tiene que tener, además, esos skills, ¿no?
+[00:25:11] También tiene que tener mucho conocimiento técnico, pero no solamente conocimiento
+[00:25:21] de entender sino también de comunicar, ¿no?
+[00:25:25] de comunicar las decisiones, o sea, saber traducir diálogos en todos
+[00:25:30] los requerimientos de negocios y transformarnos en decisiones de
+[00:25:35] arquitectura, no es solo eso, no es fácil, no es fácil.
+[00:25:41] Y por eso es que son posiciones bastante buscadas y bastantes
+[00:25:50] de cosas como el de acá.
+[00:25:58] Ya hace un montón de cosas en
+[00:26:02] el enero.
+[00:26:05] Pero especialmente en su
+[00:26:06] encarga de tomar estas decisiones
+[00:26:09] en la particular en esta carrera
+[00:26:12] en la carrera que ustedes han
+[00:26:17] elegido es muy chevere el hecho
+[00:26:19] de que tomamos muchas decisiones.
+[00:26:22] Y para tomar las decisiones
+[00:26:25] y para tomar las decisiones obviamente lo tratamos de hacer en base información, no?
+[00:26:32] No, porque nos huele, volemos algo, no? Si no, si se oremos algo, tiene que tener un
+[00:26:37] normal en una base. Entonces, vamos un poco acá a describir cómo se va definiendo la
+[00:26:51] arquitectura de software en las distintas etapas del proceso de
+[00:26:56] desarrollar software, no, un proceso clásico, no,
+[00:26:59] requerimientos, diseño, bueno, entonces,
+[00:27:02] por ser arquitectura, no, comienzas con los
+[00:27:04] requerimientos.
+[00:27:05] Que normalmente se conviene también en la etapa de
+[00:27:07] requerimientos o la etapa de análisis, no?
+[00:27:10] Sí, la etapa de requerimientos y análisis de software.
+[00:27:17] Entonces, acá es importante, chicos, al inicio.
+[00:27:21] ¿Qué es esto que ustedes no han visto en su juego?
+[00:27:24] Entender exactamente lo que es un requerimiento.
+[00:27:28] Eso es lo que queremos ver también hoy día,
+[00:27:31] en el taller con esta obra.
+[00:27:34] ¿Qué cosa es un requerimiento?
+[00:27:39] Algunos no lo entienden muy bien.
+[00:27:43] Un requerimiento es una especificación que describe
+[00:27:45] alguna funcionalidad, atributo o factor de calidad
+[00:27:50] y un sistema de so.
+[00:27:54] O sea, nosotros casi siempre nos quedamos en el periodo de una funcionalidad.
+[00:28:00] No, porque digamos que cuando uno tiene, está haciendo el análisis de cierto
+[00:28:06] software y bajo el conocimiento que normalmente tienen,
+[00:28:09] que es un conocimiento de remeter a la problemática o el negocio,
+[00:28:13] nuestro capacidad llega a dar requerimientos de funcionalidad solamente.
+[00:28:18] pero no tomamos en cuenta muchas veces que también como requerimiento nosotros
+[00:28:27] podemos definir los actrimientos o factores de calidad, el software, lo que se
+[00:28:35] conoce como los requerimientos no funcionales
+[00:28:39] lamentablemente lo que sucede por una vez es por la falta de experiencia es que
+[00:28:49] no se definen bien estos requerimientos no funcionarios, estos atributos de calidad
+[00:28:54] son cual se definen de una manera bastante ligera, pero bueno se entiende no en contextos universales
+[00:29:01] por el hecho que todavía ustedes van aprendiendo, no, pero me da condomina de experiencia y cuando
+[00:29:08] ya estén digamos en la cancha como se dice el proyecto real es ahí sí pues no hay si tienen
+[00:29:16] que describir bien estos requerimientos no funcionales porque son muchas veces marcan
+[00:29:23] el funcionamiento, la situación.
+[00:29:25] Entonces, existen distintos tipos de requerimientos, lo que les comentaba, dependiendo también
+[00:29:35] del nivel de extracción, existen usuarios que tienen un conocimiento de más alto
+[00:29:40] nivel, por lo tanto los requerimientos que podrían definir los requerimientos de
+[00:29:47] alto nivel, lo que se conoce como requerimientos de negocio, no es que no
+[00:29:51] sean importantes, son muy importantes porque los requerimientos del negocio son
+[00:29:55] digamos el dominio sobre el cual nosotros vamos a construir el software.
+[00:30:02] Luego ya comenzamos un poco a entrar en detalle a los requerimientos
+[00:30:07] usuario, lo recrimento de usuario ya normalmente es de la persona que va a ser
+[00:30:14] la usuario directa pues de nuestro sistema, ya no es de repente un GP, no, si no ya es
+[00:30:21] un usuario directo, pues ya tiene mayor conocimiento, se han determinado
+[00:30:26] momentos específicos y si seguimos bajando, no seguimos bajando, no, ya
+[00:30:32] comenzamos a los analistas de software o los programadores que ya lo pueden, estos requerimientos
+[00:30:40] traducir a requerimientos de sistema o requerimientos funcionales, no? Y homocaps, no?
+[00:30:49] O especificaciones de requerimientos de software, no? Entonces dependiendo del nivel de
+[00:30:59] extracción, los requerimientos se vuelven más específicos. No es que algún
+[00:31:07] sea mejor o peor, o cumplen digamos, esta dimensión. Por ejemplo, los dueños, imagínense que ustedes
+[00:31:17] están desarrollando su propia para una pequeña empresa, no, solo para una pequeña empresa.
+[00:31:22] Entonces probablemente los sueños tienen una visión de lo que quieren, de lo que quieren para la
+[00:31:27] herramienta que le están construyendo.
+[00:31:29] Es importante también tener en cuenta esa visión,
+[00:31:32] ¿no?
+[00:31:33] Esa visión más general.
+[00:31:38] De repente, el usuario específico del software ya no
+[00:31:41] tiene esa visión, no tiene esa mirada tan macro.
+[00:31:45] Tiene una mirada más específica porque va a ser la
+[00:31:47] pregunta utilizada.
+[00:31:48] Conocer la problemática, no directa, ¿no?
+[00:31:51] Y va a ser solucionada con su software más puntual,
+[00:31:54] con su usuario final.
+[00:31:56] por eso es que el cantante llega, se habla de los precios de calidad, o sea, él va a saber,
+[00:32:01] su usuario va a saber que está, o sea, cuál es el criterio para indicar que va a funcionar,
+[00:32:09] o no va a funcionar el sofón, ¿no? Bueno, y ya lo digamos los ingenieros, ya somos
+[00:32:17] los que lo que decimos, los reglendos, ya como saben cuenta las más técnicas, vamos
+[00:32:22] lo más más. Ya. El resumen, o sea, el resumen. Los requerimientos de este nivel, que traduce,
+[00:32:43] te lo han visto en dos tipos, ¿no? Lo que son los requerimientos funcionales y los requerimientos
+[00:32:49] minimales funcionarios. Los funcionales son los que definen cómo debe comportarse un
+[00:32:57] el relacionado en el sistema ante las distintas interacciones, los símbolos de los usuarios.
+[00:33:02] Es lo que se define como requerimientos funcional. Entonces puede haber un esquema de calle
+[00:33:10] de requerimientos funcional, hombre no detalle, ya depende pues de la necesidad de especificación.
+[00:33:18] con las metodologías ágiles
+[00:33:23] y a veces requerimientos
+[00:33:26] funcionan muchas veces de cantado en una historia de usuarios
+[00:33:31] muchas veces cantado en una historia de usuarios
+[00:33:36] pero es necesario tener un requerimiento
+[00:33:40] en pocas épocas de uso de inteligencia artificial
+[00:33:44] donde se regiene tener un requerimiento
+[00:33:48] bien definido y con bastante
+[00:33:53] detalles también para que la
+[00:33:56] idea, si se utiliza ahí a para
+[00:33:59] desarrollar, no tome decisiones
+[00:34:03] que no están correctamente
+[00:34:06] coacas de las entidades.
+[00:34:11] Entonces, es bueno tener
+[00:34:14] requerimientos funcionales muy
+[00:34:19] los requerimientos funcionales
+[00:34:22] deberían probarse con pruebas
+[00:34:25] funcionales, obviamente. Este tema del
+[00:34:28] problema funcional en la vamos a
+[00:34:31] entrar a la voz de Omar Mazzai
+[00:34:36] pero lo que me importa ahora, a la
+[00:34:39] arquitectura directamente le
+[00:34:41] enderenza con los requerimientos
+[00:34:43] funcionales, pero algún, ya como lo
+[00:34:45] vamos a ver en un ratito, algún
+[00:34:47] arquitectura amaadora son los requerimientos no funcionales.
+[00:34:53] Esos son clave, clave, clave, los requerimientos no funcionales.
+[00:35:01] En los cursos, yo no conozco de estoy a tu justicia en la universidad, no le prestamos
+[00:35:05] mucha atención a los requerimientos funcionales porque uno decía pues yo no tengo que implementar
+[00:35:11] un requerimiento no funcional, no es una funcionalidad del software, ¿no?
+[00:35:16] y si pues no es una funcional software,
+[00:35:18] pero requerimiento no funciona,
+[00:35:20] al definir la calidad de tus sofas.
+[00:35:23] Si, la calidad,
+[00:35:25] qué atributos de calidad se van a cumplir,
+[00:35:27] tu son.
+[00:35:32] Entonces, quizás en un entorno académico,
+[00:35:35] como la universidad,
+[00:35:36] o es un curso universitario,
+[00:35:38] pues no es que tu software va a ser probado
+[00:35:40] por otras personas más que los profesores,
+[00:35:43] no, el curso,
+[00:35:45] pero si que tú eso lo pasas en la realidad,
+[00:35:47] de si otras personas van a probar tu software entonces si los requisitos por funcionarios
+[00:35:53] son bastante importantes porque pueden mancar el fracaso del proyecto, a pesar de que tienes
+[00:35:59] implementados o todas las funcionalidades. Bueno, los requerimientos funcionales sobre
+[00:36:14] pasos, ¿no?
+[00:36:16] Especifijan los servicios que por lo habitual dan soporte a los
+[00:36:20] procesos del negocio, ¿no?
+[00:36:23] Y normalmente los llevan a cabo los usuarios primarios.
+[00:36:26] Y bueno, también existen algunos usuarios que dan soporte a la
+[00:36:33] realización de ciertos servicios que se definen en las
+[00:36:37] caso de uso o de secciones de uso.
+[00:36:40] Entonces, existen algunos requerimientos de usuario
+[00:36:44] primario, lo que le llaman que son requerimientos
+[00:36:46] principales, superventales.
+[00:36:49] Inciten otros requerimientos que son requerimientos de su
+[00:36:52] muerte.
+[00:36:53] No.
+[00:36:54] A esta parte, los drivers arquitectócolos.
+[00:37:07] Vamos a hablar de los requerimientos arquitectúlidos.
+[00:37:11] ¿Cuáles son los drivers?
+[00:37:12] Las drivers arquitectúlicos son los requerimientos.
+[00:37:16] tenemos requerimientos funcionales, requerimientos no funcionales, pero algunos de estos requerimientos
+[00:37:21] se les conoce como drivers arquitectónicos porque son muy influyentes en las decisiones
+[00:37:30] que tenemos que tomar, la arquitectura. Son tres, son tres tipos de drivers, los drivers
+[00:37:40] funcionales, los drivers que tienen que ver con los acudidos de calidad y los drivers
+[00:38:23] muy importantes, muy importantes,
+[00:38:29] y probablemente también bastante complejos.
+[00:38:33] Estos son los drivers funcionales, no,
+[00:38:35] estos casos de uso son malos, no.
+[00:38:39] Son escenarios que el sistema debe manejar de forma correa,
+[00:38:43] de forma crítica, o sea, si eso no funciona,
+[00:38:47] no funciona nada, no funciona nada.
+[00:38:51] que se puede implementar.
+[00:38:56] Esas funcionalidades son drivers
+[00:38:59] que se conoce como driver
+[00:39:03] funcionales.
+[00:39:07] Esas funcionalidades para que
+[00:39:09] no estamos tratando de elementos
+[00:39:11] no funcionales, referimientos
+[00:39:13] funcionales críticos.
+[00:39:15] Que tienen que implementarse,
+[00:39:17] tienen que funcionar bien.
+[00:39:19] su cocesencial es el registrar un nuevo libro.
+[00:39:24] Implica otras funcionalidades como la entrada de datos del
+[00:39:28] libro, la asignación de un identificarúo,
+[00:39:30] y por la coalición de la base data.
+[00:39:33] Es un driver funcional, es un requerimiento funcional
+[00:39:37] principal.
+[00:39:39] Tiene que funcionar bien si falla, falla todo.
+[00:39:46] En el caso de un marketplace, una aplicación de e-commerce
+[00:39:50] de la que no puedes hacer
+[00:39:53] comprar, ¿No? Enfrazar una
+[00:39:56] coja imagínense. Ustedes son
+[00:39:58] Amazon por un momento libre y
+[00:40:00] justo se maloora al momento,
+[00:40:02] se cae el momento en el que
+[00:40:05] tú realices una compra. O
+[00:40:07] sea, vos, o sea, es, es, es
+[00:40:10] una católica, ¿No? O sea,
+[00:40:13] cuántas plantas perdería?
+[00:40:15] ¿Cuántas plantas perdería?
+[00:40:17] O sea, hay requerimientos
+[00:40:19] funcionales que son
+[00:40:20] que es la que tiene que ser
+[00:40:22] funcional. Esos son los
+[00:40:24] los drivers funcional. Por
+[00:40:28] ejemplo, a ver ustedes que
+[00:40:30] conocen, qué
+[00:40:35] terimientos, así,
+[00:40:37] qué drivers funcionales
+[00:40:39] podríamos ser reconocer
+[00:40:41] a ver, en algún
+[00:40:43] sistema o software que utilicen
+[00:40:45] a que hay la universidad.
+[00:40:48] ¡Uf! ¡Qué
+[00:40:50] el terimiento!
+[00:40:51] ¿A lo que tiene que funcionar?
+[00:40:55] De una manera.
+[00:40:58] por ejemplo, uno de ustedes me parece que es el zoom, no, no, o sea, si por algún motivo
+[00:41:11] mueres un, el guardar la sesión, se puede hacer la clase, ¿no? Se puede hacer la clase,
+[00:41:22] ¿no? Por ejemplo, algo que podría fallar y que podría ocasionar muchos problemas y
+[00:41:31] no, porque no sé si ustedes han visto que en las puertas hay los lectores faciales.
+[00:41:42] Yo me, no, en esa muerta creo que van a poner en la muertura de la gana, no.
+[00:41:50] Entonces imagínate que en algún momento, no, no, no, no.
+[00:41:56] ¿Qué ha sucedido?
+[00:42:01] Bueno, con el carnet.
+[00:42:05] Carnet.
+[00:42:06] Pero ¿cuál es el problema?
+[00:42:07] Que no gustas a usted y a tu carnet, ¿no?
+[00:42:10] Porque se confían que por la, o por el otro.
+[00:42:13] Pero imagínense que ya la ya no tiene carnet,
+[00:42:16] ya no tiene carnet físico, no tiene carnet.
+[00:42:18] Entonces, podría ser un requerimiento,
+[00:42:20] un driver funcional, ¿no?
+[00:42:22] Podría ser.
+[00:42:24] Pues, confía a esa gente.
+[00:42:28] por ejemplo, otro traigo funcional, ¿no?
+[00:42:31] Es un sistema de matrículas, ¿no?
+[00:42:33] El matricular.
+[00:42:35] ¿No?
+[00:42:37] Imagínense que si tan que es un matricular.
+[00:42:40] ¿Sólo va a pasar uno de reforgo?
+[00:42:42] ¿Ah?
+[00:42:42] De igual, ¿no?
+[00:42:44] Ese es un traigo funcional.
+[00:42:47] Si él es que funciona siempre.
+[00:42:50] Y es por eso que, bueno,
+[00:42:53] que invista, ¿no?
+[00:42:54] A que a la importancia de los procesos de matrículas
+[00:42:59] de aquello en la universidad en Lima, es como que el nivel informático de toda la universidad para, si todo lo
+[00:43:05] recursos para la matrícula, porque es demasiado importante la matrícula, no?
+[00:43:12] Es un driver que funciona el ADN.
+[00:43:15] Entonces, lo primero que uno tiene que identificar chicos en su software,
+[00:43:20] son estos requerimientos fundamentales, los requerimientos de que si pasa un error se cae,
+[00:43:27] simplemente pues deje funcionar todo o cualquier un error muy fuerte. El otro nivel de driver
+[00:43:43] arquitectónico son los atributos de calidad. Acá es donde hablamos de los requerimientos
+[00:43:49] no funcionales. ¿Qué requerimientos no funcionales normalmente se afecta? Pues
+[00:44:00] que atributos de calidad formalmente desafectan.
+[00:44:04] Por ejemplo, el rendimiento de tu software,
+[00:44:07] la escalabilidad, la seguridad, mantenibilidad,
+[00:44:12] usabilidad, no la utilidad o elitismo en inglés.
+[00:44:19] Esos son atributos de calidad de los yceles.
+[00:44:23] Entonces, de todos los atributos, perdón,
+[00:44:26] los drivers de la arquitectura,
+[00:44:29] son los importantes. Ah,
+[00:44:31] es importante, ¿no?
+[00:44:33] Es por lo que un arquitecto
+[00:44:35] es bueno y recibe su paga,
+[00:44:38] digamos,
+[00:44:40] o sea, recibe buena plata y de forma
+[00:44:42] bien, bueno, porque es capaz
+[00:44:44] de poder hacer cumplir
+[00:44:46] con estos atributos de calidad que
+[00:44:48] son por funciones con estos atributos de calidad.
+[00:44:50] Y para eso es que tomar un montón de
+[00:44:52] disciplines, tomar un montón de
+[00:44:54] despeciados. Imagínense,
+[00:44:58] no miren, imagínense a ver
+[00:45:00] que va a venir el mundial del
+[00:45:04] mundo. Eh yo me acuerdo que en
+[00:45:08] el mundial pasado de de
+[00:45:11] había pues un partido, ¿No?
+[00:45:14] ¿Qué era Argentina? Lo que
+[00:45:15] fue Argentina, Argentina
+[00:45:17] contra quién era contra
+[00:45:18] Arabia, más contra Arabia
+[00:45:20] y era el primer partido
+[00:45:22] Argentina pues ¿No? Y había
+[00:45:24] un montón de gente que quería
+[00:45:26] ver ese partido ¿No?
+[00:45:30] no, no lo sé, pero yo tenía directivi, pero no tenía directivi, O sea tenía la app hace directivi
+[00:45:40] y decía al app de directivi no, entonces yo me conecté bueno para ver el partido y
+[00:45:50] hice el mejor cabido, un mejor partido de Argentina y todavía perdió a Argentina,
+[00:45:57] Argentina, ¿no? O sea, un partido. Entonces, después de probar Cústus sientas mil veces,
+[00:46:04] entró, pero estaba atrasado como cinco minutos. Como cinco minutos, entonces, ¡más! Pero
+[00:46:13] todo era bueno, o sea, nada, ¿no? Se veía una calidad bajísima, ¿no? Entonces, en esos
+[00:46:23] casos, por eso, es una falla total. Yo voy a tener una calidad, ¿no? De la arquitectura,
+[00:46:27] de arquitectura, de ese servicio
+[00:46:31] extreme, no sé cuál será,
+[00:46:33] de la empresa que le da,
+[00:46:34] de la empresa del servicio streaming,
+[00:46:35] no, a directivit, no,
+[00:46:37] este, pero fue el malazo, no,
+[00:46:40] después lo mejoraron,
+[00:46:42] si, supongo,
+[00:46:43] con donde gente se habrá empezado,
+[00:46:45] ya, es,
+[00:46:46] después sí lo mejoraron,
+[00:46:49] entonces que los siguientes partidos,
+[00:46:51] especialmente los partidos más pesados,
+[00:46:52] y conversaron,
+[00:46:54] ya, no va a tener problemas,
+[00:46:56] pero sí pues el atrevuto de
+[00:47:03] escalabilidad no fue cumplido,
+[00:47:05] probablemente funcione para una
+[00:47:08] cantidad de usuarios, pero en un
+[00:47:10] pico como puede ser un partido
+[00:47:12] de fútbol tan importante que
+[00:47:13] todos querían ver, ¿no?
+[00:47:15] Esto es simplemente el sistema
+[00:47:17] de soporte al módulo, cumplir
+[00:47:19] con esa pregunta de calidad,
+[00:47:20] y no lo pudo.
+[00:47:23] Entonces,
+[00:47:25] de la
+[00:47:29] calidad de atributo de calidad.
+[00:47:33] Algunos ejemplos por ejemplo en el tema de rendimiento,
+[00:47:36] no, el sistema debe ser capaz de procesar mil transacciones
+[00:47:39] por segundo sin degradar la experiencia de un flanque.
+[00:47:43] ¿Eh?
+[00:47:45] Por segundo a mil transacciones por segundo.
+[00:47:48] Un
+[00:47:51] un...
+[00:47:53] de la seguridad, ¿no? El sistema debe cumplir con esta
+[00:47:56] ley de seguridad o as. Asegurando que no haya vulnerabilidades
+[00:48:01] críticas. Otro tributo de de calidad pues es de la
+[00:48:06] habilidad, ¿no? La arquitectura debe permitir la
+[00:48:09] disción de nuevos servidores para apatizar un aumento del
+[00:48:11] cincuenta por ciento de la carga de usuarios sin
+[00:48:14] esciere el sistema. Vamos. Entonces, estos son
+[00:48:20] que son los otros son atributos
+[00:48:26] que son complicados el poder
+[00:48:28] cumplir
+[00:48:30] los complicados
+[00:48:32] es una persona que normalmente tiene que tomar muchas decisiones técnicas para poder cumplir con estos requisitos
+[00:48:38] no
+[00:48:40] ahora no
+[00:48:42] ahora puedes ver nuevamente el mundial
+[00:48:44] supongo que ya la plataforma de streaming de direct live
+[00:48:46] ya tendrá una mejor performance, no es comparado con lo que fue en el año 2020, estamos hablando de streaming,
+[00:48:53] no estamos hablando de la forma clasica, sino de streams.
+[00:49:00] Entonces es muy importante, por ejemplo, un entrevista que hicieron a un ingeniero,
+[00:49:08] ¿Qué es el nombre?
+[00:49:13] Si no me quedó coer de Amazon, no me acuerdo si era de Amazon o de Netflix, ya, pero era
+[00:49:23] del equipo que se enchargaba del Streeting, creo que partió de la NSL, de Sudamericano,
+[00:49:32] ¿no?
+[00:49:33] y él comenta lo complicado pues que era poder servir a la cantidad de usuarios
+[00:49:40] concurrentes que se conectaban para tener un partido con buena calidad sin
+[00:49:48] delays o con un poco tiempo de la... era bien difícil pero lo pudieron hacer
+[00:49:56] no, pero fue muy complicado.
+[00:50:00] Esto son los atributos de realidad según este ISO, ¿no?
+[00:50:12] La funcionalidad con frevillidad, no sabiduridad,
+[00:50:14] tectricies, el pasivier, mantenimiento, portabilidad.
+[00:50:18] Son algunos atributos de calidad.
+[00:50:19] Ustedes al declarar sus requerimientos no funcionales
+[00:50:22] puede una línea de recebí algunos de estos atributos especificados en esta ISO.
+[00:50:29] La funcionalidad es la pertinencia, la precisión de la operación, la seguridad,
+[00:50:35] en cuanto a la confiabilidad, la tolerancia de fallos, la facilidad de recuperación,
+[00:50:41] en cuanto a la utilidad es tan fácil en que tan poco tiempo se puede
+[00:50:48] utilizando la aplicación, eficiencia, comportamiento en tiempo, uso de recursos, todo podría ser
+[00:50:56] similar, facilidad de mantenimiento, portabilidad, si que de repente si quieres portar distintas
+[00:51:05] tecnologías, eso es algo que atributa la calidad que mantiene ahí, es el demo mixton 6.
+[00:51:14] entonces aquí hemos visto chicos los
+[00:51:18] los reglas funcionales que son los
+[00:51:21] requerimientos funcionales más
+[00:51:23] importantes fundamentales y los
+[00:51:26] atributos de calidad que son los
+[00:51:27] requerimientos no funcionales y las
+[00:51:32] restricciones son imitaciones
+[00:51:40] no como dice su nombre son imitaciones
+[00:51:43] que pueden ser imitaciones técnicas
+[00:51:46] pueden ser limitaciones administrativas, limitaciones legales, que uno pues tiene que
+[00:51:52] sentirse, no tiene que alinearse con los nuevos tipos. Por ejemplo, alguna restricción técnica,
+[00:51:58] puede ser el tipo de ecología y tecnología que se puede utilizar para el desarrollo,
+[00:52:03] por ejemplo el sistema debe ser desarrollado, que utilizado el framework.net,
+[00:52:06] y debe ser compatible con base de adoces de poderles ser. Eso es una restricción que se tiene.
+[00:52:12] es un y que es un y que es un
+[00:52:20] reflexión de tiempo, ¿No? El
+[00:52:22] proyecto debe completarse en un
+[00:52:24] plazo seis veces debido a que
+[00:52:26] seis veces se va a realizar el
+[00:52:28] lanzamiento de un producto. Es
+[00:52:31] otro, para una reflexión
+[00:52:33] muy fuerte, ¿No? Alguna
+[00:52:35] reflexión legales. El sistema
+[00:52:37] debe cumplir con la normativa
+[00:52:39] GDPR para la proactividad de
+[00:52:41] datos en personales privados
+[00:52:44] no es una otra
+[00:52:49] no son
+[00:52:52] no son atributos de calidad
+[00:52:56] limitación de restricciones que se
+[00:53:00] tienen que cumplir porque se tienen que cumplir
+[00:53:02] porque se tienen que cumplir porque se tienen que cumplir
+[00:53:04] porque no hay una
+[00:53:08] explicación técnica para estas
+[00:53:11] no es una decisión en base a la
+[00:53:16] pertinencia de una tecnología o no.
+[00:53:18] Simplemente es porque tiene que
+[00:53:21] cumplir, porque lo hace en la
+[00:53:23] empresa ya tiene esencia de ese
+[00:53:25] software y tiene que utilizarlo
+[00:53:28] porque tiene que utilizarlo, no?
+[00:53:29] O porque los demás sistemas también
+[00:53:32] grabaron cuenta de un poco, no?
+[00:53:33] Eso es asombrado.
+[00:53:35] Nos trae de restricción.
+[00:53:37] ¿Qué es la dirección?
+[00:53:46] Exito también, a mis administraciones técnicas que tienen que ver con el uso,
+[00:53:58] durante el desarrollo de ciertos productos de son, por ejemplo,
+[00:54:05] tu aplicación pretende se construir utilizando, o sea, Inteligay.
+[00:54:16] O de repente tienes que utilizar Git para controlar las versiones de los OVAs.
+[00:54:24] O por ejemplo, no, este...
+[00:54:27] Hay un sepa que lo que es la cosa más en un FOSA.
+[00:54:33] Tienes que utilizar Git para poder verificar las...
+[00:54:41] Si se cumbren con los sándales de programación.
+[00:54:43] o por ejemplo tienes que seguir los
+[00:54:46] estátares de programación definidos por la
+[00:54:49] organización. Son las fracciones técnicas también.
+[00:54:55] Esta parte es muy interesante porque
+[00:55:08] nos sirve. Ya sabemos por eso los drivers,
+[00:55:12] los que ustedes tienen que especificar
+[00:55:14] cuando el elizabil se les pida que
+[00:55:17] especifica los refrigerantos no
+[00:55:19] de los que no son funcionables,
+[00:55:22] entonces tienen que usar el
+[00:55:24] fonar, yo tengo tres tipos de
+[00:55:26] drivers para definir
+[00:55:29] requerimientos, eh, no, no,
+[00:55:30] requerimientos arquitecturas,
+[00:55:31] no, no, tengo los trajes
+[00:55:32] funcionables, tengo los
+[00:55:34] trajes de la calidad y tengo
+[00:55:35] los trajes de la reducción.
+[00:55:37] Perfecto. ¿No? Entonces, pero
+[00:55:40] ya, ¿Cómo lo especifico? ¿Cómo
+[00:55:46] lo especifico? Porque de la
+[00:55:48] verdad, especificamos un
+[00:55:50] pero en el caso de la arquitectura
+[00:55:54] con los especificamos
+[00:55:56] ahí es que debido a nuestro
+[00:55:59] conocimiento, ¿No?
+[00:56:02] y ahí es también debido a nuestra
+[00:56:04] pereza, ¿No? Pero no nos
+[00:56:07] especificamos bien y la verdad
+[00:56:10] en el que pues el nuevo se ve
+[00:56:13] en parte.
+[00:56:16] ¿No?
+[00:56:24] Eh, bien chicos.
+[00:56:26] Esta es una escritura tradicional
+[00:56:28] de requerimiento no funciona.
+[00:56:30] La disponibilidad
+[00:56:32] es la cantidad de tiempo que un sistema
+[00:56:34] que está funcionando conforme
+[00:56:36] han ofre visto durante el
+[00:56:38] periodo de tiempo predeterminado por ahí.
+[00:56:40] Entonces, acá dice, no,
+[00:56:42] el sistema debe tener
+[00:56:44] una disponibilidad visual
+[00:56:46] el 90% del sueldo del 95% si significa que el sistema debe estar funcionando, funcional
+[00:56:55] el 95% de horas al mes, ¿no? Un 5% de horas es el tiempo que podría caer o se no, no
+[00:57:10] no se va. Está completo. Podría ser. Ya. Pero también podría llevarnos a ciertas ciertas
+[00:57:29] trampas. No, por cierto, porque problemas. Especialmente el problema de la disponibilidad.
+[00:57:35] Y acá y pueden hacer esto y puede ser el error común. No, no, no, no, no, no, no,
+[00:57:41] de la comunidad. Entonces, en un
+[00:57:53] contexto ya actual, el
+[00:57:55] requerimiento no funcional debe
+[00:57:57] ser mucho más específico. Además,
+[00:58:00] porque ayuda cuando un programa
+[00:58:02] es comunidad, sirve como
+[00:58:04] constitución de tu proyecto, ¿no?
+[00:58:06] Sirve como una constitución de
+[00:58:07] tu proyecto. Siempre las
+[00:58:09] decisiones que toma el
+[00:58:10] constitución artificial, las
+[00:58:12] corroboras, las corroboras
+[00:58:14] ¿no? Muchas veces. Entonces, por eso mientras tú especificas con mayor detalle, con mayor
+[00:58:22] detalle tu requerimiento no funcional va a ser mucho mejor. Lamentablemente, esta forma
+[00:58:32] de detallar, de describir un requerimiento no funcional no va a ser de mucha equidad.
+[00:58:40] si, pues a ver si la disponibilidad dice cuando el petición normal se produce una
+[00:58:46] falla irrecuperable del hardware debe resultar posible restaurar el sistema
+[00:58:51] a un estado conocido no anterior a la copia de seguridad del día anterior en
+[00:58:56] menos de tantas horas desde el momento en que el hardware esté disponible.
+[00:59:02] de manera muy importante. Sí.
+[00:59:06] Miren, ya no se menciona
+[00:59:08] disponibilidad así de forma
+[00:59:10] bastante alegre, si no, si no,
+[00:59:13] ya se tiene un un estilo mucho
+[00:59:17] más eh mucho más específica,
+[00:59:20] ¿Eh? Entonces eh nos permite
+[00:59:23] encontrar rápidamente la mejor
+[00:59:25] solución para este requisito de
+[00:59:27] la comunidad que es lo que se
+[00:59:29] puede aplicar para este caso,
+[00:59:32] es bien, es bien, es bien, es bien
+[00:59:35] poder especificar
+[00:59:39] requerimientos no funcionarios.
+[00:59:42] esto utilizando esta, esta
+[00:59:45] origen que estimula el todo al
+[00:59:48] de facto respuesta y medida
+[00:59:51] pues, eso es lo que se conoce
+[00:59:54] como un escenario de calidad.
+[00:59:57] Entonces, ya nosotros cuando
+[01:00:00] de la siguiente evaluación para
+[01:00:03] poner el requerimiento no
+[01:00:04] funcionales como lo vieron en
+[01:00:06] solo uno quizás. Ahora tiene que
+[01:00:08] ser mucho más exacto. Y tienen
+[01:00:11] que ya no definir simplemente la
+[01:00:14] disponibilidad tiene que ser del
+[01:00:16] 95 por ciento. Ya nos hacemos.
+[01:00:20] Ahora lo que tú tienes que
+[01:00:21] especificar es un escenario. Sí.
+[01:00:25] Un escenario de cargar. ¿Qué es
+[01:00:28] esto requerimiento no
+[01:00:29] de calidad. ¿Cómo construye este
+[01:00:35] escenario de calidad? Es bien
+[01:00:37] sencillo, ¿No? Siguiendo estos
+[01:00:39] seis puntos. Tienes que detallar
+[01:00:42] esa tu, tu especificación de tu
+[01:00:44] requerimiento no funcional. Tú
+[01:00:46] tienes que detallar estos seis
+[01:00:47] puntos, ¿Eh? O para el trabajo
+[01:00:50] también, chicos. ¿No? ¿Eh? Lo
+[01:00:53] primero que tienes que
+[01:00:54] definir es la fuente del
+[01:00:57] de la extinción, ¿No? O sea, ¿Qué genera ese evento problemático? Puede ser un uso
+[01:01:04] interno, pues el hacker, para terminar seguridad, puede ser un pico de tráfico, un servidor
+[01:01:11] que se cae, o sea, algo tiene que generar ese problema, ¿No? Esa es la fuente del
+[01:01:19] estímulo. En este, el estímulo se lo ocurre, ¿No? Por ejemplo, se intenta y se
+[01:01:26] una sesión, se cae la base de datos, llegan 5 mil peticiones en un segundo, ese es el
+[01:01:33] estímulo, o sea tenemos la cuenta del estímulo que es lo que genere el estímulo,
+[01:01:37] que vemos el estímulo en sí. Y luego tú defines el artefacto, qué parte del
+[01:01:43] sistema se va a ver afectado, recibe el impacto, por ejemplo el proceso de
+[01:01:49] la aplicación, la base de datos, el servidor web, la aplicación de
+[01:01:56] Fromming, qué componente de tu software que hace pactos en que se va a haber
+[01:02:01] afectado cuando sucede el estímulo, el entorno.
+[01:02:10] ¿En qué condiciones normalmente ocurre eso? Si en segunda operación normal, de
+[01:02:16] repente durante un mantenimiento, algún pico, ¿en qué cuáles son las
+[01:02:20] que es lo que está pasando en el sistema para que suceda eso.
+[01:02:25] ¿Qué es lo que hace el sistema como reacción?
+[01:02:30] Bloquea la cuenta, cambia un servidor de respaldo,
+[01:02:34] procesa las peticiones, ¿no?
+[01:02:37] Y la última parte es lo más importante, ¿no?
+[01:02:42] Si tú miras la respuesta, ¿cómo se mide la respuesta?
+[01:02:46] ¿Cómo medimos que esa respuesta realmente sea ansiositosa?
+[01:02:49] ¿Cuál es el criterio de si la respuesta es de si hay actualidad?
+[01:02:53] este métrico tiene que ser totalmente
+[01:02:56] cuantitativo. En menos de dos
+[01:02:59] segundos se recupera el sistema.
+[01:03:01] Existe un 0% de perdida de datos.
+[01:03:04] Tenemos un 99.9% de aptime.
+[01:03:09] Entonces, eso es un clamedil.
+[01:03:11] Con estos puntos, ustedes tienen que construir
+[01:03:16] el escenario de calidad.
+[01:03:19] La sobremedimiento no funcional tiene que transformarse
+[01:03:22] finis. Por ejemplo, en este caso hay 20 clientes simultáneamente el tiempo de... este es un
+[01:03:38] requerimiento no funcional clásico. Si hay 20 clientes, el tiempo de respuesta debe ser
+[01:03:43] menos de un segundo si es justa sea normal. Entonces acá ya analizamos un montón de
+[01:03:48] cosas por ejemplo, ¿cuál es el estímulo? ¿no? Se van a contestar 20 clientes,
+[01:03:57] nos va a comenzar el escenario cuando se conectan 20 clientes, ¿quién lo
+[01:04:02] origina? Pues los clientes ¿no? Los clientes que se conectan simultáneamente.
+[01:04:07] ¿Dónde se están conectando? Probablemente a un sistema iLogging, un
+[01:04:13] muy capaz de usuarios. ¿Cuál es el entorno?
+[01:04:18] Si constancias normales durante una operación normal.
+[01:04:23] ¿Cuál es la respuesta?
+[01:04:25] No, en este caso, bueno, el tiempo de respuesta,
+[01:04:31] no de la aplicación, es la respuesta,
+[01:04:35] y la medida que va a ser en un segundo.
+[01:04:38] bueno, menos que un ser. Entonces, entueunciado, de un escenario de calidad, tienes que mencionar
+[01:04:51] todos estos componentes. Tienes que mencionar todos. Sí. No, no. La verdad es otro ejemplo,
+[01:05:04] ¿No?
+[01:05:04] Ya comenzó vamos al break.
+[01:05:06] Ya comenzó vamos al break.
+[01:05:09] ¿Cuánto?
+[01:05:11] A ver.
+[01:05:14] Los usuarios inician mil transacciones
+[01:05:16] por minuto.
+[01:05:18] Bajo condiciones normales.
+[01:05:21] O sea de 9 a 6 horas.
+[01:05:23] El sistema debe procesarlas
+[01:05:25] el resultado del pantalla debe tener
+[01:05:27] una enlatencia menor
+[01:05:29] a 3 segundos.
+[01:05:31] Entonces
+[01:05:34] ¿Cuál es el estímulo? Yo siempre normalmente
+[01:05:36] con el estímulo, el estímulo es solo la transacción, van a suceder mil transacciones
+[01:05:45] en un minuto, mil transacciones en un minuto, es el estímulo. ¿Tienes lo van a originar
+[01:05:52] en este tipo de locos y los usuarios? Como dice el cambio, de repente hay algún tipo
+[01:05:57] de usuario en específico, pero si no, el general los usuarios. ¿Cuál es el ambiente,
+[01:06:02] entorno en condiciones normales, ¿no? de 9 a 12. De 9 a 2.
+[01:06:08] ¿Cuáles son los componentes que se van a ver impacados todo el sistema? ¿No? La respuesta
+[01:06:15] que debe tener un resultado en pantalla, ¿no? La transacción procesada. ¿Y cuáles
+[01:06:21] la medida de la respuesta que la tiene que tener una latencia menor a 3 segundos?
+[01:06:26] es el que se ha definido que se
+[01:06:34] tiene que cumplir.
+[01:06:35] ¿Por qué es importante ya para acabar?
+[01:06:41] Vamos chicos, alguna duda, alguna pregunta.
+[01:06:44] ¿Qué es importante en los escenarios de calidad?
+[01:06:49] Porque realmente luego van a permitir que sean
+[01:06:53] esta prueba, ¿no?
+[01:06:55] Esta prueba, ¿no?
+[01:06:56] Vamos a poder revisar, vamos a simular un escenario.
+[01:06:59] Este escenario vamos a tener que simularlo
+[01:07:02] para ver si nuestro software puede reaccionar ante estas características. Por eso es bastante útil
+[01:35:33] y se hace ahí en su casa.
+[01:35:35] Si no se puede ver, no se puede ver.
+[01:35:37] ¿Qué pasa?
+[01:35:39] Yo creo que no se puede ver.
+[01:35:41] ¡A la!
+[01:35:43] ¡A la!
+[01:35:45] ¡A la!
+[01:35:47] ¡A la!
+[01:35:49] ¡A la!
+[01:35:52] ¡A la!
+[01:35:54] ¡A la!
+[01:35:56] Ya, ya, ya.
+[01:35:58] Vamos a...
+[01:36:00] vamos a arrepiar estos rapidos para
+[01:36:36] este tema porque si ustedes quieren relojer de traer el detalle de este tema, si está el culto
+[01:36:41] arquitectura de software, no, es el curso electivo, no, que le va a hacer bien para ya construir
+[01:36:50] estas arquitecturas, pero digamos que nosotros simplemente las vamos a más o más o menos
+[01:36:59] entender, pero siempre hay mucho en el tiempo. Así como hay patrones de diseño, que son los patrones
+[01:37:09] que habíamos visto en las semanas anteriores, también se pueden definir patrones arquitectónicos,
+[01:37:16] que son patrones de un nivel un poco más alto, porque los patrones de diseño, los componentes son
+[01:37:24] las clases y las relaciones que hay entre clases en los categories
+[01:37:29] arquitecturales ya los componentes ya no son las clases sino
+[01:37:33] verdaderas ser módulos, sub-systemas, componentes de un mayor nivel.
+[01:37:38] Entonces, pero al final digamos que el uso que se le da es bastante similar al uso que se le da
+[01:37:48] en el que se va a los patrones de
+[01:37:52] diseño. Encuentras un problema
+[01:37:56] y en un día de este problema tu
+[01:38:00] aplicas un patrón de diseño.
+[01:38:02] Entonces en caso de un patrón
+[01:38:03] artificial es también lo mismo ¿no?
+[01:38:06] Es un requisito de arquitectura
+[01:38:08] en un escenario de calidad necesario
+[01:38:10] entonces antes de una
+[01:38:12] realidad tú tienes algunos
+[01:38:20] patrones que puedes aplicar.
+[01:38:22] los arquitectónicos, como les digo,
+[01:38:27] esto no puede resultar de mucho detalle este punto.
+[01:38:31] Por ejemplo, tenemos un tipo que es modelo de reproductorio.
+[01:38:35] Este tipo de arquitectónicos utilizan bastante las
+[01:38:37] aplicaciones de backend en la cual se existen los sistemas,
+[01:38:44] pero que siempre interactúan directamente con un
+[01:38:46] reproductorio, que es el reproductorio central.
+[01:38:49] tienes un esquema de objetos distribuidos,
+[01:38:53] que se comunican mediante un bus de datos.
+[01:38:55] No, tienes un esquema de cliente servidor,
+[01:39:01] que es bastante conocido, tiene clientes que se conectan
+[01:39:05] a un servidor y el servidor se conecta muchas veces
+[01:39:09] con bases de datos, con sus arquitectoras clientes
+[01:39:12] servidor.
+[01:39:14] Tienes lo que son las directores de tipo PyP,
+[01:39:17] no hay lines, que se utiliza mucho el procesamiento de data,
+[01:39:22] especialmente el data en el cual la data va pasando por
+[01:39:28] componentes módulos y cada módulo va transformando en la data
+[01:39:32] de cierta manera hacia el siguiente y así sucesivamente.
+[01:39:36] Como si fuera una tubería, algo de agua,
+[01:39:40] agua va fluyendo, los fracos van fluyendo, por eso es tuberito.
+[01:39:43] Entonces esos son estilos efectónicos que uno puede
+[01:39:47] como la decisión de utilizarlo dependiendo de los contextos, en los cuales ustedes se
+[01:39:53] les aplican. Casi siempre no una manera de ver estos artesinos arquitectónicos es
+[01:40:03] mediante CAS, no? este CAS nos da determinar información del sistema o
+[01:40:11] determinada funcionalidad del sistema, no? Por ejemplo cuando se habla, no sé si usted
+[01:40:17] de lo que es arquitectura limpia, clínico, arquitectura,
+[01:40:21] normalmente la que es limitado.
+[01:40:23] Pero la idea es tener distintas capas.
+[01:40:26] La arquitectura capa proporciona determinada,
+[01:40:29] pues está compuesto por determinados componentes
+[01:40:31] que proporcionan determinadas funcionalidades.
+[01:40:35] Como cada uno tiene la capa del núcleo, la capa de filerías,
+[01:40:38] tiene la capa de filería, tiene la capa de interfaz de usuario,
+[01:40:41] tiene la capa más alejada.
+[01:40:44] También se podría ver de esta forma.
+[01:40:46] también se puede presentar de esta forma la la representación de servicios de
+[01:40:50] aspiración de dominio, de ejecutura y la base de datos o servicios externos.
+[01:40:56] No es un favor de agilectuar las capas, pero los discípulos son ponentes.
+[01:41:07] Bueno, acá no sé si se puede ver bien, no, hay distintas tipos de usos que se le
+[01:41:14] que pueda a las distintas arquitecturas, por ejemplo,
+[01:41:18] esta es la arquitectura de un compilador.
+[01:41:22] Compilador, un compilador, como puede ser un compilador,
+[01:41:25] es un lenguaje de programación, como se ma paz.
+[01:41:28] No normalmente tiene este tipo de arquitectura tipo fight,
+[01:41:33] no tipo tuberías.
+[01:41:34] Es un punto de fases que se va a ejecutar
+[01:41:36] todo el formato de presión.
+[01:41:39] Esto es un compilador.
+[01:41:41] Esto es un compilador.
+[01:41:44] comienzas en el etapa del exer, luego el parcer,
+[01:41:47] luego el análisis esmálvito, luego la organización,
+[01:41:50] la generación del código y el código objecto.
+[01:41:53] Es el resultado final, el código máquina.
+[01:41:57] Este es un perfilador.
+[01:41:59] Por ejemplo, acá tienes lo que es una arquitectura,
+[01:42:03] no sé si lo acuerdan esto, del ósimo, del modelo ósimo.
+[01:42:09] De redes, para que la arquitectura quede de ser
+[01:42:12] planteada en redes.
+[01:42:15] acá tienes una arquitectura de bus, de funcionales, acá tienes
+[01:42:21] los distintos sistemas o servicios,
+[01:42:24] comíticos servicios que se van conectando entre ellos mediante
+[01:42:29] un ancho de van.
+[01:42:31] Ya acá tienes una que de todos los repositorios no tiene
+[01:42:34] repositorio de proyectos, que es lo que tiene los componentes,
+[01:42:37] que además hay una información que tiene que hacer repositorio.
+[01:42:40] Pero la verdad, hay distintos tipos de arquitecturas,
+[01:42:43] no es de aplicaciones, no es de,
+[01:42:47] pues normalmente se suelen utilizar.
+[01:42:52] ¿Qué?
+[01:42:55] Ah, la arquitectura de objetos, no,
+[01:43:01] digamos que se pasa bastante pues en el paradigma orientado
+[01:43:04] a objetos, no, especialmente algunos conceptos que se
+[01:43:10] definen, no como por ejemplo lo que es la herencia,
+[01:43:13] por ejemplo lo que es el morfil,
+[01:43:15] en encapsulación, composición, eso que utilizamos en las clases,
+[01:43:19] en final son componentes, también no podemos utilizar en
+[01:43:22] componentes de mayor nivel.
+[01:43:25] Entonces, lo interesante de esta arquitectura de objetos es que
+[01:43:31] en teoría, teoría debería proveer software que es altamente
+[01:43:37] modular, que sea cumple con los principios de arquitectura
+[01:43:42] de la alta conhesión, o sea,
+[01:43:47] por un lado, la alta de la incerestia.
+[01:43:50] Entonces, particularmente es bastante útil en los sistemas
+[01:43:54] de soporte porque nos provee pues
+[01:43:58] el costo o la dificultad de mantener estos soporte
+[01:44:02] bastante bajo, ¿no?
+[01:44:04] Porque tenemos muchos componentes, esos reutilizados.
+[01:44:11] En fin, lo mismo que hemos visto del paradigma de los objetos.
+[01:44:18] Basado en componentes, la arquitectura basada en componentes,
+[01:44:23] es que digamos que es singular,
+[01:44:28] pero yo lo veo más como más que objetos que interactúan entre sí,
+[01:44:33] que hay herencia en composición.
+[01:44:36] Yo lo veo más como un led, la arquitectura basada en componentes.
+[01:44:41] Por ejemplo, las interfaces gráficas React tienen una arquitectura basada en componentes.
+[01:44:48] Ustedes arman una interfaz gráfica como si estuvieran armando un ropecabezas juntando partos.
+[01:44:54] Cierda parte en las juntas con esta, en las juntas con esta otra arma, componente mucho mayor.
+[01:45:01] Como si fueran lejos.
+[01:45:03] y fueran lejos.
+[01:45:04] A ver, hay que tener solamente en cuenta
+[01:45:08] alguna característica simplemente tener estos módulos,
+[01:45:12] estos bloques.
+[01:45:15] Por ejemplo, las interfaces de cada bloque tienen que tener
+[01:45:18] interfaces bien definidas para que dos componentes puedan
+[01:45:22] estar juntos o han trabajado juntos.
+[01:45:25] Entonces, tienen que tener interfaces claras.
+[01:45:30] Estos componentes no reutilizables.
+[01:45:32] de la bienestar real, real, ustedes podían definir un menú que lo podían utilizar en varias páginas,
+[01:45:39] ¿no? Totalmente reutilizado. La dirección de dependencias administra las dependencias entre
+[01:45:45] los componentes, ¿no? Los componentes como acá, ¿no? Acá se ven que los componentes no trabajan
+[01:45:53] como dependencias específicas si no se inyectan la dependencia con los que quieren trabajar, ¿no?
+[01:45:58] no es que tienen la decisión de trabajar con alguna dependencia en el
+[01:46:03] principio. Eso lo hace muchísimo más configurable, mucho más sencillo de poder trabajar.
+[01:46:10] Sí, es lo que es de una arquitectura basada en como mesh.
+[01:46:13] A ver, checo esto. Y este es un poco la diferencia, ¿no?
+[01:46:21] La diferencia de una arquitectura entre objetos es una arquitectura basada en
+[01:46:24] de componentes. Siempre piden en Rea. Rea es una librería que está y se permite construir
+[01:46:31] aplicaciones para saque de componentes, pero no conientos objetos. ¿No? ¿A cuáles es
+[01:46:37] Rea? Con la verdad, con JavaScript o con TypeScript. No crean clases, no hay herencia,
+[01:46:46] pero sí te permite definir componentes que trabajan entre sí. ¿No? Ahora, utilizando
+[01:46:53] la arquitectura del objeto si podemos construir también algo similar pero ya tienes la herencia,
+[01:46:58] la composición, el polimorfismo, no? y lo puedes comenzar. La arquitectura digamos dirigida por el
+[01:47:12] dominio, ¿no? y es bastante similar a lo anterior pero digamos le da mucho más preponderancia,
+[01:47:23] que no se vea, ¿No? Al dominio
+[01:47:26] sobre el cual tú vas a construir una determinada herramienta de software, ¿No?
+[01:47:29] Porque hay veces que se nos se nos olvillan, pero
+[01:47:32] la herramienta de software es una herramienta, ¿No?
+[01:47:36] No es el objetivo
+[01:47:39] del negocio, es solamente una herramienta para cumplir
+[01:47:42] todo el objetivo del negocio, ¿No?
+[01:47:45] Entonces a veces se nos olvida y como buenos ingenieros
+[01:47:48] hacemos sobre ingeniería o queremos construir
+[01:47:51] realmente no está alineada con los que tienen negocios.
+[01:47:54] Entonces, la idea de esa arquitectura es que esto no suceda.
+[01:47:58] Realmente que la arquitectura de software esté totalmente
+[01:48:03] alineada por base, se guíe totalmente por el dominio en el
+[01:48:07] cual se está creando.
+[01:48:09] El dominio es como un frame o un mar sobre el cual se
+[01:48:14] construyen las distintas soluciones.
+[01:48:16] ¿Qué nos pasa con los efectos?
+[01:48:23] Bueno, efecturas multigapas, ¿no?
+[01:48:26] Este es bastante común, ¿no?
+[01:48:29] Es bastante común, especialmente en la época actual.
+[01:48:34] Hace unos años era mucho más, ¿no?
+[01:48:36] Tenemos distintas capas, cada capa tiene sus propios componentes.
+[01:48:40] Seguramente han escuchado hablar de los micro servicios, ¿no?
+[01:48:45] de los servicios se basaban en una
+[01:48:49] de las que estaban en los servicios
+[01:48:51] podía vivir en su propia capa que tenía
+[01:48:53] de determinar funcionalidades
+[01:48:55] para el final, por ejemplo,
+[01:48:56] tener las capas de cliente,
+[01:48:58] tener las capas de presentación,
+[01:49:00] como tenían las capas de negocio,
+[01:49:02] tenían las capas de datos,
+[01:49:03] y cada una de estas capas
+[01:49:05] tenías tus propios servicios que se
+[01:49:07] encarga van de poder realizar
+[01:49:09] alguna funcionalidad.
+[01:49:11] Este tipo de arquitecturas tenía sus
+[01:49:14] beneficios, pero también tenía sus
+[01:49:16] de la que se compra. Por ejemplo, el gran beneficio que tenían los mismos servicios con las estructuras
+[01:49:24] multi capas era que tenía un alto disponibilidad, era fácil poder reemplazar a un servicio
+[01:49:30] que dejara funcionar. Por ejemplo, si deja de funcionar este servicio de la capa de negocio,
+[01:49:37] entonces era fácil solamente poder reemplazar este servicio, no tenía que caerse todo el sistema.
+[01:49:43] entonces era relativamente sencillo, el punto de en contra era que este tipo de directores es muchísimo más compleja,
+[01:49:53] muchísimo más compleja de implementar, muchísimo más compleja también de poder encontrar errores,
+[01:50:00] de mantener, es mucho más fácil de operar desde el punto de vista operativo,
+[01:50:06] de la que se puede escalar
+[01:50:12] fácilmente de hecho, muchos
+[01:50:14] utilizan, o sea, mientras más
+[01:50:17] los servicios tengas es mucho
+[01:50:18] más fácil poder definir
+[01:50:21] ciertas características de cada
+[01:50:22] misos servicios para que tenga
+[01:50:23] un día mejor respuesta
+[01:50:25] cumplante de todos, drivers
+[01:50:27] de la arquitectura, ya, pero es
+[01:50:29] mucho más difícil de programar,
+[01:50:31] es mucho más complicado de
+[01:50:33] mantener, entonces ahí siempre
+[01:50:35] siempre hay cosas que suman, cosas que restan, y cosas que tratan de buscar un equilibrio.
+[01:50:42] Porque orientar a todos los servicios es incrementar un montón la complejidad del sojo,
+[01:50:48] y siempre que se aumenta la complejidad del sojo, es un impacto en el tiempo, en la mantenibilidad.
+[01:50:53] Y nos hemos tentado a realizar también sobre ingeniería, y la sugerigería también es...
+[01:51:00] ¿Pensaba que hace unos años estaba muy devor hablar de microservicios, no decían que si
+[01:51:12] tú nos seguías de microservicios estaba pollo en otra, se tomaba de hecho cuando yo enseñaba
+[01:51:21] so por dos o tres años, no se comentaba que esta arquitectura pues era lo que se debía
+[01:51:29] que se puede aplicar. Ya. Y más bien las arquitecturas
+[01:51:33] monolíticas, no, las, las arquitecturas monolíticas,
+[01:51:37] monolíticas que solamente hay un solo servicio, nada más,
+[01:51:41] todo está ahí, toda la logica, un solo servicio, no,
+[01:51:45] era algo que se tenía que evitar. Pero con los años,
+[01:51:50] no, este, esto se ha dado por el tan, todos, ¿no?
+[01:51:54] Que los microservicios han llevado, también,
+[01:51:56] también, tan demasiado la complejidad.
+[01:51:59] más abuca ahora en épocas Inteligencia Artificial, se han puesto muy de moda lo que son los monorrecos,
+[01:52:05] aplicaciones donde tienes fron en mi vaque, hay el mismo que la misma aplicación. Todo esto
+[01:52:13] pues, porque tú decías para tener el contexto del Inteligencia Artificial en un solo lugar,
+[01:52:18] sea mucho más sencillo poder desarrollar aplicaciones unidas, tener aplicaciones monorrecos o de
+[01:52:25] alguna u otra forma tratar de comunicar los distintos componentes. Por ejemplo,
+[01:52:30] tu suelo en la web, ustedes tienen dos componentes. Bueno, hasta tres, ¿no?
+[01:52:34] Tienes, este, from it, bucket y base data. No, from it, bucket y base data.
+[01:52:40] En el modo repo, pues tú tienes from it y bucket es una sola aplicación.
+[01:52:47] ¿No? La base de datos si es un poco difícil de generar, no sé qué sea,
+[01:52:51] pero bueno, es otro tipo de enjero de bastante más poder,
+[01:52:59] estamos realizando a los monolítimos.
+[01:53:02] Bueno, el patrón en ese, pero, lo dejamos ahí.
+[01:53:12] Lo dejamos ahí, vamos a comenzar con el taller de Arón.
+[01:53:17] A ver chicos, antes de terminar, por favor,
+[01:53:21] no se olviden que las instrucciones del trabajo
+[01:53:24] que las instrucciones del trabajo ya están en evaluaciones, en 2016 uno, evaluación dos
+[01:53:36] proyectos de liso uno, y si evaluación dos porque es la segunda nota, ya, acá tienen
+[01:53:46] lo que tienen que presentar, el documento que tienen que presentar, ya, si, y acá
+[01:53:57] en la rúbrica de exposición están los cinco puntos de los laboratorios. Este laboratorio
+[01:54:04] debería ser un tipo laboratorio calificado. Vamos a hacer un laboratorio extra más, solamente
+[01:54:12] para los que han perdido algún laboratorio. Un laboratorio extra más. No creo que lo
+[01:54:22] vamos a hacer un plazo, pero
+[01:54:25] podemos hacer en clase,
+[01:54:26] probablemente sea algo que
+[01:54:28] vamos a tener que hacer fuera de
+[01:54:29] clase, pero un tiempo así
+[01:54:31] específico, ¿Ah?
+[01:54:33] Esto es totalmente opcional.
+[01:54:36] Son tan legales.
+[01:54:38] Son tan legales.
+[01:54:41] ¿Eh?
+[01:54:45] Vamos a ver.
+[01:55:18] de la gente.
+[01:55:20] De T.
+[01:55:22] Bueno.
+[01:55:24] Bien.
+[01:55:26] Bien.
+[01:55:28] Bien.
+[01:55:30] Bien.
+[01:55:32] Bien.
+[01:55:34] Bien.
+[01:55:36] Bien.
+[01:55:38] Bien.
+[01:55:40] Bien.
+[01:55:42] Bien.
+[01:55:44] Bien.
+[01:55:46] Bueno, por favor, antes de comenzar el rota ayer,
+[01:55:48] haré un poco de comentar algunas preguntas que le han hecho, ¿no?
+[01:55:51] Que me parece bastante,
+[01:55:53] no puedo resolver las palabras.
+[01:55:55] El primero, lo que tienen que crear, ya,
+[01:55:58] tienen que tener un porcentaje en ese primer release terminar, ¿no?
+[01:56:02] Les sugiero que tenga el 60%
+[01:56:05] no, este, pero totalmente determinado,
+[01:56:08] nada, no hay que tener el 60% de las pantallas,
+[01:56:11] o tengo el 70%
+[01:57:44] Entonces, la idea es que ustedes en ese laboratorio ya puedan ir a contarlo con lo que deberían
+[01:57:54] entregar en su proyecto final. Si les voy a pedir que ya voy a creer los proyectos,
+[01:58:02] como ya tenemos que definir los proyectos, los pies técnicos donde cada proyecto,
+[01:58:08] de que voy a crear los proyectos mismos.
+[01:58:11] Hay unas series de instrucciones que hay puesto en el Redmi,
+[01:58:14] así que tranquilamente pueden bastarte en eso.
+[01:58:18] La primera parte es la creación del mismo proyecto,
+[01:58:21] tienes que estar viendo lo mismo.
+[01:58:24] Acá estamos el paso a paso de una vez con la técnica de
+[01:58:27] cómo crearlo.
+[01:58:29] Pueden ponerme esta memoria, el grupo, el número de grupos,
+[01:58:34] modo guión, el nombre de la aplicación para proyectos.
+[01:58:39] Luego, la segunda parte es la creación de las sesiones de usuario.
+[01:58:42] Vamos a ver.
+[01:58:46] Igual, ya les he mostrado, he explicado más o menos cómo
+[01:58:49] creamos.
+[01:58:50] Así que el objetivo de esa sesión, bueno,
+[01:58:52] esta la botella va a ser que ustedes ya vayan dependiendo
+[01:58:55] de ese.
+[01:58:57] Los features que van a ustedes ya ir separando,
+[01:58:59] por ejemplo, lo de ese 60% que el ropa decía, ¿no?
+[01:59:02] De hecho, ya no pueden ir plasmando, ¿no?
+[01:59:04] En un exit, un work, y poniéndolos en este documento.
+[01:59:08] Bueno, en esta tabla de pollinas.
+[01:59:17] Y cada historia que usted vaya a material como usuario,
+[01:59:20] que finalmente debe ser un issue.
+[01:59:25] En el formato de la descripción,
+[01:59:28] he puesto más o menos la estructura de cómo deberían
+[01:59:30] de ponerlo.
+[01:59:32] Igual es sucesible cualquier variación,
+[01:59:34] porque el entropecón que me traje más detalle,
+[01:59:36] ponga mejor lo hacer para nosotros,
+[01:59:37] que no vamos a evaluar el avance de cada uno de ustedes.
+[01:59:42] es un ejemplo.
+[01:59:43] Es el Excel user, tenemos un Issue,
+[01:59:46] ponemos una pequeña descripción en lo que más o menos es
+[01:59:50] este Excel.
+[01:59:51] Vas a, por ejemplo, como tipo de usuario,
+[01:59:54] quiero lograr este objetivo para hacer todo el Ejercicio.
+[01:59:58] Y vas poniendo, por ejemplo, criterios de servición para
+[02:00:02] considerar que ese Excel user lo ha logrado.
+[02:00:07] Bueno, en la parte 3, una vez, como,
+[02:00:10] Nos traemos un poquito el laboratorio anterior.
+[02:00:12] Bueno, la sección.
+[02:00:14] Hay una serie de propiedades, ¿no?
+[02:00:16] Esta vez que ustedes creen los xx,
+[02:00:18] se deben usar todos.
+[02:00:20] Cállanos justo de puesto, porque más o menos deben de
+[02:00:24] explicar, ¿no?
+[02:00:25] Y más o menos su descripción, ¿no?
+[02:00:27] De cada propiedad, el estado, si está en un bar, ¿no?
+[02:00:32] Ya se está abalzando y está finalizado.
+[02:00:34] En la signin que va a ser básicamente quien va a ser
+[02:00:39] se va a encargar de desafiar ese feature o issu, el label.
+[02:00:45] Es el tipo de feature que ustedes o issu han especificado.
+[02:00:49] Así es, no sé, ni alias, tal vez nos va,
+[02:00:53] se está documentando.
+[02:00:55] O, por ejemplo, los labels personalizados,
+[02:00:59] que les explique que tranquilamente si es que
+[02:01:01] el propio record no se da tan para ustedes,
+[02:01:04] pueden crear esos cursos.
+[02:01:05] De prioridad, ese es un recomendado, ¿no?
+[02:01:12] Después te piden como 3-0, p1, p2, p3, ¿de acuerdo?
+[02:01:16] ¿Y cómo ustedes tienen que priorizar los issuers?
+[02:01:20] El size, ¿no?
+[02:01:23] Si es el tamaño más o menos, ¿qué es tan complejo?
+[02:01:25] Es la taría que va a dar el desarrollado.
+[02:01:29] El estimado, la interacción, el start date y el end date.
+[02:01:33] Eso es importante porque de hecho en esta sesión,
+[02:01:36] vamos a la Teputa, lo piden, lo proyectan,
+[02:01:39] así como los siueros, para que más o menos
+[02:01:42] cuántos les va a tomar el yxotear.
+[02:01:46] ¿Y quién lo va a hacer?
+[02:01:48] ¿Por qué? Porque en base a eso, de hecho,
+[02:01:50] nosotros vamos a tomar, y ustedes, en base a cómo
+[02:01:53] las han definido en un inicio, se están logrando,
+[02:01:55] se están demorando, incluso lo hacen mucho más rápido
+[02:01:59] de lo que no le piden.
+[02:02:00] De hecho, va a ser nuestro...
+[02:02:02] de esas cuatro últimas vendizcas son las las ropas
+[02:02:05] importantes para poder medir este en nivel de avance.
+[02:02:10] El par de quichis.
+[02:02:11] Supongo.
+[02:02:13] Bueno, una vez que ha definido todo eso y cuento las
+[02:02:16] propiedades del curso, este, para realizar el proyecto,
+[02:02:20] para no mover los tals, a terminar las responsables,
+[02:02:23] mantener al autorizado el estado de Caísorio,
+[02:02:26] por ejemplo, correctamente las nacionalidades,
+[02:02:28] y eso es lo que va a hacer el cliente.
+[02:02:32] y como entregables para variar efectivamente
+[02:02:37] a un 8 en ahora.
+[02:02:38] Yo correctamente, en cada grupo deberá
+[02:02:41] entregar el URL del rector y el grisca.
+[02:02:44] Fue en algunos, depende de cómo usted lo está manejando,
+[02:02:47] cuando si están trabajando con promedicaje,
+[02:02:49] tienen que surgir los dos rey.
+[02:02:52] El URL de grisca es Proyegy.
+[02:02:54] Vamos a crear uno y de hecho vamos a enlazar este último
+[02:02:57] que han creado con los repos que decoyo que usted
+[02:03:01] que están manejando.
+[02:03:04] Como mínimo, para esta laboratoria,
+[02:03:06] las voy a pedir 10 historias.
+[02:03:07] Si quieren, lo pueden hacer el mismo vídeo en el proyecto,
+[02:03:11] o pueden ahí distribuirse hasta que como gusten.
+[02:03:15] Y todas las historias que usted va a crear en esas 10,
+[02:03:19] usted tiene que completar los lejos, las propiedades que hay
+[02:03:25] en el citícaque.
+[02:03:27] Tiene que estar todos los propiedades.
+[02:03:30] De la forma como voy a valorarlo, ahí están.
+[02:03:32] y alguna recorrección.
+[02:03:33] No, es general correctamente.
+[02:03:36] Sí, manteniendo clave, presentes,
+[02:03:40] tareas pequeñas y las calias.
+[02:03:43] Queterías de criterias de criterias de cívicos,
+[02:03:45] actualizar el gol constantemente y en tantas
+[02:03:48] demasiadas generales.
+[02:03:51] Y ahí puse un ciertado documental.
+[02:03:52] En hecho, la plataforma es iniciativa,
+[02:03:55] pero por si acaso ahí me puse la documentación de cuál
+[02:03:59] que cosa hay para la universitaria.
+[02:04:01] Igual ahí pueden aprovechar ese laboratorio
+[02:04:03] para preguntarme, vas a pensar dos.
+[02:04:07] ¿Y tú, de qué?
+[02:04:09] ¿Y yo?
+[02:04:11] ¿Y yo?
+[02:04:13] No, esa es una pequeña guía, pero de hecho,
+[02:04:16] ustedes deben de crear este proyecto.
+[02:04:18] Este proyecto va a dar el caballo, sí.
+[02:04:21] No, no, no, no.
+[02:04:23] Pero debajo hay que decir...
+[02:04:27] Ahí dice, por favor, te voy a crear...
+[02:05:02] que no se lo puedo decir.
+[02:05:04] ¿Vos chicos tengo un arroz?
+[02:05:06] Si no, voy a hacer un tipo y eso se va a pasar.
+[02:05:08] Eso es lo que es.
+[02:05:10] Lo que es.
+[02:05:12] Y para subirla,
+[02:05:14] va a estaría que un bus de vídeo del proyecto lo suelo.
+[02:05:16] Bueno, es el diapregado.
+[02:05:18] Justo en lo que estoy viendo.
+[02:05:20] Es como...
+[02:05:22] No, no.
+[02:05:24] No, no, no.
+[02:05:26] No, no.
+[02:05:28] No, no.
+[02:11:32] Si no, es un tipo de gente que se sabe que viene de fronso.
+[02:11:35] Ya lo tienes que hacer.
+[02:11:37] ¿Está de tu piel?
+[02:11:39] No, de su piel, pero...
+[02:11:41] ¿Para quién te dice?
+[02:11:43] Ya.
+[02:11:44] ¿Pero qué se rejaza?
+[02:11:46] ¿Es un tipo de gente que se sabe que viene de fronso?
+[02:11:48] Yo lo gusta de forma...
+[02:11:50] Ya.
+[02:11:52] Yo te arriba para abajo.
+[02:11:54] Si vos piensas que te he tenido que...
+[02:11:56] Te he tenido que ir arriba.
+[02:12:58] ¿Qué? ¿Qué?
+[02:13:00] ¿Qué tal?
+[02:13:02] Ah, el proyecto está en los ocho
+[02:13:04] segundos.
+[02:13:06] ¿Qué?
+[02:13:08] ¿Qué?
+[02:13:10] No sé.
+[02:13:12] No sé.
+[02:13:14] No.
+[02:13:16] ¿Qué?
+[02:13:18] No.
+[02:13:20] No.
+[02:13:22] No.
+[02:14:25] ¿Qué te recibe para el parque?
+[02:14:27] Sí, la escocron.
+[02:14:28] Ah, ya, por favor.
+[02:14:29] La escocron, la escocron.
+[02:14:30] ¿Dónde me doy a el mar?
+[02:14:31] ¿Para?
+[02:14:32] ¿Para?
+[02:14:33] ¿Quién lo comió?
+[02:14:34] La de Policarglomidex, solo lo de la fecha.
+[02:14:36] Ah, eso es.
+[02:14:37] Para esa sufección, es todo lo que me hacía.
+[02:14:40] ¿Para qué te está viendo?
+[02:14:41] No, no, no, no, por qué.
+[02:14:42] ¿Qué?
+[02:14:43] ¿Qué?
+[02:14:44] Es como un...
+[02:14:45] Ah, pero yo...
+[02:14:46] Es...
+[02:14:47] Es como un...
+[02:14:48] Es como un...
+[02:14:49] Es como un...
+[02:14:50] Es como un...
+[02:14:51] Es como un...
+[02:14:52] Es como un...
+[02:15:23] ¿Qué pasa por el primero?
+[02:15:26] Estaba de acuerdo.
+[02:15:28] Bueno, ya, aquí hay un señor.
+[02:15:31] ¿Qué pasa?
+[02:15:33] No, no, no, no, no, no, no, no.
+[02:15:37] ¿Qué pasa?
+[02:15:39] ¿Qué pasa?
+[02:15:41] Aquí hay un señor.
+[02:15:43] ¿Qué pasa?
+[02:15:45] Ya, te he hablado con el señor.
+[02:15:47] Ya, te he hablado con el señor.
+[02:15:49] Ya, te he hablado con el señor.
+[02:36:40] ¿Qué pasa, Ron?
+[02:36:42] ¿Qué pasa?
+[02:36:44] Ah, pero sí está...
+[02:36:46] ¿Qué pasa?
+[02:36:48] Ha dado a través de los seres seguros, ¿ah?
+[02:36:50] No, hasta el noche de hoy.
+[02:36:52] ¿No hay alineación?
+[02:36:54] ¿Hay alineación?
+[02:36:56] Sí, sí.
+[02:36:58] ¿Qué pasa?
+[02:37:00] ¿Qué pasa?
+[02:37:02] ¿Qué pasa?
+[02:37:04] ¿Qué pasa?
+[02:37:06] ¿Qué pasa?
+[02:38:41] ¿Pero ser, no puedes ser el único que está...
+[02:38:44] Sí, sí, sí, si, no me parece que me parezca el...
+[02:38:49] Éste es el único que está de acuerdo, es el único que está de acuerdo.
+[02:38:54] ¿Dónde estoy?
+[02:38:56] ¿Me parece que me está dando su equificar?
+[02:38:59] Sí, sí, sí.
+[02:39:01] ¡Tennis la verdad!
+[02:39:03] ¡Este, estas, estas!

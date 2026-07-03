@@ -1,0 +1,1457 @@
+[00:06:39] bien, entonces, bueno, buenas
+[00:06:48] tardes, vamos a comenzar con nuestra
+[00:06:52] sesión de hoy día, hoy día debemos
+[00:06:54] acabar con todos los relacionados
+[00:06:56] con pruebas, la sección de
+[00:06:58] aseguramiento de la targuería de
+[00:07:00] software, ya saben que, si es
+[00:07:04] cierto, de práctica, esto no va a
+[00:07:07] entrar de forma práctica en la
+[00:07:10] en la animación y en la próxima semana,
+[00:07:15] que sí podría entrar a su matrior.
+[00:07:20] Y también se le va a seguir quenteando una u otra forma
+[00:07:23] de enfilizar en su trabajo.
+[00:07:26] Ya.
+[00:07:27] Ya.
+[00:07:30] Entonces, este...
+[00:07:34] Vamos a ver lo que son las pruebas de rendimiento,
+[00:07:37] no específicamente,
+[00:07:39] cómo hacer una prueba de rendimiento,
+[00:07:41] de la que se pueden ver en los
+[00:07:44] diferentes de una fracada
+[00:07:47] de rendimiento de software.
+[00:07:50] Ya es lo que vamos a hacer hoy
+[00:07:52] bien. Entonces,
+[00:07:54] algo es muy importante.
+[00:07:56] Yo sé que ustedes como todavía
+[00:07:58] están estudiando, ¿no?
+[00:07:59] Algo nos está practicando.
+[00:08:01] Aun así, ¿no?
+[00:08:03] Hay sistemas que van a
+[00:08:07] recibir una alta cara
+[00:08:10] que se generan, como se llama
+[00:08:14] para decir los términos
+[00:08:16] generales, ya sean
+[00:08:18] usuarios, ya sean de
+[00:08:20] transacciones, totalidad de
+[00:08:22] transacciones, entonces, en
+[00:08:23] muchas veces es muy complicado
+[00:08:26] poder simular esos escenarios
+[00:08:29] no, con unos programas
+[00:08:30] programas, porque nosotros
+[00:08:32] podemos simular escenarios
+[00:08:33] utilizando las herramientas que
+[00:08:35] vimos antes para organizar
+[00:08:38] y ver si se curlen determinadas
+[00:08:43] funcionalidades que están
+[00:08:45] especificadas, pero no podemos
+[00:08:48] ponernos en ciertas situaciones.
+[00:08:50] Voy a ir complicado con las
+[00:08:52] nuevas situaciones, como por ejemplo
+[00:08:54] si yo deseo probar que las personas
+[00:08:56] de forma simultánea traten de
+[00:08:58] acceder algún recurso compartido
+[00:09:00] o de repente si es que unas gran
+[00:09:02] cantidad de personas traten de
+[00:09:04] utilizar mi aplicación,
+[00:09:06] es muy complicado poder ponerse en esas situaciones con una prueba
+[00:09:10] sencilla, es por eso que existen estas pruebas que tratan de
+[00:09:15] simular esos escenarios. Entonces, por ejemplo,
+[00:09:21] no, es una pregunta que podríamos tener,
+[00:09:24] como curiosidad, por ejemplo,
+[00:09:28] ¿cómo podemos garantizar que un sistema de software funcione
+[00:09:31] de manera eficiente bajo distintos niveles de cargas,
+[00:09:35] de usuarios, o llevando las condiciones extremas.
+[00:09:40] Qué impacto tiene la concurrencia,
+[00:09:42] o de la cantidad de usuarios simultáneos, la latencia,
+[00:09:46] que según los tiempos de demoras, el cruz de la experiencia del
+[00:09:50] usuario y el rendimiento del sistema,
+[00:09:53] qué impacto podría tener.
+[00:09:55] Es bueno también saber modificarlos,
+[00:09:58] porque es importante realizar diferentes tipos de pruebas de
+[00:10:00] rendimiento para asegurarles habilidad y escalabilidad de
+[00:10:04] que nos ha hecho en nuestra
+[00:10:10] aplicación. ¿Eh? ¿Y cuantos? ¿Qué
+[00:10:12] pasos podríamos? ¿Podríamos
+[00:10:13] seguir para identificar y resolver
+[00:10:14] los problemas de cuello de
+[00:10:17] botella? ¿No? Todo el. La idea es
+[00:10:19] poder adelantar, no, si estará
+[00:10:20] tarde a responder estas preguntas
+[00:10:21] sobre las que son las pruebas
+[00:10:23] de rendimiento, ¿No? Yo sé que
+[00:10:25] es un poco complicado,
+[00:10:27] especialmente si no es trabajable
+[00:10:29] un proyecto que requiera una
+[00:10:31] alta transacciónalidad, es
+[00:10:33] problemas. Sí, pero realmente es
+[00:10:38] importante, realmente es bastante
+[00:10:40] importante. Y no solamente eso, no,
+[00:10:43] no solamente para ponerse en la
+[00:10:45] situación que haya una alta
+[00:10:46] transaccionabilidad, una gran
+[00:10:48] cantidad de historias, sino que hay
+[00:10:50] veces que ustedes también desean
+[00:10:54] calcular los votos, por ejemplo, de
+[00:10:59] sus recursos comunicacionales, no, o
+[00:11:01] ¿Cómo usted fue emplaculado? ¿Cuánto me costaría? ¿Cuánto yo debería de poner en mi presupuesto?
+[00:11:07] Para mis servicios de nube, por ejemplo, ¿no?
+[00:11:11] Yo quiero simular escenarios donde añada mis escenarios esperados a nivel de usuarios
+[00:11:19] y eso también, ¿ver cuánto gastamos en recursos computacionales para poder prospectarlos en un plagro?
+[00:11:25] entonces además además de probar cómo funciona el sistema, lo que nos podría servir para eso,
+[00:11:31] ¿no? Para poder medir nuestros costos y además eso también temer poder planificar correctamente,
+[00:11:40] ¿no? Entonces, por eso es que es importante ese tipo de pruebas, este tipo de pruebas de rendimiento.
+[00:11:45] ¿Verdad? Vamos a ver primero algunos conceptos básicos de las pruebas de rendimiento y luego
+[00:11:52] vamos a ver si podemos hacer de forma práctica o una prueba bastante sencilla.
+[00:11:58] Como definición no la frase de rendimiento sobre el proceso de terminar la velocidad
+[00:12:07] con la eficacia que una computadora, una red o en general cualquier software reacciona o trabaja.
+[00:12:15] O sea, poder medir la velocidad y también la eficacia.
+[00:12:20] Pero yo entro mucho más ahí también en ver
+[00:12:25] y en el cuando de, no, que recursos de software, ¿no?
+[00:12:34] ¿Cuántos de recursos de software?
+[00:12:37] Bueno, al entrar en detalles debemos entender que hay varios
+[00:12:41] factores que son los que pasan en el reviviento de una
+[00:12:44] aplicación, por ejemplo, ¿qué es el tiempo de respuesta?
+[00:12:48] en el curso de HCI, por ejemplo, cuando se ven lo que son diseños web y integración web,
+[00:12:59] hay muchas investigaciones que le unican que si tu página se demora más o un segundo más
+[00:13:11] encargar la probabilidad de que el usuario decida entrar en otra página, salir de tu página
+[00:13:20] o no o dejarlo, el visto como se dice tu página es bastante más alta, no?
+[00:13:26] Por eso el reforme se va devorando más encargar tu página web la posibilidad de rebote
+[00:13:32] la probabilidad de rebotes incrementa de una forma, de un puer, no?
+[00:13:39] es muy importante. No, no, no,
+[00:13:43] bastante, bastante rápida, ¿No?
+[00:13:45] Entonces, es, es, por si muy
+[00:13:47] importante, no, o sea, cada
+[00:13:48] segundo, cada mil y segundo
+[00:13:50] cuenta y cuesta, cuesta dinero,
+[00:13:53] ¿No? Entonces, eso, por
+[00:13:55] ejemplo, se estudia mucho en
+[00:13:56] la internacional humana
+[00:13:57] computadora, es un, es un
+[00:13:59] driver, ¿No? Es, es muy
+[00:14:01] importante a la hora de
+[00:14:02] excedir sistemas, ¿No?
+[00:14:04] Especialmente, güey, ¿No?
+[00:14:06] Es, es, es, es, es, es,
+[00:14:09] también? Sin quietly sin too
+[00:14:13] 林 y que no sé más cuál funcionaba
+[00:14:15] y forma y
+[00:14:18] sí, también
+[00:14:21] compon 이거는 es o
+[00:14:23] otro tipo de aplicaciones.
+[00:14:25] Qué pueden tener
+[00:14:27] ¿C Fe podría tener algún tipo de
+[00:14:30] funcionarias?
+[00:14:31] No 70 siglos en la mejora
+[00:14:34] chan a mí Perry y yo
+[00:14:36] que podríamos
+[00:14:39] que está muy eficiente o eficaz así o no el cuanto al uso de los cursos.
+[00:14:44] Esa es mi opinión.
+[00:14:48] El rendimiento no es una palabra muy compleja.
+[00:14:53] Es un concepto y siempre cualquier concepto o variable.
+[00:14:58] Si lo vemos desde el punto de vista de investigador,
+[00:15:01] el rendimiento es una variable.
+[00:15:04] Es muy importante tenderla para poder medirla, saber medir.
+[00:15:10] ¿Verdad? Entonces, una
+[00:15:14] definición de rendimiento, ¿no?
+[00:15:15] Es que es la capacidad de un producto para manejar múltiples transacciones en un período
+[00:15:20] de terminada. Entonces, nosotros vamos a ver un período T de tiempo, ¿no?
+[00:15:25] Entonces, el rendimiento debería hacer esa capacidad de que mi sistema pueda manejar
+[00:15:30] esa cantidad, el T de transacciones en esa cantidad de tiempo de terminada.
+[00:15:36] de la vida. Yo espero por
+[00:15:41] ejemplo, de no sé, mi sistema
+[00:15:45] en más de 100 acciones en
+[00:15:48] 13 segundos, ¿No? Entonces, el
+[00:15:51] que pueda un poco cumplir eso
+[00:15:52] pues es una es una medida de
+[00:15:54] rendimiento. ¿Sí? Entonces,
+[00:15:56] normalmente el rendimiento se
+[00:15:57] representa en un número de
+[00:15:59] solicitudes o transacciones, ¿No?
+[00:16:01] Los exámenes hace un periodo de
+[00:16:04] que unmente el número de usuarios simultáneos, normalmente el rendimiento suele aumentar.
+[00:16:12] Bueno, debería ser disminuido, el rendimiento comienza disminuido como el tiempo. Mientras
+[00:16:19] tu empiezas más usuarios, la capacidad de responder a esos usuarios comienza a disminuir.
+[00:16:25] ¿No? ¿Qué es disminuir? Está disminuida. Es rendimiento disminuido, como demora su
+[00:16:31] las solicitudes, pero esa capacidad de poder aprender las solicitudes comienza a disminuir
+[00:16:36] pues porque obviamente necesitas mucho más recursos para poder atender esas solicitudes.
+[00:16:41] Entonces, es algo que tenemos que ver de mejora, primero pedir, mejora.
+[00:16:51] Entonces, los tiempos de respuesta que podría ser una medición de rendimiento,
+[00:17:04] si el concepto de rendimiento de una forma de medir este concepto de rendimiento,
+[00:17:08] es el que ya ante los tiempos de respuesta.
+[00:17:11] ¿Cuánto tiempo responde o demora de responder el sistema ante alguna petición o interacción?
+[00:17:18] Entonces, si se encuentra, cuanto más o menos la cantidad de usuarios transacciones
+[00:17:26] contra tus rentes, la cantidad de tiempo de respuesta también va a aumentar.
+[00:17:33] que formada, y si no, que no nos damos a ver, va a salir rápido, va a salir más rápido,
+[00:17:44] va a ir creciendo bastante conforme va aumentando la cantidad de share concurrencia. Entonces,
+[00:17:52] si queremos definir ese tipo de respuestas, no, un cerretrazo entre el punto de la solicitud
+[00:17:58] y la primera respuesta del producto.
+[00:18:01] Si, sea cuando te llegas a la respuesta del producto,
+[00:18:06] me lo atenderas desde que tú iniciaste la petición
+[00:18:08] o interacción hasta que te diga una respuesta.
+[00:18:12] Entonces, bueno, el tiempo es que la respuesta
+[00:18:14] propuesta personalmente la cargas usuarios.
+[00:18:17] Normalmente mientras más un reto en correos de sale,
+[00:18:19] vamos a aumentar el tiempo.
+[00:18:21] Eso es bastante obvio de odores,
+[00:18:23] que es por la cantidad de recursos que vendrás.
+[00:18:27] Normalmente, la naturaleza de las comunidades
+[00:18:29] que no es lo que usted está
+[00:18:31] y fue el curso de arquitectura
+[00:18:33] comodoras. Por eso eso para
+[00:18:35] nosotros, para los ingenieros
+[00:18:37] especialmente en sistemas no debería
+[00:18:39] ser más, por favor, tiene lojo.
+[00:18:41] Al final, computador, un servidor
+[00:18:43] qué cosa es, es un procesador.
+[00:18:45] Un procesador que procesa
+[00:18:47] de forma secuencial las instrucciones
+[00:18:49] ahora pueden haber
+[00:18:51] cómodos, pero al final se van
+[00:18:53] procesando de forma secuencial
+[00:18:55] de repente a la vez, pero
+[00:18:57] no. Entonces esa sequentialidad pues hace que pueda demorarse y procesar algunas instrucciones
+[00:19:08] dependiendo de la cantidad de recursos, pero este bueno, si obviamente yo tengo una gran cantidad
+[00:19:13] de recursos infinitos, pues no me voy a demorar nada, si aquí me repuesto por más de que la
+[00:19:18] cantidad de usuarios sea muy alta, pues no va a cambiar, pero como no tenemos recursos infinitos,
+[00:19:25] nuestra cantidad de memoria, nuestra cantidad de ciclos, el procesador disponible es limitada.
+[00:19:32] Entonces, pues van a haber retrasos. Nos van a tener que haber retrasos. El procesador va a hacer
+[00:19:39] su mejor labor con los procesadores que van a tratar de hacer su mejor de cumplir de la
+[00:19:48] mejor forma la tarea pero igual vamos a retrasos. Entonces eso pues es el tico de respuesta.
+[00:19:54] ¿No? ¿Titulización? No bueno, casi estoy haciendo sinlulización.
+[00:20:00] ¿No? Ese ajuste es el procedimiento mediante el cual se mejora el rendimiento del producto
+[00:20:08] mediante el establecimiento de diferentes valores para los parámetros del producto.
+[00:20:13] en este caso es que nosotros para
+[00:20:19] poder mejorar el limiento
+[00:20:23] normalmente tuneamos.
+[00:20:27] Creo que es al final una
+[00:20:31] es de la traducción castellana
+[00:20:33] de tunea.
+[00:20:37] tuneas distintas
+[00:20:41] configuraciones para poder mejorar
+[00:20:44] muchas veces el rendimiento de la
+[00:20:45] aplicación, pero este tuneo en sí
+[00:20:49] puede ser a nivel del software base
+[00:20:55] por ejemplo, tú puedes tunear con la base de datos
+[00:20:58] para que ya utilice una mayor cantidad
+[00:21:01] del memoria RAM
+[00:21:04] entonces obviamente vas a mejorar el
+[00:21:07] rendimiento del acceso a la base de datos
+[00:21:09] porque va a poder trabajar con una mayor cantidad de transacciones para tener un mejor rendimiento
+[00:21:14] porque las túneas son, y pues inclusive en muchos sistemas se trabaja con colas,
+[00:21:21] entonces tú puedes túnear, también las colas, para que las colas puedan merecer,
+[00:21:27] obviamente que crecen una cola significa que podrán utilizar más recursos,
+[00:21:31] una cola, entonces es lo mismo, ¿no?
+[00:21:36] La idea de este tuneo es realizar ciertas configuraciones pero sin tener que modificar el código.
+[00:21:46] Que nosotros podamos medir este code, la conocidad más utilizando este tipo de pruebas
+[00:21:54] me permite ir tuneando, sintonizando la base de datos para que más el datos o cualquier otro tipo de contenido
+[00:22:05] porque también, en mi caso, el servidor es web.
+[00:22:07] También puedes tunear el servidor web.
+[00:22:09] Hay muchas configuraciones que tú le puedes hacer el servidor web
+[00:22:12] para que pueda responder de forma mucho más rápida.
+[00:22:16] Por ejemplo, ¿no?
+[00:22:17] Tú puedes configurar para que aumente el ancho del caché,
+[00:22:23] ¿no?
+[00:22:24] Que los servidores pueden...
+[00:22:26] El tamaño de caché de cada percipción,
+[00:22:30] o puedes tunear para que utilicen un sistema
+[00:22:35] de compresión distintos para poder enviar trata
+[00:22:39] comprimida, instratiticiones HMDG que la data sea más
+[00:22:43] comprimida, o sea menos información se envía.
+[00:22:47] Entonces, esas son tuneos que se suelen hacer en el servidor
+[00:22:52] web.
+[00:22:53] Pero son tuneos, como les digo, si eres un poco este
+[00:22:56] ciclo, ¿no?
+[00:22:58] ¿Cómo que ser tuneos que tú los pruebes?
+[00:23:01] Para todas tus pruebas de rendimiento,
+[00:23:03] que no obtienes eh algunos más
+[00:23:07] métricas pero ya habiendo
+[00:23:10] configurados de forma distinta
+[00:23:13] recursos internacionales. Esto
+[00:23:15] también por ejemplo cuando se
+[00:23:17] traje la nube pues es muchísimo
+[00:23:19] más eh digamos se ve mucho más
+[00:23:23] ¿No? Porque siempre los servicios
+[00:23:25] no están utilizados servicios
+[00:23:27] del nube, entonces la nube eh
+[00:23:29] los servicios del nube que se
+[00:23:31] a veces demasiado, ¿no? Te puedes perder. Pero te permite realizar este tuneo para mejorar la respuesta, ¿no?
+[00:23:41] De que plazificación. Bueno, redmarking también es un concepto que ustedes conocen, no.
+[00:23:49] Es el mismo concepto que se utiliza en todos, en otros contextos, ¿no?
+[00:23:56] es comparación, vamos a hacer un benchmark, es una comparación con algún otro tipo de producto
+[00:24:03] similar y eso se utiliza bastante cuando uno desarrolla un producto web, como vi,
+[00:24:12] producto de software, porque normalmente compites, compitiendo con otros y lo que tú no quieres
+[00:24:19] no quieres, no quieres, no quieres
+[00:24:24] No, es, justo hace un ratito estaba
+[00:24:28] conversando con, de repente ha
+[00:24:31] salido por estilo así arriba, este
+[00:24:34] con Gabriel, no, Gabriel la data que
+[00:24:37] es un ex, un ex regresado, no, de
+[00:24:39] acá de la universidad que trabaja en
+[00:24:43] LIFT, allá en San Francisco, y aquí
+[00:24:45] de Junto me están hablando, no, que
+[00:24:46] ya tiene ocho años, allá trabajan
+[00:24:48] no es el tiel pertenece al equipo de desarrollo de interfaz web, mobile,
+[00:24:58] lift lift por si no va a ser lift es la competencia de huber en estados negros
+[00:25:04] y justo eso comentaban que es muy competitivo el mercado de este tipo de
+[00:25:13] este tipo de productos, o sea, cualquier feature que lanza este
+[00:25:19] cover o un otros, lo que pueda decir, no es, se compara con los features que tú, que
+[00:25:28] para que este caso leaf o que lo que te apresa a dos, la publicanza, hay mucha
+[00:25:35] ¿Qué pasa?
+[00:25:37] Mucha, hay muchas analiz, mucha comparación ¿no?
+[00:25:42] Entonces el tema de Bench Martin es bastante exato.
+[00:25:51] Es muy utilizado ¿no?
+[00:25:53] Y en la comparación de estos tiempos de rendimiento pues es...
+[00:26:00] Es trinta no junto de software.
+[00:26:08] porque ahora, ¿no?
+[00:26:11] Ustedes saben que hay una competencia feroz entre las empresas que desarrollan
+[00:26:16] o entrenan estos modelos generales de internet artificial.
+[00:26:20] Cada una competencia, saca unos,
+[00:26:23] ha sido una nueva, ninguna cosa, ¿no?
+[00:26:26] Entonces, hay mucho que,
+[00:26:29] para mí especialmente, el tema de rendimiento, ¿no?
+[00:26:32] Este, que estos productos cada vez sean más pequeños,
+[00:26:38] no necesitan hardware anpotente como el solicitora,
+[00:26:43] pero que si proporcionen, digamos, solucionar
+[00:26:47] mi problema, se proporcionen, por lo menos,
+[00:26:50] buenas respuestas.
+[00:26:52] Si necesitan utilizar hardware tan pesado,
+[00:26:55] están congresos, ¿no?
+[00:26:58] Es que un tema tan complejo de la montaña ahora, ¿no?
+[00:27:02] Que hay que usar sus puntos de movilidad.
+[00:27:08] y en el que el piso había la
+[00:27:12] diferencia es bastante, ¿No?
+[00:27:14] Es un ser por el modelo de
+[00:27:17] 8000 millones de parámetros
+[00:27:20] versus un modelo de entre 30
+[00:27:22] 000 millones de parámetros o 30
+[00:27:24] millones de parámetros.
+[00:27:27] De parámetros pues la
+[00:27:29] diferencia también está
+[00:27:31] y en tema que los 30 millones
+[00:27:33] de parámetros pues no lo
+[00:28:10] Lo hace proceso que permite al software o verificas y el software
+[00:28:15] cumple con los requisitos de velocidad, escalabilidad,
+[00:28:20] estabilidad en varias situaciones.
+[00:28:25] Entonces, si viene a ser una prueba,
+[00:28:30] el objetivo no es encontrar bugs.
+[00:28:34] Ahora, lo que lo podemos encontrar, lo podemos encontrar.
+[00:28:37] Siempre podemos encontrar bugs, errores y pruebas.
+[00:28:40] pero no es el objetivo principal de las fuerzas de rendimiento, las fuerzas de rendimiento es ver
+[00:28:45] cómo el fensócoa funciona en otras circunstancias, con valores límites, identificando cuello de
+[00:28:54] botella, en qué lugares realmente se está, digamos, concentrando en las demoras, para poder evitar
+[00:29:05] el caso de los arfarios. Entonces, no es que vamos a encontrar errores, sino vamos a ver
+[00:29:13] cómo funciona el socuar en otras circunstancias, en otros contextos, sí, este para poder
+[00:29:21] mejorarlo. Pero no es que voy a hacer una botella y es el tuyo de botella a tratar de
+[00:29:26] lo más pasable, ¿no? Magigero, como se puede decir. En este caso no es, la idea es ir configurando
+[00:29:42] mis cientos de escenarios y ver cómo el sistema reacciona ante estos escenarios y ver si
+[00:29:50] cumple con los requerimientos mínimos, no, en el caso de cumplir los requerimientos mínimos,
+[00:29:54] aceptarlo o no aceptarlo, no sé qué no lo cumple y regresarlo y de mejorarlo.
+[00:30:02] Entonces, ¿en qué casos utilizar las pruebas de las pruebas de aprendimiento?
+[00:30:20] ¿En qué situaciones? Porque dependiendo de la situación y la
+[00:30:25] estrategia de la fórmula es distinto. Entonces, si por el caso de un software
+[00:30:33] existen intercursión para que ya está funcionando.
+[00:30:38] Hay que ver los beneficios, lo que se podría tener,
+[00:30:43] ver sus los costos que podrían, que podríamos impurrir en caso
+[00:30:49] de necesitar una mejor.
+[00:30:53] Hay que hacer un análisis.
+[00:30:55] No siempre es óptimo hacer la prueba,
+[00:30:59] una prueba de rendimiento, si es que la repente yo sé que no
+[00:31:02] no voy a poder mejorar, no voy a tener los repusos para hacerlo.
+[00:31:11] Pero hay unas situaciones en que sí,
+[00:31:12] que son para que usted se puede mejorar,
+[00:31:14] si no, en el caso de que sea de cuando son contextos cambiables.
+[00:31:20] Por ejemplo, no, en el caso muy claro,
+[00:31:25] que se saca en la universidad, no existe una matrícula.
+[00:31:31] esto permite el distinto ¿no? de cómo era la matrícula hace 10 años para no decir más atrás ¿no?
+[00:31:40] que como es ahora ¿no? que la cantidad de alumnos en la universidad que hay en el estado
+[00:31:48] no hay que reventar más ¿no? porque van a ser nuevos salones ¿no? de que en los edificios que estamos
+[00:31:56] de los atributos, ya también se
+[00:31:59] nos va a trabajar y para nos
+[00:32:01] se va a decir los dos, los dos.
+[00:32:04] En teoría va a interpretar la
+[00:32:06] cantidad de alumnos, o sea es un
+[00:32:08] poco la idea, de los 11.
+[00:32:10] No, bien interpretado la
+[00:32:12] cantidad de alumnos. Entonces
+[00:32:14] pues un sistema matrimonial
+[00:32:16] que estaba, digamos, probado
+[00:32:18] funcionaba bien, que era bastante
+[00:32:20] para 10 mil alumnos, pues
+[00:32:22] obviamente incontable en una
+[00:32:24] situación de que hubo una
+[00:32:25] pero también hay otros posibles
+[00:32:27] ¿Cáfet y número?
+[00:32:29] ¿Avención más alto?
+[00:32:31] Pues sí, pues podría haber diferentes
+[00:32:33] Entonces, en ese caso sí
+[00:32:35] porque yo creo que el
+[00:32:37] beneficio que se va a tener de la
+[00:32:39] disminución de alentimiento va a ser
+[00:32:41] mucho más alto, va a ser cuyente
+[00:32:43] no que el costo que va a tomar
+[00:32:45] poder, de repente hacer el sistema
+[00:32:47] o sea hacer el sistema o por ejemplo
+[00:32:49] el gil o espelna
+[00:32:51] Entonces, es ahí hacer ese
+[00:32:53] de los que estamos
+[00:32:56] en el caso de un software nuevo
+[00:33:01] en ese caso bueno es creo que
+[00:33:04] yo creo que estamos más obligados
+[00:33:06] hasta el próximo vídeo
+[00:33:10] porque bueno ya no tenemos el costo
+[00:33:13] de la modificación no estamos
+[00:33:15] todavía en el etapa de desarrollo
+[00:33:17] en el etapa de desarrollo el costo de modificación
+[00:33:19] no es algo, no es muy alto, tenemos el equipo
+[00:33:22] ya está totalmente desmantelado, no, están haciendo distintas cosas, no.
+[00:33:28] Este, en cambio, de su forma de voz, no, es, no, todo se que dificulta, por lo tanto,
+[00:33:32] tenemos, de claro, las distintas funcionalidades, ¿eh?
+[00:33:38] Entonces, ¿se sugira hacer? No.
+[00:33:44] Este, como mencioné ahí, las troas se suelen hacer al final de desarrollo, ya,
+[00:33:54] pero este era cuando era un esquema que cajaba que digamos como eso como son pruebas que
+[00:34:06] conllevan su tiempo, especialmente antes de poder realizar una buena prueba de rendimiento simulando
+[00:34:14] muchos escenarios donde va pues inclusive a desarrollar nuevas funcionalidades para hacer
+[00:34:22] la prueba, no, o sea, le des extra para hacer la prueba. Eso es por eso se hacía el final, ¿no?
+[00:34:27] Ahora ya bajo el esquema con la que se suele trabajar la mayor cantidad de proyectos y también
+[00:34:34] con el avance de la automatización de tareas más inteligencia artificial, no realmente hacer
+[00:34:40] pruebas de rendimiento, o sea, es mucho más sencillo que antes, ¿no? Tanto más sencillo que antes.
+[00:34:46] entonces el hacerla en cada release, por cada sprint, pues ya es una posibilidad
+[00:34:55] bastante aceptada, no es algo que sea muy costoso realizar una prueba de rendimiento
+[00:35:02] y normalmente con una prueba de rendimiento es una prueba unitaria
+[00:35:07] unitaria es un programa, un código que va a probar código
+[00:35:13] pero que ya no va a probar todo y va a probar todo ese set.
+[00:35:17] Pero por eso sí, este es un compasero que yo creo en el proyecto, por ejemplo,
+[00:35:23] que ustedes ya comenzarán a pensar las pruebas de erotimiento, ¿no?
+[00:35:29] Este, porque siempre puede ser mientras más rápido se detecte el error,
+[00:35:35] no, el costo de poder, el subtenamelo va a ser menor.
+[00:35:39] siempre es una una max en cuanto a la ingeniería de software, mientras más temprano encontremos el error
+[00:35:49] para ser más barato, más fácil de solucionar.
+[00:35:53] Ya, gracias.
+[00:35:58] ¿Qué tipo de pruebas de rendimiento hay?
+[00:36:13] Son cuatro, las pruebas de carga, las pruebas de stress, las pruebas de capacidad y las pruebas de carabilidad.
+[00:36:22] ¿no?
+[00:36:23] Sí.
+[00:36:25] Las pruebas de carga, ¿no?
+[00:36:30] Son pruebas que tratas de simular una carga determinada al sistema, ¿no?
+[00:36:38] Este, como por ejemplo, puedes incrementar la cantidad de transacciones simultáneas, ¿no?
+[00:36:46] Pero no son la mes de transacciones, ¿no?
+[00:36:49] por ejemplo, ustedes pueden realizar
+[00:36:54] por las decadas subiendo archivos,
+[00:36:57] de repente ustedes tienen una
+[00:37:00] aplicación que te permite
+[00:37:02] subir fotos, no?
+[00:37:05] Otros, tomar fotos y subirlas,
+[00:37:07] entonces sería muy interesante
+[00:37:10] probar también poder subir
+[00:37:12] archivos, es una prueba, no?
+[00:39:48] de la gran estrés y la jerarquía de capacidad.
+[00:39:51] El objetivo es decirme que mi sistema permite aceptar
+[00:39:57] que se le opone archivos de hasta 50 meas, nada más.
+[00:40:04] Mi sistema permite realizar que se le opone 100 conexiones
+[00:40:16] por seguro.
+[00:40:18] como poder estar pensando con la capacidad hasta que comence a pelear errores.
+[00:40:26] Y la frase es que la habilidad son similares y la porque también me da rendimiento, pero la idea es
+[00:40:35] ir como certificando, no es cierto cumplimiento, no es que tanto puede ir creciendo en el futuro,
+[00:40:45] nuestra aplicación. Siempre se tiene por su especie de crecimiento esperado, la
+[00:40:53] cantidad de usuarios. Por lo que no, esto hace trabajo por la cantidad de usuarios.
+[00:40:58] Cuando ustedes hacen una aplicación, tratan de crear esto, crear este crecimiento de
+[00:41:05] usuarios sin estresarlo al sistema, sin estresarlo, pero sí ir probando este
+[00:41:14] de crecimiento según lo que
+[00:41:18] ustedes han proyectado y ver si
+[00:41:21] mi sistema publico con esta
+[00:41:24] escalabilidad. Entonces, ya no
+[00:41:27] sé qué digo como decirles
+[00:41:28] tumbarlo, pero sí es ver qué
+[00:41:31] cumple un plan de crecimiento.
+[00:41:33] Sí. Sí. Por ejemplo, no, justo
+[00:41:39] que estoy revisando, bueno,
+[00:41:41] veces me veían, pero no es ningún
+[00:41:43] de la gente que se refiero a
+[00:41:47] evaluar artículos de
+[00:41:49] investigación, ya, este, pero
+[00:41:51] hay veces que me envían a
+[00:41:53] algunos, a algunos trabajos,
+[00:41:55] ya de des, tojá, no, des,
+[00:41:57] pero, si de des, porque yo
+[00:41:59] son muy, muy bachilleres, pero
+[00:42:01] que son proyectos innovadores,
+[00:42:05] creo que le llaman así,
+[00:42:06] y no, entonces, bueno,
+[00:42:09] obviamente, el foco es otro,
+[00:42:11] ya no es de foco más de
+[00:42:13] de soja. Y veo que muy pocos hacen un plan de ese tipo, ¿no? Muy pocos tienen un plan de escalabilidad.
+[00:42:22] No estoy diciendo que lo pruebes, que lo valies, pero por lo menos tengo un plan de crecimiento, ¿no?
+[00:42:27] En primer mes o el primer trimestre espero 100 usuarios, en segundo trimestre voy a esperar 1000 usuarios,
+[00:42:36] el no sé, ya sí voy creciendo, no sé, algo esperado, no? Algo esperado, no? Y en base a eso,
+[00:42:42] te voy a hacer plan, ya yo puedo realizar pruebas de escalabilidad, pero sí, si mi sistema
+[00:42:50] se va asfandoguando, si, yo con reta, no? Algo que también sí se ha utilizado las pruebas
+[00:42:58] de escalabilidad es para también circular costos, no? Es el, es señal para circular
+[00:43:05] costos. Pues ustedes saben que los servicios de nube te van cobrando por recursos que vas
+[00:43:14] utilizando, ¿no? Pero hay algunos servicios que te van cobrando por capas, ¿no? No es
+[00:43:20] que te cobran, utiliza esto, te cobran estas, no, sino te van cobrando, te van como bolsas
+[00:43:25] de recursos, vamos a hacerlo así, te van dando como bolsas. Entonces, cuando tú llegas
+[00:43:31] al límite de esa bolsa, ya pasas a el siguiente nivel, vamos a llamarlo así. Entonces el costo
+[00:43:36] se incrementa un montón, ¿no? El costo se incrementa un montón. Entonces, lo da despluego,
+[00:43:42] usted se encuentra eso, ¿no? Antes de tiempo. Especialmente si ustedes trabajan en proyectos,
+[00:43:48] o sea, a nadie le gusta realar su plata en una institución o organización, empresa,
+[00:43:52] que no se puede, como quieren
+[00:43:59] llamarlo, este va ehh ehh para
+[00:44:04] invertir los recursos
+[00:44:07] económicos por nada, no, o sea,
+[00:44:10] sin ningún sustentro, entonces,
+[00:44:12] esto hay no ser este tipo de
+[00:44:14] personas donde tienen plan y
+[00:44:16] ver que cuántos de recursos se
+[00:44:19] van gastando, no
+[00:44:20] computacionales para que yo
+[00:44:22] pueda actualizar mi plan,
+[00:44:23] que no se ha pasado. Así es, el
+[00:44:27] año pasado me pasó algo, no
+[00:44:28] sé si le voy a contar. El
+[00:44:30] año pasado, hay una
+[00:44:32] acercación que nosotros
+[00:44:34] trabajamos acá en la
+[00:44:36] universidad con el Tecnico
+[00:44:38] Monterrey. Es una plataforma
+[00:44:40] de ampliación que más utilice
+[00:44:41] en el Tecnico Monterrey y
+[00:44:43] que se le pasó en el
+[00:44:44] tecnico. Pero bueno, este
+[00:44:47] tiempo. Entonces, es una
+[00:44:49] plataforma que está en la
+[00:44:50] Bueno, y se esponan que yo la chequeó, yo la revisó, la revisó de su costo.
+[00:44:58] A veces no me ha mucho tiempo conocido, tanto en los, en los revisos, los costos, no como
+[00:45:02] vallendo los costos, los servicios, son varios servicios que se utilizan, pero nosotros
+[00:45:09] como diversidad no somos los que tenemos el, el, el trato con, con ARS, ya es con ARS.
+[00:45:18] si no es por un tercero, bueno, por un tema de procedimiento de la universidad y los temas de
+[00:45:24] deserciamiento. El problema era que fue que el servicio de base de datos que utilizamos
+[00:45:33] pobres por el barato por fin, y es bueno, pedía que policiamos la versión de la base de datos
+[00:45:40] por fin. En la versión, le voy a decir un número cualquiera, pues no me acuerdo. En la versión 9,
+[00:45:45] y ahora te pide en qué mínimo te tienes que tener la versión 12 de pago.
+[00:45:50] Y si no, actualizabas la capa en la que te encontrabas de costo, si incrementaba, pues, si te cobraba 10 dólares,
+[00:46:02] ahora te vas a cobrar 30 dólares y exponencialmente.
+[00:46:06] de la gente. Y mucha nota me llevo ese correo. Esa correo nunca me llevo. Como no, no sé
+[00:46:16] que tengo contacto directo con alguien, no me llevo, pero gracias a Dios, entro a chequear
+[00:46:27] como van los costos y veo que es de lo que está así, brujos, y partígados. Entonces,
+[00:46:35] pero ya la proyección llevás a usted porque el negativo tenías presupuestado para un año,
+[00:46:42] te le vas a tirar pues en tres meses, ¿no?
+[00:46:46] Te tenías presupuestado para un año.
+[00:46:48] Entonces, ese guayano al final llegué a arreglarlo, menos mala tiempo, igual,
+[00:46:53] pero eso fue compilado, no tanto, ¿no?
+[00:46:56] No tanto, este, porque me importa, pero imagínate que no te das cuenta,
+[00:47:00] pero no quieras pues en el final,
+[00:47:02] porque me importa, pero imagínense que no te das cuenta, pero no quieras seguir
+[00:47:05] aslatito, no mató tu crédito de Google, ¿no?
+[00:47:08] Entonces,
+[00:47:11] pero eso es importante, hacer una buena planificación.
+[00:47:14] La idea de realizar estas pruebas es para también planificar tus
+[00:47:19] costos de tu servicio de Google, no tener una planificación ya de un año,
+[00:47:23] y más un coche encito, quizás por si suceden estas cosas,
+[00:47:26] y poder tenerlo ahí planificado en el presupuesto, ¿no?
+[00:47:30] no porque pues a lo que deberían tener ustedes alguna vez ojalá que no pero bueno si ustedes
+[00:47:36] entran a este titulación por proyec innovador no tienen que tener eso o sea si ustedes no
+[00:47:42] hacen eso cálculo pues o sea o sea yo sí tengo servo servación fuerte
+[00:47:50] otros
+[00:47:51] ¿Qué es el problema?
+[00:47:55] El problema es que se ha comprado
+[00:48:00] el disco, ¿No?
+[00:48:09] Bueno, la resistencia, no, es
+[00:48:14] un poco para poder probar
+[00:48:17] la estabilidad del tema, ya no
+[00:48:19] solamente con una cantidad de
+[00:48:21] peticiones montanales, sino
+[00:48:23] generar la estabilidad de
+[00:48:25] hay una prueba muy que utiliza bastante juegos, especialmente juegos que es para
+[00:48:31] probar en distintos procesadores y no procesar, vamos a hacer un primer general,
+[00:48:37] distintas configuraciones de Java, y hacer configuraciones a nivel de RAM, a nivel del
+[00:48:44] procesador, a nivel de la gráfica, entonces tú haces la prueba para ver si realmente
+[00:48:51] de un juego o tu aplicación realmente resiste a esta condición extrema imagínate probar tu
+[00:49:00] aplicación solo que es una máquina de 8 gigas de 4 gigas de RAM funciona o funciona tu aplicación
+[00:49:08] si es un juego de repente comienza a verse así le quito lo unis de todo el putano
+[00:49:13] escuchar, como decir posible.
+[00:49:16] Las ideas de frames por segundo,
+[00:49:17] pues, un rubio con todo, entonces,
+[00:49:21] ya no resiste a la prueba.
+[00:49:23] Entonces, no solamente ya es probar ese escenario
+[00:49:27] recalciado de usuarios, sino también ver si tu software
+[00:49:30] funciona correctamente en escenarios de hardware bastante
+[00:49:36] digamos, dificultoso, entonces,
+[00:49:39] mal denominado, o sea.
+[00:49:42] No sé si son los tipos de premios, los tipos de pruebas que pueden hacer.
+[00:49:46] Depende realmente de la aplicación que ustedes están haciendo.
+[00:49:50] La prueba de concurrencia, por ejemplo, es para el sabidurismo.
+[00:49:55] En este caso, si yo siempre tengo un AIS,
+[00:50:01] un AIS de la Universidad de San Francisco,
+[00:50:05] una universidad de la Universidad de San Francisco,
+[00:50:07] el curso de ingeniería de SOPO, de hecho,
+[00:50:09] igual estamos en un proyecto, estamos haciendo un proyecto,
+[00:50:12] y estamos en el triángulo y entonces de la nada el profesora agarró, se sentó, no era una aplicación,
+[00:50:20] voy a dar una aplicación, voy a dar una aplicación de esto, utilizando un encompreme
+[00:50:23] programación que ya habia ido sufriendo, en fin, no más.
+[00:50:28] Entonces, el profesor dijo, ya vamos a hacer una prueba, ya vamos a grabar las computadoras,
+[00:50:35] va, está con los mouse, va a hacer electrónica, abordar a la vez, no, excepto a la vez, no.
+[00:50:42] de dos usuarios, pero exactamente la misma, vamos a ver qué pasa.
+[00:50:48] Yo decía, muchas veces no se caerá, no se caerá.
+[00:50:56] Internamente, no se cae yo.
+[00:51:01] No se cae yo.
+[00:51:02] Es porque, bueno, ahora es más difícil que se caiga este tipo de pruebas.
+[00:51:09] mucho más difícil por favor ustedes por ejemplo va a trajar con base datos utilizando rms y no
+[00:51:15] necesitamos un montón de software que ya se utiliza que se ha creado que maneja bastante bien la
+[00:51:20] concurrencia pero en esas épocas no había nada eso o sea entonces de tu código hacía
+[00:51:28] directamente el cuenio en la base y al hacer el cuenio en la base datos el consecutivo el
+[00:51:34] el ID consecutivo, ¿no?
+[00:51:39] Tú tenías que generar lo mediante de la inactencia,
+[00:51:42] si fuese de la nueva, era como ahora que hay...
+[00:51:46] Bueno, pues, tener opción para que se autogenere y no salte
+[00:51:51] incremente el ID, ¿no?
+[00:51:53] El nuevo proyecto que tienes que programarlo, eso.
+[00:51:56] Primero, va que sí lo programamos, ¿no?
+[00:52:00] para que, porque si tú haces en la misma vez,
+[00:52:04] podría ser que el ID de los dos casos simplemente en la misma
+[00:52:09] vez tenga el mismo valor de ahí y trata de ingresar uno solo
+[00:52:13] a registra, pero el otro a tratar de ingresar y le hace
+[00:52:15] ID duplicado y error.
+[00:52:18] Pero me da mal que ya no, hicimos algo.
+[00:52:21] Yo no lo hice ya, pero si hizo algo,
+[00:52:23] sí permitió que concurrentemente se pueda
+[00:52:27] registrar, o sea, no registraros.
+[00:52:30] Pero ahí me quedó con el silencio, ¿no?
+[00:52:32] Hoy mismo tengo que probar o tengo que ver,
+[00:52:36] ponerme en las situaciones, y voy a haber concurencias,
+[00:52:39] o sea, la misma vez cuando tratan de utilizar algún recurso,
+[00:52:43] y de repente se pecan.
+[00:52:45] No, es como digo, la aplicación de web ahora va en su vez.
+[00:52:51] Es muy difícil que suceda esto,
+[00:52:52] por la forma como están hechos los servidores.
+[00:52:54] Utilizan Express, cada petición HTTP es un recurso distinto,
+[00:53:00] digamos, que una memoria, entonces no va a pasar eso.
+[00:53:04] Y a más, utilizamos RMS, nosotros RMS automáticamente vea
+[00:53:07] así unos elementos de alis, y no.
+[00:53:10] La que tendría que ser ahí un tema muy extraño para que
+[00:53:12] se pase.
+[00:53:13] Pero podría hacer otras situaciones en las cuales
+[00:53:16] están ustedes trabajando con recursos,
+[00:53:19] que a la vez se van a poder competir y de repente no,
+[00:53:25] no solo se puede dar una manera a correr.
+[00:53:31] y bueno, y el otro tipo de respaldo
+[00:53:33] es si es más extraño de hacer
+[00:53:35] porque es la idea
+[00:53:37] de subir y bajar
+[00:53:40] determinadas, ideales, independientes
+[00:53:42] de nuestras pruebas
+[00:53:44] si por ejemplo la gente ha gustado subirla
+[00:53:46] pero después de un momento bajarla
+[00:53:48] virla, bajarla y ver
+[00:53:50] cómo funciona nuestro
+[00:53:52] sistema
+[00:53:54] es bien raro
+[00:53:56] la verdad, lo que ha hecho Interrupting Day
+[00:53:58] y este
+[00:54:00] pero bueno, hay, supongo que hay
+[00:54:04] cierto exerto sopar en las
+[00:54:07] cuales si podría existir este
+[00:54:09] tipo de prueba es, eh,
+[00:54:11] especialmente un sopar local,
+[00:54:13] no? Por lo que es un sopar
+[00:54:14] malo, aunque ustedes saben que la
+[00:54:16] cantidad de recursos de este
+[00:54:18] tema, eh, es muy variante.
+[00:54:20] Ustedes pueden tener ahorita una
+[00:54:22] cantidad de RAM disponible, pero
+[00:54:24] si hablen un montón de, eh,
+[00:54:26] hablen crón para ver los partidos
+[00:54:28] de lenguaje y no larga su mante de forma local, se puede abrir un juego con la
+[00:54:34] medida, entonces va a pasar RAM, ¿no?
+[00:54:37] Pero cuya aplicación funciona cuando tenga bastante RAM, pero a la vez cuando se libera la RAM y ahora tengo RAM
+[00:54:44] como funciona, ¿no? Podría ser caso.
+[00:54:54] No sé si hay alguna pregunta, alguna duda chicos.
+[00:55:03] ¿Pero qué?
+[00:55:20] ¿Crees que es un beneficio? ¿Só por qué en tomar casos?
+[00:55:23] Empecé a parar del rendimiento. ¿No?
+[00:55:26] Con lo judicial, identificamos posibles problemas antes de que sucedan.
+[00:55:32] ¿No? Cuando lo suceden, es costoso, no es bien o fastidioso,
+[00:55:39] no también para las personas, no, es para poder solucionarlos.
+[00:55:47] que ustedes han pasado a traducción a algo y se cae simplemente porque no aguantan la cantidad de
+[00:55:54] usuarios, entonces obviamente que van a llamar, que van a despertar, si están subiendo, que van a
+[00:56:01] hacer regresar, si estás de vacaciones, que van a hacer ese ello, pues ir a cambiar cuando nuestro
+[00:56:08] rechamba, cuando es fascioso, no? Y no solamente eso, sino también como le decía, por un impacto
+[00:56:15] los costos. Ya es el tema de
+[00:56:19] levantarnos a los desarrolladores.
+[00:56:22] Bueno, reduce el proceso de desarrollo,
+[00:56:24] produce el código de mejor calidad y más escalable.
+[00:56:27] Siempre cuando ustedes encuentran ese cuello de botella,
+[00:56:31] realmente hace más eficiente, o sea,
+[00:56:32] para solucionar esos cuyos de botella,
+[00:56:35] hacen más deficientes su código.
+[00:56:37] Cuando le hacen lo más eficiente,
+[00:56:38] pues va a ser mucho más escalable,
+[00:56:43] mejor y general.
+[00:56:45] Entonces, utilizaba bastante antes el andro, ¿no?
+[00:56:49] El andro, en cuanto a estar encontrando coyas de botella
+[00:56:52] mediante herramientas de profiling,
+[00:56:54] se le conoce profil.
+[00:56:56] El profiling tú puedes encontrar en que el proceso
+[00:56:59] exactamente se está demorando de nutro.
+[00:57:03] Entonces, tú puedes ir y tratar de mejorar exactamente lo
+[00:57:06] que es el código que está generando ese proceso.
+[00:57:09] Eso utiliza mucho el profiling.
+[00:57:11] En juegos, lo hizo el andro.
+[00:57:14] el juego es un poco más difícil no poder encontrar estas coñas de botella porque como
+[00:57:20] comprenderán un juego es una experiencia continua no es que yo click y espero a generar una respuesta
+[00:57:27] no un juego es continuo no la interacción entonces es un poco más difícil encontrar
+[00:57:32] donde son los coño de botella especialmente los que alguna vez han hecho juegos saben
+[00:57:37] como es un white infinito. O como es un white infinito. Entonces en cierto
+[00:57:43] signo algo ha pasado que está incrementando el costo. Entonces, ¿qué es eso que está
+[00:57:48] pasando? ¿Por qué está sucediendo? Entonces, hay que utilizar algunas herramientas
+[00:57:52] bastante especializadas para poder encontrar esos pollos en la hotella.
+[00:57:57] Bueno, en el caso de la aplicación del web, es un poco más sencillo, pero sí, o sea,
+[00:58:05] que es el poder, el poder en
+[00:58:12] mejor alimiento puesta, ¿No?
+[00:58:14] La planificación lo que les
+[00:58:17] comentaba, muy importante,
+[00:58:19] saber cuánto recursos
+[00:58:20] computacionales necesitamos,
+[00:58:22] cuánto aguantas, ¿No?
+[00:58:24] Este para sus extensiones es
+[00:58:27] algo muy bueno, ¿No?
+[00:58:29] Sí, este, para avisar que el
+[00:58:31] sistema compra con las
+[00:58:33] expectativas, este, y es poner
+[00:58:35] de los errores, ¿No? Por las
+[00:58:39] integraciones, por las
+[00:58:40] integraciones, ¿No? Estos
+[00:58:41] errores no salen de ahí.
+[00:58:44] Sobre errores que normalmente
+[00:58:46] suceden en un ilusor. Y para
+[00:58:48] que suceda un ilusor, si tienes
+[00:58:50] que simular un uso, ¿No? Un uso
+[00:58:52] de varias personas. Este
+[00:58:54] pérdida de memoria es memoria
+[00:58:56] lix, ¿No? Lix de memoria.
+[00:58:58] Pues por elementos de
+[00:59:00] baje. Muchos ese tipo de
+[00:59:02] errores son bien trancas de
+[00:59:04] vivido al uso, ¿no?
+[00:59:06] Hay un...
+[00:59:08] Hay un concepto muy pidado, y...
+[00:59:10] en una vez.
+[00:59:13] Y hemos recordado que hace poco un...
+[00:59:15] un problema...
+[00:59:17] no hace dos años, más o menos, pero que pues, no.
+[00:59:20] Entonces, si actuar...
+[00:59:22] que...
+[00:59:23] en Windows, para ver los Windows,
+[00:59:25] mejor funcionar en varios lugares, ¿no?
+[00:59:27] Aplicaciones.
+[00:59:29] En aeropuertos bellas,
+[00:59:31] donde debería ser en la pantalla
+[00:59:33] de los vuelos aparecía pues es un error de 12.
+[00:59:38] Y era por una actualización muy bueno.
+[00:59:41] No me acuerdo exactamente de qué se actualizó algo.
+[00:59:46] Este, que a un alto nivel de carga pues comenzaron a fallar,
+[00:59:52] a tener, eh, fugas de memorias.
+[00:59:57] ¿Morias listos?
+[01:00:05] ¿Cuándo se rechieren?
+[01:00:08] En la fase de diseño normalmente es un poco difícil poder hacer las pruebas de rendimiento,
+[01:00:20] es un poco difícil, pero sí se podrían hacer pequeñas pruebas, localizadas el rendimiento,
+[01:00:30] hacerse como parte del otro. No tanto de carga de pro angloches, pero de repente sí de carga de
+[01:00:38] o de unilización de recursos. Pero eso es un poco complicado. Normalmente las pruebas basacen en
+[01:00:45] la fase de desarrollo de una fase de gente y implementación. Normalmente se hacen las
+[01:00:52] pruebas atrás de la línea. Si se dijera que la fase de diseño podría ser para, sí se podría
+[01:00:58] de la gente que nos va a
+[01:01:02] probar los rendimientos, pero
+[01:01:06] bastante localizadas.
+[01:01:08] ¿Qué?
+[01:01:11] ¿Qué?
+[01:01:13] ¿Qué?
+[01:01:16] ¿Qué?
+[01:01:18] ¿Qué?
+[01:01:20] ¿Qué?
+[01:01:22] ¿Qué se puede probar?
+[01:01:24] ¿Qué se puede probar?
+[01:01:26] ¿Qué se puede probar?
+[01:01:28] ¿Qué se puede probar?
+[01:02:02] le voy a subir ahorita que el break ya la publica y le entrega de mis proyectos y les voy a comentar un poco
+[01:02:11] el punto principal o alguien que les vamos a poner bastante información de la evaluación.
+[01:02:16] ¿Qué cosas hacer, probar, casas de frecuencia, transacciones de pichón crítica, transacciones de
+[01:02:28] de la estructura y la función de la actualización.
+[01:02:34] Tradiciones de estas frecuencias que son normalmente
+[01:02:36] las operaciones que en tu...
+[01:02:39] Hacemos un análisis de las funcionalidades que te implementas tu
+[01:02:41] software y son funcionalidades que se va a hacer
+[01:02:45] frecontemente, de forma frecuencia.
+[01:02:47] El usuario va a lanzarlas de forma frecuente.
+[01:02:50] Ahí depende qué es de casa.
+[01:02:56] La división crítica a esta sim, me parece incleable.
+[01:03:00] de la que se puede realizar
+[01:03:04] pruebas porque son las
+[01:03:08] transacciones de corno
+[01:03:11] importantes del sistema. Por
+[01:03:14] ejemplo, estamos en la matrícula
+[01:03:16] cuando tú puedes registrar
+[01:03:19] matrículas. Es un momento
+[01:03:23] clave sobre la división crítica,
+[01:03:26] dependiendo de sus
+[01:03:28] es lo principal, el registro, la venta, eso es lo principal, es algo que no debe fallar,
+[01:03:34] no se puede caer, por lo que no se puede caer, si se cae un poco de venta y más que 50
+[01:03:41] plantas va a perder el negocio. Eso es muy importante para probar.
+[01:03:47] Por ejemplo, las transacciones de lectura, no está un crítico probar las transacciones
+[01:03:54] pero podría publicarse con una prueba y no para verlo que te devuelve el sistema.
+[01:04:04] Y también, claro, una transacción de actualización también te venía por lo menos probarse
+[01:04:10] ahí una de las técnicas de publicación.
+[01:04:12] A nivel técnico, chicos, y esto lo deben haber visto en el curso de base de datos,
+[01:04:21] de datos. Y ustedes saben que mientras más campos tenga una tabla mucho más costoso es
+[01:04:29] hacerle un puede mucho más tiempo va a tomar hacer un puede. Sí. Y también mucho más
+[01:04:35] tiempo va a tomar hacer un sección, eso no tanto, pero sí hacer una actualización
+[01:04:43] o mucho más tiempo. Para hacer una actualización tú tienes que encontrar el registro y
+[01:04:47] y luego de encontrar el registro tienes que encontrar el campo o los campos que quieres actualizar.
+[01:04:52] Entonces hay que hacer un pequeño análisis.
+[01:04:58] Si ustedes ven que tienen una tabla muy grande, una tabla con muchos atributos y muchos campos,
+[01:05:03] entonces todavía es una tabla literal por, o sea, es una tabla en la cual las transacciones que trabajan con esa tabla
+[01:05:17] que las tienen que probar a nivel de rendimiento,
+[01:05:20] que las tienen que probar.
+[01:05:22] Si quieren que hay un tip,
+[01:05:25] es ese, ¿no?
+[01:05:27] Tienen que probar eso.
+[01:05:29] Porque los más probables que van a tener
+[01:05:31] es los de utilizar, ya sea martiendo la tabla de nombres,
+[01:05:33] ya sea creando un índice de la asociación de datos,
+[01:05:37] o sea, es lo más probable.
+[01:05:40] O sea, si tienen una tabla que tiene muchos campos
+[01:05:44] y es una tabla principal que va a tener
+[01:05:46] alta transespecialidad. Miren que probar, hay que crear pruebas de rendimiento para esas transiciones.
+[01:06:00] Bueno, para realizar las pruebas de rendimiento son estos escenarios que no planifican. La primera
+[01:06:08] de la parte de planificación vamos a planificar la prueba, vamos a crear algunos scripts necesarios
+[01:06:15] para poder realizar una prueba, vamos a crear el escenario de prueba, vamos a correr en
+[01:06:22] en el escenario vamos a monitorear cómo va yendo la prueba,
+[01:06:26] el escenario de pruebas y al finalizar vamos a analizar los
+[01:06:30] resultados de las métricas que obtenemos del escenario,
+[01:06:34] del ejecución del escenario.
+[01:06:36] Entonces, en este paso la creación de los scripts es,
+[01:06:39] a veces es necesario, por ejemplo,
+[01:06:41] tienes que ver, de configurar el escenario,
+[01:06:46] de cierto funcionalidad, de quizás,
+[01:06:51] esto por eso tiene algunos tricks que te voy a dejar en el paste.
+[01:06:57] Bueno, aquí dos.
+[01:06:59] Son las tres y quince.
+[01:07:01] Podemos hacer un break.
+[01:07:03] Ya.
+[01:07:05] Vamos a hacer un break de veinte minutos.
+[01:07:07] De veinte y quince y treinta y cinco.
+[01:07:09] Ya, pensamos a seis y treinta y cinco.
+[01:07:11] Ya, porque yo voy subiendo a la rumba rica.
+[01:07:14] De la siguiente en el break.
+[01:07:16] ¿Qué es esto?
+[01:07:19] Sí, así es.
+[01:18:23] y llevado a la ciudad.
+[01:18:25] ¿Está bien?
+[01:18:27] No, no.
+[01:18:29] No, no.
+[01:18:31] No, no.
+[01:18:33] No, no.
+[01:18:35] Ya no.
+[01:18:37] Ya no.
+[01:18:41] Ya no.
+[01:18:43] Ya no.
+[01:18:45] Ya no.
+[01:18:47] Ya no.
+[01:18:50] Ya no.
+[01:18:52] Ya no.
+[01:23:02] ¿Puedo preguntarle a alguien?
+[01:23:04] No hay dúbiles, por lo menos es...
+[01:23:06] Bueno...
+[01:23:08] ¿Qué es?
+[01:23:10] ¿Qué es?
+[01:23:13] ¿Qué es?
+[01:23:15] ¿Qué es?
+[01:23:17] ¿Qué es?
+[01:23:19] ¿Qué es?
+[01:23:22] ¿Qué es?
+[01:23:24] ¿Qué es?
+[01:23:26] ¿Qué es?
+[01:23:30] ¿Qué es?
+[01:23:33] ¿Qué es?
+[01:24:37] ¿Qué?
+[01:24:39] Seguro te damos.
+[01:24:41] ¿Qué?
+[01:24:43] ¿Qué?
+[01:24:45] ¿Qué?
+[01:24:47] ¿Qué?
+[01:24:49] No.
+[01:24:51] ¿Qué?
+[01:24:53] No.
+[01:24:56] ¿Qué?
+[01:24:58] No.
+[01:25:00] ¿Qué?
+[01:25:02] No.
+[01:25:04] ¿Qué?
+[01:28:18] ¿Qué es la que está?
+[01:28:20] No sé.
+[01:28:22] Pero, ¿Qué grupo está ahí?
+[01:28:24] Me lo sé.
+[01:28:26] ¿Y qué grupo es tú?
+[01:28:28] ¿Y tú?
+[01:28:30] ¿Y la mía?
+[01:28:33] ¿Y la mía?
+[01:28:35] ¿Y los cinco?
+[01:28:37] ¿Y ahí?
+[01:28:39] ¿Cuál lugar?
+[01:28:41] ¿Y ahí?
+[01:28:43] ¿Y ahí?
+[01:28:45] ¿Y ahí?
+[01:28:47] ¿Qué se llama eso?
+[01:28:49] Te lo dices.
+[01:28:51] De ahí.
+[01:28:53] Yo no lo sé.
+[01:28:55] ¿Qué es eso?
+[01:28:58] ¿Qué es eso?
+[01:29:04] ¿Qué es eso?
+[01:29:06] De ahí.
+[01:29:08] ¿Qué es eso?
+[01:29:10] De ahí.
+[01:29:12] ¿Qué es eso?
+[01:29:20] De ahí.
+[01:29:24] ¿Qué es eso?
+[01:29:26] De ahí.
+[01:33:51] en el capítulo 11, es de anexos a
+[01:33:56] cada final.
+[01:34:00] Esa es la sección se coloque el
+[01:34:12] consolidado de los anexos, de los
+[01:34:16] informes de integrantes del
+[01:34:18] proyecto. O sea, esta parte es el
+[01:34:19] consolidado, pero se necesita,
+[01:34:22] sí se necesita, ustedes vienen
+[01:34:25] y es es un parque de que cada
+[01:34:29] de forma distinta el gene, en parte de las consideraciones
+[01:34:35] transversales en el desarrollo de proyectos. Cada uno de ustedes tiene que hacerlo de forma independiente.
+[01:34:42] Por favor, chicos, esa va a ser parte de la luz individual. Así que cada uno de los integrantes tiene que llenar esta parte.
+[01:34:51] de la persona. ¿Qué tiene que
+[01:34:57] decir el nombre de la persona?
+[01:35:02] Luego esto realizaron una
+[01:35:04] consolidación y poned en la
+[01:35:06] primera parte pero esto tiene
+[01:35:08] que estar bien claro. Así que
+[01:35:10] entonces es muy importante, ¿Verdad?
+[01:35:16] Esta parte final. Se le impacta
+[01:35:19] consideraciones éticas, ¿No?
+[01:35:23] Este transar el desarrollo de
+[01:35:28] y si lo sí se va se va a este
+[01:35:36] poner mucho énfasis también es
+[01:35:40] en que en las los los modelos
+[01:35:43] los diadamas no han de relación
+[01:35:50] entre ellos sean sean
+[01:35:54] eh eh lógicos no es desamelo
+[01:35:59] de la sección de la sección
+[01:36:01] sea de la anchicura real
+[01:36:05] es por eso que probablemente
+[01:36:08] vayamos a utilizar tres sesiones
+[01:36:11] de escase para la revisión del
+[01:36:13] trabajo, o sea va a ser una
+[01:36:15] revisión muy formalizada la
+[01:36:17] que vamos a tener, probablemente
+[01:36:19] sea las dos sesiones de la semana
+[01:36:21] 15 y la primera sesión de la
+[01:36:23] semana 16.
+[01:36:25] Y bueno, eso no, no, no, no
+[01:36:27] vamos a confirmar porque es un
+[01:36:29] una parte individual y creo que ahora es el 50% si no me equivoco.
+[01:36:33] ¿No?
+[01:36:35] Entonces es importante que sepan que no hay más que informar
+[01:36:38] más por el plan por sí.
+[01:36:41] A ver, chicos, y eso les había comentado a algunos chefes
+[01:36:44] y coñecos.
+[01:36:46] El trabajo tiene que ser constante.
+[01:36:50] Y eso es lo que Aaron está midiendo.
+[01:36:53] Aaron mide la progresión del trabajo.
+[01:36:56] O sea, si de por sí usted tenía planificado comenzar
+[01:36:59] trabajar la próxima semana y aljece el proyecto me estoy impactando en su nuevo proyecto que tiene que
+[01:37:07] vamos tenemos que avanzar, es eso que funciona, no se rebaja a publicar necesariamente,
+[01:37:14] implemente alguna funcionalidad, si desea no puede hacer, si desea no puede, puede ponerse la
+[01:37:21] camiseta y hacerlo, pero no es su evaluación principal, el jefe del proyecto, la evaluación del jefe del proyecto es
+[01:37:29] que es este la gestión y la
+[01:37:32] organización del equipo.
+[01:37:34] Entonces, si es un equipo que hasta
+[01:37:35] ahorita no ha avanzado nada,
+[01:37:39] y por sí está mal.
+[01:37:41] Está mal.
+[01:37:42] Va a impactar el subnog.
+[01:37:45] Entonces, por favor, chicos,
+[01:37:48] actualicen el proyecto de
+[01:37:50] GitHub para que tomamos un
+[01:37:53] guamo, ve y ir viendo que la
+[01:37:56] base esté haciendo de forma
+[01:37:58] de forma para mí. Si al ejemplo
+[01:38:09] proyecto, y esto fue por un perro
+[01:38:12] que tiene alquitos de miente como
+[01:38:15] al minte grande del equipo,
+[01:38:18] a mí se notan con
+[01:38:24] participación, por favor. Yo sé que
+[01:38:28] nadie, yo también con estudiar, a
+[01:38:31] pero no está en la nota de
+[01:38:37] otro, ¿No? Pero si la verdad la
+[01:38:39] persona no pone su parte, si
+[01:38:41] realmente este contribución es
+[01:38:43] mínima que el trabajo realmente
+[01:38:46] no mucha. Siendo sincero que
+[01:38:49] no merece, ¿No? Es tener la
+[01:38:52] misma consideración que otro
+[01:38:54] integrante que realmente sí
+[01:38:57] se ha puesto la caliseta, ¿No?
+[01:38:59] de la
+[01:39:02] y
+[01:39:07] y acuérdense que en general
+[01:39:10] eso fue no necesariamente y
+[01:39:12] más todavía esta entrega
+[01:39:13] necesariamente que hay que
+[01:39:15] codificar una funcionalidad
+[01:39:17] de repente hay algunos de
+[01:39:18] ustedes que no están muy
+[01:39:20] ajustos con la programación
+[01:39:22] o no o no no no no no
+[01:39:25] no sabes pues no o sea
+[01:39:27] complica no puede ser pruebas
+[01:39:30] de rendimiento, distintos casos
+[01:39:35] de desgraciado, pueden comenzar a hacer pruebas
+[01:39:38] funcionales, puede realizar documentación también,
+[01:39:44] hay todo realmente de tareas que también podría hacer
+[01:39:48] y no solamente ayudé a hacer algo,
+[01:39:52] cuando tú mencionas ayudé a hacer algo,
+[01:39:55] es como decir hoy, no me estoy haciendo
+[01:39:58] pero estoy diciendo que
+[01:40:00] Hice
+[01:40:02] No no no
+[01:40:04] No
+[01:40:06] No
+[01:40:08] Por favor, a los jefes de
+[01:40:10] proyecto es de
+[01:40:12] si tienen algún problema
+[01:40:14] A mí se me dice ahora quedan dos semanas
+[01:40:16] plan cuantos días, o sea
+[01:40:18] desde ahora es de encapizada
+[01:40:21] No
+[01:40:23] Bueno, a vos, si te desean
+[01:40:25] no se sienten algún problema
+[01:40:27] en el que se puede. Eh y la
+[01:40:31] mayoría de veces sinceramente
+[01:40:34] cuando algo integrante no avanza
+[01:40:37] o tiene problemas con ese
+[01:40:39] integrante, este cuando el
+[01:40:41] jefe progipto le risa al
+[01:40:43] profesor del curso y si habla
+[01:40:45] con esa persona, normalmente la
+[01:40:47] persona entiende y se pone las
+[01:40:50] velas y nadie sale al
+[01:40:52] perfuidad. El problema es
+[01:40:54] cuando no se avisa y al final
+[01:40:56] no hay como poder ayudar, ¿No?
+[01:41:02] ¿Qué es el proyecto ahí?
+[01:41:05] ¿Qué es el proyecto ahí?
+[01:41:09] Vamos a continuar.
+[01:41:16] Entonces, si hay alguna pregunta,
+[01:41:18] chicos, la fecha de entrega por
+[01:41:20] si acaso aquí está en el puesto,
+[01:41:22] debería ser el 14 de julio,
+[01:41:24] no, la semana quince, entonces,
+[01:41:26] el lunes el día anterior al
+[01:41:28] que eso sí, el día anterior,
+[01:41:30] tiene que presentarme toda la
+[01:41:31] documentación porque por lo
+[01:41:33] menos necesitamos darle una
+[01:41:34] leída a la documentación
+[01:41:35] antes de la presentación.
+[01:41:38] ¿No?
+[01:41:39] Ha pensado una leída
+[01:41:40] en la propia para saber, ¿no?
+[01:41:42] ¿Qué quiero que ni?
+[01:41:44] ¿Alguna pregunta que
+[01:41:46] podríamos tener, ¿no?
+[01:41:48] ¿Cómo?
+[01:41:49] ¿Como?
+[01:41:50] ¿Como?
+[01:41:55] ¿Como?
+[01:41:56] ¿Como?
+[01:42:03] ¿Como?
+[01:42:04] ¿Como?
+[01:42:07] ¿Como?
+[01:42:08] ¿Como?
+[01:42:09] ¿Como?
+[01:42:10] para terminar esta parte ya será
+[01:42:15] un poquito más práctico ya.
+[01:42:17] La planificación bueno dentro de las etapas dos de la prueba de
+[01:42:21] rendimiento, la primera pues es la planificación,
+[01:42:24] siempre en este tipo de iniciativas de pruebas es
+[01:42:28] importante tener un plan ya para no gastar recursos de forma
+[01:42:33] totalmente irresponsable.
+[01:42:35] Hay que saber los objetivos de la prueba de rendimiento,
+[01:42:38] hay que tener claro que es lo que se va a probar con la prueba de rendimiento
+[01:42:45] que se va a medir también, que se va a medir con la prueba de rendimiento, con la hacer la métrica
+[01:42:59] es como cuando ustedes hacen investigación como se hace un experimento parecido a la prueba de rendimiento
+[01:43:07] de la verdad las pruebas de
+[01:43:13] la única diferencia es que no
+[01:43:17] necesariamente, ¿No? Más hace
+[01:43:21] exploratoria, ¿No? No tanto
+[01:43:24] que tratan de validar, que
+[01:43:28] tratan de favor, ¿Sí? En ese
+[01:43:31] en ese sentido es un poco
+[01:43:34] pero al final la forma de
+[01:43:53] ¿Se checos?
+[01:43:54] Entonces, luego de la planificación,
+[01:43:56] tenemos el registro y la modificación.
+[01:44:01] El registro es registrar las habilidades de prueba que,
+[01:44:03] si usan, de un, utilizarán como base de los scripts de
+[01:44:06] programa, por ejemplo, si yo quiero hacer cargas,
+[01:44:09] pues les van a hacer los scripts de carga.
+[01:44:14] Y bueno, y también la modificación es modificar
+[01:44:16] los scripts de prueba de carga, de fileos por la
+[01:44:18] lavadora para respetar las simulaciones.
+[01:44:21] la grabadora es, lo que pasa es que la grabadora es digamos es un módulo que se encarga de grabar
+[01:44:28] los pasos que normalmente se siguen para poder reproducirlos. Imagínense que es como que
+[01:44:36] tuvieran un botón acá de grabar, que no apetan el botón de grabar, entonces todos los pasos
+[01:44:43] que ustedes hagan el sistema se vayan registrando. Luego termina el botón de grabar, entonces
+[01:44:49] que tiene un script creado de los pasos que han seguido,
+[01:44:52] entonces para que usted no juega replicar.
+[01:44:57] Los supervisiones, vamos a estar revisando cómo se va
+[01:45:03] realizando la prueba, cómo las distintas métricas que
+[01:45:10] estamos midiendo van modificándose,
+[01:45:16] para analizar el resultado de las pruebas.
+[01:45:18] Eso es al final, no es tratar de ver cómo, digamos,
+[01:45:24] reaccionado nuestro sistema, ¿no?
+[01:45:27] Las distintas métricas como no salen,
+[01:45:31] ver si son aceptables y no son aceptables, ¿no?
+[01:45:34] Pero que puntos podemos hacer más eficiente también
+[01:45:38] esa alternación, ¿no?
+[01:45:49] A ver, este es un ejemplo de una prueba de carga, ¿no?
+[01:45:54] Para un sistema web, ¿ya?
+[01:45:58] Pero este es un sistema web en producción,
+[01:46:00] dicho sea en paso.
+[01:46:00] no es un sistema de pruebas, no.
+[01:46:03] Normalmente tienes tu base de datos,
+[01:46:07] tienes tus servidores de aplicaciones,
+[01:46:10] que es un backend, tu backend, tienes tu Florent,
+[01:46:13] tus servidores web de Florent.
+[01:46:19] Y tienes un balanceador de carga, que normalmente es una
+[01:46:21] arquitectura que se suele utilizar para poder balancear
+[01:46:25] la carga entre las distintas unidades de hardware.
+[01:46:29] Es lo que es un balanceador de carga,
+[01:46:30] que eso no, esto no debería haberme de ustedes en el curso de arquitectura de software.
+[01:46:34] Pues no, no es eso.
+[01:46:36] Pero la gracia es que, bueno, si fuera un caso de internet, un caso real, los usuarios
+[01:46:43] sin internet se conectan a este balanceador de carga, ¿no?
+[01:46:47] Y este balanceador de carga es el que se encarga de poder distribuir la carga entre
+[01:46:51] los distintos servidores.
+[01:46:52] Pues estos servidores, bueno, deberían ser servidores de propio espectro, ¿no?
+[01:46:57] Entonces, de esa manera, pues ya nos estén demasiado solamente una unidad computacional,
+[01:47:03] si no puedes distribuir el estrés.
+[01:47:05] Entonces, la prueba, pues, la hacemos mediante uescript,
+[01:47:09] que es encarnada de poder simular todas estas distintas peticiones,
+[01:47:15] en vez de que varios se conectan a la vez,
+[01:47:17] entonces nosotros podemos simular estas intervenciones y ver cómo reaccionan nuestros hispelín.
+[01:47:24] Obviamente que esta prueba no incluye pues el Fargo, no?
+[01:47:31] Para el Fargo el día es digamos como parte de una configuración de producción,
+[01:47:37] digamos, que no vamos a hacer un alinciador del carga y el alinciador del carga
+[01:47:42] para ver cómo responde el sistema.
+[01:47:44] Igual, luego, toda esta información se va registrando para poder hacer análisis.
+[01:47:54] ¿Qué herramientas podemos utilizar?
+[01:47:56] Hay muchas herramientas que podemos utilizar para realizar en las pruebas y hay algunas de rendimiento.
+[01:48:04] La que yo he utilizado más es la que vamos a utilizar es Hotameter, el KeyMeter.
+[01:48:11] Es una aplicación que ya tiene años.
+[01:48:15] Es especial, cuando puedes estar, son especial para llave.
+[01:48:19] Si, especialmente el deep meter es muy útil para trabajar en aplicaciones de ABA.
+[01:48:27] A ver, si tengo otras aplicaciones que ustedes también podrían probar.
+[01:48:32] Por ejemplo, especialmente si son VACAINTS web, no importa la tecnología,
+[01:48:39] no, porque tú vas a hacer peticiones de HTTP, vas a simular HTTP con deep meter, podemos hacer eso.
+[01:48:45] podemos simular peticiones Http, pero eso lo vamos a hacer en el laboratorio de la próxima semana,
+[01:48:50] ya, simular una petición Http, ya, ahora vamos a hacer una prueba para poder estresar componentes
+[01:48:56] ya, si hay un componente ya, ya, entonces, a ver, vamos a, vamos a abrir, pues, un TDI,
+[01:49:13] y ah que lo que yo te paso es que las cargas no se olviden que la evaluación individual es la próxima semana
+[01:49:29] si, la próxima viernes, una semana exactamente, es la última evaluación individual
+[01:49:36] que cosa va a entrar, va a entrar todo lo que te va a querer con pruebas, pruebas de caja blanca
+[01:49:43] y no, complejidad ciclomática
+[01:49:48] ah, pues acaso sí, van a tener que hacer el grafo
+[01:49:52] si van a ser que digan el grafo
+[01:49:55] me ganaron todos los profes, te responde
+[01:49:59] si van a tener que hacer el grafo
+[01:50:03] ¿que pueden utilizar para hacer el grafo?
+[01:50:09] PowerPoint, y si deseas
+[01:50:12] pueden hacer un grafo, no se habla tan complejo, con las termitas pueden hacer grafo, o si
+[01:50:27] quieren hacer cosas más probables, y puedes utilizar un servicio para hacer un grafo
+[01:50:41] ¡Ah, el más parecido!
+[01:50:44] ¡Pu-shh!
+[01:50:45] No.
+[01:50:47] Voy a irme de allí, a la marcha del Pájaro.
+[01:50:52] No.
+[01:50:53] Me pido.
+[01:50:58] Ah, con el pecho.
+[01:51:03] Me pido que el pecho de Pájaro es un clave chico,
+[01:51:06] que me pido que se me pude.
+[01:51:14] Con el pecho de Pájaro es un clave chico.
+[01:51:15] ¡Me pido que se me pude!
+[01:51:21] ¡Pu-já!
+[01:51:22] Por eso sí, pero...
+[01:51:25] Por eso sí, pero...
+[01:51:27] Me pido que no.
+[01:51:30] Sí.
+[01:51:31] Esa marchera en la dos, la que usted cita más como...
+[01:51:34] no es de trabajar, pero sí vale la clase de Draft. Y la prueba de caja de negra también,
+[01:51:46] las clases equivalentes, no es que validas, clases equivalentes no validas, no, a partir
+[01:51:52] de las nuevas clases. Y bueno, vamos a hacer una transición en el laboratorio de Draft
+[01:51:55] porque es lo que es lo que todo hace muy bueno con las clases de Draft. ¿Se checó?
+[01:52:08] vamos a utilizar que hay internet, vamos a probar, ya vamos a probar, este, te ponen que hicimos una
+[01:52:26] ejercicio clasicero en Italia, la semana pasada, donde probamos, hay una clase en service, no
+[01:52:35] especialmente en un método que se llamaba processAID.
+[01:52:42] Si no lo tienen, esto está acá.
+[01:52:53] Si no lo subimos, ¿qué está pasando?
+[01:52:56] Si te querés decir que nos cuenta bien,
+[01:52:59] ¿tienes que rezar?
+[01:53:00] Si te querés decir que nos cuenta bien,
+[01:53:02] si no lo tienen, te pueden descargar.
+[01:53:05] Y entonces la idea es que yo pueda realizar pruebas de
+[01:53:10] reivindicimiento de esta aplicación.
+[01:53:12] no es una aplicación web, no es una prueba de vida de creación web, lo hacemos ya en la próxima clase.
+[01:53:19] Entonces es una aplicación ya que quiero probar el rendimiento específico de una clase de nuevo objeto ya.
+[01:53:28] Entonces lo primero que queremos que hacer es instalar un clavín de dentro de mi POM,
+[01:53:39] que es el game editor para crear
+[01:53:46] las pruebas de rendimiento. Entonces,
+[01:53:49] en dependencies voy a aumentar una
+[01:53:56] emergencia. El hecho es el game
+[01:54:01] editor, vamos a...
+[01:54:05] a ver qué es mi retanto, repositor
+[01:54:08] totalmente editor.
+[01:54:20] este es el que intercone, coro, distres, ¿no?
+[01:54:31] ¿Qué le ha dado?
+[01:54:52] ¿Qué me ha dado?
+[01:54:54] jmeter, solamente que a este hace cambio,
+[01:55:20] si no que yo cambio aquí, no, el scope,
+[01:55:23] lo vamos a cambiar a provided, ¿ya?
+[01:55:27] ¿Por qué?
+[01:55:30] ¿Por qué ese scope que viene con compile,
+[01:55:33] lo vamos a cambiar a proveer.
+[01:55:35] Y en el escudo, ¿cómo funciona este e-mail?
+[01:55:39] Si yo lo dejo como compile como estaba antes,
+[01:55:44] si yo lo dejo como compile, lo que va a suceder cuando se
+[01:55:47] genere el YAM, el ejecutable, el código de JTamiter va a ser
+[01:55:52] parte del YAM, del ejecutable.
+[01:55:55] Y no pide sentido, ¿no?
+[01:55:56] Porque en JTamiter, nosotros solamente lo queremos probar
+[01:55:59] para hacer pruebas de rendimiento,
+[01:56:02] para probar el rendimiento de mis ojos.
+[01:56:03] Yo no quiero que esa funcionalidad esté dentro de mi aplicación.
+[01:56:07] No lo quiero.
+[01:56:09] Por eso hay que cambiar el scope a Provider para que no esté,
+[01:56:12] bueno, se genera el yarno, esté dentro del yarno ejecutable
+[01:56:17] jodamita.
+[01:56:19] ¿Sí se entendió eso?
+[01:56:32] El síl.
+[01:56:34] Y luego vamos a crear nuestra clase para poder probar.
+[01:56:43] vamos a ir acá en source, test, voy a crear este, un llavad gas, test, rendimiento, service,
+[01:57:04] que me podían poner por allá para escribir el don don, service.
+[01:57:17] Pero nada.
+[01:57:18] Una vez comenzó el don thermal, por lo tanto, no cago, no fue acá, creo que fue acá.
+[01:58:48] Pidés, ¿Pide que la gran gran soja no es?
+[01:59:52] ¿Qué?
+[02:00:05] Ya.
+[02:00:06] ¿Cómo es tu?
+[02:00:07] ¿Qué?
+[02:00:09] ¿No es?
+[02:00:15] ¿No es?
+[02:00:16] ¿Qué?
+[02:00:19] ¿Qué?
+[02:00:21] ¿Qué?
+[02:00:22] ¿Qué?
+[02:00:23] ¿Qué?
+[02:00:25] ¿Qué?
+[02:00:26] ¿Qué?
+[02:00:27] ¿Qué?
+[02:00:28] ¿Qué?
+[02:00:29] ¿Qué?
+[02:00:30] ¿Qué?
+[02:00:31] ¿Qué?
+[02:00:32] ¿Qué?
+[02:01:46] ¿Qué es lo que está haciendo con su heterólogo de decresión?
+[02:01:51] ¿Dónde que?
+[02:01:56] ¿Dónde es?
+[02:01:59] ¿Dónde es?
+[02:02:03] ¿Dónde es?
+[02:02:08] ¿Dónde es?
+[02:02:12] ¿Dónde es?
+[02:02:47] ¿Qué es el problema?
+[02:02:49] ¿Qué fue?
+[02:02:51] ¿Hacan que informarnos?
+[02:02:53] El método de Rates.
+[02:02:55] Sí.
+[02:02:57] La misma de todos Rates es donde se va a realizar nuestro script.
+[02:02:59] No me preocupen.
+[02:03:01] ¿Sí?
+[02:03:03] Donde vamos a probar nuestro script.
+[02:03:05] ¿Sí?
+[02:03:07] Entonces, y eso es lo que se va a generar un montón de
+[02:03:09] de transmisión.
+[02:03:11] Es nuestro caso, nuestra prueba es bien simple, ¿no?
+[02:03:13] Solamente vamos a probar nuestro
+[02:03:53] un repositor y vamos a utilizar el memory.
+[02:04:02] Pero la gracia de una prueba de rendimiento no es probarlo con un mock,
+[02:04:14] sino es probarlo ya de forma completa,
+[02:04:19] con los tiempos completos.
+[02:04:22] Por lo que acá ya lo tenemos en service,
+[02:04:25] y acá lo hacemos en Processing.
+[02:04:27] vamos a ponerle un ID. En memory game tiene algo que
+[02:04:38] hay que agregarle antes. Hay que crear algunos videojuegos
+[02:04:46] para antes revisar la prueba. Lo que podemos hacer es hacerlo antes.
+[02:06:53] y esto es porque se
+[02:07:02] vamos a decir digital nomás y
+[02:07:20] se vamos a hacer una compra
+[02:07:23] obviamente que vamos a hacer
+[02:07:28] una compra de
+[02:07:34] ahora acá podríamos hacer un rango como si estuviera en una lista de varios fuegos que había sido un rango
+[02:07:39] pero no, por favor, se van los acabados de picar.
+[02:07:45] ¿Qué?
+[02:07:46] Sí.
+[02:07:49] Sí.
+[02:07:50] ¿Pero qué es?
+[02:07:56] Esto va a ser nuestra prueba.
+[02:08:00] Esto lo vamos a repetir un montón de veces,
+[02:08:05] pero tenemos que ver la forma de poder iniciar
+[02:08:11] y finalizar nuestra prueba.
+[02:08:13] Entonces, acabamos de ponerle el centro de sol,
+[02:08:16] nuestra muestra, y el centro de sol.
+[02:08:23] y vamos a hacer el
+[02:08:26] Start
+[02:08:30] vamos a hacer el Start
+[02:08:33] en este caso iniciamos el
+[02:08:35] kilómetro de Yacniter
+[02:08:43] luego que termina
+[02:08:45] y este
+[02:08:48] vamos a
+[02:08:51] enter
+[02:08:53] de
+[02:08:56] de
+[02:08:59] podemos escribir un mensaje
+[02:09:01] después un mesón, un burro todo
+[02:09:03] este
+[02:09:05] y ahora tenemos que instalar el
+[02:09:12] gameiter porque no podemos hacer la
+[02:09:19] prueba directamente desde acá
+[02:09:21] necesitamos el motor de gameiter
+[02:09:26] que ejecuta esta prueba.
+[02:09:38] Si no podemos hacer la prueba
+[02:10:02] directamente desde acá necesitamos
+[02:10:09] el motor de gameiter que ejecuta
+[02:10:11] esta prueba.
+[02:11:07] Inter, de In-Bind, In, y al lado de la parte de JotaMiters.
+[02:11:24] Y aquí está el interfaz de JotaMiters,
+[02:11:29] al aspecto donde tenemos que crear nuestra red,
+[02:11:31] con los escenarios que podemos crear para probar
+[02:11:35] nuestros objetivos que hablan.
+[02:11:39] Lo va a cerrar por un momentito,
+[02:11:40] porque lo que tenemos que hacer antes de iniciar este
+[02:11:44] muy para generar el este prueba necesitamos tener el día de nuestro proyecto entonces para eso vamos a
+[02:11:52] generar el día utilizando mv, no el clínico, vamos a generar el día acá se creó el día
+[02:12:12] la calle seguir y se creó este día que está dentro de la carpeta cargo, o sea acá nuestro
+[02:12:21] proyecto en target se generó este yar, este yar es muy importante porque este yar es el
+[02:12:30] que nosotros tenemos que llevar y copiar en la carpeta XT de JotaMita, ya porque va a
+[02:12:37] ser ahí donde vamos a realizar una prueba.
+[02:12:46] Esto lo voy a abrir con Loreal.
+[02:12:53] Entonces este de acá, cuando reduce el material que se ha generado,
+[02:12:58] no voy a llevar dentro de la instalación de Jotameter que yo la tengo aquí en descargas,
+[02:13:03] Apache Jotameter, Lit, ya te ayude una carpeta XT, acá voy a copiarlo,
+[02:13:14] el material, este ya lo voy a copiar acá, y una vez que tengo copiado acá,
+[02:13:29] voy a cobrir, tengo que tenerlo cerrado en Jotameter para hacer esto,
+[02:13:33] dentro de ti.
+[02:13:50] Ahora vamos a abrir este un
+[02:13:54] grupo de hilos.
+[02:14:05] prueba de cada orjetimiento,
+[02:14:09] el proceso y pues acá
+[02:14:36] a añadir nuestro creador.
+[02:14:41] y entonces acá nosotros vamos a poder
+[02:14:44] de prueba que nosotros queríamos hacer. Si debería haber un petición ya va, aunque simplemente
+[02:14:54] vamos a hacer una petición siempre ya va vamos a ejecutar un método ya va, pero si podemos
+[02:14:59] hacer o otro tipo de peticiones, si petición ya va. Y acá en este menú desplegable deberíamos
+[02:19:21] no es difícil o no? No es
+[02:19:34] problema de
+[02:19:37] no es problema de
+[02:19:42] no es problema de
+[02:19:45] no es problema de
+[02:19:48] no es problema de
+[02:30:54] Sí, es que a ver esta herramienta,
+[02:30:59] nosotros no vamos a utilizar, no hemos utilizado la herramienta
+[02:31:02] de grabadora porque el test que hemos hecho con código,
+[02:31:04] ya, el test, el simple que intentamos,
+[02:31:09] ahí vamos a hacer las clases, puede cerrarlo,
+[02:31:13] lo hemos hecho con código, pero ese test,
+[02:31:16] nosotros queremos grabar, por ejemplo, una pantalla,
+[02:31:19] lo podemos hacer utilizando la grabadora,
+[02:31:24] eso nosotros podemos generar
+[02:31:29] esentarios, editar algunos parámetros
+[02:31:34] profesionales, para analizar ese DDS,
+[02:31:39] y crear algunos casos de prueba.
+[02:31:45] No lo reconoce la clase que queremos probar,
+[02:31:49] puede chequearlo porque Windows en cada un máximo lo responde,
+[02:31:53] pero no se sucede nada del modo de la versión que lleva esta máquina,
+[02:31:58] no quiero entender por qué es esto. Entonces, justamente se producen las pruebas, saliendo
+[02:32:07] algunas gráficas que es importante poder a nosotros interpretar. Sí, el 100J Unit,
+[02:32:17] el J Unit, el J Unit es tratar como un generador rotecarnas, que nos trata de distribuir
+[02:32:28] y la carga generales ehh, a replicar
+[02:32:33] y recopilar las métricas para luego poder analizarlas,
+[02:32:36] ehh, analizar los resultados.
+[02:32:39] ¿Sabes?
+[02:32:45] Y con eso terminamos y por qué los entran son
+[02:32:48] conceptos muy importantes, ¿no?
+[02:32:50] Ehh, cuando hablamos de problemas de rendimiento,
+[02:32:52] hay tres en métricas muy importantes
+[02:32:55] que son fundamentales para poder evaluar,
+[02:32:58] la concurencia, la latencia y el
+[02:33:03] la concurencia es el número de
+[02:33:06] usuarios que interactúan
+[02:33:08] simultáneamente. Entonces, mientras
+[02:33:12] más usuarios simultáneos, nosotros
+[02:33:14] podemos ver que tan buena
+[02:33:18] respuesta va a tener mis ojos.
+[02:33:21] En cambio, la latencia debería
+[02:33:24] hacer el tiempo entre lo que
+[02:33:28] que se va a hacer en el sistema
+[02:33:34] y lo que que responde el
+[02:33:38] sistema es el anatencio.
+[02:33:41] El truco de la cantidad de datos
+[02:33:44] que el sistema fue
+[02:33:46] el periodo de tiempo que fue
+[02:33:48] terminado.
+[02:33:50] Tienen que ver, los tres tienen
+[02:33:52] que ver de alguna o otra forma
+[02:33:54] los tres agitadores porque a una
+[02:33:56] mayor concurencia de tus
+[02:33:58] lo que va a vender el truco, porque vas a tener menos procesador para poder procesar una cantidad de
+[02:34:06] peticiones, entonces son métricas que están relacionadas unas con otras, no, lo que es la
+[02:34:13] concurrencia, lo que es la latencia de la métrica, ya fue chicos. Ya la próxima clase, vamos a hacer
+[02:34:25] de la primera vez. No vamos a
+[02:34:29] hacer lo que son frases
+[02:34:31] libertarias. Así que, por favor,
+[02:34:32] chicos, practiquen. Hay
+[02:34:34] ejercicios en las diapos.
+[02:34:36] Es frases libertarias.
+[02:34:37] Practiquen. Practiquen.
+[02:34:38] Practicen. Practicen.
+[02:34:39] Es normática. Porque vamos a
+[02:34:40] hacer sí o un ejercicio
+[02:34:41] pegoulatorio.
+[02:34:43] Para hacer de pruebas de caja
+[02:34:45] antigua. Eso sí.
+[02:34:48] Y vamos a hacer una prueba
+[02:34:49] con Juan Árvito. Voy a ver
+[02:34:50] de arreglarlo para ver que
+[02:34:51] funciona y correr la mente.
+[02:34:53] un un este un objeto este y ver por qué me sé el error de que no reconoce lo que hace ya va a probar
+[02:35:01] y por favor avance en el trabajo si avance en el trabajo es importante que lo puedan hacer
+[02:35:10] van a bajar el trabajo no lo dejen para el final ya los semanas son más para ahora que estamos
+[02:40:18] Perfecto.
+[02:40:20] Perfecto.
+[02:40:22] ¿Qué coces?
+[02:40:24] No sé.
+[02:40:26] ¿Pesar?
+[02:40:28] ¿Ahí está el pasado que pueda pasar como en el final también?
+[02:40:32] Ya, que me lo acabo.
+[02:40:34] ¿Pero que le vamos a acordar?
+[02:40:36] Ya, no.
+[02:40:38] ¿Pero tú es delengado?
+[02:40:40] ¿Cómo es que...
+[02:40:42] ¿Cómo es que...

@@ -1,0 +1,9 @@
+edu/ulima/galaxy/Stellar.class
+edu/ulima/galaxy/GalaxySurveyor$1.class
+edu/ulima/galaxy/InMemoryNotifier.class
+edu/ulima/galaxy/Event.class
+edu/ulima/galaxy/GalaxySurveyor.class
+edu/ulima/galaxy/Quadrant.class
+edu/ulima/galaxy/AlertLevel.class
+edu/ulima/galaxy/Notifier.class
+edu/ulima/galaxy/AnalysisResult.class

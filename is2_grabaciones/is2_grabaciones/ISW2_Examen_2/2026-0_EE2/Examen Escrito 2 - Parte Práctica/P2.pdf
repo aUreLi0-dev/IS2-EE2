@@ -1,0 +1,64 @@
+%PDF-1.4
+1 0 obj << /Type /Catalog /Pages 2 0 R >> endobj
+2 0 obj << /Type /Pages /Kids [4 0 R] /Count 1 >> endobj
+3 0 obj << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> endobj
+4 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >> endobj
+5 0 obj << /Length 2349 >> stream
+BT
+/F1 11 Tf
+50 760 Td
+(Reporte de Evaluacion) Tj
+0 -14 Td () Tj
+0 -14 Td (Estudiante: Nombre: JAIRO GABRIEL TIZA HUARINGA \(20212673\)) Tj
+0 -14 Td (Codigo: 20212673) Tj
+0 -14 Td (Estado: Calificado) Tj
+0 -14 Td (Nota final: 3 / 6) Tj
+0 -14 Td () Tj
+0 -14 Td (Criterios:) Tj
+0 -14 Td () Tj
+0 -14 Td (RUBRICA 1: P2A. Reconocimiento correcto de antipatrones y/o smells en archivo p2_smells.txt) Tj
+0 -14 Td (------------------------------------------------------------) Tj
+0 -14 Td (Puntaje: 3/3) Tj
+0 -14 Td (Comentario: El archivo 'p2_smells.md' contiene una lista clara de tres smelldetallados) Tj
+0 -14 Td (correctamente: Longer Function, Class in the function y Big Class, con descripcion del problema) Tj
+0 -14 Td (y lugar donde ocurre en el codigo.) Tj
+0 -14 Td (  Evidencia:) Tj
+0 -14 Td (- archivo:p2_smells.md:#1 Longer Function) Tj
+0 -14 Td (- archivo:p2_smells.md:#2 Class in the function) Tj
+0 -14 Td (- archivo:p2_smells.md:#3 Big Class) Tj
+0 -14 Td () Tj
+0 -14 Td (RUBRICA 2: P2B. Implementacion correcta de refactoring.) Tj
+0 -14 Td (------------------------------------------------------------) Tj
+0 -14 Td (Puntaje: 0/3) Tj
+0 -14 Td (Comentario: No se observan modificaciones en el codigo fuente que demuestren refactorizacion) Tj
+0 -14 Td (basada en los smelldescribir en 'p2_smells.md'. No hay evidencia de cambios en clases o metodos) Tj
+0 -14 Td (para aplicar las soluciones planeadas.) Tj
+0 -14 Td () Tj
+0 -14 Td (Fortalezas:) Tj
+0 -14 Td (- El estudiante identifico correctamente tres smelldetectados en el codigo \(Longer Function,) Tj
+0 -14 Td (Class in the function y Big Class\).) Tj
+0 -14 Td (- La descripcion de los smelldetallada y coherente con la estructura del proyecto.) Tj
+0 -14 Td () Tj
+0 -14 Td (Problemas:) Tj
+0 -14 Td (- No se observa refactorizacion alguna aplicada al codigo fuente basada en los smelldescribir.) Tj
+0 -14 Td (- El archivo 'p2_smells.md' no incluye evidencia de como se planeo o implemento el refactoring,) Tj
+0 -14 Td (solo describe las soluciones generales.) Tj
+0 -14 Td () Tj
+0 -14 Td (Sugerencias:) Tj
+0 -14 Td (- Aplicar refactorizacion para dividir la funcion larga en metodos mas pequenos.) Tj
+0 -14 Td (- Crear clases especificas para manejar logica de cliente y severidad.) Tj
+0 -14 Td (- Dividir las responsabilidades entre clases segun el principio de responsabilidad unica.) Tj
+ET
+endstream endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000185 00000 n 
+0000000311 00000 n 
+trailer << /Size 6 /Root 1 0 R >>
+startxref
+2712
+%%EOF

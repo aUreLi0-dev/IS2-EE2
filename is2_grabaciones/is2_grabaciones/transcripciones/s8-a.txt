@@ -1,0 +1,1361 @@
+[00:04:36] el quinto laboratorio, este
+[00:04:41] laboratorio, no, al quinto me
+[00:04:44] faltan, ¿no? las notas. Salen
+[00:04:48] puntos. Ya, los cuatro notas y
+[00:04:51] faltan bien las quintas, ¿no?
+[00:04:52] que ha sido el envío, ¿no?
+[00:04:54] es grupal. Y si vamos a apartar
+[00:04:57] hacer un laboratorio extra,
+[00:04:59] ya, pero solamente pues a los
+[00:05:02] que quieren revisarlo, la, la,
+[00:05:05] de la parte de la
+[00:05:08] que se ha un día sábado y
+[00:05:11] solamente esté habilitado por una cantidad de horas.
+[00:05:15] Sí, usted lo tiene que resolver, pero que quiere
+[00:05:18] totalmente opción, sí, para que sea un punto,
+[00:05:22] lo vamos a ver con Aaron. Habla que sea la próxima semana.
+[00:05:27] Este, ya. Lo que vamos a ver hoy
+[00:05:32] es la arquitectura. Vamos a continuar viendo arquitectura, no?
+[00:05:36] también comentamos a ver este concepto de la
+[00:05:39] artificialidad de software.
+[00:05:42] Vimos la importancia de la arquitectura.
+[00:05:46] ¿Cuáles son estos primeros de calidad que, digamos,
+[00:05:52] que conducen pues las distintas decisiones que uno
+[00:05:56] puede tomar al plantear una arquitectura?
+[00:06:03] Y luego vimos al final de la clase, ¿no?
+[00:06:06] Como una, este, un spoiler de lo que es ingeniería,
+[00:06:11] software 3 o actualizaciones,
+[00:06:13] ¿cunos arquitecturas de software?
+[00:06:15] Un spoiler.
+[00:06:16] Hay algunas arquitecturas más comunes,
+[00:06:18] todos que se suelen utilizar en los software, ¿no?
+[00:06:22] Como en la arquitectura por capas,
+[00:06:24] al corrector en todo eventos,
+[00:06:25] arquitectura tipo Spike, ¿no?
+[00:06:30] model view controller, model view model,
+[00:06:35] a algunos tipos de arquitectura que como les digo es más que todo como una
+[00:06:41] probada de lo que ustedes podrían ver en el curso, ya de arquitectura de
+[00:06:47] software específicamente donde ya entran en distancia, en estas arquitecturas
+[00:06:51] nosotros no entramos en ese distancia. Entonces lo que nos toca ver esta semana
+[00:06:58] es ok, chevere, hemos entendido lo que es la arquitectura, pero realmente como esa arquitectura
+[00:07:05] se trae a la realidad en un proyecto, cómo se define y normalmente es mediante un documento
+[00:07:17] de arquitectura. Es mediante un documento de arquitectura, pero debido a la complejidad
+[00:07:38] de la arquitectura, ¿No?
+[00:07:48] Debido a la complejidad de las
+[00:07:53] decisiones y dependiendo obviamente del
+[00:07:57] sistema que uno está construyendo,
+[00:07:59] de la arquitectura elegida pues, es
+[00:08:01] importante saber cómo crear este
+[00:08:04] documento para que este documento no
+[00:08:06] solamente sirva como un requiere
+[00:08:09] de recerimiento de recente de
+[00:08:15] de algún con un con un curso o
+[00:08:18] parte de algún curso o sea para
+[00:08:21] que realmente sirva, sí? Para que
+[00:08:24] realmente sirva en un proyecto
+[00:08:27] eso, ¿Exato? Este bueno, es un
+[00:08:30] poco el logro que ustedes se
+[00:08:32] pueden crear un documento. Yo
+[00:08:33] sé paso chicos, este
+[00:08:34] documento ustedes eh van a
+[00:08:36] tener que hacer para la
+[00:08:38] crea final del proyecto y los
+[00:08:39] vamos a ver. Vamos a ver esto.
+[00:08:46] Primero vamos a comenzar viendo un poco como se documentan,
+[00:08:50] que suele documentar la arquitectura.
+[00:08:52] Y luego las dos formas, los dos modelos que podemos optar
+[00:08:57] para esta documentación, no el modelo 4x1,
+[00:09:00] es modelo clasico, no olvide muchos años
+[00:09:03] y el modelo 6x4 que es un modelo un poco más actual.
+[00:09:06] ¿Sí? A ver.
+[00:09:10] ¿Se acuerdan que habíamos hablado la semana pasada que la arquitectura era digamos un
+[00:09:21] junto de decisiones que uno toma decisiones de alto nivel?
+[00:09:26] Ya no estamos entrando en el detalle quizás que la toma decisión la realice un programador.
+[00:09:33] En el caso de la arquitectura ya son decisiones de componentes de alto nivel, sobre normalmente
+[00:09:38] de la persona si hay que tener un vistazo mucho más general,
+[00:09:44] y no solamente de la parte técnica sino también de la
+[00:09:46] parte de negocio.
+[00:09:49] Entonces, por eso es mucho más complejo.
+[00:09:52] Entonces, en este caso, cuando un arquitecto quiere comunicar
+[00:10:08] sustentar algunas decisiones que ha tomado tiene que pasar, se fue en un documento que las personas
+[00:10:17] puedan entender. Y no solamente es, hace futuro lo mismo, hace futuro probablemente en alfitecto o
+[00:10:31] los arquitectos que no sean parte del proyecto, inclusive el equipo que desarrolla el proyecto
+[00:10:36] no sé, no, pero eso no significa que el software ha dejado de existir, sigue existiendo, entonces
+[00:10:45] el nuevo equipo, las personas deben ser capaces de poder entender cómo se ha implementado
+[00:10:50] el software, ¿no? Entonces, digamos que esa es la necesidad que se tiene, una necesidad
+[00:10:56] actual como una especie de herramienta para poder comunicar las distintas decisiones
+[00:11:03] que se han tomado y a la vez también para en un futuro las personas que tomen el proyecto
+[00:11:10] puedan saber las decisiones que se tomaron, el por qué se tomaron esas decisiones y saber
+[00:11:16] cómo está construido pues el software, que es el implementado. Entonces es por eso que
+[00:11:26] es muy importante este documento. Diría yo que es uno de los documentos más importantes
+[00:11:31] que no tienes cual es cual es
+[00:11:35] podemos nosotros trabajar o
+[00:11:37] debemos trabajar el documento
+[00:11:39] de la arquitectura.
+[00:11:42] Inclusive más que otros de
+[00:11:45] repente el tipo de documentos
+[00:11:47] de documentación, no que
+[00:11:49] podrían que podré a ustedes
+[00:11:53] poder construir, no, yo creo
+[00:11:55] que es clave el documento de
+[00:11:57] arquitectura.
+[00:11:59] Comunica cuando comienzan
+[00:12:01] tal, no comunican los
+[00:12:02] para planificar el proyecto, es la base para analizar y valorar alternativas
+[00:12:06] implementación y es esencial para realizar actividades de mantenimiento y
+[00:12:10] soporte técnico. Normalmente que el documento arquitectura comienza
+[00:12:17] tomando decisiones iniciales pero claves como por ejemplo no es de si voy a yo
+[00:12:26] utilizar un componente que va a ser exclusivamente en el caso de aplicaciones
+[00:12:31] un componente que va a ser solamente de FromInt y otro componente que va a ser de backing,
+[00:12:37] porque podría decir no solamente tenemos una sola aplicación que tiene FromInt
+[00:12:43] de backing, luego que tecnologías se están utilizando para cada uno de los componentes,
+[00:13:22] a la comunidad, ¿No? ¿Cómo va a
+[00:13:25] hacer la comunicación? ¿Para ser
+[00:13:29] mediante eh eh API REST, ¿No? Eh
+[00:13:32] mediante eh peticiones de
+[00:13:34] ATP o va a ser mediante otro
+[00:13:37] tipo de peticiones ¿No? De
+[00:13:39] repente utilizando o algún
+[00:13:41] otro tipo de tecnología eh
+[00:13:43] no lo sé ¿No? Entonces eh
+[00:13:46] realmente pues eh las decisiones
+[00:13:48] que uno comienza a tomar desde
+[00:13:52] un inicio es bueno plantearlas
+[00:13:54] es poco probable que en este caso
+[00:14:01] jóvenes profesionales como ustedes
+[00:14:05] participen en el proceso de
+[00:14:09] concepción de una arquitectura, no es
+[00:14:11] bastante probable, porque normalmente
+[00:14:13] especialmente cuando uno tiene mucha
+[00:14:15] experiencia, una ingresa en los
+[00:14:17] proyectos, a proyectos que ya están
+[00:14:19] construidos para poder realizar
+[00:14:21] horas en algún proyecto. Entonces, pues muy poco probable que puedan participar de repente
+[00:14:32] directamente en el planteamiento de la arquitectura, pero sí es muy probable y debería ser el
+[00:14:40] que ustedes van a utilizar este argumento, van a tener acceso de alguna forma un documento
+[00:14:46] de arquitectura para saber cómo está construido la aplicación que vas a implementar.
+[00:14:51] de la que deberías deberías
+[00:15:08] Entonces, a ver, ¿Cómo se puede construir este documento de
+[00:15:14] arquitectura? Bueno, como cualquier documento, no, hay
+[00:15:18] distintos formatos, distintas inclusive notaciones, ¿no?
+[00:15:24] Pero sí lo que un poco, las distintos formatos, las
+[00:15:28] de los artículos de la
+[00:15:32] notación, de los modelos,
+[00:15:34] que importan, ese que algunas
+[00:15:36] definiciones que son definiciones
+[00:15:37] que ya se utilizan dentro de
+[00:15:41] del proceso de definición
+[00:15:43] arquitectura, los arquitectos,
+[00:15:46] así como los ingenieros de
+[00:15:47] software, podemos hablar de
+[00:15:50] cierta forma, con cierta
+[00:15:52] temperatura, con cierta palabras.
+[00:15:53] Es importante que podamos
+[00:15:55] columberla. Entonces, cuando,
+[00:15:56] por ejemplo, nosotros vamos a
+[00:15:58] normalmente lo hacemos mediante vistas, vistas.
+[00:16:03] Es como que tú estás viendo un problema y lo puedes ver desde distintos, ¿no?
+[00:16:12] De distintas vistas, ¿no?
+[00:16:14] Entonces, una pista de la arquitectura, ¿no?
+[00:16:18] Va a presentar las distintas decisiones de diseño
+[00:16:22] que se toman, que el equipo de
+[00:16:27] proyecto con los architecos o el
+[00:16:31] arquitecto toman, que están relacionados a un punto de vista sobre la
+[00:16:36] arquitectura. Entonces, una vista de la
+[00:16:40] arquitectura es un conjunto de decisiones que normalmente está en forma de modelos,
+[00:16:45] vamos a ver en un rato, ya, pero
+[00:16:49] de la que se plantean estas
+[00:16:54] estas decisiones como les
+[00:16:55] comentaba y están relacionados
+[00:16:57] con estos puntos de vista.
+[00:16:58] ¿Qué es un punto de vista?
+[00:17:00] ¿No? Un punto de vista normalmente
+[00:17:01] concentra un grupo específico de
+[00:17:03] preocupaciones de stakeholders.
+[00:17:06] ¿No?
+[00:17:07] Entonces, por ejemplo,
+[00:17:08] no preocupaciones pueden ser
+[00:17:10] temas de resminuamiento,
+[00:17:11] de seguridad, escalabilidad,
+[00:17:13] usabilidad, facilidad,
+[00:17:17] cambios, ¿no?
+[00:17:19] con la habilidad, concurrencia,
+[00:17:24] etcétera, muchos criterios de
+[00:17:27] calidad, queremos la la la
+[00:17:30] clase pasada, tienen a ser eh
+[00:17:32] los cursos de vista sobre los
+[00:17:34] cuales se van analizando la
+[00:17:35] visita de las decisiones de
+[00:17:36] arquitectura, ¿No? Que está
+[00:17:38] en la vista. Sí. Pues es es
+[00:17:40] importante tenerlo claro,
+[00:17:42] chicos, si no no van a
+[00:17:43] entender un documento
+[00:17:44] arquitectura. Está. No está
+[00:17:46] conformada por varias vistas,
+[00:17:48] lo que trata de solucionar un punto de vista, no? Específico, no? Pertembas de rendimiento,
+[00:17:55] pérdeme seguridad, etcétera, etcétera. Entonces, cuando se habla de vistas y puntos de vista,
+[00:18:06] no? Un poco entrando más en la definición, no? Este dado que la arquitectura de un software
+[00:18:13] es algo bastante complejo, este, es difícil describirlo de una manera sencilla o con palabras
+[00:18:22] de la gente que está en el
+[00:18:24] coge natural es bastante
+[00:18:27] complicado, ¿No?
+[00:18:29] El software es algo que no
+[00:18:32] existe entre comidas en la
+[00:18:35] vida real, o sea, como
+[00:18:38] sé no si no nos consiste, no
+[00:18:41] es, pero es muy poco, o
+[00:18:44] es muy difícil de tangibilizar,
+[00:18:47] ¿No? Es muy difícil y de
+[00:18:50] productos, con lo cual es las personas pueden tratar, pueden utilizar herramientas que personas
+[00:18:57] pueden utilizar. Nosotros estamos acostumbrados, por ejemplo, si alguna de ustedes, no sé,
+[00:19:03] pues, necesita cambiar un foco de luz de su casa, ya lo más probable que usted se
+[00:19:09] utilice como herramienta, como un desarmador, entonces es una herramienta que nos sirve para
+[00:19:14] algo. Entonces el software tiene, digamos, esa misma utilidad, sirve para algo, pero
+[00:19:19] el software no puede pues equipararse a una herramienta como un desarmador, ¿no?
+[00:19:24] Es un producto que lo puedes tocar, que lo puedes sentir, que no puedes mirar, no lo
+[00:19:32] puedes oler, el software no es así, no lo puedes mirar, lo puedes oler, no lo puedes tocar.
+[00:19:39] No hay una forma que podemos darnos ideas, es muchas veces mediante modelos,
+[00:19:46] que nos hemos, ¿No?
+[00:19:51] Estracciones ¿No? Por eso que es
+[00:19:53] complicado, muy complicado de
+[00:19:55] poder este trabajar con
+[00:19:59] ah la esta semana, por ejemplo,
+[00:20:03] bueno, se les cuenta lo que me
+[00:20:04] pasó esta semana y y esto un
+[00:20:07] poco de fuerza esto ¿No? Este
+[00:20:09] estamos hablando con un
+[00:20:10] profesor que era un profesor
+[00:20:11] de ingeniería, era un profesor
+[00:20:12] de administración ¿No? Este
+[00:20:16] una aplicación y la forma como el conceptualizado un software era una forma como si fuera pues una
+[00:20:28] herramienta o un producto que tú utilizas y el producto siempre está así, siempre está hecho
+[00:20:38] digamos de la misma forma y que tú no puedes utilizar directamente y el software no está nacido,
+[00:20:44] el soporte tiene distintas formas de utilizarlo, no es que puede tener errores, no es mucho más
+[00:20:53] fácil que hayan errores, entonces hay que poder entenderlo bien, no es tan fácil de
+[00:21:07] entenderlo. Bueno, las vistas como le decía son como las decisiones que se han tomado en base a
+[00:21:14] algunas preocupaciones, ¿no? ¿Cómo el arquitecto ha planteado el software para poder solucionar
+[00:21:22] estas preocupaciones, ¿no? Y el punto de vista, bueno, es la colección de patrones, plantillas
+[00:21:28] y convenciones que se utiliza para poder construir la vis... Sí, todo bueno. La vis arquitectónica
+[00:21:36] es muy similar a lo que utiliza los ingenieros civiles o los arquitectos de viviendas o
+[00:21:42] de los ejemplos civiles.
+[00:21:46] ¿Cómo están?
+[00:21:50] En otros países, acá en Perú, por ejemplo.
+[00:21:55] Habría que investigarlo más, de repente,
+[00:21:57] alguna de ustedes tiene más información.
+[00:21:59] Pero, por ejemplo, yo tenía un amigo que es
+[00:22:02] el señor arquitectura.
+[00:22:04] ¿No?
+[00:22:05] Acá el peru...
+[00:22:08] Y luego se fue estudiar a su maestría de Estados Unidos.
+[00:22:12] y me comentaba, ¿no? Hoy, aquí en Estados Unidos, los arquitectos,
+[00:22:17] suyo un montón de matemáticas, ¿no? Un montón de materiales. Es como un ingeniería,
+[00:22:25] me dices, un ingeniería civil, ¿no? Por alguna razón que no podemos contar en el Perú,
+[00:22:31] hay esa separación, dentro de un arquitecto hay un genero civil, ¿no? En otras
+[00:22:37] realidades no hay esa separación.
+[00:22:42] Entonces es parecido pues a algo similar acá,
+[00:22:46] el como un arquitecto de software sea una carrera aparte a la carrera de ingenieros
+[00:22:52] software o ingenieros sistemas.
+[00:22:55] Tiene mucho sentido.
+[00:22:57] La verdad que no sé porque esa es esa aparición habría que hablar como de
+[00:23:00] unos profesores, este, pero muchas veces cuando lo que estoy a ver,
+[00:23:05] que le piden a cabo un género civil.
+[00:23:09] Bueno.
+[00:23:10] Entonces la vista arquitectótica es eso, ¿no?
+[00:23:16] Vamos a darnos cuenta que son como el arquitecto plantea la solución a ciertas preocupaciones,
+[00:23:24] criterios de calidad de futuro, y lo hace utilizar de manera que se puede hacer un
+[00:23:29] preocupaciones, criterios de calidad, de funería, y lo hace utilizando elementos de arquitectura,
+[00:23:37] componentes. Entonces vamos a ver la idea de este arquitectura es ver cómo tú puedes,
+[00:23:44] mediante este conjunto de herramientas, poder comunicar las decisiones que has tomado para
+[00:23:52] que no se puede hacer, que esas
+[00:23:57] preocupaciones puedan ser
+[00:23:59] solucionadas, ¿Eh? Entonces,
+[00:24:03] bueno, eso ya lo vimos, ¿No?
+[00:24:05] Y lo importante es que no es un
+[00:24:09] método, o sea, en las vistas,
+[00:24:11] hay veces que lo lo solemos
+[00:24:13] confundir, ¿No? Este como que es
+[00:24:16] una metodología, o sea, dentro
+[00:24:18] de una vista, tú tienes que
+[00:24:20] seguir un conjunto de pasos,
+[00:24:22] no se está en estricto. Ya ahora hay guías, no hay guías que uno puede seguir, especialmente cuando
+[00:24:29] uno no tiene todavía mucha experiencia, no este, que sí pueden ser un poco pesadas, pero bueno, así
+[00:24:38] diga este, pero simplemente como guía, no solo es simplemente una guía, no es que realmente
+[00:24:45] toda la información se va a utilizar. Normalmente cuando ya comices a tener mucha más experiencia,
+[00:24:49] en el contexto en el cual tu estás desarrollando el software, comienzas a saber exactamente qué es lo que
+[00:24:56] tu necesitas utilizar para poder comunicar tu decisión de software. Entonces hay un montón de
+[00:25:03] técnicas como hice acá, que no puedo utilizar, o sea como hiciste elegir la mejor o la que te dé
+[00:25:09] mayor valor o mayor capacidad comunicacional, porque lo que tú quieres es de...
+[00:25:15] de la obra de tu eh eh tu quieres
+[00:25:21] eh detallar y quieres eh
+[00:25:23] comunicar a a a el diante
+[00:25:25] de cero momento, ¿Sí? Entonces,
+[00:25:27] eh y esto ¿Por qué? No, porque
+[00:25:29] la verdad, los documentos
+[00:25:31] de arquitectura deben ser
+[00:25:32] útiles, ¿No? Este, la
+[00:25:35] debe ser, no debe ser
+[00:25:38] solamente una obligación sin
+[00:25:41] sentido, sino debe ser una
+[00:25:43] ¿No?
+[00:25:49] Ahora, es complicado de poder
+[00:25:50] mantener si es complicado de poder
+[00:25:51] mantener, pero ahora con
+[00:25:52] inteligencia artificial creo que
+[00:25:54] se soluciona mucho de esta
+[00:25:55] complicación.
+[00:25:56] ¿No?
+[00:25:57] Si ustedes desarrollan con
+[00:26:03] inteligencia artificial,
+[00:26:05] o sea, hacen una ingeniería,
+[00:26:08] o sea, no sé, son productos con
+[00:26:10] inteligencia artificial, el
+[00:26:11] documento de la arquitectura es
+[00:26:13] clave, clave, clave, porque si
+[00:26:15] pero si no, la idea va a siempre
+[00:26:21] tomar decisiones totalmente
+[00:26:23] similes, distintas, y lo que
+[00:26:26] comienza a armar pues esos
+[00:26:29] franceses como le decía que
+[00:26:32] tiene ese un progreso. Entonces
+[00:26:35] el prósimo es que no tiene
+[00:26:37] sentido. Por eso el documento
+[00:26:39] de arquitecturas, en épocas
+[00:26:41] de inteligencia artificial
+[00:26:44] cobran muchísimas más
+[00:26:48] ¿Cuál es su gestión?
+[00:26:50] Normalmente nosotros tenemos que tratar de resolver.
+[00:26:53] Porque desde el enfoque de este ISO,
+[00:26:57] la arquitectura es para personas.
+[00:27:02] Pero hemos visto que ahora,
+[00:27:04] esta información es como pasada,
+[00:27:07] ahora hemos visto que además se le tiene que agregar,
+[00:27:10] e inteligencia, no a gente,
+[00:27:13] como otra persona que puede tener algún tipo de preocupación,
+[00:27:18] que le va a servir el director
+[00:27:23] ¿No?
+[00:27:25] Yo optimizaría acá el
+[00:27:27] ¿No?
+[00:27:31] En el caso del arquitecto, no es
+[00:27:34] bastante obvio, ¿No?
+[00:27:37] Porque realmente es el documento
+[00:27:40] de arquitectura, es el documento
+[00:27:43] que sirve para poder comunicar las
+[00:27:46] distintas decisiones que ha tomado
+[00:27:49] de la única decisión correcta si no hay un análisis lo que le llamas no acá es de trade off, no?
+[00:27:56] Hay veces que hace un análisis post beneficio y se va por una solución simplemente porque considera
+[00:28:05] que va a darle mucho valor, mucho mayor valor al sistema. Pues todo eso lo tiene que comunicar
+[00:28:11] porque ha tomado esa decisión y no
+[00:28:17] en el caso de los ya de la parte de
+[00:28:21] negocio, los querentes, no, es
+[00:28:26] porque quieren entender como la
+[00:28:30] arquitectura que se ha planteado
+[00:28:32] ayuda pues a que la organización
+[00:28:34] pueda cumplir un objetivo porque
+[00:28:36] probablemente esta arquitectura
+[00:28:39] ¿Llevas contigo algún tipo de inversión? ¿No? Se hubo gastos de recursos. Entonces,
+[00:28:49] lleva, ¿no? Es importante, de poder comunicarlo para poder sustentarlo. Oye, estamos planteando
+[00:28:56] esto, vamos a utilizar esta cantidad de recursos computacionales, por por la tanto, esto sustenta
+[00:29:04] la inversión en en determinado
+[00:29:10] como que los teca, ¿no?
+[00:29:17] no sé si han visto, ¿no?
+[00:29:25] estaba leyendo un artículo, varias cosas
+[00:29:29] interesantes del mundo y leía, ¿no?
+[00:29:33] les recomiendo leer mucho, obviamente
+[00:30:07] gastó todo su presupuesto anual de IA en cuatro meses solamente.
+[00:30:12] Es otra noticia también muy interesante.
+[00:30:19] Por ejemplo, ahora muchas empresas van a comenzar a tener menos managers.
+[00:30:25] Ya los gerentes ya no van a ser más tan importantes en las empresas.
+[00:30:31] Porque antes había un manager gerente de cinco personas, seis personas.
+[00:30:39] ahora las arroletes van a comenzar a ser ser más horizontales, ¿no? Porque con ayuda de
+[00:30:44] inteligencia artificial tú podrías gestionar 20 personas, 25 personas, ¿no?
+[00:30:49] Entonces, esto es otra tendencia, ¿no?
+[00:30:56] Es que es lo que me parece más raro, es como si un paréntesis, ¿no?
+[00:31:09] entonces ustedes se han puesto a
+[00:31:15] hace poco un un elicio no me acuerdo de que es empresa, ya, pero es una empresa
+[00:31:20] relativamente grande en tecnología, pone un tweet kilométrico, no?
+[00:31:26] Kilométrico el tweet, ya, en Netflix, ¿no?
+[00:31:29] Es inmenso que hablaba que su empresa había tenido un
+[00:31:35] que no han votado fenomenales
+[00:31:43] financieros, pero que aún así
+[00:31:46] despedí al veinte por ciento de
+[00:31:50] sus empleados. ¿No? Sí. Así
+[00:31:55] y así quiero meter de aquí. Yo me
+[00:31:58] puso a pesar, ¿No? Que raro, ¿No?
+[00:32:03] O sea, la empresa ha ido muy bien,
+[00:32:06] y lo hace en medio de un príncipe inmenso, en medio de una gana de...
+[00:32:15] Normalmente cuando lo hace o la empresa hace en reducción a la personal, no es que lo publicita a...
+[00:32:23] a la gerente general de forma pública a hablar, no, porque normalmente son cosas internas, no.
+[00:32:34] que nadie quiere perder su
+[00:32:39] trabajo, ¿no? Pero, claro, que
+[00:32:43] varios, varios, ¿sabes? En el al
+[00:32:45] que pensarlo, ¿qué?
+[00:32:49] Hay algo raro, ahí. Yo creo
+[00:32:52] que es un tema, ¿sabes? Es,
+[00:32:56] creo que lo burbuja está cerca.
+[00:33:00] Pero es bien raro, bien raro. Quiero
+[00:33:03] como que levantar las expectativas,
+[00:33:05] ¿no? De que el empresa es un
+[00:33:07] No sé, me parece muy extraño.
+[00:33:12] Este... Bueno, existen auditores que normalmente desean saber
+[00:33:21] si la arquitectura que sea planteado,
+[00:33:25] es una arquitectura que está limitada con los eliminamientos
+[00:33:29] que normalmente tienen las organizaciones.
+[00:33:31] Eso también es algo que se hace bastante en las empresas grandes.
+[00:33:35] Por ejemplo acá en la universidad, cuando eres útil,
+[00:33:37] de una arquitectura se habla con la dirección
+[00:33:44] de informática, ¿no? Para que si de acuerdo con la
+[00:33:47] solicitura te pueden hacer comentarios, te pueden decir
+[00:33:49] oye tú tienes que implementar esta mecanismos de seguridad
+[00:33:51] que no lo has tomado en cuenta.
+[00:33:53] Entonces también sirve para estas personas que aún
+[00:33:55] las de alumna u otra forma pueden auditar
+[00:33:59] la decisión de que estás tomando, ¿no?
+[00:34:02] No solamente antes de, sino también después,
+[00:34:05] de las otras auditorías de
+[00:34:10] software. No es algo que me
+[00:34:12] lo particular me guste mucho,
+[00:34:15] no este. Pero bueno, hay
+[00:34:19] personas que sí trabajan
+[00:34:22] inicio, lo hacen con la TV,
+[00:34:24] entonces, también es un
+[00:34:25] documento que le sirve, ¿No?
+[00:34:27] Para tener la opción de de
+[00:34:28] las distintas decisiones que
+[00:34:30] se han tomado y para ciertas
+[00:34:33] preocupaciones, ¿No? Como la
+[00:34:36] Pero los clientes digamos que este,
+[00:34:42] no sé qué sea lo que se conoce como power users,
+[00:34:45] que tiene cierto conocimiento, realmente,
+[00:34:49] en un discólogo no lo voy a utilizar tanto.
+[00:34:52] Oh, expect.
+[00:34:55] Los antistrables de base de datos sin power.
+[00:35:02] ¿Por qué persona de un área de desarrollo?
+[00:35:05] Ustedes pueden hablar con alguna persona que trabaje en áreas
+[00:35:09] desarrollan, pero siempre van a pelearse con los administradores de base datos. No se van a llevar bien
+[00:35:15] con los administradores. Hay empresas que ya he trabajado, siempre hemos tenido proces con
+[00:35:20] los administradores de base datos. Porque de alguna u otra forma pues los datos es un activo
+[00:35:32] muy importante de las empresas, de Unroc y los administradores de base de datos son muy
+[00:35:37] reselosos, como reselosos de la forma como se utilizan esos datos. Muchas veces te plantean
+[00:35:46] barreras, dificultades plantean cuando tú quieres utilizar esos datos para crear algún tipo de
+[00:35:53] producto de software, entonces es siempre ahí estas discusiones. Es lamentable, creo que es lo
+[00:36:03] que la gente de operaciones como un
+[00:36:07] administrador de aceatos no
+[00:36:10] quiera que las cosas cambien
+[00:36:13] mientras que un ingeniero de software
+[00:36:16] de área de desarrollo de software
+[00:36:19] más bien quiere que las cosas cambien
+[00:36:22] porque está construyendo algo nuevo
+[00:36:27] esto es que está ahí comiendo los roces
+[00:36:31] y bueno
+[00:36:34] de la de la comunidad, ¿No? Siempre
+[00:36:40] te piden la documentación, ¿No? De
+[00:36:42] la arquitectura para que envase
+[00:36:44] a ellos analicen y que planteen
+[00:36:46] no, no tienen que hacerse así o no
+[00:36:48] se puede hacer así y esto es un
+[00:36:50] tema de negociación ahí. Pero
+[00:36:51] bueno, este es es muy importante
+[00:36:54] ahí el eso sirve ¿No? Para que
+[00:36:57] los eh administradores de base
+[00:36:58] datos puedan tener conocimiento
+[00:37:02] de cómo este estructurado es
+[00:37:03] pero es este más las
+[00:37:13] experiencias de lo que vacía también
+[00:37:15] pero puede que un diálogo
+[00:37:19] tendrían con al ministro de
+[00:37:22] vacía, siempre habían rosos
+[00:37:25] pero no es que uno se te
+[00:37:27] crea pero sí el discuseo de
+[00:37:31] los que hay que tratar de
+[00:37:36] entonces la forma como describir o crear un documento, esa arquitectura pues hay notaciones
+[00:37:44] informales, hay notaciones semipormales, notaciones formales, la verdad sinceramente la decisión ya
+[00:37:55] viene de parte de los partenacen al proyecto, que tipo de notación tomar en base pues al uso que
+[00:38:03] que le quieren dar, por ejemplo, las notaciones informales simplemente es como se te ocurra
+[00:38:11] describir la actualidad. O sea, puedes tener vistas dividiendo por vistas, pero la forma
+[00:38:18] como tú crees una vista es como si se te ven en Ghana, si quieres utilizar un diágrama
+[00:38:23] como este, no? No digo que no sirvan a estos diágramas, te viene bastante bien, pero
+[00:38:29] no tiene ninguna notación específica si han cuenta, es lo que se lo ocurra. Puede seguir
+[00:38:37] de repente solamente el empuje natural, pero el empuje natural es bastante complicado de
+[00:38:47] poder a veces entenderlo, muchos, nos alancamos todo el tráfico para poder entenderlo.
+[00:38:57] pero digamos no tiene ninguna notación, simplemente es lo que se te ocurra la forma, si quieres lo
+[00:39:02] haces con nudesitas, si quieres utilizar bloques, si quieres utilizar flechas, o sea no hay ninguna
+[00:39:11] notación que te exige, ¿no? Esa es la notación informal, la notación es informal, entonces las
+[00:39:22] las vistas ya utilizan algún tipo de notaciones tan, como por ejemplo, UML. UML es un tipo de notación
+[00:39:31] estándar, un grupo de personas se ha puesto de acuerdo, cuáles son los componentes, los elementos,
+[00:39:40] UML, cualquier ingeniero esofalme lindo que lo lee, al toque se da cuenta qué cosa es cada uno
+[00:39:48] de las partes 3 de diagrama. Entonces utilizar un ML es utilizar una notación de ser uniforma,
+[00:39:56] ya es muy útil porque gráficamente tenemos una explicación bastante entendible. Ahora el punto
+[00:40:07] en contra, en todo caso, es que si pues al hacer una notación requiere cierto conocimiento,
+[00:40:12] no? O sea, una persona que de repente no es ingeniero de sojo, pues ve esto y lo entienden.
+[00:40:17] De repente el autográfico que es el bloco es solamente que es un poco más entendible para
+[00:40:25] cualquier exáctaro, pero esta esta esta notación nos propiede más información,
+[00:40:32] no? Si tú conoces la notación conoces más información que entiendes más información
+[00:40:39] que se estaba probando. Entonces, es muy utilizado el UML para estos casos y el
+[00:40:48] otro caso pues es la notación formal.
+[00:40:54] Mediante algún tipo de lenguaje de dominio específico, como este ADL
+[00:41:01] perdón, Adil, ¿no? O sea, tú mediante un tofuar puedes definir ciertos, este,
+[00:41:10] elementos como una notación informal, UML, pero cada uno de estos componentes luego
+[00:41:18] pueden generar código, no podrían generar código. Entonces, digamos que
+[00:41:27] similar a UML, pero en este caso, esta notación sí te debería poder generar
+[00:41:35] código y realizar un canaliz informal.
+[00:41:43] Entonces, yo diría que este tipo de herramientas era bastante útil,
+[00:41:47] hace unos años, cuando uno quería realizar pruebas de repente de arquitecturas,
+[00:42:24] es un modelo fundacional, tiene bastante bien la notación, es informal.
+[00:42:34] Eso es que la verdad sinceramente yo nunca estaba en alguna organización que utilicé estos
+[00:42:44] lenguajes, estos lenguajes de notación formal, por lo menos para definir la arquitectura.
+[00:42:48] normalmente se puede utilizar estos lenguajes se informan esto a poco esto, por fin, o sea si es cierto esto te puede servir para una
+[00:42:59] presentación con usuarios que no necesariamente sean técnicos, pero esto por ejemplo sirve de poco para usuarios que sí tienen
+[00:43:14] conocimiento técnico, que si conoce
+[00:43:19] permite una organización, pero yo la verdad mirando este gráfico no sé qué
+[00:43:25] significa el color naranja por el diferencia de color naranja con el color
+[00:43:28] marrón, no, este seque, esto en blu va en distintos componentes, bueno sí, es
+[00:43:35] una idea de la idea, pero por ejemplo en los colores no tenia idea, es un no, este,
+[00:43:43] no sé el nombre antes de tampoco
+[00:43:46] tengo idea de qué cosa es
+[00:43:48] no, pues no sé que hay una
+[00:43:51] explicación en texto quizás, no,
+[00:43:55] pero esto mismo lo podríamos creo
+[00:43:57] yo modelar como emely y a
+[00:43:59] primera vista no lo entiendo.
+[00:44:01] Sí, conoces, señor.
+[00:44:08] Una pregunta está hinchimos.
+[00:44:10] Ya, a ver, vamos a...
+[00:44:22] No...
+[00:44:25] vamos a hacer unos pequeños para
+[00:44:50] para que no sea tan ocurrido esta
+[00:44:56] parte teórica y y yo te quedé sin
+[00:45:03] timos. Sí, sí, sí. Eh vamos a hacer
+[00:45:07] unos ejercicios a ver que me
+[00:45:10] gustaría ejercito chiquito ya
+[00:45:13] porque me gusta hacer un
+[00:45:15] ejercicio de un ejercicio de
+[00:45:17] de mi abuelito ya porque me
+[00:45:22] estaría a saber si conoce el
+[00:45:23] UML y no solamente estoy
+[00:45:25] hablando de diarama de clases
+[00:45:26] que ya lo que ya lo vimos, ¿no?
+[00:45:27] Y no sé conoce y sabe
+[00:45:29] cómo utilizar los otros diaramas
+[00:45:31] UML que ahorita los voy a
+[00:45:40] subir esto.
+[00:45:42] no.
+[00:45:50] No.
+[00:45:55] No.
+[00:45:59] Ya.
+[00:46:03] Ya.
+[00:46:07] a ver, dame c, subido, no se puede habilitar, a tal les he habilizado un pdf,
+[00:46:19] la ingeniería de la tienda es del software, este taller que está su ml, dames,
+[00:46:30] a ver, no va a votar de lento ya, este poco a poco puede hablar, esto es que la idea es que
+[00:46:53] podemos entender que diagrama WML es el más propicio para determinada
+[00:47:00] decisión que queremos comunicar.
+[00:47:04] Ya tenemos un montón de diagramas WML en el mismo bajo.
+[00:47:10] Pero vamos a ver el canso.
+[00:47:12] Biblio Unlima es el sistema de gestión de biblioteca de la Universidad de Lima.
+[00:47:18] Permite estudiar, estudiar y profesores, buscar libros,
+[00:47:21] hacer reservas y gestionar precios.
+[00:47:24] que no se puede. Los bibliotecarios
+[00:47:29] administran el Ipentari. El
+[00:47:32] sistema integra eh con el el
+[00:47:35] servicio de autenticación de la
+[00:47:37] universidad, ¿No? Este con
+[00:47:39] Zengrid para enviar mail y una
+[00:47:41] pasearra elevado para el cobro de
+[00:47:43] multas, ¿No? Es un caso. Creo
+[00:47:46] que ustedes no sé si le ponen
+[00:47:48] multacala biblioteca, creo que
+[00:47:50] no, pero creo que no le dejan
+[00:47:52] libros. No sé si se presta libros. Bueno, de repente con las carreras más.
+[00:48:00] Entonces, a ver, tenemos este grupo de actores, tenemos el estudiante, cuyo rol principal
+[00:48:11] es, o las acciones principales que tiene el estudiante es buscar, preservar y tomar prestado
+[00:48:17] libros, el profesor hace lo mismo que el estudiante, solamente que le dan más plazos, más plazos
+[00:48:26] de préstamo. Es un notecario que es el que se encarga de gestionar el inventario en los
+[00:48:33] préstamos y los usuarios, y el administrador es el que se encarga de configurar el sistema
+[00:48:39] y los permisos. Esos digamos grandes rasgos son los roles. Para cada necesidad de documentación,
+[00:48:57] a ver, vamos a indicar, me voy a decir a ustedes el diagrama más apropiado y vamos a justificar
+[00:49:03] la elección. La elección es el diagrama. Entonces por ejemplo, la primera, mostrar las
+[00:49:13] entidades del dominio y sus relaciones. ¿Qué diálarama creen que se puede utilizar? ¿Qué diálarama
+[00:49:23] web es que se puede utilizar? A ver, en el primero, en el tema, mostrar las entidades del dominio y
+[00:49:35] sus relaciones. A ver, por si acaso, el dominio es el contexto en el cual se va a utilizar este
+[00:49:43] herramientas, el foteto, la biblioteca, las distintas
+[00:49:45] entidades que participan.
+[00:49:48] ¿Y qué diárama creemos utilizar?
+[00:49:53] A ver, chicos, ¿qué diárama?
+[00:50:11] Me llamamos alguien pues, ¿no?
+[00:50:14] A ver, vamos chicos, no, ven sus nociones, a ver.
+[00:50:17] Mostrármese que hay desde el momento en que su relación
+[00:50:18] es. ¿Qué diárama?
+[00:50:19] ¿Qué diárama?
+[00:50:20] Web, de clases, ¿no?
+[00:50:24] Para el primer caso, es diáramo en clases.
+[00:50:29] de clases. Ahora, ves que el diagrama de clases nos permite eso, no? Poder describir todas las
+[00:50:36] distintas entidades, por ejemplo, en nuestro caso, el usuario, el libro, préstamo, todas
+[00:50:45] estas entidades del dominio y cómo se relacionan entre ellas, eso lo podemos nosotros poner
+[00:50:51] saques de este, puede ser el
+[00:50:56] biograma de clases. ¿sabes? A ver
+[00:51:03] el segundo, describir el ciclo de
+[00:51:05] vida de un préstamo, ya el
+[00:51:09] seguro, ¿vamos? El ciclo de
+[00:51:11] vida de un préstamo. ¿Qué es un
+[00:51:13] ciclo de vida? Son los
+[00:51:14] distintos estados que va
+[00:51:16] tomando un préstamo, ¿no?
+[00:51:18] Porque de repente tú
+[00:51:19] comienzas, este, reservado y
+[00:52:08] ¿Pero qué?
+[00:52:10] No quiero la lista.
+[00:52:14] Sí, pero en mi lista.
+[00:52:16] Sí.
+[00:52:31] Ya, pero no hay una sola lista, ¿no?
+[00:52:33] Sí.
+[00:52:40] ¿La que está?
+[00:52:49] ¿Qué está? ¿Qué está?
+[00:52:54] ¿Cuál cree? ¿Qué está?
+[00:52:57] Escribir el ciclo de vida.
+[00:53:01] Bueno, no te llamas máquina de estado, pero al final es de estado.
+[00:53:05] ¿Dónde llegan los estados?
+[00:53:09] ¿De estados?
+[00:53:12] El tercero es mostrar el flujo de pasos para devolver un libro.
+[00:53:17] ¿Cuál?
+[00:53:20] ¿Qué? ¿Qué?
+[00:53:24] A ver, pues es interesante, ¿no?
+[00:53:27] lo que ha dicho el diagrama de secuencias,
+[00:53:28] porque pareciera que fuera una secuencia de pasos,
+[00:53:32] pero no, diagrama de secuencias no muestra las escuencias de pasos.
+[00:53:35] El diagrama de secuencias menciona los mensajes
+[00:53:38] que se van enviando en los distintos objetos, ¿no?
+[00:53:41] Estos son los mensajes.
+[00:53:43] Es un diagrama de la inclusión que tienes ahí,
+[00:53:45] exactamente, en los objetos.
+[00:53:46] Entonces, es otro diagrama, ¿con lo otro?
+[00:53:49] actividad o actividades?
+[00:53:55] el diagramo de actividad es como el diagrama del flujo que
+[00:54:01] también nosotros digamos solamente que los diagramas del
+[00:54:05] flujo que se utilizaba por muchos años, que eso están
+[00:54:07] utilizando por muchos años. Yo los no me clator un poquito
+[00:54:10] distinta, ¿no? Este pero al final muestra un flujo de
+[00:54:13] de la serie de flujos,
+[00:54:17] actividades, diarama actividades.
+[00:54:20] Ya a ver, pues ese cuatro,
+[00:54:22] documentar cómodulos,
+[00:54:24] módulos del sistema secondectante.
+[00:54:27] Componentes, ¿no?
+[00:54:34] Diarama de componentes.
+[00:54:37] Entonces ahí, con el diarama de componentes,
+[00:54:39] nosotros podemos diagramar como todos los módulos,
+[00:54:42] porque el diarama de componentes,
+[00:54:44] tú define los módulos, ¿no?
+[00:54:47] módulos, cómo se van comunicando. Mostraven que servidores corren el sistema. ¿Cuál?
+[00:54:56] Despliegue, ¿no? Y ahora me despliegue. Y ahora me despliegue.
+[00:55:04] Porque ahora me despliegue, digamos, es la forma como tú distribuyes el software en
+[00:55:14] distintos nodes computacionales, ¿no? O sea, tú puedes tener varios servidores en varios
+[00:55:20] no computacionales. Entonces eso es lo que nos demostra tiene mucha información física o de agua.
+[00:55:30] Los nueve apete son formas. A ver, describir las funciones del sistema desde la perspectiva del
+[00:55:36] usuario.
+[00:55:42] Caso de uso, ¿no? Te voy a dar a mi caso de uso.
+[00:55:44] ¿Qué es eso?
+[00:55:46] No, porque acá el que ahora me caso un uso es digamos las
+[00:55:53] nacionalidades del sistema, ¿no?
+[00:55:56] Claro que me hace una reacción de dios.
+[00:56:00] ¿Verdad?
+[00:56:03] Bien, el último ver mostrar cómo fluyen los mensajes entre
+[00:56:07] objetos en tiempo real.
+[00:56:12] ¿Cuál?
+[00:56:19] como en tiempo real, como fluyen los mensajes, diáramas secuencias, porque
+[00:56:28] acuerdanse que el diáramas secuencias son los mensajes, no?
+[00:56:32] La puesto creo que lo traducido, es decir, un diáramas secuencias.
+[00:56:40] Existe un diárama que acá le llama diárama de comunicación,
+[00:56:45] pero se le conoce diáramas colaboración, que es muy similar al diáramas secuencias,
+[00:56:50] el diáramas de colaboración, la única diferencia con el diáramas secuencias
+[00:56:54] que dirá mi secuencia te plantea un orden de mensajes, ese mensaje se escuta primero luego
+[00:56:59] este luego este y hace un orden de mensaje por eso ya no hay secuencias, no hay secuencias
+[00:57:03] de mensaje, otras que el otro es totalmente mensajes para todos lados, por eso es que
+[00:57:09] la verdad se suelen utilizar el diágrama de secuencia, ¿sí? chicos, ¿sí? ¿estás claro eso?
+[00:57:19] a ver, aquí están los chéveles. Para que te acuerdes de diagrama de casos de uso.
+[00:57:33] Para que se acuerde, porque en la arquitectura vas a tener que poner casos de uso.
+[00:57:40] Vamos a crear casos de uso para los cuatro actores del sistema.
+[00:57:46] Hay que confiarlo que son actores secundarios, como el sistema de
+[00:57:53] de la información, según que
+[00:58:00] el servidor de e-mail y la
+[00:58:04] pasarela de pagos, sí, sí, sí,
+[00:58:08] al menos ocho casos de uso
+[00:58:11] distribuidos en las casas
+[00:58:14] funcionales, ¿No? Catálogo,
+[00:58:16] prestos, múltiples, ¿No? Y al
+[00:58:18] menos dos relaciones
+[00:58:23] a ver
+[00:58:25] no
+[00:58:31] no
+[00:58:38] no
+[00:58:43] ya vamos a hacer ya este
+[00:58:46] en
+[00:58:50] segundo
+[00:58:56] ahora ustedes pueden utilizar realmente
+[00:59:02] la herramienta que
+[00:59:04] ustedes consideren la verdad
+[00:59:06] no, no pueden
+[00:59:10] utilizar a alguien específico
+[00:59:12] pueden utilizar el Draweio por ejemplo
+[00:59:14] no,
+[00:59:16] es una herramienta, creo que bastante sencilla es el TRIPSARM,
+[00:59:22] esto puede variar, pero ya no, es una herramienta sencilla
+[00:59:29] de utilizar el dráudio, pero la verdad yo nunca me llevo bien con este tipo de herramientas,
+[00:59:35] que hay, sinceramente un punto medio, por eso lo prefiero hacer en código,
+[00:59:42] la clasía de gramas también hacer en código,
+[00:59:46] es el punto a favor de hacerlo los diagramas en código mucho más fácil de una inteligencia
+[00:59:50] artificial poder entender los diagramas, que si tú lo haces, lo tengas a mano, o leas
+[00:59:57] contraugos, también lo entiendes, ya también lo entiendes contraugio, pero digamos podría
+[01:00:00] cometer algunos errores, ya es, y se demora más en poder interpretar que es un diáramo
+[01:00:07] el kilométrico que solamente se refiere.
+[01:00:12] Entonces una buena opción es utilizar unas herramientas,
+[01:00:16] que bueno, unas sintaxis que yo les recomiendo aprender
+[01:00:20] o ayudarse con inteligencia artificial,
+[01:00:22] que se llama Plancto ML, no sé si han escuchado.
+[01:00:25] Plancto ML.
+[01:00:27] Plancto ML es una forma de documentar a ML por código.
+[01:00:33] como les digo, sirven un montón y desarrollan con inteligencia artificial.
+[01:00:38] ¿Qué?
+[01:00:39] Sí, me...
+[01:00:40] ¿Qué es un ejemplo?
+[01:00:42] Todos pueden ser.
+[01:00:43] O sea, Plato MN está más orientado a UML solamente.
+[01:00:48] Mermaite te permita hacer otro tipo de diaramas en lo que será el MES de San Mermaite.
+[01:00:53] ¿Qué?
+[01:00:54] Pero cualquiera de los dos, o sea, cualquiera de los dos.
+[01:00:57] Quiere el UML.
+[01:00:59] entonces vamos a poner e
+[01:01:08] aquí te cura, aquí te cura,
+[01:01:14] vamos a poner, sin más,
+[01:01:20] vamos a poner este
+[01:02:13] de la gente a poner el diarama
+[01:02:19] no sé si acá está exporta así está
+[01:02:25] no sé si usted lo tiene y pone
+[01:02:29] exporta acá le permite exportar el
+[01:02:32] diarama actual no sé si si
+[01:02:33] tenemos a hacer el preview creo que
+[01:02:36] también a ver la tuve previo pues
+[01:02:41] acá pueden ustedes eh comenzar a
+[01:02:43] de un adrobado en la ley voy a
+[01:02:48] voy a crear un archivo aparte
+[01:02:51] para que se le ve el preview
+[01:02:53] para que se le ve el preview
+[01:02:55] para que le acá casos le uso
+[01:02:59] punto P U M L
+[01:03:01] P U M L
+[01:03:06] lo voy a copiar eso
+[01:03:08] en aquí
+[01:03:10] en aquí
+[01:03:12] en aquí
+[01:03:16] ¿Qué? A ver, vamos a comenzar
+[01:03:24] poniendo los actores. Ya este
+[01:03:28] actor era alumno.
+[01:03:36] Ahí ven alumno, ven al alumnito, este actor, actor profesor,
+[01:03:43] de la comunidad que me procurará
+[01:03:51] actor
+[01:03:55] el administrador, el aclín, actor,
+[01:04:03] los actores externos también me
+[01:04:06] me pidieron, ¿No? Este que era el
+[01:04:10] sistema de autenticación, ¿Verdad?
+[01:04:13] el sistema de externo y la
+[01:04:18] opción, así hay otro sistema
+[01:04:39] externo, no me acuerdo, pues
+[01:04:44] sabía, eh, eh,
+[01:04:52] sistema de y me, entonces,
+[01:05:05] que una vez que demos los
+[01:05:09] actores, vamos a comenzar a
+[01:05:12] crear los casos de uso, ¿No?
+[01:05:14] Entonces, eh, como todos los
+[01:05:16] en este caso de bibliotecas, el biblioglímac le llama, sacábamos rectángulos, biblioglímac
+[01:05:25] y dentro de acá comenzamos a poner todos los casos de uso, por ejemplo, los New Case,
+[01:05:36] caso de uso pues podemos poner este lobby, no? Clásico caso de uso, no? No y de repente es
+[01:05:47] de la
+[01:05:51] de
+[01:05:56] esto podría ser, no es
+[01:06:02] porque hace receta hace receta, ¿No?
+[01:06:07] Pero vamos a a a ver los
+[01:06:12] actores que trabajan con qué casos de uso, ¿No?
+[01:06:16] Es por ejemplo, el lobby lo hacen al lobby profesor, le voy a poder acá
+[01:06:22] de la que le dices a alumno para
+[01:06:30] ponerle una etiqueta, para que
+[01:06:34] diga tanto. Si, alumno,
+[01:06:38] y risa el caso de uso, este a
+[01:06:40] este caso de uso también le
+[01:06:42] voy a poner una etiqueta,
+[01:06:44] use case 1, es use case 2,
+[01:06:47] alumnos, utiliza el use case 1
+[01:06:51] el dios de los profesores. Y el profesor también, son, son, es uno, es, es, es una
+[01:07:13] bien persona. Voy a ir, voy a ir borrándonos este, espéata o comentándonos lo que no son ya
+[01:07:24] por el momento, por el momento ya. Entonces tenemos nuestro diálogo de casos fáciles.
+[01:07:42] Los dos pueden hacer reservas. Ahora por ejemplo queremos cancelar una reserva,
+[01:07:46] de la reserva, ¿No? Es de
+[01:07:54] en la reserva.
+[01:07:59] ¿No?
+[01:08:02] Sí, lo pueden hacer los dos
+[01:08:05] también, ¿No? Bueno, ahí ya
+[01:08:13] podrías podríamos poner esto,
+[01:08:15] ¿No? En este caso se está
+[01:08:19] viendo de forma
+[01:08:22] horizontal, ¿No?
+[01:08:25] de la que me he hecho.
+[01:08:37] Sí, entonces ahí van ustedes
+[01:08:41] armando su diorama de caso de
+[01:09:00] uso.
+[01:09:15] Ya.
+[01:09:23] Es de a ver, solo para ya
+[01:09:26] para hacer un break, ya para hacer un break,
+[01:09:29] nos pide dos relaciones,
+[01:09:31] y una relación es de, ya vamos a hacer uno,
+[01:09:34] mucho tiempo. Una relación include una relación estere. ¿Te acuerdo con la diferencia de la relación
+[01:09:40] estere? Normalmente las relaciones include son, digamos, te permite relacionar dos casos de uso
+[01:09:55] caso de este para indicar que un caso de uso necesita que se haya ejecutado el otro caso
+[01:10:05] de uso antes, ¿no? Incluido. En cambio, el extent, ¿no? Es distinto, ¿no? Porque el
+[01:10:14] extent significa que para que se realice, o sea, el determinado caso de uso, tú lo
+[01:10:22] extiende su funcionalidad con otro caso de uso distinto, ¿no?
+[01:10:27] Que incrementa su funcionalidad. De hecho, en la especificación, no sé si eso lo ven,
+[01:10:32] que ingenieres o por uno, cuando tú especificas un caso de uso,
+[01:10:35] existen los puntos de extensión, ¿no?
+[01:10:37] Los station points que es donde tú ahí llamas al otro caso de uso.
+[01:10:41] Si es que se podría ejecutarse o de repente no.
+[01:10:44] Si.
+[01:10:45] Si.
+[01:10:49] Si.
+[01:10:50] Si.
+[01:10:51] Si.
+[01:10:52] No sé, no por ejemplo, ¿no?
+[01:10:54] para hacer reserva primero tienes que lo vea
+[01:11:02] entonces acá hay una relación acá hay una relación que usted podría tomar con
+[01:11:11] log y necesariamente entonces ya no hacemos la relación de alumno y profesor con
+[01:11:21] con login, si no esa relación se va a dar mediante una inclusión.
+[01:11:25] Ya no somos estueva.
+[01:11:36] A la CERRE CERVA, tú puedes, digamos,
+[01:11:45] antes utilizar e incluir lo que es login,
+[01:11:49] porque es algo que es un caso uso que tiene que
+[01:11:52] realizarse antes. Entonces, acá podemos,
+[01:11:57] no es el caso de uso dos, esa se reserva, no es un tomayorga, y con el uno, acá, y le ponemos el
+[01:12:20] el exterior tipo de incluido.
+[01:12:29] ¿Por qué?
+[01:12:31] Porque no podemos hacer preservación.
+[01:12:40] ¿Por qué se hace esto?
+[01:12:42] Porque tú como alumno, tu caso de uso de alumno es hacer una reserva,
+[01:12:47] pero para poder hacer una reserva primero ha tenido que realizarse la UNI.
+[01:12:53] de la que yo no tenía. Sí. Y el
+[01:13:02] caso de extensión, ¿No? El caso
+[01:13:05] de extensión es si por ejemplo
+[01:13:07] al hacer una reserva dentro del
+[01:13:10] flujo de la reserva, de repente
+[01:13:12] te hace equivocado y quieres
+[01:13:14] cancelar la reserva. Al momento
+[01:13:16] de hacer la reserva, de repente
+[01:13:18] yocaste alguna parte o de
+[01:13:20] repente este no sé pues este
+[01:13:24] de la reserva entonces puedes
+[01:13:29] cancelarla entonces ahí viene
+[01:13:32] pues lo que es la extensión ¿No?
+[01:13:36] Entonces el caso del uso tres ¿No?
+[01:13:40] caso de uso uno y el caso de
+[01:13:42] los flexes tres estén bien. Si
+[01:13:45] es una es una este un poco
+[01:13:48] forzado está ya un poco
+[01:13:49] forzado esta extensión. Ay
+[01:13:59] perdón, no, caso de uso dos.
+[01:14:00] Pero eso que significa que
+[01:14:02] el flujo de hacer la reserva tú puedes llamar o puedes es opcional puedes llamar al caso uso cancelar
+[01:14:10] reserva, o sea el caso de cancelar reserva expiende por eso la funcionalidad de la hacer reserva,
+[01:14:16] si extiende su funcionalidad. Ahora tú podrías cancelar directamente la reserva sin ningún
+[01:14:23] problema podrías hacer, directamente también podríamos nosotros poder hacer la profesoría
+[01:14:29] pero que este hacer reserva en algún punto de flujo podría ejecutar el caso, hacer la reserva y
+[01:14:36] se da a la situación. Entonces ese es pues enviará más de...
+[01:14:46] de la mezcla. Eso es de la
+[01:15:05] mezcla solos. Ah, solamente para,
+[01:15:08] para este, al momento de hacer
+[01:15:10] reserva, probablemente se tenga
+[01:15:15] que interactuar con algún sistema
+[01:15:17] externo. Pues los sistemas externos
+[01:15:19] son actores, no son actores. Nos
+[01:15:24] vamos a crear un sistema externo,
+[01:15:25] por ejemplo el sistema email, email, email, le voy a llamar así, este es un sistema externo,
+[01:15:39] entonces lo que nosotros queremos hacer es que el login consulte este sistema externo,
+[01:15:45] entonces vamos a hacer acá el use case uno, este va a consultar inmate. Porque es un sistema
+[01:16:03] external, si ustedes desean pueden ponerle un exterior tipo, lo que se llama no email,
+[01:16:15] la tele puede poner este sistema externo.
+[01:16:26] Y solamente para dedicar que es un sistema externo.
+[01:16:29] Un sistema externo.
+[01:16:32] Ah, perdón, email, no, es el login, ese CEO, ¿no?
+[01:16:36] El email es en el caso de uso de hacer reserva.
+[01:16:39] ¿Veo que hacer reserva?
+[01:16:41] ¿No?
+[01:16:44] Ya más al sistema de email.
+[01:16:46] El login es con el SEO, ¿no?
+[01:16:48] no, acá nosotros podemos hacer lo mismo, ¿no?
+[01:16:54] es, más o menos, ¿no?
+[01:17:00] acá vamos a crear, ¿no?
+[01:17:04] aclubar el cc o, ¿no?
+[01:17:09] acce o, y también le vamos a decir que es un sistema excelente.
+[01:17:14] ¿Qué?
+[01:17:18] ¿Qué?
+[01:17:21] Entonces, de verdad que los diarapas de casos usos son muy útiles
+[01:17:28] para poder indicar funcionalidad.
+[01:17:30] Ahora, hay que ser muy criteriosos para poder describirlos.
+[01:17:42] En este caso se ve bastante sencillo porque son tres
+[01:17:45] historias de usuarios solamente, pero los sistemas
+[01:17:49] normalmente nos tienen tres historias usuarios, de hecho, en el caso te piden ocho, y estamos hablando
+[01:17:54] de un ejercicio, o sea, pueden tener veintes, treinta, cuarenta historias usuarios, no todas las vas a
+[01:18:01] poner en un diadrama, no? Normalmente lo que se suele hacer es diadramar de repente, agrupando
+[01:18:09] algunos usuarios, no por ejemplo, para este, el bibliotecario por ejemplo tendría otro diadrama
+[01:18:17] el mismo tipo para bibliotecarios, ¿No? Es que con las historias, los casos de uso del bibliotecario, de repente para el ACNIN otro diadrama, para no tenerlo todo en uso, lo diadramos, ¿No?
+[01:18:29] en el que se refiere. Esta foja
+[01:18:32] es que se espera en los estents
+[01:18:35] bien los incluyó. O que fue
+[01:18:37] ya este porque ya rompe un poco
+[01:18:40] lo que quiere. Lo que quiere un
+[01:18:42] diagrama con documento
+[01:18:44] arquitectura que es comunicar
+[01:18:46] una decisión de diseño. No,
+[01:18:48] si no se entiende, no estás
+[01:18:50] comunicándolo correctamente.
+[01:18:52] Ya hay que ser muy criterioso
+[01:18:53] realmente al alarmar un
+[01:18:56] diagrama de casos de
+[01:19:29] ¿Qué?
+[01:19:35] Vamos a ir a ver con este.
+[01:19:41] Bueno, el cual está una vez.
+[01:19:44] Vamos a ver.
+[01:19:47] ¿Sabes qué?
+[01:19:50] Se salvó la ver.
+[01:19:54] Esta fue el examen y la otra fue el 30-10.
+[01:22:58] ¿Qué tanto se veía? Tiene que traer documentos.
+[01:23:03] ¿Tiene esto?
+[01:23:05] ¿Y la aplicación?
+[01:23:07] Bueno, es hora que te toque profecer.
+[01:23:10] Vamos a sortear las presentaciones.
+[01:23:13] ¿Y el día más?
+[01:23:15] ¿Y tiene que estar la aplicación 100% o 100%?
+[01:23:17] ¿Cuando?
+[01:23:19] ¿Cuántas tarinas?
+[01:23:23] 60% ¿no?
+[01:23:25] pero básicamente va a ser nosotros mostrando ¿no? que puede ser, no es que ustedes van a probar
+[01:23:32] no hay que probarlo, o sea, en la presentación también, claro, puede estar...
+[01:23:38] o la ofina primera
+[01:23:40] que pasa que ustedes tienen que ir funcionando pero solamente 70 boxees
+[01:23:44] donde necesitas pero completamente...
+[01:23:47] porque 100% de lo que se ven a su sitio de usuario siempre son originales
+[01:26:53] no.
+[01:26:57] Si pierdan bien.
+[01:27:01] Si pierdan bien.
+[01:27:05] Si pierdan bien.
+[01:27:09] Ya depende de usted lo que quieras.
+[01:27:11] Ustedes.
+[01:27:15] Ya estaba acabado.
+[01:27:19] Pero para el que sigan las
+[01:27:51] la gente, los trabajadores
+[01:27:53] ¿Si?
+[01:27:55] ¿Cripio?
+[01:27:57] ¿No es por aquí?
+[01:27:59] ¿Donde?
+[01:28:01] ¿Donde?
+[01:28:03] Durante el camino nos dimos
+[01:28:05] cuenta que le hace a todos
+[01:28:07] que nos tenemos tan claras
+[01:28:09] que para cambiando cada
+[01:28:11] que la refrensamos
+[01:28:13] ahorita tenemos como que ya el modelo
+[01:28:15] de seguido que va a quedar perfecto
+[01:28:17] pero no sabemos si el fútbol
+[01:32:49] que el castel va a ser a 2000 las primeras fiestas.
+[01:32:51] No, al fin de fiesta.
+[01:32:53] Un día me conectaste a...
+[01:32:55] a el muerto de 2001.
+[01:32:57] ¿Qué te pasa?
+[01:32:59] ¿Y el pase de 2001?
+[01:33:01] Ya está ahí el mapa.
+[01:33:03] ¿Pero qué sale chico?
+[01:33:05] ¿Pasa el objetivo?
+[01:33:07] ¿Puede acertar?
+[01:33:09] ¿Qué pasa?
+[01:33:11] No, pero usted es una...
+[01:33:13] ¿Qué pasa?
+[01:33:15] Es lo que hicimos, fue lo que daba.
+[01:41:22] parece que se borra
+[01:41:27] parece que se borra el placer
+[01:41:31] es que es
+[01:41:35] es que es
+[01:41:39] es que es
+[01:41:43] ya chicos ya
+[01:41:47] es
+[01:41:51] vamos a hacer un poco de
+[01:41:55] prácticas de acá. Vamos a
+[01:41:58] quiero reiniciar antes de que usted es el contenido de lo que
+[01:42:00] un gente había que recibir, que están comenzando a preguntar.
+[01:42:03] Cuando lo que él se está, creo que en la semana dos,
+[01:42:07] es por siquiera algunas, unas
+[01:42:11] técnicas, si está acá en el balance,
+[01:42:15] si es un...
+[01:42:19] que ese proyecto realizo que está en la documentación. O sea, realmente está en las rúfricas, pero
+[01:42:26] lo que me interesa de lo que es esto, no sé si es el documento.
+[01:42:59] que dar con la visión general. Yo de eso lo tiene que sacar, ¿no?
+[01:43:03] Es que eso es donde no se hayan hecho ni generé eso con uno.
+[01:43:07] Da mucha desinformación.
+[01:43:08] Lo que sí traten de que guarden cierta coherencia,
+[01:43:11] no sé si han hecho un cambio.
+[01:43:15] El capítulo 2 de alguna forma es como ustedes se han
+[01:43:18] organizado internamente dentro del proyecto.
+[01:43:23] El capítulo 3 es el documento de la requerimiento.
+[01:43:26] que teoría también ya lo deberían tener quizás lo que debería ser lo más complicado o un
+[01:43:35] toco caso nuevo con estos riesgos y decisiones y tres dos de release. Si ustedes han decidido,
+[01:43:42] por ejemplo, enfocarse en algún tipo de funcionalidad que de repente no es la funcionalidad
+[01:43:47] principal, o sea, tratar de sustentar el por qué, ¿no? Se han tomado esa decisión. Si de
+[01:43:55] de la gente. De repente pues es
+[01:44:01] que por alguna razón es que no
+[01:44:03] podías cumplir con la meta de
+[01:44:04] exigenda porque también
+[01:44:06] explicar el porqué. Me reflique
+[01:44:10] también su sentado.
+[01:44:14] El capítulo cuatro es digamos la
+[01:44:17] gestión de release como que está
+[01:44:19] organizando y llevando a cabo
+[01:44:21] los distintos esprings. Si
+[01:44:23] solamente teníamos solo esprings
+[01:44:25] de la que ya la ha hecho mi
+[01:44:29] generoso por uno si en todo caso
+[01:44:33] tienen alguna duda eh me
+[01:44:35] avisan de repente el el el
+[01:44:38] el retrospectivo de repente
+[01:44:41] no es esto es algo que no lo
+[01:44:44] ha hecho o si lo ha hecho
+[01:44:45] todos estos puntos creo que
+[01:44:47] generoso por uno. Entonces
+[01:44:50] espero que ustedes lo tendan
+[01:44:51] si alguno tiene dudas de
+[01:44:53] en el parte de Spin normal hay en los ejemplos de las tablas.
+[01:44:58] En Jam, pero también hay como parte de la escrita.
+[01:45:03] ¿Tenemos que hacer las tablas con una descripción o solo las tablas?
+[01:45:06] No, tablas no más.
+[01:45:08] No, todo lo resultado. Acá sí me han deseado que despedan nada.
+[01:45:11] Ya, listo.
+[01:45:13] Entonces acá después de la cantidad de Spin,
+[01:45:15] creo que un grupo me dijo que tenía tres Spring,
+[01:45:17] bueno, va a tener que estar con eso tres veces.
+[01:45:19] Gracias.
+[01:45:21] ya la arquitectura cinco es la
+[01:45:26] arquitectura inicial, ya es el
+[01:45:29] software, ya que ustedes tienen
+[01:45:31] que ir comenzando a llenarlos,
+[01:45:34] ¿No? La lista lógica, ¿No?
+[01:45:37] Es decir, lo que vamos a ver en un
+[01:45:40] rato, sí, la lista lógica,
+[01:45:42] prácticas y la
+[01:45:43] encierto lo que ha sido
+[01:45:44] utilizado ustedes para
+[01:45:45] desarrollar, ¿Hay alguna
+[01:45:47] explicación o justificación
+[01:45:48] del dice y que ustedes han
+[01:45:50] que se ha aplicado, no se ha
+[01:45:54] aplicado un matrón de diseño
+[01:45:58] de ah ah el bueno los modelos
+[01:46:01] no ya vendría a ser el diarama
+[01:46:04] de clases, el diarama este de
+[01:46:07] de clases de de clases y de
+[01:46:09] de clases de diseño, ¿No? Es
+[01:46:11] el diarama de clases es un
+[01:46:13] diarama solamente con las
+[01:46:15] entidades mientras que el
+[01:46:17] diarama de clases de diseño
+[01:46:18] ya contempla pues otras clases
+[01:46:20] es un patrón, por ejemplo, si utilizan un, no sé, pues estamos utilizando un patrón adapter,
+[01:46:25] o sea, las clases de la app. El modelo dinámico, tendría que hacer, los escenarios, ya acabó una
+[01:46:37] pregunta en todas las cotelas, que fue una pregunta bastante pertinente, ¿no? que comentaba,
+[01:46:41] vamos a tener que hacer todas los diagramas de todas las casas de uso o historias de usuario,
+[01:46:49] no ya. Acá sí, vamos a tener el criterio que el diáramas sea útil y comunique realmente lo que
+[01:47:01] te da en un modicado de arte. Elijan pues las escenarios o las historias principales que
+[01:47:06] usted considera, las más complejas, las que les permitan hacer diáramas de secuencia más
+[01:47:11] no va a poder elegir por ejemplo login o de repente pues el no se registra de usuario
+[01:47:20] aunque obviamente son diáramas bastante sencillas, bastante sencillas, pero si ustedes vean cuál es la
+[01:47:26] funcionalidad que ustedes consideran más compleja y es la que deberían poder diáramas,
+[01:47:31] como diáramas se pueden, ¿sí? Bueno, las interfaces no vengan a hacer, en el caso de
+[01:47:40] interfaces del sistema si ustedes por ejemplo estamos utilizando a ATS, están haciendo una aplicación web
+[01:47:46] entonces normalmente ahí va, no es que nos ha pusiciclizado el desmagent, no, pueden ponerle
+[01:47:54] base de datos, script de base de datos, no, bueno implementación funcional de lo que
+[01:48:46] es decir, exactamente, no tiene mucho sencillo, pero si lo que ustedes consideran más importante,
+[01:48:51] bueno, el modelo de base datos, eso si tiene que estar completo, no, no tiene que estar completo
+[01:48:58] el valor, o sea, los subscriptes de base de datos, no, este, y esta es la lista, no,
+[01:49:09] es la lista de las cosas que ustedes han implementado en este revisuno, no, y las
+[01:49:14] las pantallas son acá, sé que las pantallas son acá, pero las pantallas son acá.
+[01:49:18] Y punto siete, ya ven que vienen a hacer un análisis
+[01:49:28] cuantidictivo de super formas, como equipo, la velocidad, la cantidad de
+[01:49:35] efectos que ustedes han encontrado, los screens, la cantidad de historias
+[01:49:41] completadas, no, esas son las
+[01:49:45] clientas del proyecto, ¿no?
+[01:49:50] Y me indicaba cómo estimaron el trabajo, cómo realizaron la
+[01:49:54] estimación del trabajo, ¿sí?
+[01:50:00] Interpelación con iniciativa del avance, también de release, o sea, si ustedes me
+[01:50:04] tardan un porcentaje, entonces, ¿por qué?
+[01:50:09] como el desempeño, el lamento de 60% pero si usted hace menos tampoco que me vayan a jalar
+[01:50:16] ¿no?
+[01:50:17] Este uso de la, y que vayan a sacar potabajas, pero sí que esté bien sustentado como lo
+[01:50:24] dije, ¿no?
+[01:50:25] Eso es lo que has visto de Sofarun.
+[01:50:29] Y bueno, hay algunas consideraciones que es el último fundo transversal, los costalud,
+[01:50:34] impactos cultural, esto también creo que lo que se nos enviado es que en documentación
+[01:50:40] ¿Qué? A ver, esta parte es
+[01:50:45] importante, así, acá tiene que
+[01:50:48] venir el URL de Git, ¿Verdad?
+[01:50:51] No vamos a revisar a detalle los
+[01:50:55] commits en esta entrega, vamos a
+[01:50:58] ver si la siguiente si lo hacemos
+[01:51:01] por ahora. ¿Verdad? Que hay un
+[01:51:04] repositorio, lo que es un
+[01:51:05] repositorio correcto, no es
+[01:51:07] ningún problema, ¿No?
+[01:51:10] que no hay contribución de cada
+[01:51:15] uno. Si no han hecho un solo con
+[01:51:17] mi cuera, ya ni importa, pero
+[01:51:20] ¿qué han contribuido? El único
+[01:51:22] que tiene opción a no derribar
+[01:51:24] ninguna contribución del código
+[01:51:26] es el jefe del proyecto. Y si
+[01:51:28] se contribuyó, lo puede poner
+[01:51:30] también. Pero es el único que
+[01:51:32] digamos su contribución no va
+[01:51:34] a ser calificada en base a su
+[01:51:36] contribución en código.
+[01:51:38] y bueno, estos son de gracias. Lo que sí, los jefes de proyecto, yo les voy a enviar este
+[01:51:43] EU populario para que puedan calificar a sus compañeros integrantes que es una calificación
+[01:51:54] totalmente que solamente la vamos a conocer para Oulcio, nada más, pero no solamente
+[01:52:02] es calificar por calificar, no, que no es más que todo indicar qué cosa que ha hecho,
+[01:52:07] para poder contrastar también para lo que tú indicas, sea sonre de unir. Entonces, por favor,
+[01:52:16] lo que les pido a los jefes de proyectos que tengan la mayor veracidad en lo que van a ustedes
+[01:52:23] informar, creo que hay... las situaciones que no ocurres, uno es buena gente para no perjudicar
+[01:52:32] que no va a aplicar a mi
+[01:52:36] compañero el trascamiento ¿No?
+[01:52:38] y eso va a ir en destinúd,
+[01:52:39] si tu vienes de un compañero
+[01:52:41] porque cuando le preguntemos a su
+[01:52:43] compañero qué cosa ha hecho,
+[01:52:44] no vas a ver qué responder,
+[01:52:46] o va a responder incorrectamente.
+[01:52:49] Sí, por favor, si es que hay
+[01:52:53] un integrante a tener una
+[01:52:55] contrucción baja o mínima y
+[01:52:58] consideran que va a no decir
+[01:53:00] no tiene que decir. Si es posible antes, pero si bueno, aún así se mantiene hasta después, no es
+[01:53:09] bueno, tiene que mantenerlo, tiene que comentar. Por esas más, no sé qué ganan las preguntas.
+[01:54:09] son distintas formas de poder sustentar las decisiones que hemos tomado desde el terminado punto de vista.
+[01:54:20] Entonces, por ejemplo, tenemos la vista lógica.
+[01:54:23] ¿Qué es lo que normalmente se puede dar la vista lógica?
+[01:54:25] Las abstracciones que son claves en el sistema.
+[01:54:28] Las relaciones de los requerimientos del sistema con estas entidades.
+[01:54:34] ¿Qué es lo principal?
+[01:54:36] ¿Qué se ve en la lista de lógica?
+[01:54:38] ¿Qué es lo principal?
+[01:54:41] Es, eh, eso sé si bien nos ha salido un ejemplo de la lista de lógica.
+[01:54:45] Ah, no tengo nada.
+[01:54:51] ¿Qué es lo que es?
+[01:54:53] Para mí, para mí me voy adelantando porque esto es lo que sí les vamos a pedir.
+[01:54:57] Ya, es, eh, para este entree.
+[01:55:00] Para ya la última entrega sería debería estar completo un documento al director.
+[01:55:06] Entonces, ¿cuál es acá la idea?
+[01:55:07] La lista, la poder organizar el modelo en dicción y empiezas
+[01:55:11] muchos más manejables.
+[01:55:13] Entonces, comenzar a dividirlo pues en sus sistemas y en los
+[01:55:24] distintos componentes de sus sistemas.
+[01:55:31] Siguiente, hay mucho de time.
+[01:55:35] Siguiente, hay mucho de esto.
+[01:55:36] O sea, son las atrecciones de mayor nivel.
+[01:55:40] A ver, mucho depende de cómo ustedes están o qué es lo que están proponiendo.
+[01:55:45] Por ejemplo, hay algunos que tienen dentro de la vista lógica,
+[01:55:52] van a interacuar con sistemas externos o en teoría van a interacuar con sistemas externos.
+[01:55:57] Creo que uno de ustedes no me acordó o planteaba interacuar con sistemas de la
+[01:56:04] universidad, obviamente que eso no se va a poder realizar en este curso por lo menos,
+[01:56:11] pues se les había dicho que no te hayan precargado, pero no podían, no podían plantearlo como parte
+[01:56:16] de la vista lógica de su sistema. Hay otros que están desarrollando aplicaciones web,
+[01:56:23] una aplicación de frontend y una aplicación de backing, una base de datos,
+[01:56:30] no es eh entonces eso todo lo que
+[01:56:35] usted es explicar en su vista este en la
+[01:56:39] lista no es y pero no solamente poner el
+[01:56:41] gráfico sino explicar más componentes no
+[01:56:44] los componentes eh o sea porque eh qué es lo que
+[01:56:48] hace el fron y qué es lo que hace el paquín qué es
+[01:56:50] lo que hace las datos no sé de repente y de
+[01:56:53] algún otro componente importante como el
+[01:56:55] ¿Qué diálogo puedo utilizar? No puedo utilizar no este diálogo de paquetes, muy bueno, o diálogo de componentes, para poder modelar esta vista.
+[01:57:18] para la comunidad.
+[01:57:21] Otra cosa que también ustedes pueden modelar es el
+[01:57:24] comportamiento, ¿no?
+[01:57:26] En la vista lógica.
+[01:57:28] Entonces, ¿cómo lo puedo modelar?
+[01:57:32] Por lo diorama de secuencias, ¿no?
+[01:57:35] Es lo que les comentaba, no,
+[01:57:37] del diorama de secuencias, ¿no?
+[01:57:39] que tú tienes un usual y yo por ejemplo
+[01:57:41] que las distintas clases interactúan y
+[01:57:43] cómo se van enviando y respondiendo
+[01:57:45] los mensajes entre las distintas clases,
+[01:57:47] ¿no?
+[01:57:48] A diferencia en mi colaboración es que estos mensajes tienen una secuencia, y arriba abajo no se van ejecutando.
+[01:57:57] Si están dentro de un reúno es porque es un bucle, se realiza un bucle.
+[01:58:06] Estos mensajes se realizan en bucles.
+[01:58:10] de la vida. A algunos requisitos
+[01:58:18] importantes como le decía, no
+[01:58:20] solamente es plantear los
+[01:58:22] componentes de la arquitectura
+[01:58:24] de la vista lógica, sino
+[01:58:26] también mencionar algunos
+[01:58:28] requisitos técnicos que debe
+[01:58:30] tener cada uno de sus componentes.
+[01:58:32] Sí. Es muy importante, o sea,
+[01:58:34] no solamente plantear ya
+[01:58:37] browser, ¿no? Entonces, afinal,
+[01:58:39] algunos requisitos en estos
+[01:58:41] y de todas las redes sociales
+[01:58:44] para la frauser corre en Chrome,
+[01:58:49] en Firefox, en Edge, ¿no?
+[01:58:52] Es un requisito que lo he utilizado
+[01:58:54] para que se han utilizado en navegadores móviles.
+[01:58:59] Es otro requisito.
+[01:59:01] Yo sé que ustedes pueden...
+[01:59:08] Ya.
+[01:59:10] Entonces, en general, son estas tres partes, ¿no,
+[01:59:14] de la vista lógica, ¿no?
+[01:59:16] puede entrar en detalle a cada uno de los subsistemas, las arquitecturas de cada uno de los subsistemas que ustedes están planteando, ¿no?
+[01:59:25] y ya entrar en detalle de repente para algunos los requisitos más importantes, ¿no?
+[01:59:33] algún diáramo hay comportamiento para algún componente de especificos o algunos componentes en especifico
+[01:59:39] ¿Qué es eso? Porque eso en la vista no.
+[01:59:42] Ya llegó alguna pregunta, alguna duda.
+[02:00:26] Ya, entonces, es importante porque esto va a ser algunos criterios de calificación, no conocer en
+[02:00:44] profundidad los estilos arquitectónicos, sean diagramas muy genéricos, no consideran
+[02:00:51] solo los requisitos de negocio, nada más, sino los requisitos técnicos, un fin correcto de notación
+[02:00:57] no hay manera de verlo. Y no es tuicar los diagramas. Acá, por ejemplo, esta parte es muy importante,
+[02:01:02] que es un diagrama de por sí no
+[02:01:05] se dice mucho, o sea, tiene que
+[02:01:07] poner cierto texto que explique
+[02:01:10] en una forma.
+[02:01:14] Sí.
+[02:01:17] Bien, chévere.
+[02:01:20] Me salteaba a ver cosas para
+[02:01:22] llegar a la vista lógica por
+[02:01:24] qué es lo que ustedes tienen
+[02:01:26] de hacer.
+[02:01:32] Esa vista lógica es parte de
+[02:01:34] un modelo de documentación,
+[02:01:36] de arquitectura que se da
+[02:01:38] que hará más cuatro más uno. Que lo propuso este, que la idea era poder documentar la arquitectura
+[02:01:49] de un software en base a cuatro vistas o cuatro ejes, ¿no? El eje lógico de despliegue, de procesos y de este...
+[02:01:58] difícil, ¿no? Que hay un quinto más que es escenario, ¿no? Escenario, ¿sí? La verdad es bien pesado este,
+[02:02:07] este esquema no es bien pensadito, o sea ahorita más que todo nos estamos enfocando en la parte
+[02:02:12] lógica. Pero digamos, debería si se quiere seguir este modelo pues debería tener estos cuatro
+[02:02:21] vistas completas, ¿no? La lógica le decía son las abstracciones de más alto nivel,
+[02:02:26] no es en las de procesos ya son una interacción y no es permite evaluar las características
+[02:02:36] no profesionales del sistema en la vista de desarrollo en la composición del software
+[02:02:42] las librerías que se utilizan en los componentes que se han definido mientras que la vista física
+[02:02:48] es como se instala como se va a distribuir el software no es en los distintos no computacionales
+[02:02:57] de la gente. Ya platicos. Mira,
+[02:03:11] vamos a hacer algo ya porque
+[02:03:14] les voy a dar tiempo para que
+[02:03:17] ustedes puedan avanzar.
+[02:03:21] Me dieron miedo. Para que usted
+[02:03:24] está a avanzar con el proyecto.
+[02:03:26] Si no queda mucho tiempo que
+[02:03:28] dará pues este 30 minutos,
+[02:03:30] ¿No? Un mes, cinco minutos.
+[02:03:32] de la la disencia, sí, este,
+[02:03:37] pero sí, ya que te cumplir con
+[02:03:38] la presentación porque ah, y
+[02:03:40] este es un punto muy importante,
+[02:03:42] de repente, no, no me dejan
+[02:03:44] tener bien, la fecha de
+[02:03:46] presentación del documento,
+[02:03:48] es hasta el día domingo.
+[02:03:51] Este, como el feo, el
+[02:03:53] nuestro primer momento.
+[02:03:56] ¿Qué?
+[02:03:57] ¿Cuál día? ¿No? ¿Con? ¿Sagúo
+[02:04:00] domingo? Es, ahora, que
+[02:04:01] de la parte de la
+[02:04:05] pues yo no lo puedo medir eso, ¿No?
+[02:04:09] No, no puedo, no puedo aparrarlos.
+[02:04:13] O sea, no pueden hacer hasta el día en la
+[02:04:16] presentación ahora.
+[02:04:19] Y la semana vamos a ocupar en las
+[02:04:21] presentaciones porque sí va a ser una
+[02:04:24] idea que ustedes pueden sustentar a todos
+[02:04:27] los integrantes del equipo puedan
+[02:04:29] sustentar correctamente las decisiones de
+[02:04:30] tomado el equipo. Sí. Entonces sí van a hacer sesiones un poco maratónicas para Aromi y para mí.
+[02:04:40] Claro que ustedes pueden exponen y así pueden. Entonces sí por favor,
+[02:04:48] Fico Savantin, ya les vamos a dejar ese tiempo. Y si te hagan alguna pregunta, alguna duda,
+[02:05:25] son seis. Sí, son seis. Yo creo que
+[02:05:31] podemos hacer cuatro o dos, ¿No?
+[02:05:35] o tres tres. Tres tres tres tres
+[02:05:41] ¿Los tocamos ahora?
+[02:08:57] no con mis años de ustedes porque se han organizado
+[02:09:57] no. Es opcional, si tú quieres
+[02:10:03] para guiarte, algo, puedes hacerlo.
+[02:10:06] No es.
+[02:10:09] José Bustillos.
+[02:10:13] José Bustillos.
+[02:10:16] José Bustillos.
+[02:10:20] José Bustillos.
+[02:16:10] de la vida.
+[02:16:12] Es como que
+[02:16:17] le pones cinta y eso le vería sexo.
+[02:16:19] Cuando me hace caso de tu.
+[02:16:21] La verdad es que lo que se ha dicho
+[02:16:23] es que no.
+[02:16:25] Se lo ha dicho.
+[02:16:27] Se lo ha dicho.
+[02:16:29] Se lo ha dicho.
+[02:16:31] Se lo ha dicho.
+[02:16:33] Se lo ha dicho.
+[02:16:35] Se lo ha dicho.
+[02:16:37] ¿Qué es lo que es?
+[02:16:39] ¿Cómo se escompo?
+[02:16:41] ¿Qué es lo que es?
+[02:16:43] ¿Qué es lo que es?
+[02:16:45] No, eres lo que es.
+[02:16:47] Es el tema de la
+[02:16:49] conciencia de cuál es la
+[02:16:51] conciencia de la gente.
+[02:16:53] El problema era que
+[02:16:55] es que iba a costar otra
+[02:16:57] para que la gente
+[02:16:59] la deshacen.
+[02:17:01] ¿Qué es lo que es lo que es la
+[02:17:03] conciencia de la gente?
+[02:28:56] Pero ya era el tiempo.
+[02:28:58] El tiempo de la semana aislada de la salud normal.
+[02:29:02] Porque los de ahí no va a traer.
+[02:29:05] Enharia en salud.
+[02:29:07] O sea, ahorita parece.
+[02:29:09] Si.
+[02:29:10] Si.
+[02:29:11] Por detalle de lo que es.
+[02:29:12] Que caro.
+[02:29:13] Ya lo tomo a ver.
+[02:29:14] Si, si.
+[02:29:16] ¿Qué entras?
+[02:29:20] Por detalle.
+[02:29:22] Tengo de...
+[02:29:23] ¿Qué?
+[02:29:24] ¿Puedes tener?
+[02:29:25] ¿Puedes tener?
+[02:29:57] no
+[02:30:01] no
+[02:30:05] no
+[02:30:09] no
+[02:30:13] no
+[02:30:17] no
+[02:30:21] no
+[02:34:39] pero sobra el 60% del restaurante
+[02:35:54] No sé si se puede ver.
+[02:35:58] No sé si se puede ver.
+[02:36:00] Si.
+[02:36:04] No sé.
+[02:36:07] No sé.
+[02:36:10] No sé.
+[02:36:12] No sé.
+[02:36:16] No sé.
+[02:36:22] No sé.
+[02:36:24] No sé.
+[02:36:26] ¿Qué estás haciendo?
+[02:36:28] No sé.
+[02:36:34] ¡Muy bien!

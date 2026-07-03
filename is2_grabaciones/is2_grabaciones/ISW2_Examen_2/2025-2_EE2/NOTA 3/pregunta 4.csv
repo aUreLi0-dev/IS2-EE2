@@ -1,0 +1,33 @@
+﻿Clases de equivalencia;;;;;;;
+;;;;;;;
+Campo;Tipo de condición;Válido;No válido;;;;
+Edad;Rango (18–65);(1) Edad entre 18 y 65 inclusive;(2) Edad menor que 18;;;;
+;;;(3) Edad mayor que 65;;;;
+Correo electrónico;Formato correcto;(4) Contiene “@” y dominio (ej. usuario@dominio.com);(5) No contiene “@” o dominio inválido;;;;
+Tipo de usuario;Miembro de un conjunto;(6) ADMIN, CLIENTE, INVITADO;(7) Cualquier otro valor;;;;
+Monto de compra;Rango (0.00–10,000.00);(8) Monto ≥ 0.00 y ≤ 10,000.00;(9) Monto < 0.00;;;;
+;;;(10) Monto > 10,000.00;;;;
+Acepta términos;Valor booleano específico;(11) true;(12) false;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+Casos de prueba válidos;;;;;;;
+;;;;;;;
+Caso;Edad;Correo;Tipo de Usuario;Monto;Acepta Términos;Resultado esperado;
+CV1;25;usuario@correo.com;CLIENTE;500;true;true;
+CV2;18;test@dominio.net;ADMIN;0;true;true;
+CV3;65;persona@mail.com;INVITADO;10,000.00;true;true;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+Casos de prueba no válidos;;;;;;;
+;;;;;;;
+Caso;Edad;Correo;Tipo de Usuario;Monto;Acepta Términos;Resultado esperado;Motivo
+CN1;17;usuario@correo.com;CLIENTE;500;true;false;Edad menor a 18
+CN2;70;persona@mail.com;ADMIN;100;true;false;Edad mayor a 65
+CN3;30;usuariodominio.com;INVITADO;200;true;false;Correo sin “@”
+CN4;40;test@dominio;CLIENTE;300;true;false;Correo sin dominio válido
+CN5;28;user@mail.com;EMPLEADO;400;true;false;Tipo de usuario no permitido
+CN6;50;persona@dominio.com;ADMIN;-10;true;false;Monto menor a 0
+CN7;60;prueba@mail.com;CLIENTE;15,000.00;true;false;Monto mayor a 10,000
+CN8;35;valido@mail.com;INVITADO;1000;false;false;No acepta términos
