@@ -28,7 +28,7 @@ public class TestSalesService {
     private VideoGameRepository videoGameRepository;
 
     @BeforeEach
-    public void setup(){
+    public void setup(){    
         //Inicializacion
         salesService = new SalesService(videoGameRepository);
     }
